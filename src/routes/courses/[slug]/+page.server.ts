@@ -1,7 +1,7 @@
 import type { PageServerLoad } from './$types';
 import { db } from '$lib/server/db';
 import { eq } from 'drizzle-orm';
-import { courses } from '$lib/server/db/schema';
+import { courses, lessons } from '$lib/server/db/schema';
 import { error } from '@sveltejs/kit';
 
 export const load = (async ({ params }) => {
@@ -14,7 +14,18 @@ export const load = (async ({ params }) => {
 
   if (!course) {
     error(404, 'Sorry, your requested URL does not exist.');
-  } else {
-    return { course };
   }
+
+  const courseLessons = await db.query.lessons.findMany({
+    where: eq(lessons.courseId, course.id),
+    columns: {
+      term: true,
+      title: true,
+      description: true,
+      dateModified: true,
+      slug: true,
+    },
+  });
+
+  return { course, courseLessons };
 }) satisfies PageServerLoad;
