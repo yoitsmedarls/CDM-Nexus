@@ -22,7 +22,8 @@ export const courses = pgTable(
   },
   (table) => [
     check('check_id_format', sql`${table.id} ~ '^[A-Z]{4}[0-9]{4}$'`),
-    check('check_slug_format', sql`${table.id} ~ '^[a-z]{4}[0-9]{4}$'`),
+    check('check_slug_format', sql`${table.slug} ~ '^[a-z]{4}[0-9]{4}$'`),
+    check('check_id_and_slug_match', sql`${table.id} ~* ${table.slug}`),
   ]
 );
 
