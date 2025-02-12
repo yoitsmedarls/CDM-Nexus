@@ -1,29 +1,25 @@
 import {
   pgTable,
-  uuid,
   text,
   varchar,
   timestamp,
-  pgEnum,
+  uuid,
   check,
 } from 'drizzle-orm/pg-core';
 import { relations, sql } from 'drizzle-orm';
 
-import { courses } from './courses';
-import { topics } from './topics';
+import { lessons } from './lessons';
+import { lectureMaterials } from './lectureMaterials';
 
-export const termEnum = pgEnum('term', ['midterm', 'finals']);
-
-export const lessons = pgTable(
-  'lessons',
+export const topics = pgTable(
+  'topics',
   {
     id: uuid('id').primaryKey().defaultRandom(),
-    courseId: varchar('course_id')
-      .references(() => courses.id, { onDelete: 'cascade' })
+    lessonId: uuid('lesson_id')
+      .references(() => lessons.id, { onDelete: 'cascade' })
       .notNull(),
     title: varchar('title', { length: 255 }).unique().notNull(),
     description: text('description').notNull(),
-    term: termEnum('term').notNull(),
     slug: text('slug').unique().notNull(),
     dateCreated: timestamp('date_created', {
       withTimezone: true,
@@ -40,15 +36,14 @@ export const lessons = pgTable(
   (table) => [check('check_slug_format', sql`${table.slug} ~ '^([a-z-]+)$'`)]
 );
 
-export type SelectLesson = typeof lessons.$inferSelect;
-export type InsertLesson = typeof lessons.$inferInsert;
+export type SelectTopic = typeof topics.$inferSelect;
+export type InsertTopic = typeof topics.$inferInsert;
 
-export const lessonRelations = relations(lessons, ({ one, many }) => ({
-  course: one(courses, {
-    fields: [lessons.courseId],
-    references: [courses.id],
+export const topicRelations = relations(topics, ({ one }) => ({
+  lesson: one(lessons, {
+    fields: [topics.lessonId],
+    references: [lessons.id],
   }),
-  topics: many(topics),
-  // lectureMaterial: one(lectureMaterials),
+  lectureMaterial: one(lectureMaterials),
   // quiz: one(quizzes),
 }));
