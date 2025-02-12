@@ -1,3 +1,6 @@
+export * from './schema/courses';
+export * from './schema/lessons';
+
 // import { relations, sql } from 'drizzle-orm';
 // import {
 //   pgTable,
@@ -12,56 +15,6 @@
 // } from 'drizzle-orm/pg-core';
 
 // /* Enums, etc. */
-
-// export const termEnum = pgEnum('term', ['midterm', 'finals']);
-
-// /* Tables */
-
-// export const courses = pgTable(
-//   'courses',
-//   {
-//     id: varchar('id', { length: 8 }).primaryKey(),
-//     title: varchar('title', { length: 255 }).unique().notNull(),
-//     description: text('description').notNull(),
-//     slug: text('slug').unique().notNull(),
-//     dateCreated: timestamp('date_created', {
-//       withTimezone: true,
-//     })
-//       .defaultNow()
-//       .notNull(),
-//     dateModified: timestamp('date_modified', {
-//       withTimezone: true,
-//     })
-//       .defaultNow()
-//       .$onUpdate(() => new Date())
-//       .notNull(),
-//   },
-//   (table) => [
-//     check('check_id_format', sql`${table.id} regexp '^[A-Z]{4}[0-9]{4}$'`),
-//   ]
-// );
-
-// export const lessons = pgTable('lessons', {
-//   id: serial('id').primaryKey(),
-//   courseId: varchar('course_id')
-//     .references(() => courses.id, { onDelete: 'cascade' })
-//     .notNull(),
-//   title: varchar('title', { length: 255 }).unique().notNull(),
-//   description: text('description').notNull(),
-//   term: termEnum('term').notNull(),
-//   slug: text('slug').unique().notNull(),
-//   dateCreated: timestamp('date_created', {
-//     withTimezone: true,
-//   })
-//     .defaultNow()
-//     .notNull(),
-//   dateModified: timestamp('date_modified', {
-//     withTimezone: true,
-//   })
-//     .defaultNow()
-//     .$onUpdate(() => new Date())
-//     .notNull(),
-// });
 
 // export const topics = pgTable('topics', {
 //   id: serial('id').primaryKey(),

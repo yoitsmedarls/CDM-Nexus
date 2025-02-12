@@ -1,5 +1,7 @@
-import { sql } from 'drizzle-orm';
 import { pgTable, text, varchar, timestamp, check } from 'drizzle-orm/pg-core';
+import { relations, sql } from 'drizzle-orm';
+
+import { lessons } from './lessons';
 
 export const courses = pgTable(
   'courses',
@@ -30,6 +32,6 @@ export const courses = pgTable(
 export type SelectCourse = typeof courses.$inferSelect;
 export type InsertCourse = typeof courses.$inferInsert;
 
-// export const courseRelations = relations(courses, ({ many }) => ({
-//   lessons: many(lessons),
-// }));
+export const courseRelations = relations(courses, ({ many }) => ({
+  lessons: many(lessons),
+}));
