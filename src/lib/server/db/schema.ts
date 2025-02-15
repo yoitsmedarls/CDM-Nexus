@@ -1,9 +1,9 @@
-export * from './schema/courses';
-export * from './schema/lectureMaterials';
-export * from './schema/lessons';
-export * from './schema/questions';
-export * from './schema/quizzes';
-export * from './schema/topics';
+export * from './schema/courses/courses';
+export * from './schema/courses/lectureMaterials';
+export * from './schema/courses/lessons';
+export * from './schema/courses/questions';
+export * from './schema/courses/quizzes';
+export * from './schema/courses/topics';
 
 /**
  * Courses - Lessons          : 1-*
