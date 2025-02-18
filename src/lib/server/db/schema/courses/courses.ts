@@ -1,7 +1,17 @@
-import { pgTable, text, varchar, timestamp, check } from 'drizzle-orm/pg-core';
+import {
+  pgTable,
+  text,
+  varchar,
+  timestamp,
+  check,
+  pgEnum,
+  boolean,
+} from 'drizzle-orm/pg-core';
 import { relations, sql } from 'drizzle-orm';
 
 import { lessons } from './lessons';
+
+export const stateEnum = pgEnum('status', ['ongoing', 'complete']);
 
 export const courses = pgTable(
   'courses',
@@ -10,6 +20,8 @@ export const courses = pgTable(
     title: varchar('title', { length: 255 }).unique().notNull(),
     description: text('description').notNull(),
     slug: text('slug').unique().notNull(),
+    published: boolean('published').notNull(),
+    state: stateEnum('status').notNull().default('ongoing'),
     dateCreated: timestamp('date_created', {
       withTimezone: true,
     })
