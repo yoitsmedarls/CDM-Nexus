@@ -23,7 +23,7 @@ export const topics = pgTable(
     title: varchar('title', { length: 255 }).unique().notNull(),
     description: text('description').notNull(),
     slug: text('slug').unique().notNull(),
-    published: boolean('published').notNull(),
+    published: boolean('published').notNull().default(false),
     dateCreated: timestamp('date_created', {
       withTimezone: true,
     })

@@ -20,7 +20,7 @@ export const courses = pgTable(
     title: varchar('title', { length: 255 }).unique().notNull(),
     description: text('description').notNull(),
     slug: text('slug').unique().notNull(),
-    published: boolean('published').notNull(),
+    published: boolean('published').notNull().default(false),
     state: stateEnum('status').notNull().default('ongoing'),
     visits: integer('visits').notNull().default(0),
     dateCreated: timestamp('date_created', {

@@ -25,7 +25,7 @@ export const lessons = pgTable(
     description: text('description').notNull(),
     term: termEnum('term').notNull(),
     slug: text('slug').unique().notNull(),
-    published: boolean('published').notNull(),
+    published: boolean('published').notNull().default(false),
     dateCreated: timestamp('date_created', {
       withTimezone: true,
     })
