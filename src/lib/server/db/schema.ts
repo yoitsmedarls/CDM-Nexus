@@ -1,3 +1,4 @@
+export * from './schema/courses/enums';
 export * from './schema/courses/courses';
 export * from './schema/courses/lectureMaterials';
 export * from './schema/courses/lessons';

@@ -4,15 +4,15 @@ import {
   text,
   varchar,
   timestamp,
-  pgEnum,
   check,
+  boolean,
 } from 'drizzle-orm/pg-core';
 import { relations, sql } from 'drizzle-orm';
 
+import { termEnum } from './enums';
+
 import { courses } from './courses';
 import { topics } from './topics';
-
-export const termEnum = pgEnum('term', ['midterm', 'finals']);
 
 export const lessons = pgTable(
   'lessons',
@@ -25,6 +25,7 @@ export const lessons = pgTable(
     description: text('description').notNull(),
     term: termEnum('term').notNull(),
     slug: text('slug').unique().notNull(),
+    published: boolean('published').notNull(),
     dateCreated: timestamp('date_created', {
       withTimezone: true,
     })
@@ -49,6 +50,4 @@ export const lessonRelations = relations(lessons, ({ one, many }) => ({
     references: [courses.id],
   }),
   topics: many(topics),
-  // lectureMaterial: one(lectureMaterials),
-  // quiz: one(quizzes),
 }));

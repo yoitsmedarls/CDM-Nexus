@@ -5,11 +5,13 @@ import {
   timestamp,
   uuid,
   check,
+  boolean,
 } from 'drizzle-orm/pg-core';
 import { relations, sql } from 'drizzle-orm';
 
 import { lessons } from './lessons';
 import { lectureMaterials } from './lectureMaterials';
+import { quizzes } from './quizzes';
 
 export const topics = pgTable(
   'topics',
@@ -21,6 +23,7 @@ export const topics = pgTable(
     title: varchar('title', { length: 255 }).unique().notNull(),
     description: text('description').notNull(),
     slug: text('slug').unique().notNull(),
+    published: boolean('published').notNull(),
     dateCreated: timestamp('date_created', {
       withTimezone: true,
     })
@@ -45,5 +48,5 @@ export const topicRelations = relations(topics, ({ one }) => ({
     references: [lessons.id],
   }),
   lectureMaterial: one(lectureMaterials),
-  // quiz: one(quizzes),
+  quiz: one(quizzes),
 }));
