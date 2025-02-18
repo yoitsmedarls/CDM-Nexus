@@ -10,20 +10,12 @@ export const lectureMaterials = pgTable(
     topicId: uuid('topic_id')
       .references(() => topics.id, { onDelete: 'cascade' })
       .notNull(),
-    pdfFilePath: text('pdf_file_path').notNull(),
-    markdownFilePath: text('markdown_file_path').notNull(),
     title: varchar('title', { length: 255 }).unique().notNull(),
     description: text('description').notNull(),
+    ytVideoId: text('ytVideoId').notNull(),
   },
   (table) => [
-    check(
-      'check_pdf_file_path',
-      sql`${table.pdfFilePath} ~ '^([a-zA-Z0-9-_]+)(.pdf)$'`
-    ),
-    check(
-      'check_markdown_file_path',
-      sql`${table.markdownFilePath} ~ '^([a-zA-Z0-9-_]+)(.pdf)$'`
-    ),
+    check('check-yt-video-id', sql`${table.ytVideoId} ~ '^[a-zA-Z0-9-_]{11}$'`),
   ]
 );
 
@@ -37,6 +29,5 @@ export const lectureMaterialRelations = relations(
       fields: [lectureMaterials.topicId],
       references: [topics.id],
     }),
-    // comments: many(comments),
   })
 );

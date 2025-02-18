@@ -5,6 +5,7 @@ import {
   timestamp,
   check,
   boolean,
+  integer,
 } from 'drizzle-orm/pg-core';
 import { relations, sql } from 'drizzle-orm';
 
@@ -21,6 +22,7 @@ export const courses = pgTable(
     slug: text('slug').unique().notNull(),
     published: boolean('published').notNull(),
     state: stateEnum('status').notNull().default('ongoing'),
+    visits: integer('visits').notNull().default(0),
     dateCreated: timestamp('date_created', {
       withTimezone: true,
     })

@@ -9,7 +9,7 @@ import {
 } from 'drizzle-orm/pg-core';
 import { relations, sql } from 'drizzle-orm';
 
-import { stateEnum, termEnum } from './enums';
+import { termEnum } from './enums';
 
 import { courses } from './courses';
 import { topics } from './topics';
@@ -26,7 +26,6 @@ export const lessons = pgTable(
     term: termEnum('term').notNull(),
     slug: text('slug').unique().notNull(),
     published: boolean('published').notNull(),
-    state: stateEnum('status').notNull().default('ongoing'),
     dateCreated: timestamp('date_created', {
       withTimezone: true,
     })
@@ -51,6 +50,4 @@ export const lessonRelations = relations(lessons, ({ one, many }) => ({
     references: [courses.id],
   }),
   topics: many(topics),
-  // lectureMaterial: one(lectureMaterials),
-  // quiz: one(quizzes),
 }));

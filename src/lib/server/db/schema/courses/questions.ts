@@ -11,7 +11,7 @@ export const questions = pgTable(
     quizId: uuid('quiz_id')
       .references(() => quizzes.id, { onDelete: 'cascade' })
       .notNull(),
-    markdownFilePath: text('markdown_file_path').notNull().unique(),
+    content: text('content').notNull().unique(),
     optionA: text('option_a').notNull(),
     optionB: text('option_b').notNull(),
     optionC: text('option_c').notNull(),
@@ -21,10 +21,6 @@ export const questions = pgTable(
     }).notNull(),
   },
   (table) => [
-    check(
-      'check_markdown_file_path',
-      sql`${table.markdownFilePath} ~ '^([a-zA-Z0-9-_]+)(.pdf)$'`
-    ),
     check('check_correct_answer', sql`${table.correctAnswer} ~ '^[a-dA-D]$'`),
   ]
 );
