@@ -4,14 +4,13 @@ import {
   varchar,
   timestamp,
   check,
-  pgEnum,
   boolean,
 } from 'drizzle-orm/pg-core';
 import { relations, sql } from 'drizzle-orm';
 
-import { lessons } from './lessons';
+import { stateEnum } from './enums';
 
-export const stateEnum = pgEnum('status', ['ongoing', 'complete']);
+import { lessons } from './lessons';
 
 export const courses = pgTable(
   'courses',
