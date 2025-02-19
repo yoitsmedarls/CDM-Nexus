@@ -22,7 +22,7 @@ export const topics = pgTable(
       .notNull(),
     title: varchar('title', { length: 255 }).unique().notNull(),
     description: text('description').notNull(),
-    slug: text('slug').unique().notNull(),
+    slug: text('slug').notNull(),
     published: boolean('published').notNull().default(false),
     dateCreated: timestamp('date_created', {
       withTimezone: true,
@@ -36,7 +36,7 @@ export const topics = pgTable(
       .defaultNow()
       .notNull(),
   },
-  (table) => [check('check_slug_format', sql`${table.slug} ~ '^([a-z-]+)$'`)]
+  (table) => [check('check_slug_format', sql`${table.slug} ~ '^([a-z0-9-]+)$'`)]
 );
 
 export type SelectTopic = typeof topics.$inferSelect;
