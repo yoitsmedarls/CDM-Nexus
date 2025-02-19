@@ -1,11 +1,12 @@
 import {
   pgTable,
-  uuid,
   text,
   varchar,
   timestamp,
   check,
   boolean,
+  primaryKey,
+  uuid,
 } from 'drizzle-orm/pg-core';
 import { relations, sql } from 'drizzle-orm';
 
@@ -17,7 +18,7 @@ import { topics } from './topics';
 export const lessons = pgTable(
   'lessons',
   {
-    id: uuid('id').primaryKey().defaultRandom(),
+    id: uuid('id').defaultRandom(),
     courseId: varchar('course_id')
       .references(() => courses.id, { onDelete: 'cascade' })
       .notNull(),
@@ -38,7 +39,13 @@ export const lessons = pgTable(
       .defaultNow()
       .notNull(),
   },
-  (table) => [check('check_slug_format', sql`${table.slug} ~ '^([a-z0-9-]+)$'`)]
+  (table) => [
+    check('check_slug_format', sql`${table.slug} ~ '^([a-z0-9-]+)$'`),
+    primaryKey({
+      name: 'lessons_primary_key',
+      columns: [table.courseId, table.title],
+    }),
+  ]
 );
 
 export type SelectLesson = typeof lessons.$inferSelect;
