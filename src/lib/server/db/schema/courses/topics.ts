@@ -19,8 +19,8 @@ export const topics = pgTable(
   'topics',
   {
     id: uuid('id').defaultRandom(),
-    courseId: varchar('id', { length: 8 }).notNull(),
-    lessonTitle: varchar('title', { length: 255 }).notNull(),
+    courseId: varchar('course_id', { length: 8 }).notNull(),
+    lessonTitle: varchar('lesson_title', { length: 255 }).notNull(),
     title: varchar('title', { length: 255 }).notNull(),
     description: text('description').notNull(),
     slug: text('slug').notNull(),

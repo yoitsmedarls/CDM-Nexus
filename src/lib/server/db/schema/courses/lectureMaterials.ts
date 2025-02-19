@@ -14,9 +14,9 @@ export const lectureMaterials = pgTable(
   'lecture_materials',
   {
     id: uuid('id').primaryKey().defaultRandom(),
-    courseId: varchar('id', { length: 8 }).notNull(),
-    lessonTitle: varchar('title', { length: 255 }).notNull(),
-    topicTitle: varchar('title', { length: 255 }).notNull(),
+    courseId: varchar('course_id', { length: 8 }).notNull(),
+    lessonTitle: varchar('lesson_title', { length: 255 }).notNull(),
+    topicTitle: varchar('topic_title', { length: 255 }).notNull(),
     title: varchar('title', { length: 255 }).unique().notNull(),
     description: text('description').notNull(),
     ytVideoId: text('ytVideoId').notNull(),
