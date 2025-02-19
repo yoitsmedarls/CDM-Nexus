@@ -20,7 +20,7 @@ export const topics = pgTable(
     lessonId: uuid('lesson_id')
       .references(() => lessons.id, { onDelete: 'cascade' })
       .notNull(),
-    title: varchar('title', { length: 255 }).unique().notNull(),
+    title: varchar('title', { length: 255 }).notNull(),
     description: text('description').notNull(),
     slug: text('slug').notNull(),
     published: boolean('published').notNull().default(false),

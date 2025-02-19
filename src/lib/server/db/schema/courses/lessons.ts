@@ -21,7 +21,7 @@ export const lessons = pgTable(
     courseId: varchar('course_id')
       .references(() => courses.id, { onDelete: 'cascade' })
       .notNull(),
-    title: varchar('title', { length: 255 }).unique().notNull(),
+    title: varchar('title', { length: 255 }).notNull(),
     description: text('description').notNull(),
     term: termEnum('term').notNull(),
     slug: text('slug').notNull(),
