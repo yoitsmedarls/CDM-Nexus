@@ -22,11 +22,5 @@
     "title": "Differential and Integral Calculus 2",
     "description": "A seeded course. For testing purposes only",
     "slug": "math2094"
-  },
-  {
-    "id": "MATH2103",
-    "title": "Differential Equations",
-    "description": "A seeded course. For testing purposes only",
-    "slug": "math2044"
   }
 ]
