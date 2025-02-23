@@ -32,5 +32,6 @@
   "css.lint.unknownVendorSpecificProperties": "warning",
   "emmet.showSuggestionsAsSnippets": true,
   "svelte.enable-ts-plugin": true,
-  "tailwindCSS.emmetCompletions": true
+  "tailwindCSS.emmetCompletions": true,
+  "css.lint.unknownAtRules": "ignore"
 }
