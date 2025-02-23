@@ -1,1 +1,20 @@
 @import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/container-queries';
+
+
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@theme {
+  --font-poppins: "Poppins", sans-serif;
+  --font-merriweather: "Merriweather", serif;
+  --font-nunito: "Nunito", sans-serif;
+}
