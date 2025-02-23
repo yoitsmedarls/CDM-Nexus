@@ -9,5 +9,5 @@ export * from './schema/courses/quiz';
 export * from './schema/courses/question';
 
 // Exports for admin-related tables
-// export * from './schema/admin/user';
-// export * from './schema/admin/session';
+export * from './schema/admin/user';
+export * from './schema/admin/session';
