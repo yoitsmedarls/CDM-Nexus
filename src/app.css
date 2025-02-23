@@ -3,7 +3,6 @@
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/container-queries';
 
-
 html {
   height: 100%;
 }
@@ -14,7 +13,7 @@ body {
 }
 
 @theme {
-  --font-poppins: "Poppins", sans-serif;
-  --font-merriweather: "Merriweather", serif;
-  --font-nunito: "Nunito", sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
+  --font-merriweather: 'Merriweather', serif;
+  --font-nunito: 'Nunito', sans-serif;
 }
