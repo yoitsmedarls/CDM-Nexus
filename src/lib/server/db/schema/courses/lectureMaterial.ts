@@ -6,7 +6,7 @@ import {
   check,
   primaryKey,
 } from 'drizzle-orm/pg-core';
-import { sql } from 'drizzle-orm';
+import { relations, sql } from 'drizzle-orm';
 import { topic } from './topic';
 
 export const lectureMaterial = pgTable(
@@ -31,3 +31,13 @@ export const lectureMaterial = pgTable(
 
 export type SelectLectureMaterial = typeof lectureMaterial.$inferSelect;
 export type InsertLectureMaterial = typeof lectureMaterial.$inferInsert;
+
+export const lectureMaterialRelations = relations(
+  lectureMaterial,
+  ({ one }) => ({
+    topic: one(topic, {
+      fields: [lectureMaterial.topicId],
+      references: [topic.id],
+    }),
+  })
+);

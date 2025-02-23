@@ -8,6 +8,8 @@ import {
 } from 'drizzle-orm/pg-core';
 
 import { topic } from './topic';
+import { relations } from 'drizzle-orm';
+import { question } from './question';
 
 export const quiz = pgTable(
   'quiz',
@@ -25,3 +27,11 @@ export const quiz = pgTable(
 
 export type SelectQuiz = typeof quiz.$inferSelect;
 export type InsertQuiz = typeof quiz.$inferInsert;
+
+export const quizRelations = relations(quiz, ({ one, many }) => ({
+  questions: many(question),
+  topic: one(topic, {
+    fields: [quiz.topicId],
+    references: [topic.id],
+  }),
+}));

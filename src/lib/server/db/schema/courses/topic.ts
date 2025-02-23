@@ -8,8 +8,10 @@ import {
   primaryKey,
   uuid,
 } from 'drizzle-orm/pg-core';
-import { sql } from 'drizzle-orm';
+import { relations, sql } from 'drizzle-orm';
 import { lesson } from './lesson';
+import { lectureMaterial } from './lectureMaterial';
+import { quiz } from './quiz';
 
 export const topic = pgTable(
   'topic',
@@ -45,3 +47,12 @@ export const topic = pgTable(
 
 export type SelectTopic = typeof topic.$inferSelect;
 export type InsertTopic = typeof topic.$inferInsert;
+
+export const topicRelations = relations(topic, ({ one, many }) => ({
+  lectureMaterials: many(lectureMaterial),
+  quizzes: many(quiz),
+  lesson: one(lesson, {
+    fields: [topic.lessonId],
+    references: [lesson.id],
+  }),
+}));

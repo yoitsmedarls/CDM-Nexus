@@ -7,8 +7,9 @@ import {
   boolean,
   integer,
 } from 'drizzle-orm/pg-core';
-import { sql } from 'drizzle-orm';
+import { relations, sql } from 'drizzle-orm';
 import { stateEnum } from './stateEnum';
+import { lesson } from './lesson';
 
 export const course = pgTable(
   'course',
@@ -41,3 +42,7 @@ export const course = pgTable(
 
 export type SelectCourse = typeof course.$inferSelect;
 export type InsertCourse = typeof course.$inferInsert;
+
+export const courseRelations = relations(course, ({ many }) => ({
+  lessons: many(lesson),
+}));

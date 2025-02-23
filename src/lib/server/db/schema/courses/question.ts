@@ -1,5 +1,5 @@
 import { pgTable, text, varchar, uuid, primaryKey } from 'drizzle-orm/pg-core';
-import { sql } from 'drizzle-orm';
+import { relations, sql } from 'drizzle-orm';
 
 import { quiz } from './quiz';
 import { check } from 'drizzle-orm/mysql-core';
@@ -28,3 +28,10 @@ export const question = pgTable(
 
 export type SelectQuestion = typeof question.$inferSelect;
 export type InsertQuestion = typeof question.$inferInsert;
+
+export const questionRelations = relations(question, ({ one }) => ({
+  quiz: one(quiz, {
+    fields: [question.quizId],
+    references: [quiz.id],
+  }),
+}));
