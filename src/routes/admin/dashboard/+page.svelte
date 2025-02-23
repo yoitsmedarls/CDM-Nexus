@@ -7,7 +7,7 @@
 
 <section class="p-4">
   <h1 class="font-poppins py-5 text-4xl font-bold">
-    Hi, {data.user.username}!
+    Hello there, {data.user.username}!
   </h1>
   <p class="font-nunito pb-4 text-lg">Your user ID is {data.user.id}.</p>
   <form method="post" action="?/logout" use:enhance>
