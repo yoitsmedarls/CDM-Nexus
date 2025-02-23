@@ -1,4 +1,4 @@
-import { relations, sql } from 'drizzle-orm';
+import { sql } from 'drizzle-orm';
 import {
   check,
   pgEnum,
@@ -8,12 +8,11 @@ import {
   uuid,
   varchar,
 } from 'drizzle-orm/pg-core';
-import { sessions } from './sessions';
 
 export const roleEnum = pgEnum('role', ['admin', 'tutor']);
 
-export const users = pgTable(
-  'users',
+export const user = pgTable(
+  'user',
   {
     id: uuid('id').primaryKey().notNull(),
     username: varchar('username', { length: 30 }).unique().notNull(),
@@ -39,9 +38,5 @@ export const users = pgTable(
   ]
 );
 
-export type SelectUsers = typeof users.$inferSelect;
-export type InsertUsers = typeof users.$inferInsert;
-
-export const userRelations = relations(users, ({ many }) => ({
-  session: many(sessions),
-}));
+export type SelectUser = typeof user.$inferSelect;
+export type InsertUser = typeof user.$inferInsert;
