@@ -22,7 +22,7 @@
     "db:studio": "drizzle-kit studio"
   },
   "devDependencies": {
-    "@eslint/compat": "^1.2.6",
+    "@eslint/compat": "^1.2.7",
     "@eslint/js": "^9.18.0",
     "@playwright/test": "^1.50.1",
     "@sveltejs/adapter-cloudflare": "^5.0.3",
