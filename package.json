@@ -51,6 +51,7 @@
     "vitest": "^3.0.5"
   },
   "dependencies": {
+    "@node-rs/argon2": "^2.0.2",
     "@oslojs/crypto": "^1.0.1",
     "@oslojs/encoding": "^1.1.0",
     "@tailwindcss/postcss": "^4.0.6",
