@@ -1,4 +1,4 @@
-import { sql } from 'drizzle-orm';
+import { relations, sql } from 'drizzle-orm';
 import {
   check,
   pgEnum,
@@ -8,6 +8,7 @@ import {
   uuid,
   varchar,
 } from 'drizzle-orm/pg-core';
+import { sessions } from './sessions';
 
 export const roleEnum = pgEnum('role', ['admin', 'tutor']);
 
@@ -18,7 +19,7 @@ export const users = pgTable(
     username: varchar('username', { length: 30 }).unique().notNull(),
     fullName: varchar('full_name', { length: 255 }).notNull(),
     cdm_email: varchar('cdm_email', { length: 320 }).unique().notNull(),
-    role: roleEnum('role').default('tutor').notNull(),
+    role: roleEnum('role').notNull(),
     passwordHash: text('password_hash').notNull(),
     dateJoined: timestamp('date_joined', {
       withTimezone: true,
@@ -40,3 +41,7 @@ export const users = pgTable(
 
 export type SelectUsers = typeof users.$inferSelect;
 export type InsertUsers = typeof users.$inferInsert;
+
+export const userRelations = relations(users, ({ many }) => ({
+  session: many(sessions),
+}));
