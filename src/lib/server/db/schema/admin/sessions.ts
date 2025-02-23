@@ -1,5 +1,6 @@
 import { pgTable, timestamp, uuid } from 'drizzle-orm/pg-core';
 import { users } from './users';
+import { relations } from 'drizzle-orm';
 
 export const sessions = pgTable('sessions', {
   id: uuid('id').primaryKey().notNull(),
@@ -11,3 +12,7 @@ export const sessions = pgTable('sessions', {
 
 export type SelectSessions = typeof sessions.$inferSelect;
 export type InsertSessions = typeof sessions.$inferInsert;
+
+export const sessionRelations = relations(sessions, ({ many }) => ({
+  users: many(users),
+}));
