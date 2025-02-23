@@ -3,7 +3,7 @@ import type { PageServerLoad } from './$types';
 
 export const load = (async () => {
   return {
-    courses: await db.query.courses.findMany({
+    queriedCourses: await db.query.course.findMany({
       columns: {
         id: true,
         title: true,

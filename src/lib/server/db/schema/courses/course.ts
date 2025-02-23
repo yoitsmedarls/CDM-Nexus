@@ -7,17 +7,14 @@ import {
   boolean,
   integer,
 } from 'drizzle-orm/pg-core';
-import { relations, sql } from 'drizzle-orm';
+import { sql } from 'drizzle-orm';
+import { stateEnum } from './stateEnum';
 
-import { stateEnum } from './enums';
-
-import { lessons } from './lessons';
-
-export const courses = pgTable(
-  'courses',
+export const course = pgTable(
+  'course',
   {
-    id: varchar('id', { length: 8 }).primaryKey(),
-    title: varchar('title', { length: 255 }).unique().notNull(),
+    id: varchar('id', { length: 8 }).primaryKey().notNull(),
+    title: varchar('title', { length: 255 }).notNull(),
     description: text('description').notNull(),
     slug: text('slug').unique().notNull(),
     published: boolean('published').notNull().default(false),
@@ -42,9 +39,5 @@ export const courses = pgTable(
   ]
 );
 
-export type SelectCourse = typeof courses.$inferSelect;
-export type InsertCourse = typeof courses.$inferInsert;
-
-export const courseRelations = relations(courses, ({ many }) => ({
-  lessons: many(lessons),
-}));
+export type SelectCourse = typeof course.$inferSelect;
+export type InsertCourse = typeof course.$inferInsert;

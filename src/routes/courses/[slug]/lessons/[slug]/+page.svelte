@@ -4,5 +4,5 @@
   let { data }: { data: PageData } = $props();
 </script>
 
-<h1 class="py-5 pl-2 text-4xl font-bold">{data.lesson?.title}</h1>
-<p class="pl-2 text-xl">{data.lesson?.description}</p>
+<h1 class="py-5 pl-2 text-4xl font-bold">{data.queriedLesson?.title}</h1>
+<p class="pl-2 text-xl">{data.queriedLesson?.description}</p>
