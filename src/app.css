@@ -12,6 +12,12 @@ body {
   flex-direction: column;
 }
 
+.body-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
 @theme {
   --font-poppins: 'Poppins', sans-serif;
   --font-merriweather: 'Merriweather', serif;

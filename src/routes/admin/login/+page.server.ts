@@ -73,6 +73,9 @@ export const actions: Actions = {
     if (!validatePassword(password)) {
       return fail(400, { message: 'Invalid password' });
     }
+    if (await db.query.user.findFirst({ where: eq(user.username, username) })) {
+      return fail(400, { message: 'Username already taken' });
+    }
 
     const userId = generateUserId();
     const passwordHash = await hash(password, {
