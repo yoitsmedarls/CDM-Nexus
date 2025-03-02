@@ -2,13 +2,18 @@
   import type { PageData } from './$types';
 
   let { data }: { data: PageData } = $props();
+
+  //Filter lessons from term: midterm | finals
+  let midtermLesson = data.queriedLessons.filter(filteredLesson => filteredLesson.term === 'midterm');
+  let finalsLesson = data.queriedLessons.filter(filteredLesson => filteredLesson.term === 'finals');
+  
 </script>
 
 {#if data.queriedCourse}
-  <h1 class="py-5 pl-2 text-4xl font-bold">{data.queriedCourse?.title}</h1>
+  <h1 class="py-5 pl-2 text-4xl font-bold font-poppins">{data.queriedCourse?.title}</h1>
 
   <section class="course-info">
-    <table class="flex p-1">
+    <table class="flex p-1 pb-3 border-b-2 border-black">
       <tbody>
         <tr>
           <th>Course Code: </th>
@@ -33,18 +38,34 @@
     </table>
   </section>
 
-  <section class="lessons-list p-2">
-    <ol class="flex w-auto flex-col gap-y-2">
-      {#each data.queriedLessons as lesson}
-        <li class="flex">
-          <a
-            class="w-full truncate rounded-md bg-slate-200 py-5 pl-2 hover:bg-slate-300 active:bg-slate-400"
-            href="/courses/{data.queriedCourse.slug}/lessons/{lesson.slug}"
-            >{lesson.title}</a
-          >
-        </li>
-      {/each}
-    </ol>
+ <section class="lessons-list p-2 pt-4">
+    <ol class="flex w-auto flex-col gap-y-2 not-[]:">
+
+      <section class="midterm-lessons">
+          <h2 class="font-bold font-merriweather">MIDTERM</h2>
+           {#each midtermLesson as lesson}
+                 <li class="flex pt-1 pb-1">
+                   <a
+                    class="w-full truncate rounded-md bg-slate-200 py-5 pl-2 hover:bg-slate-300 active:bg-slate-400"
+                    href="/courses/{data.queriedCourse.slug}/lessons/{lesson.slug}"
+                   >{lesson.title}</a>
+                  </li>
+            {/each}
+      </section>
+
+      <section class="finals-Lessons">
+          <h2 class="font-bold font-merriweather">FINALS</h2>
+            {#each finalsLesson as lesson}
+              <li class="flex pt-1 pb-1">
+                  <a 
+                  class="w-full truncate rounded-md bg-slate-200 py-5 pl-2 hover:bg-slate-300 active:bg-slate-400"
+                  href="/courses/{data.queriedCourse.slug}/lessons/{lesson.slug}"
+                  >{lesson.title}</a>
+              </li>
+            {/each}
+        </section>
+
+      </ol>
   </section>
 {/if}
 
