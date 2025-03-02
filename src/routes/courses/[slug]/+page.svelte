@@ -7,6 +7,12 @@
   let midtermLesson = data.queriedLessons.filter(filteredLesson => filteredLesson.term === 'midterm');
   let finalsLesson = data.queriedLessons.filter(filteredLesson => filteredLesson.term === 'finals');
   
+  
+  let showMidterms = $state(true);
+  let showFinals = $state(true);
+
+  
+
 </script>
 
 {#if data.queriedCourse}
@@ -42,27 +48,41 @@
     <ol class="flex w-auto flex-col gap-y-2 not-[]:">
 
       <section class="midterm-lessons">
+        <div class="flex items-center space-x-2 h-10 w-full">
           <h2 class="font-bold font-merriweather">MIDTERM</h2>
+          <button class="text-sm" onclick={() => showMidterms = !showMidterms}>
+          {showMidterms ? "Hide" : "Show"}
+          </button>
+        </div>
+          {#if showMidterms}
            {#each midtermLesson as lesson}
-                 <li class="flex pt-1 pb-1">
+                 <li class="flex p-2">
                    <a
                     class="w-full truncate rounded-md bg-slate-200 py-5 pl-2 hover:bg-slate-300 active:bg-slate-400"
                     href="/courses/{data.queriedCourse.slug}/lessons/{lesson.slug}"
                    >{lesson.title}</a>
                   </li>
             {/each}
+          {/if}
       </section>
 
       <section class="finals-Lessons">
+        <div class="flex items-center space-x-2 h-10 w-full">
           <h2 class="font-bold font-merriweather">FINALS</h2>
+          <button class="text-sm" onclick={() => showFinals = !showFinals}>
+          {showFinals ? "Hide" : "Show"}
+          </button>
+        </div>
+          {#if showFinals}
             {#each finalsLesson as lesson}
-              <li class="flex pt-1 pb-1">
-                  <a 
-                  class="w-full truncate rounded-md bg-slate-200 py-5 pl-2 hover:bg-slate-300 active:bg-slate-400"
-                  href="/courses/{data.queriedCourse.slug}/lessons/{lesson.slug}"
+              <li class="flex p-2">
+                <div class="w-full truncate rounded-md bg-slate-200 py-5 pl-2 hover:bg-slate-300 active:bg-slate-400">
+                  <a href="/courses/{data.queriedCourse.slug}/lessons/{lesson.slug}"
                   >{lesson.title}</a>
+                </div>
               </li>
             {/each}
+          {/if}
         </section>
 
       </ol>
