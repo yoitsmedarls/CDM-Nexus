@@ -3,7 +3,7 @@
 
 <header class="relative z-20 flex min-h-fit w-full flex-col">
   <div
-    class="flex min-h-20 w-full flex-row items-center justify-between px-2 py-4 md:min-h-24 md:py-6"
+    class="flex min-h-20 w-full flex-row items-center justify-between px-2 py-4 md:min-h-24 md:px-4 md:py-6"
   >
     <a href="/">
       <h1

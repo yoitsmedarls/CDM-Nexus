@@ -11,11 +11,11 @@
 
 <main class="bg-dotted flex grow flex-col">
   <Hero />
-  <!-- <About />
-  <Tutors />
-  <Encourage />
-  <Stats />
-  <Join /> -->
+  <!-- <About /> -->
+  <!-- <Tutors /> -->
+  <!-- <Encourage /> -->
+  <!-- <Stats /> -->
+  <!-- <Join /> -->
   <Footer />
 </main>
 
