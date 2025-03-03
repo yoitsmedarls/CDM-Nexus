@@ -89,6 +89,17 @@
   </section>
 {/if}
 
+
+<form method="post" action="?/addLesson" class="flex flex-col gap-2">
+  <input type="text" name="title" placeholder="Lesson Title" required class="border p-2" />
+  <textarea name="description" placeholder="Lesson Description" required class="border p-2"></textarea>
+  <select name="term" required class="border p-2">
+    <option value="midterm">Midterm</option>
+    <option value="finals">Finals</option>
+  </select>
+  <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded">Add Lesson</button>
+</form>
+
 <style>
   th {
     display: flex;
