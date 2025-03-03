@@ -3,15 +3,11 @@
 
   let { data }: { data: PageData } = $props();
 
-  //Filter lessons from term: midterm | finals
   let midtermLesson = data.queriedLessons.filter(filteredLesson => filteredLesson.term === 'midterm');
   let finalsLesson = data.queriedLessons.filter(filteredLesson => filteredLesson.term === 'finals');
   
-  
   let showMidterms = $state(true);
   let showFinals = $state(true);
-
-  
 
 </script>
 
@@ -61,6 +57,12 @@
                     class="w-full truncate rounded-md bg-slate-200 py-5 pl-2 hover:bg-slate-300 active:bg-slate-400"
                     href="/courses/{data.queriedCourse.slug}/lessons/{lesson.slug}"
                    >{lesson.title}</a>
+
+                    <form method="POST" action="?/deleteLesson">
+                      <input type="hidden" name="lessonId" value={lesson.id} />
+                      <button type="submit" class="text-red-500 ml-2">Delete</button>
+                    </form>
+
                   </li>
             {/each}
           {/if}
@@ -76,10 +78,15 @@
           {#if showFinals}
             {#each finalsLesson as lesson}
               <li class="flex p-2">
-                <div class="w-full truncate rounded-md bg-slate-200 py-5 pl-2 hover:bg-slate-300 active:bg-slate-400">
-                  <a href="/courses/{data.queriedCourse.slug}/lessons/{lesson.slug}"
-                  >{lesson.title}</a>
-                </div>
+                   <a class="w-full truncate rounded-md bg-slate-200 py-5 pl-2 hover:bg-slate-300 active:bg-slate-400"
+                    href="/courses/{data.queriedCourse.slug}/lessons/{lesson.slug}"
+                   >{lesson.title}</a>
+
+                  <form method="POST" action="?/deleteLesson">
+                     <input type="hidden" name="lessonId" value={lesson.id} />
+                     <button type="submit" class="text-red-500 ml-2">Delete</button>
+                  </form>
+
               </li>
             {/each}
           {/if}
