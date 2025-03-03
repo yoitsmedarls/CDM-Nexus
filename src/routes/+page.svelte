@@ -8,7 +8,7 @@
   import Tutors from '$lib/components/landing-page/Tutors.svelte';
 </script>
 
-<main class="bg-dotted flex grow flex-col">
+<main class="bg-dotted flex grow flex-col justify-between">
   <Hero />
   <Courses />
   <Tutors />
