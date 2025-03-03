@@ -1,5 +1,6 @@
 <script>
   import About from '$lib/components/landing-page/About.svelte';
+  import Features from '$lib/components/landing-page/Features.svelte';
   import Encourage from '$lib/components/landing-page/Encourage.svelte';
   import Footer from '$lib/components/landing-page/Footer.svelte';
   import Header from '$lib/components/landing-page/Header.svelte';
@@ -11,11 +12,12 @@
 
 <main class="bg-dotted flex grow flex-col">
   <Hero />
+  <Features />
   <!-- <About /> -->
   <!-- <Tutors /> -->
   <!-- <Encourage /> -->
   <!-- <Stats /> -->
-  <!-- <Join /> -->
+  <Join />
   <Footer />
 </main>
 
@@ -24,9 +26,9 @@
     background-image: radial-gradient(
       circle at center,
       #06266560,
-      transparent 2.5%
+      transparent 3%
     );
     background-size: 4em 4em;
-    background-position: center;
+    background-position: center top;
   }
 </style>
