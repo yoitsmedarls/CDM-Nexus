@@ -3,18 +3,23 @@
 
   let {
     id = '',
-    limitHeight = false,
+    limitmaxheight = false,
+    heightsvh = false,
     children,
   }: {
     id?: string;
-    limitHeight?: boolean;
+    limitmaxheight?: boolean;
+    heightsvh?: boolean;
     children: Snippet;
   } = $props();
 </script>
 
-<section {id} class={['flex h-svh flex-col px-4', { limitHeight }]}>
+<section
+  {id}
+  class={['flex min-h-fit flex-col px-4', { limitmaxheight }, { heightsvh }]}
+>
   <div
-    class="bottom-border-divider mx-auto flex w-full max-w-[1440px] grow flex-col"
+    class="bottom-border-divider mx-auto flex w-full max-w-[88rem] grow flex-col"
   >
     {@render children()}
   </div>
@@ -32,9 +37,12 @@
         transparent 75%
       )
       100% 1;
-    border-image-outset: 1em;
+    border-image-outset: 2rem;
   }
-  .limitHeight {
-    max-height: 1440px;
+  .limitmaxheight {
+    max-height: 88rem;
+  }
+  .heightsvh {
+    height: 100svh;
   }
 </style>

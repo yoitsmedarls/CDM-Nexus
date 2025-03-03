@@ -4,7 +4,8 @@
 @plugin '@tailwindcss/container-queries';
 
 html {
-  height: 100%;
+  min-height: 100%;
+  scroll-behavior: smooth;
 }
 body {
   min-height: 100%;
@@ -58,4 +59,19 @@ body {
   --color-cdm-red-800: #9d1d17;
   --color-cdm-red-900: #821f1a;
   --color-cdm-red-950: #470b08;
+
+  --breakpoint-2xs: 24rem;
+  --breakpoint-xs: 32rem;
+}
+
+@layer components {
+  .bg-dotted {
+    background-image: radial-gradient(
+      circle at center,
+      #06266560,
+      transparent 3%
+    );
+    background-size: 4em 4em;
+    background-position: center top;
+  }
 }
