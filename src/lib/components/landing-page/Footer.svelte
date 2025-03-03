@@ -31,12 +31,12 @@
 <footer class="flex min-h-fit flex-col px-4">
   <div class="mx-auto w-full max-w-[88rem] grow py-16 md:px-4">
     <div
-      class="xs:grid-cols-2 bottom-border-divider grid grow grid-cols-1 md:grid-cols-4"
+      class="xs:grid-cols-2 bottom-border-divider xs:pb-8 grid grow grid-cols-1 pb-4 md:grid-cols-4"
     >
       {#each footerSection as section, i}
         <div
           class={[
-            'xs:px-2 flex grow flex-col justify-start gap-2 pb-16 transition-all duration-200',
+            'xs:px-2 flex grow flex-col justify-start gap-2 pb-8  transition-all duration-200',
             i == 0 ? 'md:col-span-2' : '',
           ]}
         >
