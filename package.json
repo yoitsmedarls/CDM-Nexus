@@ -55,6 +55,7 @@
     "@oslojs/crypto": "^1.0.1",
     "@oslojs/encoding": "^1.1.0",
     "@tailwindcss/vite": "^4.0.9",
+    "chart.js": "^4.4.8",
     "dotenv": "^16.4.7",
     "drizzle-orm": "^0.40.0",
     "pg": "^8.13.3",
