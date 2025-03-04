@@ -15,5 +15,5 @@
   <!-- <About /> -->
   <!-- <Encourage /> -->
   <!-- <Join /> -->
-  <!-- <Footer /> -->
+  <Footer />
 </main>
