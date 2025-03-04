@@ -10,10 +10,10 @@
 
 <main class="bg-dotted flex grow flex-col justify-between">
   <Hero />
-  <Courses />
+  <!-- <Courses />
   <Tutors />
   <About />
   <Encourage />
-  <Join />
+  <Join /> -->
   <Footer />
 </main>

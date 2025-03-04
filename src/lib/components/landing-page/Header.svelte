@@ -53,13 +53,13 @@
         <span class="border-r-1 border-[#06266550]"></span>
       </span>
       <a
-        href="/login"
+        href="/portal/login"
         class="font-poppins active:text-cdm-blue-950 hover:text-cdm-blue-900 p-2 text-sm font-semibold text-gray-800 transition-all duration-100 lg:text-base"
       >
         Login
       </a>
       <a
-        href="/signup"
+        href="/portal/signup"
         class="font-poppins border-cdm-blue-900 text-cdm-blue-900 hover:bg-cdm-blue-900 active:bg-cdm-blue-950 active:border-cdm-blue-950 rounded-md border-2 bg-white px-4 py-2 text-sm font-semibold transition-all duration-100 hover:text-white active:text-white lg:text-base"
       >
         Sign up
