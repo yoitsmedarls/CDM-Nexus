@@ -2,7 +2,7 @@
   import { enhance } from '$app/forms';
   import { fade } from 'svelte/transition';
   import type { ActionData } from './$types';
-  import { elasticInOut } from 'svelte/easing';
+  // import { elasticInOut } from 'svelte/easing';
 
   let { form }: { form: ActionData } = $props();
 </script>

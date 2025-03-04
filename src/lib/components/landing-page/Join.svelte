@@ -1,5 +1,5 @@
 <script>
-  import Wrapper from './Wrapper.svelte';
+  // import Wrapper from './Wrapper.svelte';
 </script>
 
 <section id="join" class="bg-cdm-blue-950 flex min-h-fit flex-col px-4">
