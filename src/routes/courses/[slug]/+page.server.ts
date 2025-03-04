@@ -35,10 +35,10 @@ export const load = (async ({ params }) => {
 
 export const actions: Actions = {
   addLesson: async ({ request, params }: RequestEvent) => {
-      const formData = await request.formData();
-      const title = formData.get('title') as string;
-      const description = formData.get('description') as string;
-      const term = formData.get('term') as string;
+    const formData = await request.formData();
+    const title = formData.get('title') as string;
+    const description = formData.get('description') as string;
+    const term = formData.get('term') as string;
 
     if (!title || !description || !term) {
       return { error: 'All fields are required!' };
@@ -52,13 +52,14 @@ export const actions: Actions = {
       throw error(404, 'Course not found');
     }
 
-    await db.insert(lesson).values({
-      courseId: queriedCourse.id,
-      title,
-      description,
-      term,
-      slug: title.toLowerCase().replace(/ /g, '-'),
-    });
+    // TODO: Fix insert function.
+    // await db.insert(lesson).values({
+    //   courseId: queriedCourse.id,
+    //   title,
+    //   description,
+    //   term,
+    //   slug: title.toLowerCase().replace(/ /g, '-'),
+    // });
 
     return { success: true };
   },
@@ -79,5 +80,4 @@ export const actions: Actions = {
       return fail(500, { message: 'Failed to delete lesson' });
     }
   },
-
 };

@@ -56,7 +56,7 @@
         in:fade={{ duration: inDuration }}
         class="flex flex-row items-center gap-4"
       >
-        {#each navigationOptions as option}
+        {#each navigationOptions as option (option.slug)}
           <a
             href="/{option.slug}"
             class="font-poppins active:text-cdm-blue-950 hover:text-cdm-blue-900 p-2 text-sm font-semibold text-gray-800 transition-all duration-100 lg:text-base"

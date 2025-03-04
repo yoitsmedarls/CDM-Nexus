@@ -1,5 +1,5 @@
 <script>
-  import Wrapper from './Wrapper.svelte';
+  // import Wrapper from './Wrapper.svelte';
 
   let footerSection = $state([
     {
@@ -18,6 +18,7 @@
       ],
     },
     {
+      // TODO: Add slugs
       heading: 'Connect',
       options: [
         { name: 'Request a tutor', slug: '' },
@@ -33,11 +34,11 @@
     <div
       class="xs:grid-cols-2 bottom-border-divider xs:pb-8 grid grow grid-cols-1 pb-4 md:grid-cols-4"
     >
-      {#each footerSection as section, i}
+      {#each footerSection as section, index (section.heading)}
         <div
           class={[
             'xs:px-2 flex grow flex-col justify-start gap-2 pb-8  transition-all duration-200',
-            i == 0 ? 'md:col-span-2' : '',
+            index == 0 ? 'md:col-span-2' : '',
           ]}
         >
           <h6
@@ -46,7 +47,7 @@
             {section.heading}
           </h6>
           <ul class="flex flex-col">
-            {#each section.options as option}
+            {#each section.options as option (option.name)}
               <li
                 class="font-nunito 2xs:text-[0.875rem] active:text-cdm-blue-950 hover:text-cdm-blue-900 flex justify-center text-xs font-semibold text-gray-600 transition-all duration-100 sm:text-base md:justify-start lg:text-lg"
               >
