@@ -1,7 +1,13 @@
 <script lang="ts">
+  import { blur } from 'svelte/transition';
   import Header from './Header.svelte';
   import Wrapper from './Wrapper.svelte';
+
+  let vw: number = $state(0);
+  let inDuration: number = $state(500);
 </script>
+
+<svelte:window bind:innerWidth={vw} />
 
 <Wrapper limitmaxheight heightsvh>
   <Header />
@@ -9,15 +15,25 @@
     class="xs:px-2 flex grow flex-col justify-start pb-4 transition-all duration-200"
   >
     <div class="flex w-full grow flex-row justify-center gap-4">
-      <div
-        class="left-image bg-cdm-yellow-500 w xs:block hidden h-[40svh] max-h-[36em] min-h-[18em] max-w-[12em] min-w-[4em] grow self-start rounded-b-full bg-cover bg-center p-4 drop-shadow-xs"
-      ></div>
-      <div
-        class="main-image bg-cdm-blue-900 grow-7 rounded-md bg-cover bg-center p-4 drop-shadow-xs"
-      ></div>
-      <div
-        class="right-image bg-cdm-red-600 xs:block hidden h-[40svh] max-h-[36em] min-h-[18em] max-w-[12em] min-w-[4em] grow self-end rounded-t-full bg-cover bg-center p-4 drop-shadow-xs"
-      ></div>
+      {#if vw >= 512}
+        <div
+          in:blur={{ duration: inDuration }}
+          class="left-image bg-cdm-yellow-500 w h-[40svh] max-h-[36em] min-h-[18em] max-w-[12em] min-w-[4em] grow self-start rounded-b-full bg-cover bg-center p-4 drop-shadow-xs"
+        ></div>
+        <div
+          in:blur={{ duration: inDuration }}
+          class="main-image bg-cdm-blue-900 grow-7 rounded-md bg-cover bg-center p-4 drop-shadow-xs"
+        ></div>
+        <div
+          in:blur={{ duration: inDuration }}
+          class="right-image bg-cdm-red-600 h-[40svh] max-h-[36em] min-h-[18em] max-w-[12em] min-w-[4em] grow self-end rounded-t-full bg-cover bg-center p-4 drop-shadow-xs"
+        ></div>
+      {:else}
+        <div
+          in:blur={{ duration: inDuration }}
+          class="main-image bg-cdm-blue-900 grow-7 rounded-md bg-cover bg-center p-4 drop-shadow-xs"
+        ></div>
+      {/if}
     </div>
     <div class="relative">
       <div

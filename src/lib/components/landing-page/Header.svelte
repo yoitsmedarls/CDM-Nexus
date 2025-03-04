@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { fade } from 'svelte/transition';
+
   let navigationOptions = $state([
     {
       text: 'Courses',
@@ -13,7 +15,12 @@
       slug: '#about',
     },
   ]);
+
+  let vw: number = $state(0);
+  let inDuration: number = $state(200);
 </script>
+
+<svelte:window bind:innerWidth={vw} />
 
 <header class="relative z-20 flex min-h-fit w-full flex-col">
   <div
@@ -31,40 +38,49 @@
         Nexus
       </h1>
     </a>
-    <button class="grid place-items-center md:hidden">
-      <span class="material-symbols-rounded">
-        <span
-          class="text-cdm-blue-950 2xs:text-[1.625rem] px-1 text-2xl transition-all duration-100 sm:text-3xl"
-        >
-          menu
+    {#if vw < 768}
+      <button
+        in:fade={{ duration: inDuration }}
+        class="grid place-items-center"
+      >
+        <span class="material-symbols-rounded">
+          <span
+            class="text-cdm-blue-950 2xs:text-[1.625rem] px-1 text-2xl transition-all duration-100 sm:text-3xl"
+          >
+            menu
+          </span>
         </span>
-      </span>
-    </button>
-    <nav class="hidden flex-row items-center gap-4 md:flex">
-      {#each navigationOptions as option}
+      </button>
+    {:else}
+      <nav
+        in:fade={{ duration: inDuration }}
+        class="flex flex-row items-center gap-4"
+      >
+        {#each navigationOptions as option}
+          <a
+            href="/{option.slug}"
+            class="font-poppins active:text-cdm-blue-950 hover:text-cdm-blue-900 p-2 text-sm font-semibold text-gray-800 transition-all duration-100 lg:text-base"
+          >
+            {option.text}
+          </a>
+        {/each}
+        <span class="flex h-6 flex-row justify-center px-0.5">
+          <span class="border-r-1 border-[#06266550]"></span>
+        </span>
         <a
-          href="/{option.slug}"
+          href="/portal/login"
           class="font-poppins active:text-cdm-blue-950 hover:text-cdm-blue-900 p-2 text-sm font-semibold text-gray-800 transition-all duration-100 lg:text-base"
         >
-          {option.text}
+          Login
         </a>
-      {/each}
-      <span class="flex h-6 flex-row justify-center px-0.5">
-        <span class="border-r-1 border-[#06266550]"></span>
-      </span>
-      <a
-        href="/portal/login"
-        class="font-poppins active:text-cdm-blue-950 hover:text-cdm-blue-900 p-2 text-sm font-semibold text-gray-800 transition-all duration-100 lg:text-base"
-      >
-        Login
-      </a>
-      <a
-        href="/portal/signup"
-        class="font-poppins border-cdm-blue-900 text-cdm-blue-900 hover:bg-cdm-blue-900 active:bg-cdm-blue-950 active:border-cdm-blue-950 rounded-md border-2 bg-white px-4 py-2 text-sm font-semibold transition-all duration-100 hover:text-white active:text-white lg:text-base"
-      >
-        Sign up
-      </a>
-    </nav>
+        <a
+          href="/portal/signup"
+          class="font-poppins border-cdm-blue-900 text-cdm-blue-900 hover:bg-cdm-blue-900 active:bg-cdm-blue-950 active:border-cdm-blue-950 rounded-md border-2 bg-white px-4 py-2 text-sm font-semibold transition-all duration-100 hover:text-white active:text-white lg:text-base"
+        >
+          Sign up
+        </a>
+      </nav>
+    {/if}
   </div>
 </header>
 
