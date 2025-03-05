@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { enhance } from '$app/forms';
   import { fade } from 'svelte/transition';
 
   let navigationOptions = $state([
@@ -58,7 +59,7 @@
           {#each navigationOptions as option (option.slug)}
             <a
               href={option.slug}
-              class="font-poppins active:text-cdm-blue-950 max-xl:hover:text-cdm-blue-900 xl:hover:text-cdm-blue-950 rounded-md p-2 text-sm font-semibold text-gray-800 transition-all duration-100 lg:text-base xl:block xl:w-full xl:text-gray-50 xl:hover:bg-white"
+              class="font-poppins active:text-cdm-blue-950 max-xl:hover:text-cdm-blue-900 xl:hover:text-cdm-blue-950 rounded-md p-2 text-sm font-semibold text-gray-800 transition-all duration-100 lg:text-base xl:block xl:w-full xl:text-gray-50 xl:hover:bg-white xl:active:bg-gray-100"
             >
               {option.text}
             </a>
@@ -67,12 +68,18 @@
         <span class="flex h-6 flex-row justify-center px-0.5 xl:hidden">
           <span class="border-r-1 border-[#06266550]"></span>
         </span>
-        <a
-          href="account"
-          class="font-poppins border-cdm-blue-900 text-cdm-blue-900 hover:bg-cdm-blue-900 active:bg-cdm-blue-950 active:border-cdm-blue-950 rounded-md border-2 bg-white px-4 py-2 text-sm font-semibold transition-all duration-100 hover:text-white active:text-white lg:text-base xl:w-full xl:text-center"
+        <form
+          class="flex w-full flex-col"
+          method="post"
+          action="?/logout"
+          use:enhance
         >
-          Account
-        </a>
+          <button
+            class="font-poppins border-cdm-red-700 text-cdm-red-700 hover:bg-cdm-red-700 active:bg-cdm-red-800 active:border-cdm-red-800 rounded-md border-2 bg-white px-4 py-2 text-sm font-semibold transition-all duration-100 hover:text-white active:text-white lg:text-base xl:w-full xl:text-center"
+          >
+            Log Out
+          </button>
+        </form>
       </nav>
     {/if}
   </div>

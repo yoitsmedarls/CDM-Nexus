@@ -1,6 +1,4 @@
 <script lang="ts">
-  import { char } from 'drizzle-orm/mysql-core';
-
   // import { Chart } from 'chart.js';
   // new Chart(document.getElementById('pieChart'), {
   //   type: 'pie',
@@ -50,6 +48,15 @@
   let charts: { id: string; text: string }[] = $state([]);
   charts.push({ id: 'pie-chart', text: 'Pie Chart' });
   charts.push({ id: 'bar-chart', text: 'Bar Chart' });
+
+  let {
+    user,
+  }: {
+    user: {
+      id: string;
+      username: string;
+    };
+  } = $props();
 </script>
 
 <main
@@ -61,12 +68,12 @@
     <h1
       class="font-poppins 2xs:text-[1.375rem] w-fit text-xl font-semibold text-gray-800 transition-all duration-100 sm:text-2xl md:text-gray-50 lg:text-3xl"
     >
-      Welcome, Admin!
+      Welcome, {user.username}!
     </h1>
     <p
       class="font-nunito 2xs:text-[0.875rem] text-[0.75rem] font-semibold text-gray-800 transition-all duration-100 sm:text-base md:text-white lg:text-lg"
     >
-      Sample text
+      ID: {user.id}
     </p>
   </hgroup>
   <div

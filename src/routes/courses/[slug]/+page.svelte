@@ -103,7 +103,7 @@
   </section>
 {/if}
 
-<form method="post" action="?/addLesson" class="flex flex-col gap-2">
+<form method="post" action="?/addLesson" class="flex flex-col gap-2 p-4">
   <input
     type="text"
     name="title"
