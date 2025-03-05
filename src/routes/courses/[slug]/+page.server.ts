@@ -1,7 +1,7 @@
 import type { PageServerLoad } from './$types';
 import { db } from '$lib/server/db';
 import { eq } from 'drizzle-orm';
-import { course, lesson } from '$lib/server/db/schema';
+import { course, lesson, type InsertLesson } from '$lib/server/db/schema';
 import { error } from '@sveltejs/kit';
 import type { Actions, RequestEvent } from '@sveltejs/kit';
 import { fail } from '@sveltejs/kit';
@@ -36,9 +36,9 @@ export const load = (async ({ params }) => {
 export const actions: Actions = {
   addLesson: async ({ request, params }: RequestEvent) => {
     const formData = await request.formData();
-    const title = formData.get('title') as string;
-    const description = formData.get('description') as string;
-    const term = formData.get('term') as string;
+    const title = formData.get('title');
+    const description = formData.get('description');
+    const term = formData.get('term');
 
     if (!title || !description || !term) {
       return { error: 'All fields are required!' };
@@ -52,14 +52,13 @@ export const actions: Actions = {
       throw error(404, 'Course not found');
     }
 
-    // TODO: Fix insert function.
-    // await db.insert(lesson).values({
-    //   courseId: queriedCourse.id,
-    //   title,
-    //   description,
-    //   term,
-    //   slug: title.toLowerCase().replace(/ /g, '-'),
-    // });
+    await db.insert(lesson).values({
+      term: term == 'midterm' ? 'midterm' : 'finals',
+      courseId: queriedCourse.id,
+      title: title as string,
+      description: description as string,
+      slug: title.toString().toLowerCase().replace(/ /g, '-'),
+    } satisfies InsertLesson);
 
     return { success: true };
   },

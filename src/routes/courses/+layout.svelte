@@ -15,4 +15,8 @@
   </a>
 </nav>
 
-{@render children()}
+<main class="flex flex-col items-center">
+  <section class="w-1/2 min-w-xl grow">
+    {@render children()}
+  </section>
+</main>
