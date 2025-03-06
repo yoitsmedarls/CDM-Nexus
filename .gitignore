@@ -1,6 +1,9 @@
 test-results
 node_modules
 
+# VS Code folder
+.vscode
+
 # Output
 .output
 .vercel
