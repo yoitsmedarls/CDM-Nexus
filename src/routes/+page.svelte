@@ -12,7 +12,7 @@
   <title>CDM Nexus</title>
   <meta
     name="description"
-    content="Welcome to CDM Nexus! Browse courses made by our student-tutors, answer quizzes and mock-exams, and access valuable formula cards to prepare for your next exam."
+    content="Welcome to CDM Nexus! Browse courses made by our student-tutors, answer quizzes and mock exams, and access valuable formula cards to prepare for your next exam."
   />
   <meta
     name="keywords"
