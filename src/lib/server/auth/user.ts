@@ -3,15 +3,17 @@ import { db } from '../db';
 import { users, type SelectUser } from '../db/schema';
 import { decryptToString, encryptString } from './encrpytion';
 import { hashPassword } from './password';
-import { generateRandomRecoveryCode, generateUserId } from './utils';
+import { generateRandomRecoveryCode } from './utils';
+
+export function verifyFullNameInput(fullName: string): boolean {
+  return fullName.length >= 5 && fullName.length <= 255;
+}
 
 export function verifyUsernameInput(username: string): boolean {
   return (
     username.length >= 5 &&
     username.length <= 30 &&
-    /^[A-Za-z][A-Za-z0-9_]{5,30}$/.test(username) &&
-    username.trim() === username &&
-    !username.includes(' ')
+    /^[A-Za-z][A-Za-z0-9_]{5,30}$/.test(username)
   );
 }
 
@@ -30,13 +32,26 @@ export async function checkUsernameAvailability(
   return true;
 }
 
+export async function checkIfUserExists(username: string): Promise<boolean> {
+  const [existingUser]: SelectUser[] = await db
+    .select()
+    .from(users)
+    .where(eq(users.username, username));
+
+  if (!existingUser) {
+    return false;
+  }
+
+  return true;
+}
+
 export async function createUser(
+  userId: string,
   fullName: string,
   cdmEmail: string,
   username: string,
   password: string
 ): Promise<SelectUser> {
-  const userId: string = generateUserId();
   const passwordHash: string = await hashPassword(password);
   const recoveryCode: string = generateRandomRecoveryCode();
   const encryptedRecoveryCode: Uint8Array<ArrayBufferLike> =
