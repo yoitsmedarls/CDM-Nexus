@@ -1,28 +1,21 @@
-import { hash, verify } from '@node-rs/argon2';
-import { encodeBase32LowerCase } from '@oslojs/encoding';
 import { fail, redirect } from '@sveltejs/kit';
-import { eq } from 'drizzle-orm';
-import {
-  generateSessionToken,
-  createSession,
-  setSessionTokenCookie,
-} from '$lib/server/auth';
-import { db } from '$lib/server/db';
-import { users } from '$lib/server/db/schema';
+import { hash, verify } from '@node-rs/argon2';
 import type { Actions, PageServerLoad } from './$types';
+import { users } from '$lib/server/db/schema';
+import { eq } from 'drizzle-orm';
+import { db } from '$lib/server/db';
 
 export const load: PageServerLoad = async (event) => {
-  if (event.locals.user) {
+  if (event.locals.user !== null && event.locals.user.role === 'admin') {
     return redirect(302, '/admin/dashboard');
   }
-  return {};
 };
 
 export const actions: Actions = {
   login: async (event) => {
-    const formData = await event.request.formData();
-    const username = formData.get('username');
-    const password = formData.get('password');
+    const formData: FormData = await event.request.formData();
+    const username: string | undefined = formData.get('username')?.toString();
+    const password: string | undefined = formData.get('password')?.toString();
 
     if (!validateUsername(username)) {
       return fail(400, {
@@ -102,12 +95,7 @@ export const actions: Actions = {
   },
 };
 
-function generateUserId() {
-  // ID with 120 bits of entropy, or about the same as UUID v4.
-  const bytes = crypto.getRandomValues(new Uint8Array(15));
-  const id = encodeBase32LowerCase(bytes);
-  return id;
-}
+
 
 function validateUsername(username: unknown): username is string {
   return (
