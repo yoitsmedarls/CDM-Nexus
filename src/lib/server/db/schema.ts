@@ -6,6 +6,7 @@ export * from './schema/courses/lesson';
 export * from './schema/courses/topic';
 export * from './schema/courses/lectureMaterial';
 export * from './schema/courses/quiz';
+export * from './schema/courses/exam';
 export * from './schema/courses/question';
 
 // Exports for admin-related tables

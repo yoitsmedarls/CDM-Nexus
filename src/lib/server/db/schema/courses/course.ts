@@ -10,6 +10,7 @@ import {
 import { relations, sql } from 'drizzle-orm';
 import { stateEnum } from './stateEnum';
 import { lesson } from './lesson';
+import { exam } from './exam';
 
 export const course = pgTable(
   'course',
@@ -45,4 +46,5 @@ export type InsertCourse = typeof course.$inferInsert;
 
 export const courseRelations = relations(course, ({ many }) => ({
   lessons: many(lesson),
+  exams: many(exam),
 }));

@@ -22,7 +22,9 @@ export const quiz = pgTable(
     description: text('description').notNull(),
     length: integer('length').notNull(),
   },
-  (table) => [primaryKey({ name: 'quiz_pk', columns: [table.topicId] })]
+  (table) => [
+    primaryKey({ name: 'quiz_pk', columns: [table.topicId, table.title] }),
+  ]
 );
 
 export type SelectQuiz = typeof quiz.$inferSelect;
