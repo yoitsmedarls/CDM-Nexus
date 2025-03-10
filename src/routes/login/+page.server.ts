@@ -12,25 +12,18 @@ import {
 } from '$lib/server/auth/password';
 
 export const load: PageServerLoad = async (event) => {
-  let redirectDestination = '';
-
   if (event.locals.user) {
-    switch (event.locals.user.role) {
-      case 'admin':
-        redirectDestination = 'admin/dashboard';
-        break;
-
-      case 'tutor':
-        redirectDestination = 'tutor/dashboard';
-        break;
-
-      default:
-        redirectDestination = 'student/dashboard';
-        break;
+    if (event.locals.user.role === 'admin') {
+      throw redirect(302, 'admin/dashboard');
+    }
+    if (event.locals.user.role === 'tutor') {
+      throw redirect(302, 'tutor/dashboard');
     }
 
-    redirect(302, redirectDestination);
+    throw redirect(302, 'student/dashboard');
   }
+
+  return { redirectTo: event.url.search };
 };
 
 export const actions: Actions = {
@@ -79,10 +72,10 @@ export const actions: Actions = {
     setSessionTokenCookie(event, sessionToken, session.expiresAt);
 
     if (event.url.searchParams.has('redirectTo')) {
-      const searchParamValue = event.url.searchParams.get('redirectTo');
+      const redirectTo = event.url.searchParams.get('redirectTo');
 
-      if (searchParamValue) {
-        redirect(303, searchParamValue);
+      if (redirectTo) {
+        throw redirect(302, `/${redirectTo}`);
       }
     }
 

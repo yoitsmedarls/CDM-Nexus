@@ -15,25 +15,18 @@ import {
 } from '$lib/server/auth/email';
 
 export const load = (async (event) => {
-  let redirectDestination = '';
-
   if (event.locals.user) {
-    switch (event.locals.user.role) {
-      case 'admin':
-        redirectDestination = 'admin/dashboard';
-        break;
-
-      case 'tutor':
-        redirectDestination = 'tutor/dashboard';
-        break;
-
-      default:
-        redirectDestination = 'student/dashboard';
-        break;
+    if (event.locals.user.role === 'admin') {
+      throw redirect(302, 'admin/dashboard');
+    }
+    if (event.locals.user.role === 'tutor') {
+      throw redirect(302, 'tutor/dashboard');
     }
 
-    redirect(302, redirectDestination);
+    throw redirect(302, 'student/dashboard');
   }
+
+  return { redirectTo: event.url.search };
 }) satisfies PageServerLoad;
 
 export const actions: Actions = {
@@ -112,6 +105,15 @@ export const actions: Actions = {
         message:
           'An error occurred while creating your account. Please try again later.',
       });
+    }
+
+    if (event.url.searchParams.has('redirectTo')) {
+      const redirectTo = event.url.searchParams.get('redirectTo');
+
+      if (redirectTo) {
+        console.log('REDIRECTED!!!!');
+        throw redirect(302, `/${redirectTo}`);
+      }
     }
 
     return { success: true };

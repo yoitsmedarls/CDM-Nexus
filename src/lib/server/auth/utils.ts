@@ -3,6 +3,7 @@ import {
   encodeBase32LowerCaseNoPadding,
   encodeBase32UpperCaseNoPadding,
 } from '@oslojs/encoding';
+import type { RequestEvent } from '@sveltejs/kit';
 
 export const DAY_IN_MS = 1000 * 60 * 60 * 24;
 
@@ -36,4 +37,10 @@ export function generateRandomRecoveryCode(): string {
   );
 
   return recoveryCode;
+}
+
+export function handleLoginRedirect(event: RequestEvent) {
+  const redirectTo = event.url.pathname.slice(1) + event.url.search;
+
+  return `/login?redirectTo=${redirectTo}`;
 }
