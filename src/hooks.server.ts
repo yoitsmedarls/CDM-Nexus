@@ -4,7 +4,9 @@ import {
   setSessionTokenCookie,
   validateSessionToken,
 } from '$lib/server/auth/session';
+import { handleLoginRedirect } from '$lib/server/auth/utils';
 import type { Handle } from '@sveltejs/kit';
+import { redirect } from '@sveltejs/kit';
 
 const authHandler: Handle = async ({ event, resolve }) => {
   const sessionToken = event.cookies.get(sessionCookieName);
@@ -26,7 +28,21 @@ const authHandler: Handle = async ({ event, resolve }) => {
   event.locals.user = user;
   event.locals.session = session;
 
-  return resolve(event);
+  if (event.url.pathname.startsWith('/admin')) {
+    if (!event.locals.user || event.locals.user.role !== 'admin') {
+      return redirect(302, handleLoginRedirect(event));
+    }
+  }
+
+  if (event.url.pathname.startsWith('/tutor')) {
+    if (!event.locals.user || event.locals.user.role !== 'tutor') {
+      return redirect(302, handleLoginRedirect(event));
+    }
+  }
+
+  const response = await resolve(event);
+
+  return response;
 };
 
 export const handle: Handle = authHandler;
