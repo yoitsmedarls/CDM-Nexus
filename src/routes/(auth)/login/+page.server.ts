@@ -12,17 +12,6 @@ import {
 } from '$lib/server/auth/password';
 
 export const load: PageServerLoad = async (event) => {
-  if (event.locals.user) {
-    if (event.locals.user.role === 'admin') {
-      throw redirect(302, '/admin/dashboard');
-    }
-    if (event.locals.user.role === 'tutor') {
-      throw redirect(302, '/tutor/home');
-    }
-
-    throw redirect(302, '/home');
-  }
-
   return { redirectTo: event.url.search };
 };
 
