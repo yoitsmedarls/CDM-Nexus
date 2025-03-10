@@ -9,6 +9,9 @@ import {
 import { sha256 } from '@oslojs/crypto/sha2';
 import { DAY_IN_MS } from './utils';
 import { eq } from 'drizzle-orm';
+import type { RequestEvent } from '@sveltejs/kit';
+
+export const sessionCookieName = 'session';
 
 export async function createSession(
   token: string,
@@ -71,6 +74,27 @@ export async function invalidateSession(sessionId: string): Promise<void> {
 
 export async function invalidateAllSessions(userId: string): Promise<void> {
   await db.delete(sessions).where(eq(sessions.userId, userId));
+}
+
+export function setSessionTokenCookie(
+  event: RequestEvent,
+  token: string,
+  expiresAt: Date
+): void {
+  event.cookies.set(sessionCookieName, token, {
+    httpOnly: true,
+    sameSite: 'lax',
+    expires: expiresAt,
+    path: '/',
+  });
+}
+
+export function deleteSessionTokenCookie(event: RequestEvent): void {
+  event.cookies.delete(sessionCookieName, {
+    httpOnly: true,
+    sameSite: 'lax',
+    path: '/',
+  });
 }
 
 export type SessionValidationResult =
