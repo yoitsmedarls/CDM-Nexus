@@ -56,16 +56,14 @@
             </span>
           </p>
         </div>
-        <a
-          href="/courses"
-          class="max-h-fit max-w-fit rounded-lg bg-white py-1.5 pr-1.5"
-        >
-          <span
+        <span class="max-h-fit max-w-fit rounded-lg bg-white py-1.5 pr-1.5">
+          <a
+            href="/home"
             class="font-poppins border-cdm-blue-900 text-cdm-blue-900 hover:bg-cdm-blue-900 active:bg-cdm-blue-950 active:border-cdm-blue-950 2xs:text-lg block overflow-clip rounded-md border-2 bg-white px-4 py-2 text-base font-semibold transition-all duration-200 hover:text-white sm:text-xl lg:px-6 lg:py-3 lg:text-2xl"
           >
             Start Now
-          </span>
-        </a>
+          </a>
+        </span>
       </div>
     </div>
   </div>

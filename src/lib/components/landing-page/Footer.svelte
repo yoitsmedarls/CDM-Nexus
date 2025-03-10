@@ -5,8 +5,8 @@
     {
       heading: 'CDM Nexus',
       options: [
-        { name: 'For Students', slug: 'portal/students' },
-        { name: 'For Tutors', slug: 'portal/tutors' },
+        { name: 'For Tutors', slug: '/tutor/home' },
+        { name: 'For Admins', slug: '/admin/dashboard' },
       ],
     },
     {
@@ -53,7 +53,8 @@
               >
                 <a
                   href={option.slug}
-                  class="block max-w-fit py-2 pr-4 max-md:pl-4">{option.name}</a
+                  class="focus-visible:text-cdm-blue-900 block max-w-fit py-2 pr-4 focus-visible:underline focus-visible:underline-offset-4 focus-visible:outline-0 max-md:pl-4"
+                  >{option.name}</a
                 >
               </li>
             {/each}
