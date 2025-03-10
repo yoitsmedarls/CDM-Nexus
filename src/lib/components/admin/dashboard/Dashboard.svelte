@@ -1,4 +1,6 @@
 <script lang="ts">
+  import type { SelectUser } from '$lib/server/db/schema';
+
   // import { Chart } from 'chart.js';
   // new Chart(document.getElementById('pieChart'), {
   //   type: 'pie',
@@ -49,14 +51,7 @@
   charts.push({ id: 'pie-chart', text: 'Pie Chart' });
   charts.push({ id: 'bar-chart', text: 'Bar Chart' });
 
-  let {
-    user,
-  }: {
-    user: {
-      id: string;
-      username: string;
-    };
-  } = $props();
+  let { user }: { user: SelectUser } = $props();
 </script>
 
 <main
@@ -138,52 +133,4 @@
       background-image: url(https://picsum.photos/seed/cdm/1440/200/?blur=10);
     }
   }
-
-  /* .main-content {
-    flex: 1;
-    padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-  }
-
-  .main-content h1 {
-    color: #2c3e50;
-  }
-
-  .top-section {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 20px;
-  }
-
-  .info-box {
-    flex: 1;
-    height: 100px;
-    background-color: #dfeffc;
-    border-radius: 5px;
-  }
-
-  .charts-section {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 20px;
-  }
-
-
-
-  canvas {
-    max-width: 100%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-  }
-
-  .gantt-chart {
-    height: 200px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    margin-bottom: 20px;
-    padding: 10px;
-  } */
 </style>
