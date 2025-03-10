@@ -14,7 +14,7 @@ export function generateSessionToken(): string {
   return token;
 }
 
-export function generateUserId() {
+export function generateUserId(): string {
   const userId = encodeBase32LowerCase(
     crypto.getRandomValues(new Uint8Array(15))
   );
