@@ -1,13 +1,17 @@
 // Exports for courses-related tables
-export * from './schema/courses/stateEnum';
-export * from './schema/courses/termEnum';
-export * from './schema/courses/course';
-export * from './schema/courses/lesson';
-export * from './schema/courses/topic';
-export * from './schema/courses/lectureMaterial';
-export * from './schema/courses/quiz';
-export * from './schema/courses/question';
+export * from './schema/stateEnum';
+export * from './schema/termEnum';
+export * from './schema/courses';
+export * from './schema/lessons';
+export * from './schema/examQuestions';
+export * from './schema/lectureMaterials';
+export * from './schema/quizzes';
+export * from './schema/quizQuestions';
+export * from './schema/exams';
+export * from './schema/examQuestions';
 
-// Exports for admin-related tables
-export * from './schema/admin/user';
-export * from './schema/admin/session';
+// Exports for user-related tables
+export * from './schema/users';
+export * from './schema/userRoleEnum';
+export * from './schema/sessions';
+export * from './schema/passwordResetSessions';
