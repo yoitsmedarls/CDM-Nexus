@@ -1,14 +1,14 @@
 import type { PageServerLoad } from './$types';
 import { db } from '$lib/server/db';
 import { eq } from 'drizzle-orm';
-import { course, lesson, type InsertLesson } from '$lib/server/db/schema';
+import { courses, lessons, type InsertLesson } from '$lib/server/db/schema';
 import { error } from '@sveltejs/kit';
 import type { Actions, RequestEvent } from '@sveltejs/kit';
 import { fail } from '@sveltejs/kit';
 
 export const load = (async ({ params }) => {
   const queriedCourse = await db.query.course.findFirst({
-    where: eq(course.slug, params.slug),
+    where: eq(courses.slug, params.slug),
     columns: {
       dateCreated: false,
     },
@@ -19,7 +19,7 @@ export const load = (async ({ params }) => {
   }
 
   const queriedLessons = await db.query.lesson.findMany({
-    where: eq(lesson.courseId, queriedCourse.id),
+    where: eq(lessons.courseId, queriedCourse.id),
     columns: {
       id: true,
       term: true,
@@ -45,14 +45,14 @@ export const actions: Actions = {
     }
 
     const queriedCourse = await db.query.course.findFirst({
-      where: eq(course.slug, params.slug as string),
+      where: eq(courses.slug, params.slug as string),
     });
 
     if (!queriedCourse) {
       throw error(404, 'Course not found');
     }
 
-    await db.insert(lesson).values({
+    await db.insert(lessons).values({
       term: term == 'midterm' ? 'midterm' : 'finals',
       courseId: queriedCourse.id,
       title: title as string,
@@ -72,7 +72,7 @@ export const actions: Actions = {
     }
 
     try {
-      await db.delete(lesson).where(eq(lesson.id, lessonId.toString()));
+      await db.delete(lessons).where(eq(lessons.id, lessonId.toString()));
       return { success: true };
     } catch (err) {
       console.error('Failed to delete lesson:', err);

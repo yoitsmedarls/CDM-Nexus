@@ -7,37 +7,37 @@ import {
   primaryKey,
 } from 'drizzle-orm/pg-core';
 import { relations, sql } from 'drizzle-orm';
-import { topic } from './topic';
+import { topics } from './topics';
 
-export const lectureMaterial = pgTable(
-  'lecture_material',
+export const lectureMaterials = pgTable(
+  'lecture_materials',
   {
     id: uuid('id').unique().notNull().defaultRandom(),
     topicId: uuid('topic_id')
       .notNull()
-      .references(() => topic.id, { onDelete: 'cascade' }),
+      .references(() => topics.id, { onDelete: 'cascade' }),
     title: varchar('title', { length: 255 }).notNull(),
     description: text('description').notNull(),
     ytVideoId: text('yt_video_id').notNull(),
   },
   (table) => [
     primaryKey({
-      name: 'lecture_material_pk',
+      name: 'lecture_materials_pk',
       columns: [table.topicId, table.title],
     }),
     check('check_yt_video_id', sql`${table.ytVideoId} ~ '^[_a-zA-Z0-9-]{11}$'`),
   ]
 );
 
-export type SelectLectureMaterial = typeof lectureMaterial.$inferSelect;
-export type InsertLectureMaterial = typeof lectureMaterial.$inferInsert;
+export type SelectLectureMaterial = typeof lectureMaterials.$inferSelect;
+export type InsertLectureMaterial = typeof lectureMaterials.$inferInsert;
 
-export const lectureMaterialRelations = relations(
-  lectureMaterial,
+export const lectureMaterialsRelations = relations(
+  lectureMaterials,
   ({ one }) => ({
-    topic: one(topic, {
-      fields: [lectureMaterial.topicId],
-      references: [topic.id],
+    topic: one(topics, {
+      fields: [lectureMaterials.topicId],
+      references: [topics.id],
     }),
   })
 );

@@ -24,7 +24,7 @@ export async function createSession(sessionToken: string, userId: string) {
     userId: userId,
     expiresAt: new Date(Date.now() + DAY_IN_MS * 30),
   };
-  await db.insert(schema.session).values(createdSession);
+  await db.insert(schema.sessions).values(createdSession);
   return createdSession;
 }
 
@@ -35,16 +35,16 @@ export async function validateSessionToken(sessionToken: string) {
   const [result] = await db
     .select({
       user: {
-        id: schema.user.id,
+        id: schema.users.id,
         // role: schema.user.role,
-        username: schema.user.username,
+        username: schema.users.username,
         // fullName: schema.user.fullName,
       },
-      session: schema.session,
+      session: schema.sessions,
     })
-    .from(schema.session)
-    .innerJoin(schema.user, eq(schema.session.userId, schema.user.id))
-    .where(eq(schema.session.id, sessionId));
+    .from(schema.sessions)
+    .innerJoin(schema.users, eq(schema.sessions.userId, schema.users.id))
+    .where(eq(schema.sessions.id, sessionId));
 
   if (!result) {
     return { session: null, user: null };
@@ -55,7 +55,7 @@ export async function validateSessionToken(sessionToken: string) {
   const sessionExpired = Date.now() >= session.expiresAt.getTime();
 
   if (sessionExpired) {
-    await db.delete(schema.session).where(eq(schema.session.id, session.id));
+    await db.delete(schema.sessions).where(eq(schema.sessions.id, session.id));
     return { session: null, user: null };
   }
 
@@ -64,9 +64,9 @@ export async function validateSessionToken(sessionToken: string) {
   if (renewSession) {
     session.expiresAt = new Date(Date.now() + DAY_IN_MS * 30);
     await db
-      .update(schema.session)
+      .update(schema.sessions)
       .set({ expiresAt: session.expiresAt })
-      .where(eq(schema.session.id, session.id));
+      .where(eq(schema.sessions.id, session.id));
   }
 
   return { session, user };
@@ -77,7 +77,7 @@ export type SessionValidationResult = Awaited<
 >;
 
 export async function invalidateSession(sessionId: string) {
-  await db.delete(schema.session).where(eq(schema.session.id, sessionId));
+  await db.delete(schema.sessions).where(eq(schema.sessions.id, sessionId));
 }
 
 export function setSessionTokenCookie(
