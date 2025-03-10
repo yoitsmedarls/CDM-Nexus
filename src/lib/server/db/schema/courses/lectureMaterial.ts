@@ -25,7 +25,7 @@ export const lectureMaterial = pgTable(
       name: 'lecture_material_pk',
       columns: [table.topicId, table.title],
     }),
-    check('check_yt_video_id', sql`${table.ytVideoId} ~ '^[a-zA-Z0-9-_]{11}$'`),
+    check('check_yt_video_id', sql`${table.ytVideoId} ~ '^[_a-zA-Z0-9-]{11}$'`),
   ]
 );
 

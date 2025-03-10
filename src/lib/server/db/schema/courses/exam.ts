@@ -6,17 +6,16 @@ import {
   uuid,
   primaryKey,
 } from 'drizzle-orm/pg-core';
-
-import { course } from './course';
 import { relations } from 'drizzle-orm';
-import { question } from './question';
 import { termEnum } from './termEnum';
+import { course } from './course';
+import { examQuestion } from './examQuestion';
 
 export const exam = pgTable(
   'exam',
   {
     id: uuid('id').unique().notNull().defaultRandom(),
-    courseId: varchar('course_id')
+    courseId: varchar('course_id', { length: 8 })
       .notNull()
       .references(() => course.id, { onDelete: 'cascade' }),
     term: termEnum('term').notNull(),
@@ -36,7 +35,7 @@ export type SelectExam = typeof exam.$inferSelect;
 export type InsertExam = typeof exam.$inferInsert;
 
 export const examRelations = relations(exam, ({ one, many }) => ({
-  questions: many(question),
+  examQuestions: many(examQuestion),
   course: one(course, {
     fields: [exam.courseId],
     references: [course.id],
