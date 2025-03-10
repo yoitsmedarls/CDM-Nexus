@@ -12,4 +12,5 @@ export * from './schema/courses/examQuestions';
 
 // Exports for user-related tables
 export * from './schema/users/users';
+export * from './schema/users/userRoleEnum';
 export * from './schema/users/sessions';
