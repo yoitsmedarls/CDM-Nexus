@@ -6,9 +6,14 @@ import {
 } from '$lib/server/auth/session';
 
 export const load = (async (event) => {
-  const user = event.locals.user;
+  const { ...user } = event.locals.user;
 
-  return { user };
+  return {
+    user: {
+      username: user.username,
+      cdmEmail: user.cdmEmail,
+    },
+  };
 }) satisfies PageServerLoad;
 
 export const actions: Actions = {
