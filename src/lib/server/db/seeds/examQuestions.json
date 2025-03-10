@@ -1,0 +1,2882 @@
+[
+  {
+    "content": "Which of the following series is a geometric series?",
+    "optionA": "∑(1/n)",
+    "optionB": "∑(n^2)",
+    "optionC": "∑(2^n)",
+    "optionD": "∑(1/2^n)",
+    "correctAnswer": "D",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "For a geometric series to converge, the absolute value of the common ratio 'r' must be:",
+    "optionA": "r > 1",
+    "optionB": "r ≥ 1",
+    "optionC": "r < 1",
+    "optionD": "r ≤ 1",
+    "correctAnswer": "C",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "The harmonic series ∑(1/n) is known to be:",
+    "optionA": "Convergent",
+    "optionB": "Divergent",
+    "optionC": "Conditionally Convergent",
+    "optionD": "Absolutely Convergent",
+    "correctAnswer": "B",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "A telescoping series is one where:",
+    "optionA": "Terms grow indefinitely",
+    "optionB": "Terms cancel out to simplify the partial sum",
+    "optionC": "Terms alternate in sign",
+    "optionD": "Terms are always positive",
+    "correctAnswer": "B",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "Which series is an example of a telescoping series?",
+    "optionA": "∑(1/n!)",
+    "optionB": "∑(1/n^2)",
+    "optionC": "∑(1/(n(n+1)))",
+    "optionD": "∑(n/(n+1))",
+    "correctAnswer": "C",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "The Integral Test can be used to test the convergence of a series if the corresponding function is:",
+    "optionA": "Increasing and positive",
+    "optionB": "Decreasing and negative",
+    "optionC": "Continuous, positive, and decreasing",
+    "optionD": "Continuous, negative, and increasing",
+    "correctAnswer": "C",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "In the Comparison Test, if 0 ≤ a_n ≤ b_n for all n and ∑b_n converges, then:",
+    "optionA": "∑a_n diverges",
+    "optionB": "∑a_n converges",
+    "optionC": "∑a_n is conditionally convergent",
+    "optionD": "No conclusion about ∑a_n",
+    "correctAnswer": "B",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "The Limit Comparison Test is useful when comparing series where:",
+    "optionA": "One series is geometric and the other is not",
+    "optionB": "The ratio of terms approaches a finite positive number",
+    "optionC": "Terms are alternating in sign",
+    "optionD": "Terms are factorials",
+    "correctAnswer": "B",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "For the Ratio Test, if lim (n→∞) |a_(n+1)/a_n| = L < 1, then the series ∑a_n:",
+    "optionA": "Diverges",
+    "optionB": "Converges absolutely",
+    "optionC": "Converges conditionally",
+    "optionD": "Test is inconclusive",
+    "correctAnswer": "B",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "The Root Test is particularly effective for series involving:",
+    "optionA": "Factorials",
+    "optionB": "Rational functions",
+    "optionC": "nth powers",
+    "optionD": "Alternating signs",
+    "correctAnswer": "C",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "Which test is generally inconclusive when the limit equals 1?",
+    "optionA": "Integral Test",
+    "optionB": "Comparison Test",
+    "optionC": "Ratio Test and Root Test",
+    "optionD": "Limit Comparison Test",
+    "correctAnswer": "C",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "The Alternating Series Test requires terms to be:",
+    "optionA": "Increasing and positive",
+    "optionB": "Decreasing and negative",
+    "optionC": "Decreasing and approaching zero",
+    "optionD": "Increasing and approaching infinity",
+    "correctAnswer": "C",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "Absolute convergence implies:",
+    "optionA": "Conditional convergence",
+    "optionB": "Divergence",
+    "optionC": "Convergence",
+    "optionD": "Oscillation",
+    "correctAnswer": "C",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "Conditional convergence occurs when a series converges, but:",
+    "optionA": "Its absolute value also converges",
+    "optionB": "Its absolute value diverges",
+    "optionC": "Terms are always positive",
+    "optionD": "Terms are always negative",
+    "correctAnswer": "B",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "The p-series ∑(1/n^p) converges if and only if:",
+    "optionA": "p ≤ 1",
+    "optionB": "p < 1",
+    "optionC": "p > 1",
+    "optionD": "p ≥ 1",
+    "correctAnswer": "C",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "The radius of convergence 'R' for a power series determines:",
+    "optionA": "The sum of the series",
+    "optionB": "The interval for which the series converges",
+    "optionC": "The rate of convergence",
+    "optionD": "Whether the series is geometric",
+    "correctAnswer": "B",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "To find the radius of convergence, we often use the:",
+    "optionA": "Integral Test",
+    "optionB": "Comparison Test",
+    "optionC": "Ratio Test or Root Test",
+    "optionD": "Alternating Series Test",
+    "correctAnswer": "C",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "The interval of convergence must be checked at:",
+    "optionA": "The origin only",
+    "optionB": "The endpoints of the interval",
+    "optionC": "The midpoint of the interval",
+    "optionD": "All real numbers",
+    "correctAnswer": "B",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "If a power series converges for all x, its radius of convergence is:",
+    "optionA": "0",
+    "optionB": "1",
+    "optionC": "∞",
+    "optionD": "-1",
+    "correctAnswer": "C",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "If a power series converges only at x=c, its radius of convergence is:",
+    "optionA": "0",
+    "optionB": "1",
+    "optionC": "∞",
+    "optionD": "c",
+    "correctAnswer": "A",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "A power series is a series of the form:",
+    "optionA": "∑(c_n * n^x)",
+    "optionB": "∑(c_n * x^n)",
+    "optionC": "∑(c^n * x_n)",
+    "optionD": "∑(x^n / c_n)",
+    "correctAnswer": "B",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "Power series can be differentiated and integrated:",
+    "optionA": "Only within their radius of convergence",
+    "optionB": "Everywhere",
+    "optionC": "Only at the center of convergence",
+    "optionD": "Nowhere",
+    "correctAnswer": "A",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "The power series representation of e^x is:",
+    "optionA": "∑(x^n)",
+    "optionB": "∑(x^n / n)",
+    "optionC": "∑(x^n / n!)",
+    "optionD": "∑(n! * x^n)",
+    "correctAnswer": "C",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "Representing functions as power series is useful for:",
+    "optionA": "Simplifying algebraic expressions",
+    "optionB": "Evaluating derivatives and integrals",
+    "optionC": "Solving linear equations",
+    "optionD": "Graphing functions",
+    "correctAnswer": "B",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "The Maclaurin series is a special case of Taylor series centered at:",
+    "optionA": "x = 1",
+    "optionB": "x = -1",
+    "optionC": "x = 0",
+    "optionD": "x = ∞",
+    "correctAnswer": "C",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "Volume under a surface z = f(x, y) over a region R in the xy-plane is given by:",
+    "optionA": "Single integral ∫∫_R f(x, y) dA",
+    "optionB": "Double integral ∬_R f(x, y) dA",
+    "optionC": "Triple integral ∭_R f(x, y) dV",
+    "optionD": "Line integral ∫_C f(x, y) ds",
+    "correctAnswer": "B",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "To calculate volume under a surface, we use:",
+    "optionA": "Single integrals",
+    "optionB": "Double integrals",
+    "optionC": "Triple integrals",
+    "optionD": "Line integrals",
+    "correctAnswer": "B",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "Setting up a double integral for volume requires defining:",
+    "optionA": "Only the function f(x,y)",
+    "optionB": "Only the region of integration R",
+    "optionC": "Both the function f(x,y) and the region of integration R",
+    "optionD": "Neither the function nor the region",
+    "correctAnswer": "C",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "In Cartesian coordinates, dA is equal to:",
+    "optionA": "dx",
+    "optionB": "dy",
+    "optionC": "dx dy or dy dx",
+    "optionD": "dr dθ",
+    "correctAnswer": "C",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "When the region R is a rectangle, the double integral can be evaluated as:",
+    "optionA": "A single iterated integral",
+    "optionB": "A sum of single integrals",
+    "optionC": "An iterated integral",
+    "optionD": "Not possible to evaluate",
+    "correctAnswer": "C",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "Double integrals are used to calculate:",
+    "optionA": "Area under a curve",
+    "optionB": "Volume under a surface",
+    "optionC": "Length of a curve",
+    "optionD": "Slope of a tangent line",
+    "correctAnswer": "B",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "Triple integrals are used to calculate:",
+    "optionA": "Area",
+    "optionB": "Volume",
+    "optionC": "Surface area",
+    "optionD": "Length",
+    "correctAnswer": "B",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "In cylindrical coordinates, dV is equal to:",
+    "optionA": "dx dy dz",
+    "optionB": "r dr dθ dz",
+    "optionC": "ρ^2 sin(φ) dρ dφ dθ",
+    "optionD": "ρ^2 dρ dφ dθ",
+    "correctAnswer": "B",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "In spherical coordinates, dV is equal to:",
+    "optionA": "dx dy dz",
+    "optionB": "r dr dθ dz",
+    "optionC": "ρ^2 sin(φ) dρ dφ dθ",
+    "optionD": "ρ^2 dρ dφ dθ",
+    "correctAnswer": "C",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "Multiple integrals can be evaluated using:",
+    "optionA": "Only Cartesian coordinates",
+    "optionB": "Only polar coordinates",
+    "optionC": "Iterated integrals in appropriate coordinates",
+    "optionD": "Direct integration in any coordinate system",
+    "correctAnswer": "C",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "A sequence is:",
+    "optionA": "A sum of terms",
+    "optionB": "An ordered list of numbers",
+    "optionC": "Always convergent",
+    "optionD": "Always divergent",
+    "correctAnswer": "B",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "A series is:",
+    "optionA": "An ordered list of numbers",
+    "optionB": "A sum of terms of a sequence",
+    "optionC": "Always convergent",
+    "optionD": "Always divergent",
+    "correctAnswer": "B",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "The Test for Divergence states that if lim (n→∞) a_n ≠ 0, then ∑a_n:",
+    "optionA": "Converges",
+    "optionB": "Diverges",
+    "optionC": "Converges conditionally",
+    "optionD": "Test is inconclusive",
+    "correctAnswer": "B",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "If lim (n→∞) a_n = 0, the Test for Divergence is:",
+    "optionA": "Conclusive for convergence",
+    "optionB": "Conclusive for divergence",
+    "optionC": "Inconclusive",
+    "optionD": "Always indicates oscillation",
+    "correctAnswer": "C",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "The Test for Divergence is primarily used to show:",
+    "optionA": "Convergence of a series",
+    "optionB": "Divergence of a series",
+    "optionC": "Absolute convergence",
+    "optionD": "Conditional convergence",
+    "correctAnswer": "B",
+    "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
+  },
+  {
+    "content": "What is the partial derivative of f(x, y) = x^3 + y^2 with respect to x?",
+    "optionA": "3x^2",
+    "optionB": "2y",
+    "optionC": "3x^2 + 2y",
+    "optionD": "x^3",
+    "correctAnswer": "A",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "For f(x, y) = sin(xy), ∂f/∂y is:",
+    "optionA": "cos(xy)",
+    "optionB": "x cos(xy)",
+    "optionC": "y cos(xy)",
+    "optionD": "sin(x)",
+    "correctAnswer": "B",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "The second partial derivative ∂^2f/∂x∂y is also denoted as:",
+    "optionA": "f_xx",
+    "optionB": "f_yy",
+    "optionC": "f_xy",
+    "optionD": "f_yx",
+    "correctAnswer": "C",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "According to Clairaut's Theorem, if f_xy and f_yx are continuous, then:",
+    "optionA": "f_xy > f_yx",
+    "optionB": "f_xy < f_yx",
+    "optionC": "f_xy = f_yx",
+    "optionD": "f_xy = -f_yx",
+    "correctAnswer": "C",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "For f(x, y) = e^(x^2+y), the mixed partial derivative f_xy is:",
+    "optionA": "2x e^(x^2+y)",
+    "optionB": "2xe^(x^2+y)",
+    "optionC": "e^(x^2+y)",
+    "optionD": "2y e^(x^2+y)",
+    "correctAnswer": "B",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "The definite integral ∫[a, b] f(x) dx represents:",
+    "optionA": "The derivative of f(x)",
+    "optionB": "The area under the curve y=f(x) from a to b",
+    "optionC": "The slope of the curve y=f(x)",
+    "optionD": "The volume of a solid",
+    "correctAnswer": "B",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "Applications of definite integrals include finding:",
+    "optionA": "Derivatives",
+    "optionB": "Limits",
+    "optionC": "Areas and volumes",
+    "optionD": "Partial derivatives",
+    "correctAnswer": "C",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "To find the area between two curves f(x) and g(x) from a to b, we compute:",
+    "optionA": "∫[a, b] (f(x) + g(x)) dx",
+    "optionB": "∫[a, b] (f(x) - g(x)) dx",
+    "optionC": "∫[a, b] |f(x) - g(x)| dx",
+    "optionD": "∫[a, b] (f(x) * g(x)) dx",
+    "correctAnswer": "C",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "The volume of a solid of revolution using the disk method about the x-axis is given by:",
+    "optionA": "∫π[f(x)] dx",
+    "optionB": "∫π[f(x)]^2 dx",
+    "optionC": "∫2πx[f(x)] dx",
+    "optionD": "∫[f(x)]^2 dx",
+    "correctAnswer": "B",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "Work done by a variable force F(x) from x=a to x=b is given by:",
+    "optionA": "F * distance",
+    "optionB": "∫[a, b] F(x) dx",
+    "optionC": "F'(x)",
+    "optionD": "F''(x)",
+    "correctAnswer": "B",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "The limit of a function of several variables as (x, y) → (a, b) must:",
+    "optionA": "Exist along some paths",
+    "optionB": "Exist along all paths and be the same",
+    "optionC": "Be zero",
+    "optionD": "Be infinity",
+    "correctAnswer": "B",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "To show that a limit of a function of two variables does not exist, we can:",
+    "optionA": "Show the function is continuous",
+    "optionB": "Evaluate the function at (a, b)",
+    "optionC": "Find two paths along which the limits are different",
+    "optionD": "Use L'Hopital's Rule",
+    "correctAnswer": "C",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "For lim (x,y)→(0,0) of (x^2 + y^2) / (x^2 + y^2 + 1), the limit is:",
+    "optionA": "0",
+    "optionB": "1",
+    "optionC": "∞",
+    "optionD": "Does not exist",
+    "correctAnswer": "A",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "The concept of continuity for functions of several variables is similar to single variable functions, requiring:",
+    "optionA": "Limit exists and equals the function value",
+    "optionB": "Function to be differentiable",
+    "optionC": "Function to be integrable",
+    "optionD": "Function to be linear",
+    "correctAnswer": "A",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "A function f(x, y) is continuous at (a, b) if:",
+    "optionA": "lim (x,y)→(a,b) f(x, y) ≠ f(a, b)",
+    "optionB": "lim (x,y)→(a,b) f(x, y) = f(a, b)",
+    "optionC": "f(a, b) is undefined",
+    "optionD": "The limit does not exist",
+    "correctAnswer": "B",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "Which of the following is NOT a quadric surface?",
+    "optionA": "Ellipsoid",
+    "optionB": "Hyperboloid",
+    "optionC": "Paraboloid",
+    "optionD": "Torus",
+    "correctAnswer": "D",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "The equation x^2 + y^2 + z^2 = r^2 represents a:",
+    "optionA": "Cylinder",
+    "optionB": "Cone",
+    "optionC": "Sphere",
+    "optionD": "Plane",
+    "correctAnswer": "C",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "Cylindrical coordinates use which variables?",
+    "optionA": "(x, y, z)",
+    "optionB": "(r, θ, z)",
+    "optionC": "(ρ, θ, φ)",
+    "optionD": "(u, v, w)",
+    "correctAnswer": "B",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "Spherical coordinates use which variables?",
+    "optionA": "(x, y, z)",
+    "optionB": "(r, θ, z)",
+    "optionC": "(ρ, θ, φ)",
+    "optionD": "(u, v, w)",
+    "correctAnswer": "C",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "Parametrization of a surface involves expressing surface points in terms of:",
+    "optionA": "x and y",
+    "optionB": "r and θ",
+    "optionC": "Two parameters, u and v",
+    "optionD": "ρ and φ",
+    "correctAnswer": "C",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "The definite integral ∫[a, b] f(x) dx is a:",
+    "optionA": "Function",
+    "optionB": "Number",
+    "optionC": "Set of functions",
+    "optionD": "Variable",
+    "correctAnswer": "B",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "The Fundamental Theorem of Calculus relates:",
+    "optionA": "Differentiation and limits",
+    "optionB": "Integration and limits",
+    "optionC": "Differentiation and integration",
+    "optionD": "Limits and continuity",
+    "correctAnswer": "C",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "If F'(x) = f(x), then ∫[a, b] f(x) dx = ?",
+    "optionA": "F'(b) - F'(a)",
+    "optionB": "F(a) - F(b)",
+    "optionC": "F(b) - F(a)",
+    "optionD": "f(b) - f(a)",
+    "correctAnswer": "C",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "Properties of definite integrals include:",
+    "optionA": "Linearity",
+    "optionB": "Additivity over intervals",
+    "optionC": "Both Linearity and Additivity over intervals",
+    "optionD": "None of the above",
+    "correctAnswer": "C",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "The definite integral can be interpreted as:",
+    "optionA": "Net signed area",
+    "optionB": "Total area",
+    "optionC": "Volume",
+    "optionD": "Slope",
+    "correctAnswer": "A",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "A function of several variables maps:",
+    "optionA": "One variable to one variable",
+    "optionB": "Several variables to one variable",
+    "optionC": "One variable to several variables",
+    "optionD": "Several variables to several variables",
+    "correctAnswer": "B",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "The domain of a function of several variables is:",
+    "optionA": "The set of output values",
+    "optionB": "The set of input values",
+    "optionC": "Always real numbers",
+    "optionD": "Always positive numbers",
+    "correctAnswer": "B",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "Level curves of a function f(x, y) are curves where:",
+    "optionA": "x is constant",
+    "optionB": "y is constant",
+    "optionC": "f(x, y) is constant",
+    "optionD": "z is constant",
+    "correctAnswer": "C",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "For f(x, y) = x^2 + y^2, level curves are:",
+    "optionA": "Lines",
+    "optionB": "Parabolas",
+    "optionC": "Circles",
+    "optionD": "Hyperbolas",
+    "correctAnswer": "C",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "Graphical representation of functions of several variables often involves:",
+    "optionA": "2D graphs",
+    "optionB": "3D graphs and contour plots",
+    "optionC": "Line graphs",
+    "optionD": "Bar charts",
+    "correctAnswer": "B",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "The gradient of a function f(x, y) is a:",
+    "optionA": "Scalar",
+    "optionB": "Vector",
+    "optionC": "Point",
+    "optionD": "Curve",
+    "correctAnswer": "B",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "The gradient vector ∇f points in the direction of:",
+    "optionA": "Steepest decrease",
+    "optionB": "No change",
+    "optionC": "Steepest increase",
+    "optionD": "Level curves",
+    "correctAnswer": "C",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "The directional derivative D_u f gives the rate of change of f in the direction of:",
+    "optionA": "Gradient vector",
+    "optionB": "Unit vector u",
+    "optionC": "Level curve",
+    "optionD": "x-axis",
+    "correctAnswer": "B",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "The directional derivative is maximized when u is in the direction of:",
+    "optionA": "Negative gradient",
+    "optionB": "Zero vector",
+    "optionC": "Gradient vector",
+    "optionD": "Perpendicular vector",
+    "correctAnswer": "C",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "For a function f(x, y), the gradient is given by:",
+    "optionA": "∂f/∂x + ∂f/∂y",
+    "optionB": "(∂f/∂y, ∂f/∂x)",
+    "optionC": "(∂f/∂x, ∂f/∂y)",
+    "optionD": "∂^2f/∂x^2 + ∂^2f/∂y^2",
+    "correctAnswer": "C",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "Differentiability implies:",
+    "optionA": "Discontinuity",
+    "optionB": "Continuity",
+    "optionC": "Discontinuity at some points",
+    "optionD": "Undefined function",
+    "correctAnswer": "B",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "A function can be continuous but not:",
+    "optionA": "Defined",
+    "optionB": "Differentiable",
+    "optionC": "Integrable",
+    "optionD": "Limited",
+    "correctAnswer": "B",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "The derivative of a function f(x) at a point is the:",
+    "optionA": "Value of the function",
+    "optionB": "Slope of the tangent line",
+    "optionC": "Area under the curve",
+    "optionD": "Limit of the function",
+    "correctAnswer": "B",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "The definition of the derivative involves:",
+    "optionA": "A sum",
+    "optionB": "A product",
+    "optionC": "A limit of a difference quotient",
+    "optionD": "A definite integral",
+    "correctAnswer": "C",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "Basic differentiation rules include:",
+    "optionA": "Sum rule",
+    "optionB": "Product rule",
+    "optionC": "Chain rule",
+    "optionD": "All of the above",
+    "correctAnswer": "D",
+    "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
+  },
+  {
+    "content": "What is the determinant of a 2x2 matrix [[a, b], [c, d]]?",
+    "optionA": "ad + bc",
+    "optionB": "ac - bd",
+    "optionC": "ad - bc",
+    "optionD": "ab - cd",
+    "correctAnswer": "C",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "Which method is NOT used for calculating determinants of matrices?",
+    "optionA": "Cofactor Expansion",
+    "optionB": "Row Reduction",
+    "optionC": "Column Expansion",
+    "optionD": "Matrix Inversion",
+    "correctAnswer": "D",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "If a square matrix A has a determinant of 0, it is:",
+    "optionA": "Invertible",
+    "optionB": "Non-invertible",
+    "optionC": "Orthogonal",
+    "optionD": "Symmetric",
+    "correctAnswer": "B",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "Matrix multiplication is, in general:",
+    "optionA": "Commutative",
+    "optionB": "Associative",
+    "optionC": "Both Commutative and Associative",
+    "optionD": "Neither Commutative nor Associative",
+    "correctAnswer": "B",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "The identity matrix 'I' in matrix multiplication acts like:",
+    "optionA": "0",
+    "optionB": "1",
+    "optionC": "-1",
+    "optionD": "2",
+    "correctAnswer": "B",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "Combinatorics is primarily concerned with:",
+    "optionA": "Solving equations",
+    "optionB": "Counting problems",
+    "optionC": "Graphing functions",
+    "optionD": "Calculating derivatives",
+    "correctAnswer": "B",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "A permutation is an arrangement of objects in a specific:",
+    "optionA": "Group",
+    "optionB": "Order",
+    "optionC": "Set",
+    "optionD": "Combination",
+    "correctAnswer": "B",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "In combinations, the order of objects:",
+    "optionA": "Matters",
+    "optionB": "Does not matter",
+    "optionC": "Is partially relevant",
+    "optionD": "Is always reversed",
+    "correctAnswer": "B",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "The number of permutations of n objects taken r at a time is denoted by:",
+    "optionA": "C(n, r)",
+    "optionB": "P(n, r)",
+    "optionC": "n!",
+    "optionD": "r!",
+    "correctAnswer": "B",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "Which symbol represents 'less than or equal to'?",
+    "optionA": ">",
+    "optionB": "<",
+    "optionC": "≥",
+    "optionD": "≤",
+    "correctAnswer": "D",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "The solution to a linear inequality is often represented as:",
+    "optionA": "A single number",
+    "optionB": "A point",
+    "optionC": "An interval",
+    "optionD": "A curve",
+    "correctAnswer": "C",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "For quadratic inequalities, the critical values are found by:",
+    "optionA": "Setting the inequality to infinity",
+    "optionB": "Setting the quadratic expression to zero",
+    "optionC": "Taking the derivative",
+    "optionD": "Graphing the inequality",
+    "correctAnswer": "B",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "Rational inequalities involve:",
+    "optionA": "Only integers",
+    "optionB": "Fractions with variables",
+    "optionC": "Square roots",
+    "optionD": "Absolute values",
+    "correctAnswer": "B",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "The imaginary unit 'i' is defined as:",
+    "optionA": "1",
+    "optionB": "-1",
+    "optionC": "√-1",
+    "optionD": "0",
+    "correctAnswer": "C",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "A complex number has the form:",
+    "optionA": "a + b",
+    "optionB": "a + bx",
+    "optionC": "a + bi",
+    "optionD": "ax + by",
+    "correctAnswer": "C",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "In the complex plane, the x-axis represents the:",
+    "optionA": "Imaginary part",
+    "optionB": "Real part",
+    "optionC": "Modulus",
+    "optionD": "Argument",
+    "correctAnswer": "B",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "De Moivre's Theorem is used to find powers of:",
+    "optionA": "Real numbers",
+    "optionB": "Complex numbers",
+    "optionC": "Matrices",
+    "optionD": "Vectors",
+    "correctAnswer": "B",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "A sequence is:",
+    "optionA": "A sum of terms",
+    "optionB": "An ordered list of numbers",
+    "optionC": "Always convergent",
+    "optionD": "Always divergent",
+    "correctAnswer": "B",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "An arithmetic sequence has a constant:",
+    "optionA": "Ratio",
+    "optionB": "Difference",
+    "optionC": "Product",
+    "optionD": "Sum",
+    "correctAnswer": "B",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "A geometric series converges if the absolute value of the common ratio is:",
+    "optionA": "Greater than 1",
+    "optionB": "Equal to 1",
+    "optionC": "Less than 1",
+    "optionD": "Greater than or equal to 1",
+    "correctAnswer": "C",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "Partial fraction decomposition is used to simplify:",
+    "optionA": "Polynomials",
+    "optionB": "Rational expressions",
+    "optionC": "Radical expressions",
+    "optionD": "Absolute value expressions",
+    "correctAnswer": "B",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "The denominators in partial fraction decomposition depend on the factors of the original:",
+    "optionA": "Numerator",
+    "optionB": "Denominator",
+    "optionC": "Quotient",
+    "optionD": "Remainder",
+    "correctAnswer": "B",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "For a rational expression with a linear factor (x-a) in the denominator, the partial fraction will have the form:",
+    "optionA": "A/(x-a)^2",
+    "optionB": "A/(x-a)",
+    "optionC": "Ax + B",
+    "optionD": "A",
+    "correctAnswer": "B",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "Ratio and proportion are used to compare:",
+    "optionA": "Areas",
+    "optionB": "Volumes",
+    "optionC": "Quantities",
+    "optionD": "Shapes",
+    "correctAnswer": "C",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "In a direct variation, as one quantity increases, the other:",
+    "optionA": "Decreases",
+    "optionB": "Increases",
+    "optionC": "Remains constant",
+    "optionD": "Becomes zero",
+    "correctAnswer": "B",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "In inverse variation, as one quantity increases, the other:",
+    "optionA": "Decreases",
+    "optionB": "Increases",
+    "optionC": "Remains constant",
+    "optionD": "Becomes squared",
+    "correctAnswer": "A",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "Plane analytic geometry combines:",
+    "optionA": "Algebra and trigonometry",
+    "optionB": "Algebra and geometry",
+    "optionC": "Geometry and calculus",
+    "optionD": "Trigonometry and calculus",
+    "correctAnswer": "B",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "The distance formula in plane analytic geometry is derived from:",
+    "optionA": "Slope formula",
+    "optionB": "Pythagorean theorem",
+    "optionC": "Midpoint formula",
+    "optionD": "Intercept form",
+    "correctAnswer": "B",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "The equation of a line in slope-intercept form is:",
+    "optionA": "Ax + By = C",
+    "optionB": "y - y1 = m(x - x1)",
+    "optionC": "y = mx + b",
+    "optionD": "x/a + y/b = 1",
+    "correctAnswer": "C",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "Parallel lines have the same:",
+    "optionA": "y-intercept",
+    "optionB": "x-intercept",
+    "optionC": "Slope",
+    "optionD": "Equation",
+    "correctAnswer": "C",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "Perpendicular lines have slopes that are:",
+    "optionA": "Equal",
+    "optionB": "Reciprocal",
+    "optionC": "Negative reciprocals",
+    "optionD": "Opposite",
+    "correctAnswer": "C",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "The standard form of a circle's equation is:",
+    "optionA": "y = mx + b",
+    "optionB": "(x-h)^2 + (y-k)^2 = r^2",
+    "optionC": "Ax + By = C",
+    "optionD": "x^2/a^2 + y^2/b^2 = 1",
+    "correctAnswer": "B",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "In the equation of a circle (x-h)^2 + (y-k)^2 = r^2, (h, k) represents:",
+    "optionA": "Radius",
+    "optionB": "Diameter",
+    "optionC": "Center",
+    "optionD": "Circumference",
+    "correctAnswer": "C",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "The radius of the circle (x-h)^2 + (y-k)^2 = r^2 is:",
+    "optionA": "r^2",
+    "optionB": "r",
+    "optionC": "2r",
+    "optionD": "√r",
+    "correctAnswer": "B",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "What is the determinant of a 3x3 matrix used for?",
+    "optionA": "Solving linear inequalities",
+    "optionB": "Finding eigenvalues",
+    "optionC": "Solving systems of linear equations",
+    "optionD": "Graphing polynomials",
+    "correctAnswer": "C",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "Which of the following is NOT a type of matrix?",
+    "optionA": "Square matrix",
+    "optionB": "Rectangular matrix",
+    "optionC": "Circular matrix",
+    "optionD": "Identity matrix",
+    "correctAnswer": "C",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "What is the sum of the first n terms of an arithmetic series?",
+    "optionA": "a + (n-1)d",
+    "optionB": "ar^(n-1)",
+    "optionC": "n/2 * (2a + (n-1)d)",
+    "optionD": "a/(1-r)",
+    "correctAnswer": "C",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "What is the sum of an infinite geometric series if |r| < 1?",
+    "optionA": "a/(1-r)",
+    "optionB": "n/2 * (a + l)",
+    "optionC": "a(r^n - 1) / (r - 1)",
+    "optionD": "Infinity",
+    "correctAnswer": "A",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "If y varies directly as x and y = 10 when x = 2, what is y when x = 6?",
+    "optionA": "20",
+    "optionB": "30",
+    "optionC": "40",
+    "optionD": "50",
+    "correctAnswer": "B",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "If y varies inversely as x and y = 6 when x = 4, what is y when x = 3?",
+    "optionA": "4",
+    "optionB": "6",
+    "optionC": "8",
+    "optionD": "10",
+    "correctAnswer": "C",
+    "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
+  },
+  {
+    "content": "Which method is used to solve a system of linear equations by eliminating one variable at a time?",
+    "optionA": "Substitution",
+    "optionB": "Elimination",
+    "optionC": "Graphing",
+    "optionD": "Inverse Matrix",
+    "correctAnswer": "B",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "In a system of linear equations, if the lines are parallel, there is/are:",
+    "optionA": "One solution",
+    "optionB": "No solution",
+    "optionC": "Infinitely many solutions",
+    "optionD": "Two solutions",
+    "correctAnswer": "B",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "A system of linear equations is considered consistent if it has:",
+    "optionA": "No solution",
+    "optionB": "At least one solution",
+    "optionC": "Infinitely many solutions",
+    "optionD": "Only integer solutions",
+    "correctAnswer": "B",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "What is the value of x in the system: x + y = 5, x - y = 1?",
+    "optionA": "2",
+    "optionB": "3",
+    "optionC": "4",
+    "optionD": "5",
+    "correctAnswer": "B",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "Simplify the algebraic expression: 3(x + 2) - 2x",
+    "optionA": "x + 6",
+    "optionB": "5x + 6",
+    "optionC": "x + 2",
+    "optionD": "5x + 2",
+    "correctAnswer": "A",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "Which of the following is an algebraic expression?",
+    "optionA": "2 + 3 = 5",
+    "optionB": "y = 2x + 1",
+    "optionC": "3x^2 - 2x + 5",
+    "optionD": "Area = length * width",
+    "correctAnswer": "C",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "Combine like terms: 5a + 3b - 2a + b",
+    "optionA": "3a + 4b",
+    "optionB": "7a + 4b",
+    "optionC": "3a + 2b",
+    "optionD": "7a + 2b",
+    "correctAnswer": "A",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "Expand and simplify: (x + 3)(x - 2)",
+    "optionA": "x^2 + x - 6",
+    "optionB": "x^2 - x - 6",
+    "optionC": "x^2 + 5x - 6",
+    "optionD": "x^2 - 5x - 6",
+    "correctAnswer": "A",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "Linear equations can be used to model:",
+    "optionA": "Exponential growth",
+    "optionB": "Quadratic relationships",
+    "optionC": "Direct proportional relationships",
+    "optionD": "Inverse proportional relationships",
+    "correctAnswer": "C",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "If the cost of 3 apples is $6, what is the cost of 5 apples, assuming linear relationship?",
+    "optionA": "$8",
+    "optionB": "$10",
+    "optionC": "$12",
+    "optionD": "$15",
+    "correctAnswer": "B",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "A taxi charges a fixed rate of $3 plus $2 per mile. If a ride costs $15, how many miles was the ride?",
+    "optionA": "5 miles",
+    "optionB": "6 miles",
+    "optionC": "7 miles",
+    "optionD": "8 miles",
+    "correctAnswer": "B",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "Sets are well-defined collections of:",
+    "optionA": "Numbers only",
+    "optionB": "Objects",
+    "optionC": "Equations",
+    "optionD": "Variables",
+    "correctAnswer": "B",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "The union of two sets A and B (A ∪ B) contains:",
+    "optionA": "Elements only in A",
+    "optionB": "Elements only in B",
+    "optionC": "Elements in A or B or both",
+    "optionD": "Elements in both A and B",
+    "correctAnswer": "C",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "The intersection of two sets A and B (A ∩ B) contains:",
+    "optionA": "Elements only in A",
+    "optionB": "Elements only in B",
+    "optionC": "Elements in A or B or both",
+    "optionD": "Elements in both A and B",
+    "correctAnswer": "D",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "If A = {1, 2, 3} and B = {3, 4, 5}, A ∪ B is:",
+    "optionA": "{3}",
+    "optionB": "{1, 2}",
+    "optionC": "{4, 5}",
+    "optionD": "{1, 2, 3, 4, 5}",
+    "correctAnswer": "D",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "If A = {1, 2, 3} and B = {3, 4, 5}, A ∩ B is:",
+    "optionA": "{3}",
+    "optionB": "{1, 2}",
+    "optionC": "{4, 5}",
+    "optionD": "{1, 2, 3, 4, 5}",
+    "correctAnswer": "A",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "The set of all rational numbers is denoted by the symbol:",
+    "optionA": "Z",
+    "optionB": "N",
+    "optionC": "Q",
+    "optionD": "R",
+    "correctAnswer": "C",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "A rational expression is a fraction where the numerator and denominator are:",
+    "optionA": "Integers",
+    "optionB": "Polynomials",
+    "optionC": "Radicals",
+    "optionD": "Absolute values",
+    "correctAnswer": "B",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "Simplify the rational expression: (x^2 - 4) / (x - 2)",
+    "optionA": "x - 2",
+    "optionB": "x + 2",
+    "optionC": "x^2 + 4",
+    "optionD": "x",
+    "correctAnswer": "B",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "When adding or subtracting rational expressions, you need a:",
+    "optionA": "Common numerator",
+    "optionB": "Common denominator",
+    "optionC": "Simplified numerator",
+    "optionD": "Simplified denominator",
+    "correctAnswer": "B",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "A radical expression contains a:",
+    "optionA": "Fraction",
+    "optionB": "Square root or nth root",
+    "optionC": "Variable in the denominator",
+    "optionD": "Negative exponent",
+    "correctAnswer": "B",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "Simplify √18",
+    "optionA": "3√2",
+    "optionB": "2√3",
+    "optionC": "9√2",
+    "optionD": "6",
+    "correctAnswer": "A",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "Rationalizing the denominator means removing radicals from the:",
+    "optionA": "Numerator",
+    "optionB": "Denominator",
+    "optionC": "Both numerator and denominator",
+    "optionD": "Expression entirely",
+    "correctAnswer": "B",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "The absolute value of a number is its distance from:",
+    "optionA": "-1",
+    "optionB": "0",
+    "optionC": "1",
+    "optionD": "Infinity",
+    "correctAnswer": "B",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "Solve for x: |x| = 5",
+    "optionA": "x = 5",
+    "optionB": "x = -5",
+    "optionC": "x = 5 or x = -5",
+    "optionD": "No solution",
+    "correctAnswer": "C",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "Solve the absolute value inequality: |x| < 3",
+    "optionA": "x > 3",
+    "optionB": "x < -3",
+    "optionC": "-3 < x < 3",
+    "optionD": "x > 3 or x < -3",
+    "correctAnswer": "C",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "An equation in one variable contains:",
+    "optionA": "Two variables",
+    "optionB": "One variable",
+    "optionC": "No variables",
+    "optionD": "Multiple variables",
+    "correctAnswer": "B",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "Solve for x: 2x + 5 = 9",
+    "optionA": "x = 1",
+    "optionB": "x = 2",
+    "optionC": "x = 3",
+    "optionD": "x = 7",
+    "correctAnswer": "B",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "A linear equation in one variable has the general form:",
+    "optionA": "ax^2 + bx + c = 0",
+    "optionB": "ax + b = 0",
+    "optionC": "y = mx + b",
+    "optionD": "x^2 + y^2 = r^2",
+    "correctAnswer": "B",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "What type of equation is x^2 + 3x + 2 = 0?",
+    "optionA": "Linear",
+    "optionB": "Quadratic",
+    "optionC": "Rational",
+    "optionD": "Radical",
+    "correctAnswer": "B",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "The quadratic formula is used to solve:",
+    "optionA": "Linear equations",
+    "optionB": "Quadratic equations",
+    "optionC": "Rational equations",
+    "optionD": "Absolute value equations",
+    "correctAnswer": "B",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "The quadratic formula is: x = ?",
+    "optionA": "(-b ± √(b^2 - 4ac)) / 2a",
+    "optionB": "(b ± √(b^2 - 4ac)) / 2a",
+    "optionC": "(-b ± √(b^2 + 4ac)) / 2a",
+    "optionD": "(b ± √(b^2 + 4ac)) / 2a",
+    "correctAnswer": "A",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "What is the discriminant in the quadratic formula used to determine?",
+    "optionA": "The slope of the parabola",
+    "optionB": "The y-intercept",
+    "optionC": "The nature of the roots",
+    "optionD": "The vertex of the parabola",
+    "correctAnswer": "C",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "If the discriminant (b^2 - 4ac) is negative, the quadratic equation has:",
+    "optionA": "Two real roots",
+    "optionB": "One real root",
+    "optionC": "No real roots (complex roots)",
+    "optionD": "Infinite real roots",
+    "correctAnswer": "C",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "What is the solution to the equation √(x - 2) = 3?",
+    "optionA": "x = 5",
+    "optionB": "x = 7",
+    "optionC": "x = 9",
+    "optionD": "x = 11",
+    "correctAnswer": "D",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "When solving radical equations, it is important to:",
+    "optionA": "Square both sides only once",
+    "optionB": "Check for extraneous solutions",
+    "optionC": "Always get real solutions",
+    "optionD": "Divide both sides by the radical",
+    "correctAnswer": "B",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "Solve for x: |2x - 1| = 7",
+    "optionA": "x = 4",
+    "optionB": "x = -3",
+    "optionC": "x = 4 or x = -3",
+    "optionD": "No solution",
+    "correctAnswer": "C",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "Which property is used to solve equations by adding the same quantity to both sides?",
+    "optionA": "Multiplication Property of Equality",
+    "optionB": "Division Property of Equality",
+    "optionC": "Addition Property of Equality",
+    "optionD": "Substitution Property of Equality",
+    "correctAnswer": "C",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "What is the first step in solving the equation 3x - 7 = 8?",
+    "optionA": "Divide by 3",
+    "optionB": "Subtract 3",
+    "optionC": "Add 7 to both sides",
+    "optionD": "Subtract 8 from both sides",
+    "correctAnswer": "C",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "If two sets have no elements in common, they are called:",
+    "optionA": "Equal sets",
+    "optionB": "Subsets",
+    "optionC": "Disjoint sets",
+    "optionD": "Universal sets",
+    "correctAnswer": "C",
+    "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
+  },
+  {
+    "content": "Which of the following series is a power series?",
+    "optionA": "∑(1/n^2)",
+    "optionB": "∑(n/2^n)",
+    "optionC": "∑(x^n/n!)",
+    "optionD": "∑(sin(n)/n^3)",
+    "correctAnswer": "C",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "For a geometric series to converge, the absolute value of the common ratio 'r' must be:",
+    "optionA": "r ≥ 1",
+    "optionB": "r > 1",
+    "optionC": "|r| < 1",
+    "optionD": "|r| ≤ 1",
+    "correctAnswer": "C",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "The harmonic series ∑(1/n) is:",
+    "optionA": "Convergent",
+    "optionB": "Divergent",
+    "optionC": "Absolutely Convergent",
+    "optionD": "Conditionally Convergent",
+    "correctAnswer": "B",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "Which test is best suited to determine the convergence of ∑(n!/n^n)?",
+    "optionA": "Integral Test",
+    "optionB": "Comparison Test",
+    "optionC": "Ratio Test",
+    "optionD": "Alternating Series Test",
+    "correctAnswer": "C",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "An improper integral of Type 1 has:",
+    "optionA": "A discontinuous integrand",
+    "optionB": "Infinite limits of integration",
+    "optionC": "Both discontinuous integrand and infinite limits",
+    "optionD": "Finite limits of integration and continuous integrand",
+    "correctAnswer": "B",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "For what values of p does the improper integral ∫[1, ∞] (1/x^p) dx converge?",
+    "optionA": "p ≤ 1",
+    "optionB": "p < 1",
+    "optionC": "p > 1",
+    "optionD": "p ≥ 0",
+    "correctAnswer": "C",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "Applications of derivatives include finding:",
+    "optionA": "Area under a curve",
+    "optionB": "Volume of a solid",
+    "optionC": "Rates of change and optimization",
+    "optionD": "Arc length",
+    "correctAnswer": "C",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "The derivative of f(x) = ln(x) is:",
+    "optionA": "e^x",
+    "optionB": "1/x",
+    "optionC": "-1/x^2",
+    "optionD": "ln(x)",
+    "correctAnswer": "B",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "Which integration formula is used for ∫sin(x) dx?",
+    "optionA": "cos(x) + C",
+    "optionB": "-cos(x) + C",
+    "optionC": "sec^2(x) + C",
+    "optionD": "tan(x) + C",
+    "correctAnswer": "B",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "The integral of sec^2(x) is:",
+    "optionA": "cot(x) + C",
+    "optionB": "-tan(x) + C",
+    "optionC": "tan(x) + C",
+    "optionD": "-cot(x) + C",
+    "correctAnswer": "C",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "A sequence is a function whose domain is:",
+    "optionA": "Real numbers",
+    "optionB": "Rational numbers",
+    "optionC": "Natural numbers",
+    "optionD": "Integers",
+    "correctAnswer": "C",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "A series is the sum of the terms of a:",
+    "optionA": "Function",
+    "optionB": "Sequence",
+    "optionC": "Derivative",
+    "optionD": "Integral",
+    "correctAnswer": "B",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "The sum of an arithmetic series is given by:",
+    "optionA": "a/(1-r)",
+    "optionB": "n/2 * (a_1 + a_n)",
+    "optionC": "a*r^(n-1)",
+    "optionD": "a + (n-1)d",
+    "correctAnswer": "B",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "For a convergent geometric series, the sum is given by:",
+    "optionA": "a/(1-r)",
+    "optionB": "n/2 * (a_1 + a_n)",
+    "optionC": "a*r^(n-1)",
+    "optionD": "a + (n-1)d",
+    "correctAnswer": "A",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "Applications of definite integrals include calculating:",
+    "optionA": "Derivatives",
+    "optionB": "Indefinite integrals",
+    "optionC": "Areas and volumes",
+    "optionD": "Limits",
+    "correctAnswer": "C",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "The area under the curve y = f(x) from x = a to x = b is given by:",
+    "optionA": "f(b) - f(a)",
+    "optionB": "F(b) - F(a)",
+    "optionC": "F'(b) - F'(a)",
+    "optionD": "f'(b) - f'(a)",
+    "correctAnswer": "B",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "The volume of a solid of revolution using the disk method about the x-axis is:",
+    "optionA": "∫πx^2 dy",
+    "optionB": "∫πy^2 dx",
+    "optionC": "∫π[f(x)]^2 dx",
+    "optionD": "∫2πx f(x) dx",
+    "correctAnswer": "C",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "Integration by substitution is based on the:",
+    "optionA": "Product Rule",
+    "optionB": "Quotient Rule",
+    "optionC": "Chain Rule",
+    "optionD": "Power Rule",
+    "correctAnswer": "C",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "Integration by parts is used for integrals of the form:",
+    "optionA": "∫f(x)/g(x) dx",
+    "optionB": "∫f(g(x))g'(x) dx",
+    "optionC": "∫f(x)g(x) dx",
+    "optionD": "∫[f(x)]^n f'(x) dx",
+    "correctAnswer": "C",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "Trigonometric substitution is useful when the integrand contains:",
+    "optionA": "Polynomials",
+    "optionB": "Rational functions",
+    "optionC": "√(a^2 - x^2), √(a^2 + x^2), √(x^2 - a^2)",
+    "optionD": "Logarithmic functions",
+    "correctAnswer": "C",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "Partial fraction decomposition is used to integrate:",
+    "optionA": "Products of functions",
+    "optionB": "Quotients of polynomials",
+    "optionC": "Composite functions",
+    "optionD": "Trigonometric functions",
+    "correctAnswer": "B",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "Which of the following is an integration technique?",
+    "optionA": "Differentiation",
+    "optionB": "Limits",
+    "optionC": "Substitution",
+    "optionD": "Derivatives",
+    "correctAnswer": "C",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "L'Hôpital's Rule is used to evaluate:",
+    "optionA": "Definite integrals",
+    "optionB": "Indeterminate limits",
+    "optionC": "Derivatives",
+    "optionD": "Sums of series",
+    "correctAnswer": "B",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "The derivative of tan(x) is:",
+    "optionA": "sec(x)tan(x)",
+    "optionB": "sec^2(x)",
+    "optionC": "-sec^2(x)",
+    "optionD": "-csc^2(x)",
+    "correctAnswer": "B",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "The derivative of cot(x) is:",
+    "optionA": "csc^2(x)",
+    "optionB": "sec^2(x)",
+    "optionC": "-csc^2(x)",
+    "optionD": "-sec^2(x)",
+    "correctAnswer": "C",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "Which function's derivative is itself?",
+    "optionA": "sin(x)",
+    "optionB": "cos(x)",
+    "optionC": "e^x",
+    "optionD": "x^2",
+    "correctAnswer": "C",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "The integral of 1/x dx is:",
+    "optionA": "x + C",
+    "optionB": "ln|x| + C",
+    "optionC": "e^x + C",
+    "optionD": "-1/x^2 + C",
+    "correctAnswer": "B",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "Which of the following is an application of integrals?",
+    "optionA": "Finding slopes of curves",
+    "optionB": "Finding maximum and minimum values",
+    "optionC": "Finding areas and volumes",
+    "optionD": "Finding rates of change",
+    "correctAnswer": "C",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "The average value of a function f(x) over [a, b] is:",
+    "optionA": "f(b) - f(a)",
+    "optionB": "F(b) - F(a)",
+    "optionC": "(1/(b-a)) ∫[a, b] f(x) dx",
+    "optionD": "∫[a, b] f(x) dx",
+    "correctAnswer": "C",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "The arc length of a curve y = f(x) from x = a to x = b is given by:",
+    "optionA": "∫[a, b] √(1 + [f'(x)]^2) dx",
+    "optionB": "∫[a, b] f(x) dx",
+    "optionC": "∫[a, b] [f'(x)]^2 dx",
+    "optionD": "∫[a, b] √[1 + f(x)] dx",
+    "correctAnswer": "A",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "Surface area of a solid of revolution about the x-axis is given by:",
+    "optionA": "∫πy^2 dx",
+    "optionB": "∫2πy dx",
+    "optionC": "∫2πy √(1 + (dy/dx)^2) dx",
+    "optionD": "∫πy √(1 + (dy/dx)^2) dx",
+    "correctAnswer": "C",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "Work done by a force F in moving an object from a to b is given by:",
+    "optionA": "F * distance",
+    "optionB": "∫[a, b] F dx",
+    "optionC": "F'(x)",
+    "optionD": "F''(x)",
+    "correctAnswer": "B",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "The Mean Value Theorem for Integrals states that there exists a c in [a, b] such that:",
+    "optionA": "f(c) = 0",
+    "optionB": "f'(c) = 0",
+    "optionC": "∫[a, b] f(x) dx = f(c)(b - a)",
+    "optionD": "∫[a, b] f(x) dx = F(b) - F(a)",
+    "correctAnswer": "C",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "Which test can be used to determine convergence of alternating series?",
+    "optionA": "Ratio Test",
+    "optionB": "Integral Test",
+    "optionC": "Alternating Series Test",
+    "optionD": "Comparison Test",
+    "correctAnswer": "C",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "Absolute convergence of a series implies:",
+    "optionA": "Divergence",
+    "optionB": "Conditional convergence",
+    "optionC": "Convergence",
+    "optionD": "Oscillation",
+    "correctAnswer": "C",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "Conditional convergence means a series converges but its:",
+    "optionA": "Derivative diverges",
+    "optionB": "Integral diverges",
+    "optionC": "Absolute value diverges",
+    "optionD": "Terms are positive",
+    "correctAnswer": "C",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "The test for divergence states that if lim (n→∞) a_n ≠ 0, then ∑a_n:",
+    "optionA": "Converges",
+    "optionB": "Diverges",
+    "optionC": "Is inconclusive",
+    "optionD": "Converges conditionally",
+    "correctAnswer": "B",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "The p-series ∑(1/n^p) converges when:",
+    "optionA": "p < 1",
+    "optionB": "p ≤ 1",
+    "optionC": "p > 1",
+    "optionD": "p ≥ 1",
+    "correctAnswer": "C",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "The radius of convergence of a power series can be found using:",
+    "optionA": "Integral Test",
+    "optionB": "Comparison Test",
+    "optionC": "Ratio or Root Test",
+    "optionD": "Alternating Series Test",
+    "correctAnswer": "C",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "The interval of convergence of a power series must be checked at:",
+    "optionA": "Only the center",
+    "optionB": "Only the endpoints",
+    "optionC": "Every point",
+    "optionD": "No points",
+    "correctAnswer": "B",
+    "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
+  },
+  {
+    "content": "Differentiability of a function at a point implies:",
+    "optionA": "Discontinuity",
+    "optionB": "Continuity",
+    "optionC": "The existence of a limit but not continuity",
+    "optionD": "The function is undefined at that point",
+    "correctAnswer": "B",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "A function f(x) is continuous at x=a if:",
+    "optionA": "f(a) exists",
+    "optionB": "lim_(x→a) f(x) exists",
+    "optionC": "lim_(x→a) f(x) = f(a)",
+    "optionD": "All of the above",
+    "correctAnswer": "D",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "The derivative of a function f(x) at x=a is defined as:",
+    "optionA": "f(a+h) - f(a)",
+    "optionB": "lim_(h→0) [f(a+h) - f(a)]",
+    "optionC": "lim_(h→0) [f(a+h) - f(a)] / h",
+    "optionD": "[f(a+h) - f(a)] / h",
+    "correctAnswer": "C",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "The derivative f'(x) represents:",
+    "optionA": "The area under the curve of f(x)",
+    "optionB": "The slope of the tangent line to f(x)",
+    "optionC": "The y-intercept of f(x)",
+    "optionD": "The value of f(x) at a specific point",
+    "correctAnswer": "B",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "Implicit differentiation is used when:",
+    "optionA": "The function is explicitly given as y = f(x)",
+    "optionB": "The function is given in parametric form",
+    "optionC": "y is not explicitly isolated in terms of x",
+    "optionD": "Dealing with trigonometric functions",
+    "correctAnswer": "C",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "To find dy/dx for x^2 + y^2 = 1 using implicit differentiation, we differentiate with respect to:",
+    "optionA": "y",
+    "optionB": "x",
+    "optionC": "Both x and y",
+    "optionD": "Neither x nor y",
+    "correctAnswer": "B",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "The limit of a function f(x) as x approaches a point 'a' describes:",
+    "optionA": "The value of f(a)",
+    "optionB": "The behavior of f(x) near 'a'",
+    "optionC": "The derivative of f(x) at 'a'",
+    "optionD": "The integral of f(x) from a to ∞",
+    "correctAnswer": "B",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "For lim_(x→a) f(x) to exist, the limit from the left must be equal to:",
+    "optionA": "The function value f(a)",
+    "optionB": "The limit from the right",
+    "optionC": "Zero",
+    "optionD": "Infinity",
+    "correctAnswer": "B",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "L'Hospital's Rule is used to evaluate limits of:",
+    "optionA": "Polynomial functions",
+    "optionB": "Trigonometric functions",
+    "optionC": "Indeterminate forms",
+    "optionD": "Definite integrals",
+    "correctAnswer": "C",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "Indeterminate forms for L'Hospital's Rule include:",
+    "optionA": "0/0 and ∞/∞",
+    "optionB": "1/0 and 0/1",
+    "optionC": "1 + 1 and ∞ - ∞",
+    "optionD": "0 * ∞ and 1^∞",
+    "correctAnswer": "A",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "Algebraic functions include:",
+    "optionA": "sin(x), cos(x), tan(x)",
+    "optionB": "e^x, ln(x), log(x)",
+    "optionC": "Polynomials, rational functions, radical functions",
+    "optionD": "Inverse trigonometric functions",
+    "correctAnswer": "C",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "Transcendental functions include:",
+    "optionA": "x^2, x^3 + 2x, √x",
+    "optionB": "1/x, (x+1)/(x-1), x^(3/2)",
+    "optionC": "sin(x), e^x, ln(x)",
+    "optionD": "ax + b",
+    "correctAnswer": "C",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "The derivative of x^n is:",
+    "optionA": "n*x^(n+1)",
+    "optionB": "n*x^(n-1)",
+    "optionC": "x^(n-1)",
+    "optionD": "x^n",
+    "correctAnswer": "B",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "The derivative of e^x is:",
+    "optionA": "x*e^(x-1)",
+    "optionB": "e^x",
+    "optionC": "e^(x-1)",
+    "optionD": "ln(x)",
+    "correctAnswer": "B",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "The derivative of sin(x) is:",
+    "optionA": "-cos(x)",
+    "optionB": "cos(x)",
+    "optionC": "tan(x)",
+    "optionD": "-sin(x)",
+    "correctAnswer": "B",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "The derivative of cos(x) is:",
+    "optionA": "sin(x)",
+    "optionB": "-sin(x)",
+    "optionC": "tan(x)",
+    "optionD": "sec^2(x)",
+    "correctAnswer": "B",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "Applications of trigonometry include:",
+    "optionA": "Solving algebraic equations",
+    "optionB": "Finding derivatives",
+    "optionC": "Solving triangles and navigation",
+    "optionD": "Calculating integrals",
+    "correctAnswer": "C",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "In a right triangle, sin(θ) is defined as:",
+    "optionA": "Adjacent/Hypotenuse",
+    "optionB": "Opposite/Hypotenuse",
+    "optionC": "Adjacent/Opposite",
+    "optionD": "Hypotenuse/Opposite",
+    "correctAnswer": "B",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "The Law of Sines is used for:",
+    "optionA": "Right triangles only",
+    "optionB": "Oblique triangles",
+    "optionC": "Isosceles triangles only",
+    "optionD": "Equilateral triangles only",
+    "correctAnswer": "B",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "The Law of Cosines is an extension of:",
+    "optionA": "Pythagorean Theorem",
+    "optionB": "Law of Sines",
+    "optionC": "Trigonometric Identities",
+    "optionD": "Unit Circle",
+    "correctAnswer": "A",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "Logarithmic differentiation is useful for differentiating:",
+    "optionA": "Polynomial functions",
+    "optionB": "Simple algebraic functions",
+    "optionC": "Complex functions involving products, quotients, and powers",
+    "optionD": "Linear functions",
+    "correctAnswer": "C",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "The first step in logarithmic differentiation is to take the natural logarithm of:",
+    "optionA": "The derivative",
+    "optionB": "Both sides of the equation",
+    "optionC": "Only the left side",
+    "optionD": "Only the right side",
+    "correctAnswer": "B",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "A function is a relation where each input has:",
+    "optionA": "Multiple outputs",
+    "optionB": "Exactly one output",
+    "optionC": "No output",
+    "optionD": "At least one output",
+    "correctAnswer": "B",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "The domain of a function is the set of:",
+    "optionA": "Output values",
+    "optionB": "Input values",
+    "optionC": "All real numbers",
+    "optionD": "Positive real numbers",
+    "correctAnswer": "B",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "The range of a function is the set of:",
+    "optionA": "Input values",
+    "optionB": "Output values",
+    "optionC": "All real numbers",
+    "optionD": "Positive real numbers",
+    "correctAnswer": "B",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "Continuity of a function at a point means there is no:",
+    "optionA": "Derivative",
+    "optionB": "Limit",
+    "optionC": "Break or jump in the graph",
+    "optionD": "Tangent line",
+    "correctAnswer": "C",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "Which of the following functions is continuous everywhere?",
+    "optionA": "1/x",
+    "optionB": "tan(x)",
+    "optionC": "x^2 + 1",
+    "optionD": "√(x-1)",
+    "correctAnswer": "C",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "The differential 'dy' is an approximation for:",
+    "optionA": "Δx",
+    "optionB": "Δy",
+    "optionC": "f'(x)",
+    "optionD": "f''(x)",
+    "correctAnswer": "B",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "The differential 'dx' is equal to:",
+    "optionA": "Δy",
+    "optionB": "Δx",
+    "optionC": "dy/dx",
+    "optionD": "∫y dx",
+    "correctAnswer": "B",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "Analytic trigonometry deals with:",
+    "optionA": "Solving triangles",
+    "optionB": "Trigonometric functions and identities",
+    "optionC": "Spherical triangles",
+    "optionD": "Calculus of trigonometric functions",
+    "correctAnswer": "B",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "The identity sin^2(x) + cos^2(x) = ?",
+    "optionA": "0",
+    "optionB": "1",
+    "optionC": "2",
+    "optionD": "sin(2x)",
+    "correctAnswer": "B",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "Spherical trigonometry is the study of triangles on a:",
+    "optionA": "Plane",
+    "optionB": "Sphere",
+    "optionC": "Cone",
+    "optionD": "Cylinder",
+    "correctAnswer": "B",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "In spherical trigonometry, sides of triangles are measured in:",
+    "optionA": "Linear units",
+    "optionB": "Degrees or radians",
+    "optionC": "Area units",
+    "optionD": "Volume units",
+    "correctAnswer": "B",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "An equation in one variable contains:",
+    "optionA": "Two variables",
+    "optionB": "One variable",
+    "optionC": "No variables",
+    "optionD": "Multiple variables",
+    "correctAnswer": "B",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "A linear equation in one variable has the form:",
+    "optionA": "ax^2 + bx + c = 0",
+    "optionB": "ax + b = 0",
+    "optionC": "y = mx + c",
+    "optionD": "x^2 + y^2 = r^2",
+    "correctAnswer": "B",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "The Power Rule of differentiation states that d/dx (x^n) = ?",
+    "optionA": "n*x^(n+1)",
+    "optionB": "n*x^(n-1)",
+    "optionC": "x^(n-1)",
+    "optionD": "x^n",
+    "correctAnswer": "B",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "The Product Rule for differentiation is d/dx [u(x)v(x)] = ?",
+    "optionA": "u'(x)v'(x)",
+    "optionB": "u(x)v'(x) - u'(x)v(x)",
+    "optionC": "u(x)v'(x) + u'(x)v(x)",
+    "optionD": "[u(x)v'(x) + u'(x)v(x)] / [v(x)]^2",
+    "correctAnswer": "C",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "The Quotient Rule for differentiation is d/dx [u(x)/v(x)] = ?",
+    "optionA": "u'(x)/v'(x)",
+    "optionB": "[u(x)v'(x) - u'(x)v(x)] / [v(x)]^2",
+    "optionC": "[u(x)v'(x) + u'(x)v(x)] / [v(x)]^2",
+    "optionD": "[u'(x)v(x) - u(x)v'(x)] / [v(x)]^2",
+    "correctAnswer": "D",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "The Chain Rule for differentiation is d/dx [f(g(x))] = ?",
+    "optionA": "f'(g(x))",
+    "optionB": "f'(x)g'(x)",
+    "optionC": "f'(g(x)) * g'(x)",
+    "optionD": "g'(f(x)) * f'(x)",
+    "correctAnswer": "C",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "A definite integral ∫[a, b] f(x) dx results in a:",
+    "optionA": "Function of x",
+    "optionB": "Number",
+    "optionC": "Set of functions",
+    "optionD": "Derivative of f(x)",
+    "correctAnswer": "B",
+    "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
+  },
+  {
+    "content": "The volume of a sphere with radius r is given by:",
+    "optionA": "4πr^2",
+    "optionB": "πr^2h",
+    "optionC": "1/3πr^2h",
+    "optionD": "4/3πr^3",
+    "correctAnswer": "D",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "The area of a triangle with base b and height h is:",
+    "optionA": "bh",
+    "optionB": "b + h",
+    "optionC": "1/2 bh",
+    "optionD": "2bh",
+    "correctAnswer": "C",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "The area of a circle with radius r is:",
+    "optionA": "2πr",
+    "optionB": "πr",
+    "optionC": "πr^2",
+    "optionD": "4πr^2",
+    "correctAnswer": "C",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "The volume of a cylinder with base radius r and height h is:",
+    "optionA": "1/3πr^2h",
+    "optionB": "πr^2h",
+    "optionC": "2πrh",
+    "optionD": "2πr^2h",
+    "correctAnswer": "B",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "The volume of a rectangular prism with length l, width w, and height h is:",
+    "optionA": "2(lw + lh + wh)",
+    "optionB": "lwh",
+    "optionC": "2(l + w + h)",
+    "optionD": "4(l + w + h)",
+    "correctAnswer": "B",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "The equation of a line in slope-intercept form is:",
+    "optionA": "Ax + By = C",
+    "optionB": "y - y1 = m(x - x1)",
+    "optionC": "y = mx + b",
+    "optionD": "x/a + y/b = 1",
+    "correctAnswer": "C",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "The slope of a line passing through points (x1, y1) and (x2, y2) is:",
+    "optionA": "(x2 - x1) / (y2 - y1)",
+    "optionB": "(y2 - y1) * (x2 - x1)",
+    "optionC": "(y2 - y1) / (x2 - x1)",
+    "optionD": "(x1 + x2) / (y1 + y2)",
+    "correctAnswer": "C",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "The volume of a cone with base radius r and height h is:",
+    "optionA": "πr^2h",
+    "optionB": "2πrh",
+    "optionC": "1/3πr^2h",
+    "optionD": "4/3πr^3",
+    "correctAnswer": "C",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "The volume of a pyramid with base area B and height h is:",
+    "optionA": "Bh",
+    "optionB": "2Bh",
+    "optionC": "1/3 Bh",
+    "optionD": "3Bh",
+    "correctAnswer": "C",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "In polar coordinates, x = ?",
+    "optionA": "r sin(θ)",
+    "optionB": "r cos(θ)",
+    "optionC": "r",
+    "optionD": "θ",
+    "correctAnswer": "B",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "In polar coordinates, y = ?",
+    "optionA": "r cos(θ)",
+    "optionB": "r sin(θ)",
+    "optionC": "r",
+    "optionD": "θ",
+    "correctAnswer": "B",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "The conversion from Cartesian to polar coordinates for r is:",
+    "optionA": "r = x + y",
+    "optionB": "r = √(x + y)",
+    "optionC": "r = √(x^2 + y^2)",
+    "optionD": "r = x^2 + y^2",
+    "correctAnswer": "C",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "The conversion from Cartesian to polar coordinates for θ is:",
+    "optionA": "θ = y/x",
+    "optionB": "θ = arctan(x/y)",
+    "optionC": "θ = arctan(y/x)",
+    "optionD": "θ = x/y",
+    "correctAnswer": "C",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "Applications of definite integrals include finding:",
+    "optionA": "Derivatives",
+    "optionB": "Limits",
+    "optionC": "Areas and Volumes",
+    "optionD": "Slopes",
+    "correctAnswer": "C",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "The area between a curve y = f(x) and the x-axis from x = a to x = b is given by:",
+    "optionA": "f(b) - f(a)",
+    "optionB": "F(b) - F(a)",
+    "optionC": "∫[a, b] f(x) dx",
+    "optionD": "f'(x)",
+    "correctAnswer": "C",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "The distance between two points (x1, y1) and (x2, y2) in plane analytic geometry is:",
+    "optionA": "(x2 - x1) + (y2 - y1)",
+    "optionB": "√((x2 - x1) + (y2 - y1))",
+    "optionC": "√((x2 - x1)^2 + (y2 - y1)^2)",
+    "optionD": "(x2 - x1)^2 + (y2 - y1)^2",
+    "correctAnswer": "C",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "The midpoint of a line segment with endpoints (x1, y1) and (x2, y2) is:",
+    "optionA": "((x1 - x2)/2, (y1 - y2)/2)",
+    "optionB": "((x1 + y1)/2, (x2 + y2)/2)",
+    "optionC": "((x1 + x2)/2, (y1 + y2)/2)",
+    "optionD": "((x2 - y2)/2, (x1 - y1)/2)",
+    "correctAnswer": "C",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "A conic section is formed by the intersection of a plane and a:",
+    "optionA": "Sphere",
+    "optionB": "Cylinder",
+    "optionC": "Cone",
+    "optionD": "Cube",
+    "correctAnswer": "C",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "Which of the following is NOT a conic section?",
+    "optionA": "Circle",
+    "optionB": "Ellipse",
+    "optionC": "Parabola",
+    "optionD": "Cube",
+    "correctAnswer": "D",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "The standard form of a circle's equation is:",
+    "optionA": "y = mx + b",
+    "optionB": "(x-h)^2 + (y-k)^2 = r^2",
+    "optionC": "Ax + By = C",
+    "optionD": "x^2/a^2 + y^2/b^2 = 1",
+    "correctAnswer": "B",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "The standard form of an ellipse centered at the origin is:",
+    "optionA": "(x-h)^2 + (y-k)^2 = r^2",
+    "optionB": "y = ax^2 + bx + c",
+    "optionC": "x^2/a^2 + y^2/b^2 = 1",
+    "optionD": "y^2 = 4px",
+    "correctAnswer": "C",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "The standard form of a parabola opening along the y-axis is:",
+    "optionA": "x^2/a^2 + y^2/b^2 = 1",
+    "optionB": "(x-h)^2 + (y-k)^2 = r^2",
+    "optionC": "y = ax^2 + bx + c",
+    "optionD": "x^2 = 4py",
+    "correctAnswer": "C",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "The standard form of a hyperbola centered at the origin opening along the x-axis is:",
+    "optionA": "x^2/a^2 + y^2/b^2 = 1",
+    "optionB": "x^2/a^2 - y^2/b^2 = 1",
+    "optionC": "y^2/b^2 - x^2/a^2 = 1",
+    "optionD": "y = ax^2 + bx + c",
+    "correctAnswer": "B",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "The eccentricity of a circle is:",
+    "optionA": "e = 1",
+    "optionB": "e > 1",
+    "optionC": "e = 0",
+    "optionD": "0 < e < 1",
+    "correctAnswer": "C",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "The eccentricity of an ellipse is:",
+    "optionA": "e = 1",
+    "optionB": "e > 1",
+    "optionC": "e = 0",
+    "optionD": "0 < e < 1",
+    "correctAnswer": "D",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "The eccentricity of a parabola is:",
+    "optionA": "e = 0",
+    "optionB": "0 < e < 1",
+    "optionC": "e = 1",
+    "optionD": "e > 1",
+    "correctAnswer": "C",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "The eccentricity of a hyperbola is:",
+    "optionA": "e = 0",
+    "optionB": "0 < e < 1",
+    "optionC": "e = 1",
+    "optionD": "e > 1",
+    "correctAnswer": "D",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "The volume of a cube with side length s is:",
+    "optionA": "6s^2",
+    "optionB": "4s^2",
+    "optionC": "s^3",
+    "optionD": "s^2",
+    "correctAnswer": "C",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "The surface area of a cube with side length s is:",
+    "optionA": "s^3",
+    "optionB": "6s^2",
+    "optionC": "4πr^2",
+    "optionD": "πr^2",
+    "correctAnswer": "B",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "The area of a square with side length s is:",
+    "optionA": "4s",
+    "optionB": "s^3",
+    "optionC": "s^2",
+    "optionD": "2s",
+    "correctAnswer": "C",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "The perimeter of a square with side length s is:",
+    "optionA": "s^2",
+    "optionB": "4s",
+    "optionC": "s^3",
+    "optionD": "2s",
+    "correctAnswer": "B",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "The area of a rectangle with length l and width w is:",
+    "optionA": "2(l + w)",
+    "optionB": "l + w",
+    "optionC": "lw",
+    "optionD": "2lw",
+    "correctAnswer": "C",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "The circumference of a circle with radius r is:",
+    "optionA": "πr^2",
+    "optionB": "4πr^2",
+    "optionC": "2πr",
+    "optionD": "πr",
+    "correctAnswer": "C",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "What is the volume of a solid with base area of 20 sq cm and height of 5 cm, if Volume = Base Area * Height?",
+    "optionA": "10 cubic cm",
+    "optionB": "25 cubic cm",
+    "optionC": "100 cubic cm",
+    "optionD": "30 cubic cm",
+    "correctAnswer": "C",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "What is the volume of a solid with base area of 30 sq cm and height of 10 cm, if Volume = 1/3 * Base Area * Height?",
+    "optionA": "300 cubic cm",
+    "optionB": "100 cubic cm",
+    "optionC": "90 cubic cm",
+    "optionD": "150 cubic cm",
+    "correctAnswer": "B",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "The equation r = a (where a is constant) in polar coordinates represents a:",
+    "optionA": "Line",
+    "optionB": "Circle",
+    "optionC": "Spiral",
+    "optionD": "Parabola",
+    "correctAnswer": "B",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "The equation θ = a (where a is constant) in polar coordinates represents a:",
+    "optionA": "Circle",
+    "optionB": "Line",
+    "optionC": "Spiral",
+    "optionD": "Point",
+    "correctAnswer": "B",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "The graph of x^2 + y^2 = 9 is a:",
+    "optionA": "Line",
+    "optionB": "Circle",
+    "optionC": "Parabola",
+    "optionD": "Ellipse",
+    "correctAnswer": "B",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "The graph of y = x^2 is a:",
+    "optionA": "Circle",
+    "optionB": "Ellipse",
+    "optionC": "Parabola",
+    "optionD": "Hyperbola",
+    "correctAnswer": "C",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "The graph of x^2/4 + y^2/9 = 1 is a:",
+    "optionA": "Circle",
+    "optionB": "Ellipse",
+    "optionC": "Parabola",
+    "optionD": "Hyperbola",
+    "correctAnswer": "B",
+    "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
+  },
+  {
+    "content": "In a right triangle, the sine of an angle is defined as the ratio of the length of the:",
+    "optionA": "Adjacent side to the hypotenuse",
+    "optionB": "Opposite side to the hypotenuse",
+    "optionC": "Adjacent side to the opposite side",
+    "optionD": "Hypotenuse to the opposite side",
+    "correctAnswer": "B",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "The cosine of an angle in a right triangle is defined as the ratio of the length of the:",
+    "optionA": "Opposite side to the hypotenuse",
+    "optionB": "Adjacent side to the hypotenuse",
+    "optionC": "Opposite side to the adjacent side",
+    "optionD": "Hypotenuse to the adjacent side",
+    "correctAnswer": "B",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "The tangent of an angle in a right triangle is defined as the ratio of the length of the:",
+    "optionA": "Hypotenuse to the opposite side",
+    "optionB": "Adjacent side to the hypotenuse",
+    "optionC": "Opposite side to the adjacent side",
+    "optionD": "Adjacent side to the opposite side",
+    "correctAnswer": "C",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "The cosecant function (csc θ) is the reciprocal of which trigonometric function?",
+    "optionA": "cos θ",
+    "optionB": "sin θ",
+    "optionC": "tan θ",
+    "optionD": "sec θ",
+    "correctAnswer": "B",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "The secant function (sec θ) is the reciprocal of which trigonometric function?",
+    "optionA": "sin θ",
+    "optionB": "cos θ",
+    "optionC": "tan θ",
+    "optionD": "cot θ",
+    "correctAnswer": "B",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "The cotangent function (cot θ) is the reciprocal of which trigonometric function?",
+    "optionA": "sin θ",
+    "optionB": "cos θ",
+    "optionC": "tan θ",
+    "optionD": "sec θ",
+    "correctAnswer": "C",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "What is the value of sin(π/2)?",
+    "optionA": "0",
+    "optionB": "1",
+    "optionC": "-1",
+    "optionD": "Undefined",
+    "correctAnswer": "B",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "What is the value of cos(π)?",
+    "optionA": "0",
+    "optionB": "1",
+    "optionC": "-1",
+    "optionD": "Undefined",
+    "correctAnswer": "C",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "What is the value of tan(π/4)?",
+    "optionA": "0",
+    "optionB": "1",
+    "optionC": "-1",
+    "optionD": "Undefined",
+    "correctAnswer": "B",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "The domain of the sine function is:",
+    "optionA": "[-1, 1]",
+    "optionB": "(0, ∞)",
+    "optionC": "(-∞, ∞)",
+    "optionD": "[0, 2π]",
+    "correctAnswer": "C",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "The range of the cosine function is:",
+    "optionA": "(-∞, ∞)",
+    "optionB": "(0, ∞)",
+    "optionC": "[-1, 1]",
+    "optionD": "[0, 2π]",
+    "correctAnswer": "C",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "The period of the tangent function is:",
+    "optionA": "2π",
+    "optionB": "π",
+    "optionC": "π/2",
+    "optionD": "4π",
+    "correctAnswer": "B",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "The inverse sine function is denoted as:",
+    "optionA": "cos⁻¹(x)",
+    "optionB": "tan⁻¹(x)",
+    "optionC": "sin⁻¹(x) or arcsin(x)",
+    "optionD": "sec⁻¹(x)",
+    "correctAnswer": "C",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "The domain of the inverse cosine function (arccos(x)) is:",
+    "optionA": "(-∞, ∞)",
+    "optionB": "(-1, 1)",
+    "optionC": "[-1, 1]",
+    "optionD": "[0, π]",
+    "correctAnswer": "C",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "The range of the inverse tangent function (arctan(x)) is:",
+    "optionA": "[0, π]",
+    "optionB": "[-π/2, π/2]",
+    "optionC": "(0, π)",
+    "optionD": "(-π/2, π/2)",
+    "correctAnswer": "D",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "What is the value of arcsin(1)?",
+    "optionA": "0",
+    "optionB": "π/4",
+    "optionC": "π/2",
+    "optionD": "π",
+    "correctAnswer": "C",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "What is the value of arccos(0)?",
+    "optionA": "0",
+    "optionB": "π/4",
+    "optionC": "π/2",
+    "optionD": "π",
+    "correctAnswer": "C",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "What is the value of arctan(1)?",
+    "optionA": "0",
+    "optionB": "π/4",
+    "optionC": "π/2",
+    "optionD": "π",
+    "correctAnswer": "B",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "The Law of Sines states that in any triangle ABC:",
+    "optionA": "a² = b² + c² - 2bc cos(A)",
+    "optionB": "sin(A)/a = sin(B)/b = sin(C)/c",
+    "optionC": "a = b cos(C) + c cos(B)",
+    "optionD": "A + B + C = 180°",
+    "correctAnswer": "B",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "The Law of Cosines is used to find:",
+    "optionA": "Angles in right triangles",
+    "optionB": "Sides and angles in any triangle",
+    "optionC": "Area of triangles",
+    "optionD": "Perimeter of triangles",
+    "correctAnswer": "B",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "In triangle ABC, if a, b, c are sides and A, B, C are opposite angles, the Law of Cosines states:",
+    "optionA": "sin(A)/a = sin(B)/b",
+    "optionB": "A + B + C = 180°",
+    "optionC": "a² = b² + c² - 2bc cos(A)",
+    "optionD": "Area = 1/2 * base * height",
+    "correctAnswer": "C",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "Analytic trigonometry primarily deals with:",
+    "optionA": "Solving triangles",
+    "optionB": "Graphs and identities of trigonometric functions",
+    "optionC": "Applications of trigonometry in navigation",
+    "optionD": "Trigonometry in three dimensions",
+    "correctAnswer": "B",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "Which of the following is a Pythagorean identity?",
+    "optionA": "sin(2x) = 2sin(x)cos(x)",
+    "optionB": "cos(x+y) = cos(x)cos(y) - sin(x)sin(y)",
+    "optionC": "sin²(x) + cos²(x) = 1",
+    "optionD": "tan(x) = sin(x)/cos(x)",
+    "correctAnswer": "C",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "The identity tan²(x) + 1 = ?",
+    "optionA": "sin²(x)",
+    "optionB": "cos²(x)",
+    "optionC": "sec²(x)",
+    "optionD": "csc²(x)",
+    "correctAnswer": "C",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "The identity cot²(x) + 1 = ?",
+    "optionA": "sec²(x)",
+    "optionB": "tan²(x)",
+    "optionC": "sin²(x)",
+    "optionD": "csc²(x)",
+    "correctAnswer": "D",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "Spherical trigonometry is the study of triangles on the surface of a:",
+    "optionA": "Plane",
+    "optionB": "Sphere",
+    "optionC": "Cone",
+    "optionD": "Cylinder",
+    "correctAnswer": "B",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "In spherical trigonometry, the sides of a triangle are arcs of:",
+    "optionA": "Straight lines",
+    "optionB": "Great circles",
+    "optionC": "Small circles",
+    "optionD": "Ellipses",
+    "correctAnswer": "B",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "In spherical trigonometry, angles are measured in:",
+    "optionA": "Linear units",
+    "optionB": "Degrees or radians",
+    "optionC": "Area units",
+    "optionD": "Volume units",
+    "correctAnswer": "B",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "Unlike plane triangles, the sum of angles in a spherical triangle is:",
+    "optionA": "Always less than 180°",
+    "optionB": "Always equal to 180°",
+    "optionC": "Always greater than 180°",
+    "optionD": "Exactly 360°",
+    "correctAnswer": "C",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "Which function is even?",
+    "optionA": "sin(x)",
+    "optionB": "tan(x)",
+    "optionC": "cos(x)",
+    "optionD": "csc(x)",
+    "correctAnswer": "C",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "Which function is odd?",
+    "optionA": "cos(x)",
+    "optionB": "sec(x)",
+    "optionC": "sin(x)",
+    "optionD": "cos²(x)",
+    "correctAnswer": "C",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "The double angle formula for sin(2x) is:",
+    "optionA": "cos²(x) - sin²(x)",
+    "optionB": "2cos²(x) - 1",
+    "optionC": "2sin(x)cos(x)",
+    "optionD": "1 - 2sin²(x)",
+    "correctAnswer": "C",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "The double angle formula for cos(2x) can be expressed as:",
+    "optionA": "2sin(x)cos(x)",
+    "optionB": "2tan(x)/(1-tan²(x))",
+    "optionC": "cos²(x) - sin²(x)",
+    "optionD": "2sin²(x) - 1",
+    "correctAnswer": "C",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "The half-angle formula for sin(x/2) involves a:",
+    "optionA": "√(1 + cos(x))/2",
+    "optionB": "√(1 - cos(x))/2",
+    "optionC": "√(1 + sin(x))/2",
+    "optionD": "√(1 - sin(x))/2",
+    "correctAnswer": "B",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "The half-angle formula for cos(x/2) involves a:",
+    "optionA": "√(1 - cos(x))/2",
+    "optionB": "√(1 + cos(x))/2",
+    "optionC": "√(1 - sin(x))/2",
+    "optionD": "√(1 + sin(x))/2",
+    "correctAnswer": "B",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "The sum-to-product formula for sin(x) + sin(y) is:",
+    "optionA": "2sin((x+y)/2)cos((x-y)/2)",
+    "optionB": "2cos((x+y)/2)sin((x-y)/2)",
+    "optionC": "2cos((x+y)/2)cos((x-y)/2)",
+    "optionD": "-2sin((x+y)/2)sin((x-y)/2)",
+    "correctAnswer": "A",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "The product-to-sum formula for sin(x)cos(y) is:",
+    "optionA": "1/2[sin(x+y) + sin(x-y)]",
+    "optionB": "1/2[sin(x+y) - sin(x-y)]",
+    "optionC": "1/2[cos(x+y) + cos(x-y)]",
+    "optionD": "1/2[cos(x+y) - cos(x-y)]",
+    "correctAnswer": "A",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "What is the general solution for sin(x) = 1/2?",
+    "optionA": "x = π/6 + 2nπ",
+    "optionB": "x = π/6 + 2nπ or 5π/6 + 2nπ",
+    "optionC": "x = π/3 + 2nπ",
+    "optionD": "x = π/3 + nπ",
+    "correctAnswer": "B",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "What is the general solution for cos(x) = 0?",
+    "optionA": "x = nπ",
+    "optionB": "x = π/2 + nπ",
+    "optionC": "x = π/4 + nπ",
+    "optionD": "x = 2nπ",
+    "correctAnswer": "B",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  },
+  {
+    "content": "What is the general solution for tan(x) = 1?",
+    "optionA": "x = nπ",
+    "optionB": "x = π/4 + nπ",
+    "optionC": "x = π/2 + nπ",
+    "optionD": "x = π + nπ",
+    "correctAnswer": "B",
+    "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
+  }
+]

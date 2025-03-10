@@ -1,0 +1,2747 @@
+[
+  {
+    "quizId": "bea35f26-68fc-4993-bc9c-d4d3a3de12f7",
+    "content": "Which of the following is NOT a valid way to represent a matrix?",
+    "optionA": "Using square brackets [ ]",
+    "optionB": "Using parentheses ( )",
+    "optionC": "Using curly braces { }",
+    "optionD": "Using double vertical bars || ||",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "bbfb8ea4-4c34-4c58-835b-3616c92aaed0",
+    "content": "Which type of function is represented by the equation f(x) = 3x^2 + 2x - 1?",
+    "optionA": "Linear function",
+    "optionB": "Rational function",
+    "optionC": "Quadratic function",
+    "optionD": "Polynomial function",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "c97b1fd2-0dcb-48e8-882d-146e86342422",
+    "content": "The volume of a solid of revolution about the y-axis using the cylindrical shells method involves integrating with respect to:",
+    "optionA": "y",
+    "optionB": "x",
+    "optionC": "both x and y",
+    "optionD": "neither x nor y",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "08920a5b-d519-4e6a-b76a-bce306f25a6d",
+    "content": "For a function of two variables, f(x, y), the limit as (x, y) approaches (a, b) must be the same along:",
+    "optionA": "only straight lines",
+    "optionB": "only curves",
+    "optionC": "all paths approaching (a, b)",
+    "optionD": "only paths parallel to the axes",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "5702e9d7-001d-43b2-9533-fa44b8e19053",
+    "content": "Applications of volume under a surface typically involve:",
+    "optionA": "single integrals",
+    "optionB": "double integrals",
+    "optionC": "triple integrals",
+    "optionD": "line integrals",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "a8ba6617-30da-4e04-a697-ab61c90c194d",
+    "content": "The gradient vector of a function points in the direction of:",
+    "optionA": "the minimum rate of change",
+    "optionB": "the maximum rate of change",
+    "optionC": "zero rate of change",
+    "optionD": "constant rate of change",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "3c929d9f-316b-4f09-b3c7-5f43eaa2a4b3",
+    "content": "If a function is differentiable at a point, it is necessarily:",
+    "optionA": "discontinuous at that point",
+    "optionB": "continuous at that point",
+    "optionC": "undefined at that point",
+    "optionD": "oscillating at that point",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "1b3bcb04-f685-404c-89a5-8b2b3a292ac7",
+    "content": "Matrix addition and subtraction are defined only for matrices of:",
+    "optionA": "different dimensions",
+    "optionB": "the same number of rows",
+    "optionC": "the same number of columns",
+    "optionD": "the same dimensions",
+    "correctAnswer": "D"
+  },
+  {
+    "quizId": "4fa1ff5b-1aa9-436e-bc19-01b4c25f89f7",
+    "content": "The Integral Test for convergence can be applied to series with terms that are:",
+    "optionA": "alternating",
+    "optionB": "negative",
+    "optionC": "positive and decreasing",
+    "optionD": "any real numbers",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "9df04227-1557-420c-baeb-278cd1454eb0",
+    "content": "To find the derivative of a rational function, which rule is primarily used?",
+    "optionA": "Product Rule",
+    "optionB": "Chain Rule",
+    "optionC": "Quotient Rule",
+    "optionD": "Power Rule",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "3b6707fb-5168-42e1-a92f-905ae33e572e",
+    "content": "When using integration formulas and substitution together, the substitution step typically aims to:",
+    "optionA": "increase the complexity of the integral",
+    "optionB": "simplify the integral into a standard form",
+    "optionC": "eliminate the integration constant",
+    "optionD": "change the limits of integration",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "e85f1f66-e887-4101-aadd-a749ab3997b9",
+    "content": "For a solid with uniform cross-section, the volume is given by:",
+    "optionA": "the area of the base times the height",
+    "optionB": "1/3 times the area of the base times the height",
+    "optionC": "2/3 times the area of the base times the height",
+    "optionD": "the perimeter of the base times the height",
+    "correctAnswer": "A"
+  },
+  {
+    "quizId": "d419fdc6-6772-4e05-b6a3-744747620fea",
+    "content": "To simplify complex rational expressions, a common first step is to:",
+    "optionA": "multiply numerators and denominators",
+    "optionB": "find a common denominator for all fractions",
+    "optionC": "factor the numerator only",
+    "optionD": "factor the denominator only",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "26917429-ffca-4ff5-af6f-0e9d587e5ee0",
+    "content": "The Law of Cosines is a generalization of the Pythagorean theorem for:",
+    "optionA": "right triangles only",
+    "optionB": "acute triangles only",
+    "optionC": "obtuse triangles only",
+    "optionD": "all triangles",
+    "correctAnswer": "D"
+  },
+  {
+    "quizId": "9f6e2ee1-61ca-4efb-a890-9bdc8c0846f4",
+    "content": "When adding complex numbers, you add the:",
+    "optionA": "real parts only",
+    "optionB": "imaginary parts only",
+    "optionC": "real and imaginary parts separately",
+    "optionD": "magnitudes and arguments",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "ca2c07ed-1842-488d-9ef6-1b06f69d227b",
+    "content": "In navigation and surveying, trigonometry is used to calculate:",
+    "optionA": "areas only",
+    "optionB": "distances and angles",
+    "optionC": "volumes only",
+    "optionD": "rates of change",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "30820882-929c-449e-9300-e70d978e3e34",
+    "content": "The notation f'(x) represents the derivative of f(x) and is read as:",
+    "optionA": "f prime of x",
+    "optionB": "f double prime of x",
+    "optionC": "f inverse of x",
+    "optionD": "f of x to the power of prime",
+    "correctAnswer": "A"
+  },
+  {
+    "quizId": "2c7c908c-a4e7-4e8b-802c-a83c942a853d",
+    "content": "In the Cartesian coordinate system, the x-axis and y-axis are:",
+    "optionA": "parallel",
+    "optionB": "perpendicular",
+    "optionC": "skew",
+    "optionD": "coincident",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "88602b63-8cc8-46ff-9889-fc665e2fe105",
+    "content": "Functions of three or more variables are visualized in:",
+    "optionA": "two dimensions",
+    "optionB": "three dimensions",
+    "optionC": "four or more dimensions",
+    "optionD": "cannot be visualized",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "71492fd1-3467-48f3-b790-904a202a43ad",
+    "content": "Which trigonometric identity is used to express sin(2x) in terms of sin(x) and cos(x)?",
+    "optionA": "Pythagorean Identity",
+    "optionB": "Double-Angle Formula",
+    "optionC": "Half-Angle Formula",
+    "optionD": "Sum and Difference Formula",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "ff365314-4d30-4b3a-8892-3c02353ea45d",
+    "content": "To evaluate algebraic expressions, you replace variables with:",
+    "optionA": "operators",
+    "optionB": "constants",
+    "optionC": "numbers",
+    "optionD": "other variables",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "2687cbb4-0a1e-45ea-84df-cb402404b8fa",
+    "content": "The absolute value of a number is its:",
+    "optionA": "sign",
+    "optionB": "distance from zero",
+    "optionC": "reciprocal",
+    "optionD": "square root",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "0494bcd5-7543-441e-ae91-1a1704803ab5",
+    "content": "Graphing linear equations to solve applications often involves finding the:",
+    "optionA": "slope",
+    "optionB": "y-intercept",
+    "optionC": "intersection point",
+    "optionD": "area under the line",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "df753f02-0e0d-4391-b684-b1a978cb4549",
+    "content": "Applications of implicit differentiation are useful when:",
+    "optionA": "functions are explicitly defined",
+    "optionB": "functions are implicitly defined",
+    "optionC": "functions are linear",
+    "optionD": "functions are polynomial",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "20987361-b212-43b5-a442-167e1948a370",
+    "content": "Applications of partial differentiation include finding:",
+    "optionA": "ordinary derivatives",
+    "optionB": "rates of change in multiple directions",
+    "optionC": "total derivatives",
+    "optionD": "integrals",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "b4636251-5b97-4990-a3a7-3db7a4c2a51e",
+    "content": "For a function to be continuous at a point 'c', which condition must be true?",
+    "optionA": "The limit as x approaches c does not exist",
+    "optionB": "f(c) is undefined",
+    "optionC": "The limit as x approaches c equals f(c)",
+    "optionD": "f(c) equals zero",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "29feb639-94d7-42ca-bc3e-811097700ee9",
+    "content": "Center of mass and centroids are used to find the:",
+    "optionA": "area of a region",
+    "optionB": "volume of a solid",
+    "optionC": "balance point of a region or solid",
+    "optionD": "surface area of a solid",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "cb022fe3-f64d-4d6d-b3ef-bfd94d9b4cc0",
+    "content": "Volume by slicing, disk, and washer methods are used for solids with:",
+    "optionA": "uniform cross-sections",
+    "optionB": "non-uniform cross-sections",
+    "optionC": "circular cross-sections perpendicular to an axis",
+    "optionD": "square cross-sections",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "4199c598-c8bb-40f6-b750-5d1075abafda",
+    "content": "Solving spherical triangles involves using trigonometric laws on the surface of a:",
+    "optionA": "plane",
+    "optionB": "sphere",
+    "optionC": "cone",
+    "optionD": "cylinder",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "799eea53-53ad-45a2-a1f7-6abb1fc4f402",
+    "content": "When solving radical equations, it's crucial to check for:",
+    "optionA": "extraneous solutions",
+    "optionB": "complex solutions",
+    "optionC": "negative solutions",
+    "optionD": "fractional solutions",
+    "correctAnswer": "A"
+  },
+  {
+    "quizId": "a526f50f-ec6e-4a08-8ff7-086e4316a234",
+    "content": "The standard form of a line equation is often represented as:",
+    "optionA": "y = mx + b",
+    "optionB": "Ax + By = C",
+    "optionC": "y - y1 = m(x - x1)",
+    "optionD": "x/a + y/b = 1",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "66182cc1-4cbb-4ed6-9633-293837f536af",
+    "content": "The inverse tangent function, arctan(x) or tan⁻¹(x), has a range of:",
+    "optionA": "[0, π]",
+    "optionB": "(-π/2, π/2)",
+    "optionC": "[−π/2, π/2]",
+    "optionD": "(0, π)",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "a1ba9517-c53f-4c4c-b39e-c07ff1e00e8f",
+    "content": "Using polar coordinates for volume calculation is particularly useful for solids with:",
+    "optionA": "rectangular symmetry",
+    "optionB": "cylindrical symmetry",
+    "optionC": "spherical symmetry",
+    "optionD": "rotational symmetry around the origin",
+    "correctAnswer": "D"
+  },
+  {
+    "quizId": "d3728dee-8801-4296-849e-756e3e155ae6",
+    "content": "Partial derivatives measure the rate of change of a function with respect to:",
+    "optionA": "all variables simultaneously",
+    "optionB": "one variable, holding others constant",
+    "optionC": "time",
+    "optionD": "the gradient vector",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "b7af3845-d363-458d-b270-938c8a4f0478",
+    "content": "The volume of a pyramid is given by:",
+    "optionA": "Base Area * Height",
+    "optionB": "(1/3) * Base Area * Height",
+    "optionC": "(2/3) * Base Area * Height",
+    "optionD": "π * r^2 * Height",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "4f6ad3d2-8b04-4f19-bbe8-807c20e45942",
+    "content": "The derivative of sin(x) with respect to x is:",
+    "optionA": "−sin(x)",
+    "optionB": "cos(x)",
+    "optionC": "tan(x)",
+    "optionD": "sec^2(x)",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "0942bb3e-f302-48a5-b053-567090fa72cb",
+    "content": "The First Derivative Test is used to find:",
+    "optionA": "concavity",
+    "optionB": "inflection points",
+    "optionC": "local extrema",
+    "optionD": "absolute extrema",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "1b8e78d4-fe45-4947-809a-8332c2a18d29",
+    "content": "To solve rational inequalities, you first find the:",
+    "optionA": "y-intercepts",
+    "optionB": "x-intercepts and vertical asymptotes",
+    "optionC": "horizontal asymptotes",
+    "optionD": "oblique asymptotes",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "31ac5807-54fb-4fdd-b68d-957b76bd420a",
+    "content": "In a telescoping series, most terms cancel out, leaving only a:",
+    "optionA": "finite number of terms for the partial sum",
+    "optionB": "infinite number of terms for the partial sum",
+    "optionC": "constant partial sum",
+    "optionD": "zero partial sum",
+    "correctAnswer": "A"
+  },
+  {
+    "quizId": "b5c3277a-d1fc-474c-aa9a-7d7b942ecb28",
+    "content": "A sequence is an ordered list of numbers, while a series is the:",
+    "optionA": "product of the numbers in a sequence",
+    "optionB": "sum of the numbers in a sequence",
+    "optionC": "ratio of consecutive numbers in a sequence",
+    "optionD": "difference between consecutive numbers in a sequence",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "47e5137a-1660-4937-b88c-abc90c012b9f",
+    "content": "The Limit Comparison Test is used to determine the convergence of a series by comparing it to:",
+    "optionA": "a geometric series",
+    "optionB": "a p-series",
+    "optionC": "another series with known convergence",
+    "optionD": "an alternating series",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "abc34d60-8f5c-48fb-941b-91425eeb627d",
+    "content": "Hyperboloids and cones are examples of:",
+    "optionA": "plane figures",
+    "optionB": "quadric surfaces",
+    "optionC": "polygons",
+    "optionD": "curves in a plane",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "15d29c82-be1b-44b7-b71b-3b3bd31a6b89",
+    "content": "Representing functions as power series allows for:",
+    "optionA": "simplifying derivatives only",
+    "optionB": "simplifying integrals only",
+    "optionC": "approximating functions and performing calculus operations",
+    "optionD": "solving algebraic equations",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "0cc1525b-1b58-4d00-aa46-18cafe33b115",
+    "content": "The maximum rate of change of a function at a point is given by the magnitude of the:",
+    "optionA": "directional derivative",
+    "optionB": "partial derivative",
+    "optionC": "gradient vector",
+    "optionD": "second derivative",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "8cea4fca-29cc-4bd8-b021-c1f584c5e282",
+    "content": "A polygon is a closed plane figure bounded by:",
+    "optionA": "curves",
+    "optionB": "straight line segments",
+    "optionC": "circles",
+    "optionD": "ellipses",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "60ebc6fa-e265-4514-a301-b2621ba3a957",
+    "content": "L'Hospital's Rule is used to evaluate limits of:",
+    "optionA": "determinate forms",
+    "optionB": "indeterminate forms",
+    "optionC": "polynomial functions",
+    "optionD": "continuous functions",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "4129b0aa-8cc4-4d16-b69e-f0e945c144b8",
+    "content": "Applications of spherical trigonometry are primarily found in:",
+    "optionA": "plane geometry",
+    "optionB": "navigation and astronomy",
+    "optionC": "calculus",
+    "optionD": "linear algebra",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "aea85c9b-ebcf-4486-9e36-1e4fc169c158",
+    "content": "Functions of several variables have:",
+    "optionA": "one independent variable",
+    "optionB": "more than one independent variable",
+    "optionC": "no independent variables",
+    "optionD": "only dependent variables",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "de33e03d-74ab-4eac-b802-51e955b519c2",
+    "content": "Verifying trigonometric identities involves using:",
+    "optionA": "algebraic manipulations and known trigonometric identities",
+    "optionB": "calculus techniques",
+    "optionC": "graphing calculators only",
+    "optionD": "numerical approximations",
+    "correctAnswer": "A"
+  },
+  {
+    "quizId": "9222feb3-182f-4763-9949-6e886fdc4158",
+    "content": "Complex numbers extend the real number system by including:",
+    "optionA": "negative numbers",
+    "optionB": "fractions",
+    "optionC": "imaginary unit 'i'",
+    "optionD": "irrational numbers",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "4f1f74f0-7159-4927-97fb-30e0eef2e26d",
+    "content": "Trigonometric substitution is a technique used to simplify integrals involving:",
+    "optionA": "polynomials",
+    "optionB": "rational functions",
+    "optionC": "radicals of quadratic expressions",
+    "optionD": "exponential functions",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "083f02a5-82b1-41f7-ab37-b882367bb871",
+    "content": "In direct variation, as one quantity increases, the other quantity:",
+    "optionA": "decreases",
+    "optionB": "increases proportionally",
+    "optionC": "remains constant",
+    "optionD": "increases exponentially",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "29f3ab88-ee2d-4b2f-b4c3-62a0615fb911",
+    "content": "Applications of power series include:",
+    "optionA": "solving linear equations",
+    "optionB": "approximating functions and solving differential equations",
+    "optionC": "finding areas of polygons",
+    "optionD": "calculating volumes of solids with uniform cross-section",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "38ab75a3-fc21-4c70-a5e3-da84bc1339fc",
+    "content": "The derivative of a function represents its:",
+    "optionA": "average value",
+    "optionB": "rate of change",
+    "optionC": "integral",
+    "optionD": "limit",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "5e7a32e6-f4ad-4f58-b21d-bd0c16d2e18a",
+    "content": "The Pythagorean Identity in trigonometry is:",
+    "optionA": "sin^2(x) - cos^2(x) = 1",
+    "optionB": "sin^2(x) + cos^2(x) = 1",
+    "optionC": "tan^2(x) + cot^2(x) = 1",
+    "optionD": "sec^2(x) - csc^2(x) = 1",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "8da5e0ce-ec05-406c-86d2-865cd2f3c18f",
+    "content": "The Fundamental Theorem of Calculus Part 2 provides a method for:",
+    "optionA": "finding derivatives",
+    "optionB": "evaluating definite integrals",
+    "optionC": "finding indefinite integrals",
+    "optionD": "solving differential equations",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "047363dd-e38e-4c92-bf02-808d00152dff",
+    "content": "First-order partial derivatives of f(x, y) are denoted as:",
+    "optionA": "f''(x) and f''(y)",
+    "optionB": "∂f/∂x and ∂f/∂y",
+    "optionC": "d^2f/dx^2 and d^2f/dy^2",
+    "optionD": "∫f(x,y)dx and ∫f(x,y)dy",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "de59f574-a98e-4907-a27c-fbc2d9597c1f",
+    "content": "The slope of a line represents its:",
+    "optionA": "y-intercept",
+    "optionB": "x-intercept",
+    "optionC": "steepness or inclination",
+    "optionD": "area under the line",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "5195e304-1751-4969-894c-b337c6032e2f",
+    "content": "The Root Test for convergence is particularly useful for series where terms involve:",
+    "optionA": "factorials",
+    "optionB": "powers",
+    "optionC": "alternating signs",
+    "optionD": "logarithms",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "3c9160ae-e4ed-4c73-acba-c302f013f808",
+    "content": "If a function is differentiable at a point, then it is:",
+    "optionA": "not necessarily continuous",
+    "optionB": "continuous at that point",
+    "optionC": "discontinuous at that point",
+    "optionD": "undefined at that point",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "ea7eb490-c7c6-4e33-97b2-3c30858ecc28",
+    "content": "Factoring algebraic expressions involves rewriting them as:",
+    "optionA": "a sum of terms",
+    "optionB": "a product of factors",
+    "optionC": "a quotient of terms",
+    "optionD": "a difference of terms",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "75026a77-fcbd-4d8a-a6c2-bf307cb44755",
+    "content": "The integral of 1/x dx is:",
+    "optionA": "x^-2 / -2 + C",
+    "optionB": "ln|x| + C",
+    "optionC": "e^x + C",
+    "optionD": "x + C",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "f67cbf89-ef0a-4d2b-9474-cf50e1c76a97",
+    "content": "Points of non-differentiability for a function can occur at:",
+    "optionA": "points of continuity",
+    "optionB": "sharp corners or cusps",
+    "optionC": "smooth curves",
+    "optionD": "horizontal tangents",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "23db8086-c35e-4e72-8363-663a019f8c83",
+    "content": "A sequence converges if its terms get closer to a:",
+    "optionA": "variable value",
+    "optionB": "specific number",
+    "optionC": "infinity",
+    "optionD": "negative infinity",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "a346c71d-1722-4da3-ac83-d1c597957bd7",
+    "content": "A function is a relation where each input has:",
+    "optionA": "multiple outputs",
+    "optionB": "exactly one output",
+    "optionC": "no output",
+    "optionD": "at least one output",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "fa62163e-d25d-4f94-a258-974aa1c08eb6",
+    "content": "The radius of convergence of a power series determines:",
+    "optionA": "the sum of the series",
+    "optionB": "the interval for which the series converges",
+    "optionC": "the rate of convergence",
+    "optionD": "the center of the series",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "686c4aba-2c5e-4e97-9fb8-0afcda5b0ead",
+    "content": "Critical points of a function are where the derivative is:",
+    "optionA": "positive",
+    "optionB": "negative",
+    "optionC": "zero or undefined",
+    "optionD": "equal to 1",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "6329267d-dda3-4a11-91ae-119de160be78",
+    "content": "Logarithmic differentiation is advantageous when differentiating:",
+    "optionA": "polynomial functions",
+    "optionB": "simple power functions",
+    "optionC": "functions with variable exponents or complex products/quotients",
+    "optionD": "linear functions",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "a1ab4e6c-9ec6-46de-bc2b-e6ad8622d2cb",
+    "content": "Applications of matrices include:",
+    "optionA": "solving single variable equations",
+    "optionB": "solving systems of linear equations",
+    "optionC": "graphing parabolas",
+    "optionD": "finding derivatives",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "723868d7-468e-4506-828d-8fb442484ce7",
+    "content": "A continuous function on a closed interval [a, b] is guaranteed to have:",
+    "optionA": "no maximum or minimum value",
+    "optionB": "at least one maximum and one minimum value",
+    "optionC": "infinitely many maximum and minimum values",
+    "optionD": "only a maximum value",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "01b73b04-1d40-429f-8bd8-319e9871fe69",
+    "content": "The derivative of a function at a point represents the slope of the:",
+    "optionA": "secant line",
+    "optionB": "tangent line",
+    "optionC": "normal line",
+    "optionD": "curve itself",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "b25eedfc-cf63-4439-81a9-831528da5de2",
+    "content": "Higher-order partial derivatives involve:",
+    "optionA": "differentiating once with respect to each variable",
+    "optionB": "differentiating multiple times with respect to one or more variables",
+    "optionC": "integrating partially",
+    "optionD": "finding total derivatives",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "58dd8d27-6ef4-47ab-a152-fae9997d0209",
+    "content": "Cylindrical and spherical coordinates are useful for:",
+    "optionA": "plane geometry problems",
+    "optionB": "problems with cylindrical or spherical symmetry",
+    "optionC": "linear equations",
+    "optionD": "two-dimensional graphs",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "773b6626-803a-414d-a4dd-3f9ec73b3e6f",
+    "content": "The formula for the volume of a sphere is:",
+    "optionA": "πr^2h",
+    "optionB": "(1/3)πr^2h",
+    "optionC": "(4/3)πr^3",
+    "optionD": "4πr^2",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "8b71eef9-549e-4762-ae4c-dfc0684d9cb8",
+    "content": "Scalar multiplication of a matrix involves multiplying each element by:",
+    "optionA": "another matrix",
+    "optionB": "a vector",
+    "optionC": "a constant",
+    "optionD": "the identity matrix",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "f1d33777-7b16-40cd-a18f-0be4f54ebab2",
+    "content": "An infinite geometric series converges if the absolute value of the common ratio is:",
+    "optionA": "greater than 1",
+    "optionB": "equal to 1",
+    "optionC": "less than 1",
+    "optionD": "greater than or equal to 1",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "358ab2e1-c6ba-4ebc-a91c-727ea00975c6",
+    "content": "Linear equations in science and engineering are used to model:",
+    "optionA": "non-linear relationships",
+    "optionB": "complex systems",
+    "optionC": "linear relationships between variables",
+    "optionD": "exponential growth",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "ec8c2ff1-38af-42f5-a4f6-1f58e9869776",
+    "content": "Concavity of a function is determined by the sign of the:",
+    "optionA": "first derivative",
+    "optionB": "second derivative",
+    "optionC": "third derivative",
+    "optionD": "function itself",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "7ef9425d-55e3-40f8-aad9-7eead0b084dc",
+    "content": "Applications of sequences and series in calculus include:",
+    "optionA": "solving algebraic equations",
+    "optionB": "approximating functions and calculating sums",
+    "optionC": "finding areas of polygons",
+    "optionD": "calculating volumes of simple solids",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "0288fce9-7b6e-4805-a9ee-218e8941ef3e",
+    "content": "The first step in implicit differentiation is to differentiate both sides of the equation with respect to:",
+    "optionA": "y",
+    "optionB": "x",
+    "optionC": "both x and y",
+    "optionD": "neither x nor y",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "e5efa82a-d8ab-4591-8ba6-7d407ac7b464",
+    "content": "Implicit differentiation is used when it is difficult or impossible to express y explicitly as a function of:",
+    "optionA": "z",
+    "optionB": "x",
+    "optionC": "t",
+    "optionD": "y",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "051cbe02-2fb3-4921-81d8-e0a0fe31cf15",
+    "content": "The radius of convergence of a power series is half the length of the:",
+    "optionA": "interval of integration",
+    "optionB": "interval of convergence",
+    "optionC": "domain of the function",
+    "optionD": "range of the function",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "19ea4c6f-a6e2-440f-81f8-dd3023913a88",
+    "content": "De Moivre's Theorem is used to find powers and roots of complex numbers in:",
+    "optionA": "Cartesian form",
+    "optionB": "polar form",
+    "optionC": "exponential form",
+    "optionD": "vector form",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "21bb4318-89c6-43ad-9412-0f01940bd7f5",
+    "content": "Partial fractions integration is used to integrate:",
+    "optionA": "polynomial functions",
+    "optionB": "rational functions",
+    "optionC": "trigonometric functions",
+    "optionD": "exponential functions",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "3712a153-3905-43e3-9597-3454fda8a401",
+    "content": "An intuitive introduction to limits involves understanding the behavior of a function as x gets:",
+    "optionA": "larger and larger only",
+    "optionB": "smaller and smaller only",
+    "optionC": "closer and closer to a specific value",
+    "optionD": "closer and closer to infinity",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "0e345fe0-4c79-488a-b2d6-c030e705c63b",
+    "content": "Limit laws and techniques are used to:",
+    "optionA": "approximate limits",
+    "optionB": "evaluate limits algebraically",
+    "optionC": "graph limits",
+    "optionD": "estimate limits numerically",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "077f4e5d-902b-4ee4-8447-243e0d4646e3",
+    "content": "Introduction to double integrals involves integrating functions over:",
+    "optionA": "lines",
+    "optionB": "surfaces",
+    "optionC": "regions in a plane",
+    "optionD": "volumes",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "ede8f7a0-0253-402d-a630-87700be7fa4e",
+    "content": "Work and energy using integrals can be calculated by integrating:",
+    "optionA": "force over distance",
+    "optionB": "power over time",
+    "optionC": "velocity over time",
+    "optionD": "acceleration over distance",
+    "correctAnswer": "A"
+  },
+  {
+    "quizId": "ceadd85b-5d9e-49c6-b745-2d8a1afc8a01",
+    "content": "Matrix multiplication is defined when the number of columns in the first matrix equals the number of:",
+    "optionA": "rows in the first matrix",
+    "optionB": "columns in the second matrix",
+    "optionC": "rows in the second matrix",
+    "optionD": "elements in the second matrix",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "ef7b44ed-17a7-4005-894c-92b782a93df0",
+    "content": "Double integrals over general regions require considering:",
+    "optionA": "rectangular regions only",
+    "optionB": "non-rectangular regions",
+    "optionC": "polar regions only",
+    "optionD": "spherical regions only",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "7b3e3b09-92cf-44a3-a5ad-e1ffb494a03d",
+    "content": "Graphing conic sections involves identifying:",
+    "optionA": "linear equations",
+    "optionB": "quadratic equations in two variables",
+    "optionC": "cubic equations",
+    "optionD": "exponential equations",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "455ca88e-2ecb-41b3-bfb5-daa4604c0635",
+    "content": "The area between curves using definite integrals is found by integrating the:",
+    "optionA": "sum of the functions",
+    "optionB": "difference of the functions",
+    "optionC": "product of the functions",
+    "optionD": "quotient of the functions",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "3b965927-e9cc-497b-91cb-43f7cac3d059",
+    "content": "Equations of conic sections in standard form help to easily identify:",
+    "optionA": "derivatives",
+    "optionB": "integrals",
+    "optionC": "geometric properties",
+    "optionD": "limits",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "7309fb9a-c6fa-4e1e-ab9f-3d1e8b7cdf62",
+    "content": "Ellipses and hyperbolas are types of:",
+    "optionA": "polygons",
+    "optionB": "conic sections",
+    "optionC": "polyhedra",
+    "optionD": "cylindrical surfaces",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "633932db-1651-4d15-81a1-55e22a918f90",
+    "content": "Basic counting principles are used in:",
+    "optionA": "calculus",
+    "optionB": "combinatorics and probability",
+    "optionC": "linear algebra",
+    "optionD": "differential equations",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "c7721629-6e42-420f-b0ac-a2c84dbdda0b",
+    "content": "Arc length and surface area of revolution are calculated using:",
+    "optionA": "derivatives",
+    "optionB": "definite integrals",
+    "optionC": "partial derivatives",
+    "optionD": "multiple integrals",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "8072e032-d9d2-40e7-b82a-3d04b340f3ef",
+    "content": "Introduction to polar coordinates provides an alternative to:",
+    "optionA": "spherical coordinates",
+    "optionB": "cylindrical coordinates",
+    "optionC": "Cartesian coordinates",
+    "optionD": "parametric coordinates",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "f962733f-5cab-485c-9ca1-5f3445ddedb8",
+    "content": "Integration by parts is based on the:",
+    "optionA": "Chain Rule",
+    "optionB": "Quotient Rule",
+    "optionC": "Product Rule for differentiation",
+    "optionD": "Power Rule",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "2e31a7dd-ae50-4b3b-bbf7-46ffa93c64a7",
+    "content": "Decomposition with improper rational functions is a step in:",
+    "optionA": "integration by substitution",
+    "optionB": "partial fraction decomposition",
+    "optionC": "trigonometric substitution",
+    "optionD": "integration by parts",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "a364b38a-fa7d-4089-b53e-1f378f7642f3",
+    "content": "Introduction to differentials provides a way to:",
+    "optionA": "find exact changes in a function",
+    "optionB": "approximate changes in a function",
+    "optionC": "find derivatives exactly",
+    "optionD": "find integrals exactly",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "df3f6b0f-536c-4370-a3ad-6dff48661eda",
+    "content": "The harmonic series is a classic example of a:",
+    "optionA": "convergent series",
+    "optionB": "divergent series",
+    "optionC": "geometric series",
+    "optionD": "telescoping series",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "a179ddae-d9fc-432c-a238-3c5f52ca8068",
+    "content": "Introduction to infinite series and convergence deals with:",
+    "optionA": "finite sums",
+    "optionB": "sums of infinitely many terms",
+    "optionC": "products of infinitely many terms",
+    "optionD": "differences of infinitely many terms",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "be45f1b2-498c-469e-9599-78cdd5ac83bc",
+    "content": "The cross product of two vectors in three dimensions results in a:",
+    "optionA": "scalar",
+    "optionB": "vector perpendicular to both original vectors",
+    "optionC": "vector in the same plane as the original vectors",
+    "optionD": "zero vector",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "9d27d125-098f-406f-b25c-3400b19a1288",
+    "content": "Continuity does not imply differentiability because:",
+    "optionA": "continuous functions are always differentiable",
+    "optionB": "continuous functions may have sharp corners or vertical tangents",
+    "optionC": "differentiable functions are never continuous",
+    "optionD": "continuity is a stronger condition than differentiability",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "082c1cb8-9b6c-4825-ab5a-8b23574b4f65",
+    "content": "Applications of Divergence Test are used to show a series:",
+    "optionA": "converges",
+    "optionB": "diverges",
+    "optionC": "converges conditionally",
+    "optionD": "converges absolutely",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "620097eb-0bbe-4570-ba5c-2c80a6209a96",
+    "content": "Applications of continuity include understanding:",
+    "optionA": "instantaneous rates of change",
+    "optionB": "smoothness of functions and absence of breaks",
+    "optionC": "areas under curves",
+    "optionD": "volumes of solids",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "4abdb03b-53bf-426c-89a7-6904da9d8355",
+    "content": "The derivative of a polynomial function is found using the:",
+    "optionA": "Product Rule",
+    "optionB": "Chain Rule",
+    "optionC": "Power Rule",
+    "optionD": "Quotient Rule",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "9d772f70-1141-43f0-9d99-b66b2d415603",
+    "content": "Combining differentiation rules is necessary when differentiating:",
+    "optionA": "simple polynomials",
+    "optionB": "basic trigonometric functions",
+    "optionC": "complex functions involving products, quotients, and compositions",
+    "optionD": "linear functions",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "100ee757-bb27-4459-9a34-082f13c627e8",
+    "content": "The surface area of a sphere is given by:",
+    "optionA": "(4/3)πr^3",
+    "optionB": "πr^2h",
+    "optionC": "4πr^2",
+    "optionD": "2πrh",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "136bcd9c-c9de-40f8-a5ad-b4682c5f09bf",
+    "content": "Applications of inequalities include:",
+    "optionA": "solving equations",
+    "optionB": "finding intervals where functions satisfy certain conditions",
+    "optionC": "finding derivatives",
+    "optionD": "calculating definite integrals",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "ad60ee63-6682-45d8-999f-7d8837a03498",
+    "content": "Volume by cylindrical shells is used when rotating a region around:",
+    "optionA": "the x-axis only",
+    "optionB": "the y-axis only",
+    "optionC": "an axis parallel to the x or y-axis",
+    "optionD": "any arbitrary axis",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "778af725-cd65-4c6b-b601-92b3a3c7d4aa",
+    "content": "Applications of the Fundamental Theorem of Calculus include:",
+    "optionA": "finding derivatives only",
+    "optionB": "evaluating definite integrals and relating differentiation and integration",
+    "optionC": "solving differential equations only",
+    "optionD": "finding limits only",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "f77ffc19-49c9-4bf4-b48b-037b7d041d6e",
+    "content": "One-sided limits consider the limit of a function as x approaches a value from:",
+    "optionA": "both sides",
+    "optionB": "either the left or the right side",
+    "optionC": "infinity",
+    "optionD": "zero",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "459703b7-7efc-4922-a917-410cedcd953c",
+    "content": "The inverse cosine function, arccos(x) or cos⁻¹(x), has a range of:",
+    "optionA": "(-π/2, π/2)",
+    "optionB": "[−π/2, π/2]",
+    "optionC": "[0, π]",
+    "optionD": "(0, π)",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "a3a34fce-8ee3-4a1f-82f9-198fc5eaee94",
+    "content": "Iterated limits and double limits are concepts in:",
+    "optionA": "single variable calculus",
+    "optionB": "multivariable calculus",
+    "optionC": "linear algebra",
+    "optionD": "differential equations",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "46190baf-a6c3-4b68-8c7c-fbeebd0d954c",
+    "content": "Applications of multiple integrals include calculating:",
+    "optionA": "derivatives",
+    "optionB": "areas and volumes in higher dimensions",
+    "optionC": "slopes of tangent lines",
+    "optionD": "rates of change",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "e980c1db-1163-40df-bf9f-36f3a4523981",
+    "content": "Equations of lines in a plane can be represented in various forms, including:",
+    "optionA": "polar form only",
+    "optionB": "parametric form only",
+    "optionC": "slope-intercept, point-slope, and standard form",
+    "optionD": "spherical form only",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "d3fc7198-7101-42fb-81de-86bda7f847c2",
+    "content": "Introduction to logarithmic differentiation simplifies differentiation of:",
+    "optionA": "polynomials",
+    "optionB": "linear functions",
+    "optionC": "complex functions with products, quotients, and powers",
+    "optionD": "simple trigonometric functions",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "a23b1a97-a933-40ef-be32-30689f24dd6e",
+    "content": "Simplification and operations with radical expressions often involve:",
+    "optionA": "complex numbers",
+    "optionB": "rationalizing denominators",
+    "optionC": "logarithms",
+    "optionD": "trigonometric functions",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "dde0899e-1c3b-4950-878e-8d096ad1f08c",
+    "content": "Continuity of functions of several variables requires the limit to exist and be equal to the function value:",
+    "optionA": "along a single path",
+    "optionB": "along all paths approaching the point",
+    "optionC": "only along straight lines",
+    "optionD": "only along curves",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "af55d383-c134-4690-9ff7-9672d82930af",
+    "content": "Applications of ratio, proportion, and variation are used in:",
+    "optionA": "calculus only",
+    "optionB": "solving problems involving relationships between quantities",
+    "optionC": "linear algebra only",
+    "optionD": "differential equations only",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "42c305e7-1945-4372-a75e-8e5521e0598f",
+    "content": "Basic integration formulas like the Power Rule and Sum Rule are used for:",
+    "optionA": "all types of functions",
+    "optionB": "simple polynomial functions",
+    "optionC": "trigonometric functions",
+    "optionD": "exponential functions",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "ba187fc3-064a-4022-8db5-ca77101a18c9",
+    "content": "Properties of definite integrals include:",
+    "optionA": "linearity and additivity",
+    "optionB": "only linearity",
+    "optionC": "only additivity",
+    "optionD": "neither linearity nor additivity",
+    "correctAnswer": "A"
+  },
+  {
+    "quizId": "58790929-62b9-45ee-bfaf-685f08ecaa64",
+    "content": "Applications of equations in one variable include:",
+    "optionA": "solving systems of equations",
+    "optionB": "modeling real-world problems with one unknown",
+    "optionC": "graphing lines in a plane",
+    "optionD": "finding derivatives",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "515c16c8-f8c7-4cba-ae2c-ac41767f6e4f",
+    "content": "The Test for Divergence states that if the limit of the terms of a series is not zero, then the series:",
+    "optionA": "converges",
+    "optionB": "diverges",
+    "optionC": "may converge or diverge",
+    "optionD": "converges conditionally",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "be69adc0-aa43-4675-9330-fbd6e9dd2fe0",
+    "content": "Applications of plane figures in geometry include calculating:",
+    "optionA": "volumes of solids",
+    "optionB": "areas and perimeters of 2D shapes",
+    "optionC": "surface areas of solids",
+    "optionD": "rates of change",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "5a7e37ba-a9e0-41a3-8119-a9967b730e27",
+    "content": "Paths of approach and non-existence of limits are relevant when considering limits of functions of:",
+    "optionA": "one variable",
+    "optionB": "two or more variables",
+    "optionC": "linear functions",
+    "optionD": "polynomial functions",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "50d70e7d-4e57-4de8-a4d2-ef1a0e263a1f",
+    "content": "Combinations are used to count the number of ways to:",
+    "optionA": "arrange items in a specific order",
+    "optionB": "select items without regard to order",
+    "optionC": "permute items",
+    "optionD": "factor items",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "2ea17518-aff6-4587-bfa6-839a14ab8083",
+    "content": "Derivatives of exponential and logarithmic functions involve:",
+    "optionA": "power rule only",
+    "optionB": "chain rule only",
+    "optionC": "specific rules for exponential and logarithmic functions",
+    "optionD": "quotient rule only",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "595f512a-83f3-411e-a6b7-b3b09d23258e",
+    "content": "The determinant of a 2x2 matrix is a:",
+    "optionA": "matrix",
+    "optionB": "vector",
+    "optionC": "scalar",
+    "optionD": "set",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "e5d324b9-cbd0-49f0-93c8-ee5e64e834c3",
+    "content": "Linear approximation using differentials provides an approximation of:",
+    "optionA": "the derivative of a function",
+    "optionB": "the integral of a function",
+    "optionC": "the change in a function value",
+    "optionD": "the limit of a function",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "40046990-0c76-4f23-954f-5b47d8f5bad9",
+    "content": "Cubes and rectangular solids are examples of:",
+    "optionA": "plane figures",
+    "optionB": "three-dimensional solids",
+    "optionC": "conic sections",
+    "optionD": "curves in space",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "86a98f4f-5016-49b9-8091-860c534d0bab",
+    "content": "Geometric series and telescoping series are types of:",
+    "optionA": "finite series",
+    "optionB": "infinite series",
+    "optionC": "power series",
+    "optionD": "Fourier series",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "063bfee6-ed9e-471e-86d9-4261df14b341",
+    "content": "Steps for logarithmic differentiation typically involve taking the logarithm of:",
+    "optionA": "the derivative",
+    "optionB": "both sides of the equation",
+    "optionC": "the independent variable",
+    "optionD": "the dependent variable",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "ba92b463-aec5-47d2-9468-ed682bc3eaca",
+    "content": "Advantages of logarithmic differentiation include simplifying:",
+    "optionA": "polynomial differentiation",
+    "optionB": "differentiation of simple sums",
+    "optionC": "differentiation of complex products, quotients, and powers",
+    "optionD": "differentiation of linear functions",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "5af55102-64ef-4a3d-aecc-eb24d1af304a",
+    "content": "Vectors in two dimensions are defined by their:",
+    "optionA": "magnitude only",
+    "optionB": "direction only",
+    "optionC": "components and operations",
+    "optionD": "position only",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "8f56be3c-0ae2-4a45-9834-13e3a9aae8cd",
+    "content": "The Product Rule for differentiation is used to find the derivative of:",
+    "optionA": "a sum of functions",
+    "optionB": "a difference of functions",
+    "optionC": "a product of functions",
+    "optionD": "a quotient of functions",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "3deb2c4d-aa7f-4779-93ce-285ff52367f0",
+    "content": "Laws of sines and cosines in spherical trigonometry are used for:",
+    "optionA": "plane triangles",
+    "optionB": "spherical triangles",
+    "optionC": "right triangles only",
+    "optionD": "acute triangles only",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "264b44d9-3e64-492e-a8d7-5e3ee2da9b08",
+    "content": "Solving quadratic equations in one variable typically involves finding the:",
+    "optionA": "slope",
+    "optionB": "roots or solutions",
+    "optionC": "y-intercept",
+    "optionD": "vertex",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "cb429de4-6f4b-48a4-8ff9-a99a164fa4c9",
+    "content": "Area of triangles using trigonometry can be calculated using:",
+    "optionA": "base times height",
+    "optionB": "(1/2) * base * height",
+    "optionC": "(1/2) * ab * sin(C)",
+    "optionD": "√(s(s-a)(s-b)(s-c))",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "200e084d-8726-4adc-8969-97571093e585",
+    "content": "Types of discontinuities include:",
+    "optionA": "removable, jump, and infinite discontinuities",
+    "optionB": "only removable discontinuities",
+    "optionC": "only jump discontinuities",
+    "optionD": "only infinite discontinuities",
+    "correctAnswer": "A"
+  },
+  {
+    "quizId": "3994fcc7-0d2d-4fae-a1a1-84bc5be4c689",
+    "content": "Probability and integrals can be related in the context of:",
+    "optionA": "discrete probability distributions",
+    "optionB": "continuous probability distributions",
+    "optionC": "conditional probability",
+    "optionD": "Bayes' theorem",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "b5603dcc-4c8e-46d1-8d7f-f22166d947a6",
+    "content": "Applications of set operations are used in:",
+    "optionA": "calculus",
+    "optionB": "logic, computer science, and data analysis",
+    "optionC": "linear algebra",
+    "optionD": "differential equations",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "25e1de2d-1b51-4927-b13f-231bbccfd34a",
+    "content": "Types of sets and Venn diagrams are used to visualize:",
+    "optionA": "derivatives",
+    "optionB": "relationships between sets",
+    "optionC": "integrals",
+    "optionD": "limits",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "7171c96c-ca7c-42aa-9a9b-18b0cf8d2bcc",
+    "content": "The average value of a function over an interval [a, b] is given by:",
+    "optionA": "f(b) - f(a)",
+    "optionB": "f'(c) for some c in (a, b)",
+    "optionC": "(1/(b-a)) ∫[a,b] f(x) dx",
+    "optionD": "∫[a,b] f(x) dx",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "f496bdae-cd4d-4657-be4f-7d5df5982107",
+    "content": "Graphical representation of complex numbers uses the:",
+    "optionA": "real number line",
+    "optionB": "imaginary number line",
+    "optionC": "complex plane (Argand plane)",
+    "optionD": "polar coordinate system",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "320363c6-297c-41f5-a112-10cae367baa4",
+    "content": "Applications of trigonometric functions include modeling:",
+    "optionA": "linear growth",
+    "optionB": "exponential decay",
+    "optionC": "periodic phenomena",
+    "optionD": "polynomial behavior",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "0d88c6f1-a55b-4cd3-bf22-26c078ab22cb",
+    "content": "Error estimation using differentials is used to approximate:",
+    "optionA": "exact errors",
+    "optionB": "relative errors",
+    "optionC": "absolute errors",
+    "optionD": "percentage errors",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "cb430843-de8f-46ee-8a98-1e640995cf2d",
+    "content": "The relationship between graphs of f and f' is that f' indicates the:",
+    "optionA": "value of f",
+    "optionB": "slope of f",
+    "optionC": "concavity of f",
+    "optionD": "integral of f",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "2c56b6c3-e367-4ec8-ad6c-163037146b0d",
+    "content": "Convergence and divergence of series are fundamental concepts in:",
+    "optionA": "differential calculus",
+    "optionB": "integral calculus",
+    "optionC": "sequences and series",
+    "optionD": "linear algebra",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "89deb8f4-6f62-4775-a2a3-881ff5926cd2",
+    "content": "The interval of convergence of a power series is the set of x-values for which the series:",
+    "optionA": "diverges",
+    "optionB": "converges",
+    "optionC": "oscillates",
+    "optionD": "is undefined",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "df7dc8ae-134d-4fa2-a959-35dffc157459",
+    "content": "Applying L'Hospital's Rule for 0/0 form is used to evaluate limits that are:",
+    "optionA": "determinate",
+    "optionB": "indeterminate of the form 0/0",
+    "optionC": "infinite",
+    "optionD": "zero",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "932cbbe2-4fec-4dd6-9022-ada65ccbd648",
+    "content": "Area and perimeter of plane figures are basic concepts in:",
+    "optionA": "solid geometry",
+    "optionB": "plane geometry",
+    "optionC": "spherical geometry",
+    "optionD": "analytic geometry",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "989293ed-070c-48d7-af26-422299ce4aa3",
+    "content": "Polar equations of conic sections provide a way to describe conic sections using:",
+    "optionA": "Cartesian coordinates",
+    "optionB": "polar coordinates",
+    "optionC": "parametric equations",
+    "optionD": "vector equations",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "881b56ad-11a3-435e-9a70-6ce6b879dd23",
+    "content": "Applying L'Hospital's Rule for ∞/∞ form is used to evaluate limits that are:",
+    "optionA": "determinate",
+    "optionB": "indeterminate of the form ∞/∞",
+    "optionC": "zero",
+    "optionD": "finite",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "0336ceb0-c4c4-4a54-9004-6d9d6c3316a2",
+    "content": "Linear equations in business and economics are used to model:",
+    "optionA": "non-linear market trends",
+    "optionB": "supply, demand, cost, and revenue relationships",
+    "optionC": "exponential growth in economics",
+    "optionD": "complex financial derivatives",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "53c095e9-9c16-4219-a69c-397e8f3be3bb",
+    "content": "Center of mass and centroids are used to find the:",
+    "optionA": "total area of a region",
+    "optionB": "point where a region or solid would balance",
+    "optionC": "volume of a region",
+    "optionD": "surface area of a region",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "459a6fb8-1df0-4f05-867c-1714480d4ff2",
+    "content": "Inconsistent and dependent systems of linear equations refer to systems that have:",
+    "optionA": "a unique solution",
+    "optionB": "no solution or infinitely many solutions, respectively",
+    "optionC": "only integer solutions",
+    "optionD": "only fractional solutions",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "9c17a10a-30d4-422f-ada6-6d5e758c10ee",
+    "content": "Solving systems of linear equations by elimination involves:",
+    "optionA": "graphing the equations",
+    "optionB": "substituting variables",
+    "optionC": "adding or subtracting equations to eliminate variables",
+    "optionD": "using matrices",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "67fa713c-62e4-4c9e-b05c-72784334cfbb",
+    "content": "Limitations and exceptions to L'Hospital's Rule occur when the limit is not in:",
+    "optionA": "determinate form",
+    "optionB": "indeterminate form",
+    "optionC": "polynomial form",
+    "optionD": "trigonometric form",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "b636da75-b945-4377-9614-200bff9cbbcf",
+    "content": "Level curves and gradients are used to visualize:",
+    "optionA": "functions of one variable",
+    "optionB": "functions of two variables",
+    "optionC": "functions of three variables",
+    "optionD": "vector fields",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "cd131d1b-5dbd-47ae-9d57-f4cd5f154165",
+    "content": "Partial fraction decomposition with quadratic factors is used when the denominator has:",
+    "optionA": "only linear factors",
+    "optionB": "irreducible quadratic factors",
+    "optionC": "repeated linear factors",
+    "optionD": "constant factors",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "fa27f645-d6a6-41cb-be2d-fe4a6d774d93",
+    "content": "Applications of limits include:",
+    "optionA": "finding areas",
+    "optionB": "defining continuity and derivatives",
+    "optionC": "calculating volumes",
+    "optionD": "solving algebraic equations",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "2f5c9574-4ad8-4642-ab3a-e87d98e5380f",
+    "content": "Surface area of pyramids and cones is calculated using formulas involving:",
+    "optionA": "integration",
+    "optionB": "basic geometric dimensions",
+    "optionC": "differentiation",
+    "optionD": "limits",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "7c55d29a-e42b-4578-b783-3380ddd92f39",
+    "content": "Geometric series and convergence are used in:",
+    "optionA": "calculus and numerical analysis",
+    "optionB": "only algebra",
+    "optionC": "only geometry",
+    "optionD": "only trigonometry",
+    "correctAnswer": "A"
+  },
+  {
+    "quizId": "0e2538e4-a13a-4d8e-a7f7-87a3ccd8f75c",
+    "content": "In inverse variation, as one quantity increases, the other quantity:",
+    "optionA": "increases proportionally",
+    "optionB": "decreases proportionally",
+    "optionC": "remains constant",
+    "optionD": "increases exponentially",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "22993384-2063-4cd5-886d-60313c01597b",
+    "content": "Applications of complex numbers include:",
+    "optionA": "real number analysis only",
+    "optionB": "electrical engineering and quantum mechanics",
+    "optionC": "only financial modeling",
+    "optionD": "only statistics",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "d3d96844-a32c-4483-b80c-1b19fd30f504",
+    "content": "Solving rational equations in one variable involves eliminating:",
+    "optionA": "variables from the numerator",
+    "optionB": "variables from the denominator",
+    "optionC": "fractions by multiplying by the least common denominator",
+    "optionD": "constants from the equation",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "e9949e0c-be9d-4096-ae9a-232d1e23b682",
+    "content": "Applications of improper integrals include:",
+    "optionA": "finding areas of bounded regions",
+    "optionB": "calculating probabilities and analyzing long-term behavior",
+    "optionC": "solving algebraic equations",
+    "optionD": "finding derivatives",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "a73744e2-0dc1-49dd-bf54-ada6a94ce8c8",
+    "content": "Introduction to sequences and series is foundational for:",
+    "optionA": "differential calculus only",
+    "optionB": "integral calculus only",
+    "optionC": "calculus and analysis",
+    "optionD": "linear algebra",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "53d12fef-b3f0-4ecb-8bcb-39e37e5f194f",
+    "content": "Optimization problems involve finding:",
+    "optionA": "average values",
+    "optionB": "maximum or minimum values",
+    "optionC": "rates of change",
+    "optionD": "areas under curves",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "b15c4ffd-d430-4b5f-9afc-3a93d611e867",
+    "content": "Geometric sequences and series have a constant:",
+    "optionA": "common difference",
+    "optionB": "common ratio",
+    "optionC": "sum of terms",
+    "optionD": "number of terms",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "9dddcf9e-d27c-4bd4-b7ff-2e0f547a9fd8",
+    "content": "Area in polar coordinates is calculated using integrals with respect to:",
+    "optionA": "x",
+    "optionB": "y",
+    "optionC": "θ (theta)",
+    "optionD": "r",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "00ab7116-52f3-4769-8169-3b489ea97102",
+    "content": "Representing functions as power series is known as:",
+    "optionA": "Fourier series expansion",
+    "optionB": "Taylor or Maclaurin series expansion",
+    "optionC": "Geometric series expansion",
+    "optionD": "Harmonic series expansion",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "3e982e21-e732-4655-92c9-07ef018ac106",
+    "content": "Applications of differentials include:",
+    "optionA": "finding exact values",
+    "optionB": "approximating changes and errors",
+    "optionC": "finding integrals",
+    "optionD": "finding limits",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "d0ad50f2-f9b2-4d5e-90b8-c851d87149f1",
+    "content": "Ellipsoids and paraboloids are types of:",
+    "optionA": "plane figures",
+    "optionB": "quadric surfaces",
+    "optionC": "polygons",
+    "optionD": "curves in a plane",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "3e9a59f2-e239-4db0-9e92-42d351920e8d",
+    "content": "Applications of plane analytic geometry include:",
+    "optionA": "solid geometry problems",
+    "optionB": "analyzing geometric shapes in a coordinate plane",
+    "optionC": "spherical geometry problems",
+    "optionD": "calculus problems",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "42b30b21-4e69-4a82-b208-29b3ff9b3b20",
+    "content": "Parametric surfaces are surfaces described by:",
+    "optionA": "equations in Cartesian coordinates",
+    "optionB": "parametric equations in terms of two parameters",
+    "optionC": "polar equations",
+    "optionD": "spherical equations",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "a7e12d7c-2735-438a-b96a-383c90e16544",
+    "content": "Applications of rational, radical, and absolute value expressions are found in:",
+    "optionA": "calculus only",
+    "optionB": "algebra and various mathematical models",
+    "optionC": "geometry only",
+    "optionD": "trigonometry only",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "b9d30cb6-2d95-41d3-b656-a6cdb8a4b2a2",
+    "content": "Applications of systems of linear equations include:",
+    "optionA": "solving single variable equations",
+    "optionB": "solving multi-variable problems in science and engineering",
+    "optionC": "graphing parabolas",
+    "optionD": "finding derivatives",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "e2e1d285-9d7f-4f30-9863-30838d0c6c84",
+    "content": "Applications of definite integrals in physics and engineering include calculating:",
+    "optionA": "derivatives",
+    "optionB": "work, volume, and center of mass",
+    "optionC": "limits",
+    "optionD": "partial derivatives",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "66e22e92-6648-48a8-8519-bd2cc15df09d",
+    "content": "Limits involving infinity are used to analyze:",
+    "optionA": "local behavior of functions",
+    "optionB": "end behavior of functions",
+    "optionC": "derivatives at a point",
+    "optionD": "integrals over finite intervals",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "0d64a9b1-98a2-4b4b-8116-e45d6cf44b63",
+    "content": "Choosing the right integration technique is crucial for:",
+    "optionA": "every integral requiring the same technique",
+    "optionB": "efficiently solving various types of integrals",
+    "optionC": "only simple integrals",
+    "optionD": "only definite integrals",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "43587878-b6ed-499f-b309-03e587d334e5",
+    "content": "Hemispheres and spherical segments are parts of a:",
+    "optionA": "cylinder",
+    "optionB": "cone",
+    "optionC": "sphere",
+    "optionD": "pyramid",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "5bae19d2-e74d-4c01-9350-d3d07c6e51d5",
+    "content": "Area between curves using definite integrals involves finding the integral of the difference between functions over:",
+    "optionA": "an indefinite interval",
+    "optionB": "a definite interval",
+    "optionC": "the entire real line",
+    "optionD": "a complex plane",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "d30fe5bb-ee02-46e1-8d81-6f25b74be565",
+    "content": "Continuity on an interval means a function is continuous at:",
+    "optionA": "only endpoints of the interval",
+    "optionB": "every point in the interval",
+    "optionC": "only interior points of the interval",
+    "optionD": "at least one point in the interval",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "8a15407a-a65d-4992-8a2c-bbf50240ba0f",
+    "content": "Applications of functions of several variables are found in:",
+    "optionA": "single variable calculus only",
+    "optionB": "fields requiring multivariable analysis like physics and economics",
+    "optionC": "only linear algebra",
+    "optionD": "only differential equations",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "5b5d0591-0dcc-4877-b3ff-629664602e02",
+    "content": "Partial fraction decomposition with repeated linear factors addresses denominators with:",
+    "optionA": "distinct linear factors",
+    "optionB": "linear factors raised to powers",
+    "optionC": "irreducible quadratic factors",
+    "optionD": "constant factors",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "a521cbcf-1d7a-45c7-9053-746062582232",
+    "content": "Trigonometric functions of special angles (like 30°, 45°, 60°) have:",
+    "optionA": "irrational values only",
+    "optionB": "rational or radical values",
+    "optionC": "complex values",
+    "optionD": "undefined values",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "f99df0ea-f4c3-4131-9260-d05afb308cd5",
+    "content": "Operations with algebraic fractions include:",
+    "optionA": "only addition and subtraction",
+    "optionB": "only multiplication and division",
+    "optionC": "addition, subtraction, multiplication, and division",
+    "optionD": "only simplification",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "ddb06bc2-7d23-4e2d-be86-6da98324e045",
+    "content": "Composition of functions involves applying:",
+    "optionA": "two functions separately",
+    "optionB": "one function inside another",
+    "optionC": "the sum of two functions",
+    "optionD": "the product of two functions",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "c7d54405-fbcc-478f-8dc7-878800b3be59",
+    "content": "Distance and midpoint formulas are used in:",
+    "optionA": "calculus",
+    "optionB": "coordinate geometry",
+    "optionC": "trigonometry",
+    "optionD": "linear algebra",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "4e835535-fe1f-49dc-8817-c3f21bbe5c80",
+    "content": "Applications of conic sections are found in:",
+    "optionA": "plane geometry only",
+    "optionB": "optics, astronomy, and engineering",
+    "optionC": "only algebra",
+    "optionD": "only trigonometry",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "bec11ce0-2c19-4a6b-950d-3dbec4e74186",
+    "content": "Applications of vectors in physics and geometry include:",
+    "optionA": "only plane geometry",
+    "optionB": "force, velocity, and geometric representations",
+    "optionC": "only linear equations",
+    "optionD": "only calculus",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "eccf2dbb-595c-4786-a75b-e52417e89e71",
+    "content": "Volume by slicing is a method for finding volumes of solids by:",
+    "optionA": "rotating regions",
+    "optionB": "summing volumes of thin slices",
+    "optionC": "using cylindrical shells",
+    "optionD": "using spherical coordinates",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "8ec40a65-ab91-4d06-b6c3-7824fa351603",
+    "content": "Volume as a double integral is calculated by integrating the function:",
+    "optionA": "f(x)",
+    "optionB": "f(y)",
+    "optionC": "f(x, y) = 1",
+    "optionD": "f'(x, y)",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "8913f969-17d5-4239-ac95-c7780e5527aa",
+    "content": "Volume of pyramids and cones is given by formulas involving:",
+    "optionA": "base area and height",
+    "optionB": "radius and height only",
+    "optionC": "slant height only",
+    "optionD": "perimeter of base and height",
+    "correctAnswer": "A"
+  },
+  {
+    "quizId": "1f3be314-d48d-443f-a5c7-75f1fb10ef93",
+    "content": "Convergence of power series depends on the value of:",
+    "optionA": "the sum of the series",
+    "optionB": "the variable x",
+    "optionC": "the coefficients of the series",
+    "optionD": "the radius of convergence",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "31e12432-05f4-476a-8a36-c9d05032b8ea",
+    "content": "Applications of infinite series in calculus are used for:",
+    "optionA": "solving algebraic equations",
+    "optionB": "approximating functions and solving differential equations",
+    "optionC": "finding areas of polygons",
+    "optionD": "calculating volumes of simple solids",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "dd607294-bffc-45ac-8ea4-bd2f6822c733",
+    "content": "The Comparison Test for convergence compares a series to:",
+    "optionA": "a geometric series",
+    "optionB": "a p-series",
+    "optionC": "another series with known convergence behavior",
+    "optionD": "an alternating series",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "ce0b276c-5d54-4af2-a91a-7133a55e01f8",
+    "content": "Clairaut's Theorem on mixed partial derivatives states conditions under which:",
+    "optionA": "partial derivatives are zero",
+    "optionB": "mixed partial derivatives are equal",
+    "optionC": "partial derivatives are continuous",
+    "optionD": "mixed partial derivatives are discontinuous",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "e3902dcd-144e-4292-ac34-116b34241115",
+    "content": "Definition and properties of a sphere include its:",
+    "optionA": "area in plane geometry",
+    "optionB": "volume and surface area in 3D space",
+    "optionC": "perimeter in plane geometry",
+    "optionD": "surface area in 2D space",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "cf17fe23-9ecb-4564-a0bf-beb1a0513473",
+    "content": "Improper integrals with discontinuous integrands require special treatment because the function:",
+    "optionA": "is not defined at infinity",
+    "optionB": "has vertical asymptotes within the interval of integration",
+    "optionC": "is not continuous",
+    "optionD": "is always zero",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "b26344e3-b67d-4285-850e-530113919ef5",
+    "content": "Trigonometric integrals involve integrals of:",
+    "optionA": "polynomial functions",
+    "optionB": "rational functions",
+    "optionC": "trigonometric functions",
+    "optionD": "exponential functions",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "bfe17163-f3d0-4dec-96cf-4569897db934",
+    "content": "The Chain Rule for differentiation is used to differentiate:",
+    "optionA": "sums of functions",
+    "optionB": "products of functions",
+    "optionC": "composite functions",
+    "optionD": "quotients of functions",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "6d07e271-119d-4f25-a78f-e96ea8bd0c86",
+    "content": "Solving right triangles using trigonometry involves using:",
+    "optionA": "Pythagorean theorem only",
+    "optionB": "SOH CAH TOA and Pythagorean theorem",
+    "optionC": "Law of Sines only",
+    "optionD": "Law of Cosines only",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "685994fe-4844-41a6-ab94-aefc6d8d67e0",
+    "content": "Graphs of polar equations are plotted in:",
+    "optionA": "Cartesian coordinates",
+    "optionB": "polar coordinates",
+    "optionC": "spherical coordinates",
+    "optionD": "cylindrical coordinates",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "08e02a86-d277-46a6-99c6-f865d11d83a3",
+    "content": "Higher-order implicit differentiation involves finding:",
+    "optionA": "first derivatives only",
+    "optionB": "second and higher derivatives of implicitly defined functions",
+    "optionC": "partial derivatives",
+    "optionD": "total derivatives",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "ea70c58a-d0c7-4675-b551-bae0f4a54e00",
+    "content": "Arc length and surface area of revolution are applications of:",
+    "optionA": "derivatives",
+    "optionB": "definite integrals",
+    "optionC": "partial derivatives",
+    "optionD": "multiple integrals",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "dedbfa16-1c74-49ac-bc10-9416cd8366d8",
+    "content": "Introduction to trigonometric functions includes functions like:",
+    "optionA": "polynomials",
+    "optionB": "sine, cosine, and tangent",
+    "optionC": "exponential functions",
+    "optionD": "logarithmic functions",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "38a97985-fe12-46e8-8a2b-6e39e768ec8a",
+    "content": "The Second Derivative Test for local extrema uses the sign of the second derivative to determine:",
+    "optionA": "concavity only",
+    "optionB": "local maxima and minima",
+    "optionC": "inflection points",
+    "optionD": "absolute extrema",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "b7803946-2c8f-429c-b8af-1b0d36f8d7bd",
+    "content": "Solving systems of linear equations by substitution involves:",
+    "optionA": "graphing the equations",
+    "optionB": "eliminating variables by substitution",
+    "optionC": "adding or subtracting equations",
+    "optionD": "using matrices",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "f2d97092-62ef-40d7-aa1a-f19f096e00d8",
+    "content": "Applications of inverse trigonometric functions include:",
+    "optionA": "solving algebraic equations",
+    "optionB": "finding angles in right triangles and integrals",
+    "optionC": "graphing parabolas",
+    "optionD": "finding derivatives",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "43cf9018-9f90-4b4c-be63-8b0feceed946",
+    "content": "Applications of linear equations in geometry include:",
+    "optionA": "finding areas of circles",
+    "optionB": "describing lines and planes",
+    "optionC": "calculating volumes of spheres",
+    "optionD": "finding derivatives",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "74e09477-3a94-4ac2-8d7f-d54b97c68b6d",
+    "content": "Word problems involving linear equations often require:",
+    "optionA": "calculus techniques",
+    "optionB": "translating real-world scenarios into linear equations",
+    "optionC": "graphing conic sections",
+    "optionD": "using trigonometric identities",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "195ab83b-0075-478c-b6ac-2a830545cd9e",
+    "content": "Derivatives of inverse trigonometric functions are found using:",
+    "optionA": "power rule only",
+    "optionB": "chain rule only",
+    "optionC": "specific formulas derived using implicit differentiation",
+    "optionD": "quotient rule only",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "8ed5cae9-3589-4cb8-8197-60c9962af608",
+    "content": "Partial fraction decomposition with linear factors is used when the denominator can be factored into:",
+    "optionA": "irreducible quadratic factors",
+    "optionB": "distinct linear factors",
+    "optionC": "repeated linear factors",
+    "optionD": "constant factors",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "e5cf0d1a-b88e-4db3-93eb-f369841d3a43",
+    "content": "Double integrals in polar coordinates are particularly useful for regions with:",
+    "optionA": "rectangular symmetry",
+    "optionB": "circular symmetry",
+    "optionC": "linear boundaries",
+    "optionD": "polynomial boundaries",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "09fc4ad1-6223-4545-bc81-1d7d643dceb9",
+    "content": "The Law of Sines relates the sides of a triangle to the sines of their:",
+    "optionA": "adjacent angles",
+    "optionB": "opposite angles",
+    "optionC": "included angles",
+    "optionD": "exterior angles",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "67f16d7b-879a-4b22-a91a-b692ebdf9efa",
+    "content": "The Quotient Rule for differentiation is used to find the derivative of:",
+    "optionA": "a sum of functions",
+    "optionB": "a difference of functions",
+    "optionC": "a product of functions",
+    "optionD": "a quotient of functions",
+    "correctAnswer": "D"
+  },
+  {
+    "quizId": "ed4a03b0-1339-4bd2-94bd-dad63cd47602",
+    "content": "The Power Rule for differentiation states that the derivative of x^n is:",
+    "optionA": "n*x^(n+1)",
+    "optionB": "n*x^(n-1)",
+    "optionC": "x^(n-1)",
+    "optionD": "x^n",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "c4e6724f-2b0b-4769-855d-b9f2648fc9fd",
+    "content": "Surface area of prisms and cylinders is calculated by summing the areas of:",
+    "optionA": "only bases",
+    "optionB": "bases and lateral faces",
+    "optionC": "lateral faces only",
+    "optionD": "cross-sections",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "f7f98ee1-6ab1-4226-aabd-5452178d491f",
+    "content": "Graphs and level curves of functions of two variables are used to visualize:",
+    "optionA": "functions of one variable",
+    "optionB": "surfaces in 3D space",
+    "optionC": "curves in a plane",
+    "optionD": "vectors in 2D space",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "d6f629f7-9b00-45d3-99d6-c62f8ce629e1",
+    "content": "Applications of the derivative definition include finding:",
+    "optionA": "integrals",
+    "optionB": "tangent lines and rates of change from first principles",
+    "optionC": "areas under curves",
+    "optionD": "volumes of solids",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "b9057a01-1c2e-4104-a1ba-45c1cc1974d4",
+    "content": "The definition of the derivative using limits is given by:",
+    "optionA": "∫f(x) dx",
+    "optionB": "lim (h→0) [f(x+h) - f(x)] / h",
+    "optionC": "f(b) - f(a)",
+    "optionD": "∇f",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "addb11a9-6609-493f-a092-fde84d3ecbab",
+    "content": "Improper integrals with infinite limits involve integrating over:",
+    "optionA": "finite intervals",
+    "optionB": "intervals extending to infinity",
+    "optionC": "closed intervals",
+    "optionD": "bounded intervals",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "8d2ede93-6341-46c9-91af-c4e6219889fc",
+    "content": "The Ratio Test for convergence is particularly effective for series involving:",
+    "optionA": "alternating signs",
+    "optionB": "powers and factorials",
+    "optionC": "logarithms",
+    "optionD": "trigonometric functions",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "e5903118-95a7-4a7e-b48a-d2de77dc867c",
+    "content": "The point-slope form of a line equation is:",
+    "optionA": "y = mx + b",
+    "optionB": "Ax + By = C",
+    "optionC": "y - y1 = m(x - x1)",
+    "optionD": "x/a + y/b = 1",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "ca53a4c7-a080-450f-b4aa-4e7d20c265c9",
+    "content": "Understanding ratios and proportions is fundamental in:",
+    "optionA": "calculus",
+    "optionB": "solving problems involving scaling and comparison",
+    "optionC": "linear algebra",
+    "optionD": "differential equations",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "f56bf9c1-4b02-4a50-aef2-54f7414bf8e4",
+    "content": "Introduction to sequences and series is a prerequisite for understanding:",
+    "optionA": "algebra",
+    "optionB": "calculus and mathematical analysis",
+    "optionC": "geometry",
+    "optionD": "trigonometry",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "9d32dcb1-f26b-4ec1-9056-3edaf8843d3e",
+    "content": "Simplification and operations with rational expressions are essential in:",
+    "optionA": "calculus",
+    "optionB": "algebra and pre-calculus",
+    "optionC": "geometry",
+    "optionD": "trigonometry",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "95ad618c-97cb-43f8-bab3-9b748614238d",
+    "content": "Convergence and divergence of sequences are important for understanding:",
+    "optionA": "derivatives",
+    "optionB": "limits and series",
+    "optionC": "integrals",
+    "optionD": "partial derivatives",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "9bf65bf3-e938-4c9b-a791-e2a19ef4bb10",
+    "content": "The definition of the definite integral involves:",
+    "optionA": "finding antiderivatives",
+    "optionB": "summing areas of rectangles under a curve",
+    "optionC": "finding derivatives",
+    "optionD": "evaluating limits",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "241db200-70a0-407c-89d8-633e88984690",
+    "content": "Spherical triangles and great circles are concepts in:",
+    "optionA": "plane trigonometry",
+    "optionB": "spherical trigonometry",
+    "optionC": "analytic geometry",
+    "optionD": "calculus",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "b68f00fc-0ec4-4e44-8baa-9b3c7aa7db22",
+    "content": "Trigonometric identities: Sum and Difference Formulas are used to express trigonometric functions of sums or differences of angles in terms of:",
+    "optionA": "double angles",
+    "optionB": "single angles",
+    "optionC": "half angles",
+    "optionD": "quadruple angles",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "2b17757f-69a6-486a-baba-b80852a90ecd",
+    "content": "Basic plane figures like triangles and quadrilaterals are studied in:",
+    "optionA": "solid geometry",
+    "optionB": "plane geometry",
+    "optionC": "spherical geometry",
+    "optionD": "analytic geometry",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "b8f1c13a-e36d-4149-a927-6cb786e712e3",
+    "content": "Permutations vs Combinations differ in whether:",
+    "optionA": "repetition is allowed",
+    "optionB": "order matters",
+    "optionC": "replacement is allowed",
+    "optionD": "sampling is with or without replacement",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "750437a8-be44-43aa-85e6-84941b32fcc1",
+    "content": "Solving compound inequalities involves finding solutions that satisfy:",
+    "optionA": "only one inequality",
+    "optionB": "two or more inequalities simultaneously",
+    "optionC": "no inequalities",
+    "optionD": "infinitely many inequalities",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "b3543255-4449-4d01-98a0-64ea1ca0a0a6",
+    "content": "Other indeterminate forms in limits (besides 0/0 and ∞/∞) can often be transformed to 0/0 or ∞/∞ to apply:",
+    "optionA": "Power Rule",
+    "optionB": "Product Rule",
+    "optionC": "L'Hospital's Rule",
+    "optionD": "Chain Rule",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "d70eab7d-1306-4d92-b5e9-9bd4cd38aa05",
+    "content": "Applications of definite integrals in geometry include calculating:",
+    "optionA": "derivatives",
+    "optionB": "areas and volumes",
+    "optionC": "limits",
+    "optionD": "partial derivatives",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "7076318d-6c75-4143-9959-d3d2ad82ba34",
+    "content": "Set operations like union and intersection are used to:",
+    "optionA": "differentiate sets",
+    "optionB": "combine and compare sets",
+    "optionC": "integrate sets",
+    "optionD": "find limits of sets",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "40ab60a0-c9d3-4bc7-b998-592a114b9e1b",
+    "content": "The Fundamental Theorem of Calculus Part 1 establishes the relationship between:",
+    "optionA": "derivatives and limits",
+    "optionB": "differentiation and integration",
+    "optionC": "integrals and series",
+    "optionD": "limits and continuity",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "f176ef9b-34b1-4cf6-8d14-565d91c16593",
+    "content": "Volume by disk and washer methods is used for solids of revolution formed by rotating a region around:",
+    "optionA": "any axis",
+    "optionB": "the x-axis or y-axis",
+    "optionC": "an axis parallel to the x or y-axis",
+    "optionD": "only the origin",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "a6e8bf6d-68f4-4605-a94b-13ea0c25db20",
+    "content": "Fluid pressure and force using integrals are calculated based on:",
+    "optionA": "volume of fluid",
+    "optionB": "depth and density of fluid",
+    "optionC": "surface area of fluid",
+    "optionD": "velocity of fluid",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "443bd451-e4a6-4b5e-b696-bd7ed2503081",
+    "content": "Integrals of trigonometric functions involve:",
+    "optionA": "polynomial functions",
+    "optionB": "rational functions",
+    "optionC": "trigonometric functions",
+    "optionD": "exponential functions",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "1009e896-38ce-4708-8ea9-6a251c0e8e99",
+    "content": "Introduction to improper integrals includes integrals with:",
+    "optionA": "finite limits only",
+    "optionB": "infinite limits or discontinuous integrands",
+    "optionC": "only continuous integrands",
+    "optionD": "only polynomial integrands",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "18ac2bda-7dc8-48d7-b23a-16fe3d51402c",
+    "content": "Basic set definitions and notation are fundamental in:",
+    "optionA": "calculus",
+    "optionB": "set theory and logic",
+    "optionC": "linear algebra",
+    "optionD": "differential equations",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "b3b75810-2016-45da-816c-0f69a5add2a2",
+    "content": "Applications of spheres in geometry and real world include:",
+    "optionA": "plane figures only",
+    "optionB": "volumes, surface areas, and modeling spherical objects",
+    "optionC": "linear equations only",
+    "optionD": "calculus only",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "5c035d73-37b9-4081-9fd7-0d4ba89cd26b",
+    "content": "Arithmetic sequences and series have a constant:",
+    "optionA": "common ratio",
+    "optionB": "common difference",
+    "optionC": "product of terms",
+    "optionD": "ratio of terms",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "aec9c59b-4cf6-44ab-9799-5fc0d85b9522",
+    "content": "Graphs of inverse trigonometric functions show their:",
+    "optionA": "periodicity",
+    "optionB": "restricted domains and ranges",
+    "optionC": "symmetry about the origin",
+    "optionD": "asymptotic behavior",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "0f4bef25-87d7-43e7-a613-5dbc6e403c06",
+    "content": "Applications of combinatorial mathematics are found in:",
+    "optionA": "calculus only",
+    "optionB": "probability, statistics, and computer science",
+    "optionC": "geometry only",
+    "optionD": "trigonometry only",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "0d4cb953-6186-4136-b258-527b8759f891",
+    "content": "Average value of a function is a concept related to:",
+    "optionA": "derivatives",
+    "optionB": "definite integrals",
+    "optionC": "limits",
+    "optionD": "partial derivatives",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "083a5793-c5b8-48b5-b5e4-ec0804524158",
+    "content": "Polynomial expressions are algebraic expressions involving:",
+    "optionA": "only rational exponents",
+    "optionB": "non-negative integer exponents",
+    "optionC": "negative exponents",
+    "optionD": "fractional exponents",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "9d92172d-ddf7-45df-9930-a217d782faa4",
+    "content": "Vectors in three dimensions extend the concept of 2D vectors to:",
+    "optionA": "only magnitude",
+    "optionB": "only direction",
+    "optionC": "three-dimensional space with components and operations",
+    "optionD": "complex numbers",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "d1fce3f3-a815-44b8-b336-77c78a1c2233",
+    "content": "Triple integrals in Cartesian coordinates are used to find:",
+    "optionA": "areas in a plane",
+    "optionB": "volumes in 3D space",
+    "optionC": "lengths of curves",
+    "optionD": "surface areas",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "f7aaeb8f-2c43-4243-9cb2-0e2e2b445ebd",
+    "content": "Introduction to power series is a step towards understanding:",
+    "optionA": "algebraic equations",
+    "optionB": "representing functions as infinite sums",
+    "optionC": "geometric shapes",
+    "optionD": "trigonometric identities",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "d8be223d-58f1-4c30-aab2-d01fb34557e1",
+    "content": "Applications of partial fraction decomposition include:",
+    "optionA": "solving differential equations directly",
+    "optionB": "simplifying integrals of rational functions",
+    "optionC": "finding derivatives of rational functions",
+    "optionD": "solving algebraic equations",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "30ab5e05-b3b7-4d32-9d79-7430812aeb40",
+    "content": "Logarithmic differentiation with variable exponents is used for functions of the form:",
+    "optionA": "y = x^n",
+    "optionB": "y = e^x",
+    "optionC": "y = u(x)^v(x)",
+    "optionD": "y = sin(x)",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "a778647c-3806-483d-a7ca-674afb92625d",
+    "content": "Graphs of trigonometric functions (like sine and cosine) are:",
+    "optionA": "linear",
+    "optionB": "periodic",
+    "optionC": "exponential",
+    "optionD": "parabolic",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "a1b8cdf7-34d2-4925-b00c-2815ec16a454",
+    "content": "Directional derivatives: Definition and Calculation are used to find the rate of change in:",
+    "optionA": "only x-direction",
+    "optionB": "only y-direction",
+    "optionC": "any direction",
+    "optionD": "only z-direction",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "7e2bf6c6-1ead-4d4d-a1e6-81160ff86dc0",
+    "content": "Properties of determinants are useful in:",
+    "optionA": "solving single linear equations",
+    "optionB": "linear algebra, solving systems of equations and finding inverses",
+    "optionC": "calculus",
+    "optionD": "geometry",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "2cc7ab13-3ef3-4174-9ab7-8e11a68fe72e",
+    "content": "Volume between two surfaces is calculated using:",
+    "optionA": "single integrals",
+    "optionB": "double or triple integrals",
+    "optionC": "line integrals",
+    "optionD": "surface integrals",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "5e4a9ab7-f0de-4d11-b575-fd92d8bc9ddc",
+    "content": "Applications of limits in multivariable calculus include defining:",
+    "optionA": "derivatives of single variable functions",
+    "optionB": "continuity and partial derivatives for multivariable functions",
+    "optionC": "integrals of single variable functions",
+    "optionD": "areas in plane geometry",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "fbfcf1f1-a8e7-4379-b78c-a264bcf097c0",
+    "content": "Prisms and cylinders are types of:",
+    "optionA": "conic sections",
+    "optionB": "polyhedra and cylindrical solids, respectively",
+    "optionC": "spherical solids",
+    "optionD": "plane figures",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "fc153e67-4bc4-45de-acbf-8617b22920b0",
+    "content": "Work done by a variable force is calculated using:",
+    "optionA": "constant force formula",
+    "optionB": "integrals of force over distance",
+    "optionC": "derivatives of force",
+    "optionD": "limits of force",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "3d5ff799-9d1e-4ff6-9129-b98c5e0ef983",
+    "content": "Solving linear inequalities in one variable involves finding:",
+    "optionA": "a single solution",
+    "optionB": "a range of values that satisfy the inequality",
+    "optionC": "no solution",
+    "optionD": "complex solutions",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "15662da7-eda6-4cec-aef4-fb058efde357",
+    "content": "Applications of surfaces in 3D geometry include:",
+    "optionA": "plane geometry problems",
+    "optionB": "describing shapes and boundaries of 3D objects",
+    "optionC": "linear equations only",
+    "optionD": "calculus problems in 2D",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "facc7efe-7fa8-4bb3-a11c-c5ea70f7ee86",
+    "content": "Parallel and perpendicular lines equations are used to describe lines that:",
+    "optionA": "intersect at any angle",
+    "optionB": "never intersect or intersect at a right angle",
+    "optionC": "always coincide",
+    "optionD": "are skew to each other",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "e27e5917-1ba5-4607-a506-04ef7426304f",
+    "content": "The slope-intercept form of a line equation is:",
+    "optionA": "Ax + By = C",
+    "optionB": "y - y1 = m(x - x1)",
+    "optionC": "y = mx + b",
+    "optionD": "x/a + y/b = 1",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "7c9dc1d5-3fa8-4216-8a80-e41b1d53379d",
+    "content": "Permutations are used to count the number of ways to:",
+    "optionA": "select items without regard to order",
+    "optionB": "arrange items in a specific order",
+    "optionC": "combine items",
+    "optionD": "factor items",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "2da0f7ef-d1bb-4c41-9bbc-634a39078d8d",
+    "content": "Joint and combined variation describe relationships where a variable depends on:",
+    "optionA": "only one other variable",
+    "optionB": "two or more variables in specific ways",
+    "optionC": "no other variables",
+    "optionD": "itself",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "27d62799-f183-4b83-916e-ec4617edcfc1",
+    "content": "Introduction to spherical trigonometry deals with triangles on the surface of a:",
+    "optionA": "plane",
+    "optionB": "sphere",
+    "optionC": "cone",
+    "optionD": "cylinder",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "a94b3a04-000a-435c-bc9a-1624152367ed",
+    "content": "Solving trigonometric equations involves finding values of angles that:",
+    "optionA": "satisfy algebraic equations",
+    "optionB": "satisfy trigonometric relationships",
+    "optionC": "satisfy linear equations",
+    "optionD": "satisfy polynomial equations",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "3ff29d07-fd77-4494-be48-32c5c0c7c279",
+    "content": "Solving quadratic inequalities involves finding intervals where a quadratic expression is:",
+    "optionA": "equal to zero",
+    "optionB": "positive or negative",
+    "optionC": "always positive",
+    "optionD": "always negative",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "d16c4573-8c10-4edd-a52a-9e08bf9fc630",
+    "content": "Applications of solids with Volume=Base Area*Height include:",
+    "optionA": "pyramids and cones",
+    "optionB": "prisms and cylinders",
+    "optionC": "spheres",
+    "optionD": "hemispheres",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "ecf385b2-816c-402c-a94d-02044a5b2858",
+    "content": "Endpoint behavior of interval of convergence refers to convergence at:",
+    "optionA": "the center of the interval",
+    "optionB": "the endpoints of the interval",
+    "optionC": "any point within the interval",
+    "optionD": "points outside the interval",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "43ad2743-c43e-4cf5-8a33-4e509c890ff1",
+    "content": "Simplifying algebraic expressions often involves:",
+    "optionA": "calculus techniques",
+    "optionB": "combining like terms and applying algebraic rules",
+    "optionC": "graphing techniques",
+    "optionD": "solving equations",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "0cc904d3-02d6-46b1-b006-bf75b84248b5",
+    "content": "Formulating linear equations from real-world data is a crucial step in:",
+    "optionA": "solving quadratic equations",
+    "optionB": "mathematical modeling and problem-solving",
+    "optionC": "calculus applications",
+    "optionD": "geometric proofs",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "1e730309-9802-4581-9b78-08666b0331e5",
+    "content": "Applications of determinants include:",
+    "optionA": "solving single linear equations",
+    "optionB": "finding areas of circles",
+    "optionC": "solving systems of linear equations and finding matrix inverses",
+    "optionD": "finding derivatives",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "9785fc2b-ab62-48ec-9c8f-4ed09a4d2aec",
+    "content": "Convergence and divergence of series are determined using:",
+    "optionA": "derivatives",
+    "optionB": "various convergence tests",
+    "optionC": "integrals",
+    "optionD": "limits of functions",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "e0744712-7075-488a-a1b1-9bf63128b61e",
+    "content": "Introduction to conic sections: circles and parabolas focuses on:",
+    "optionA": "hyperbolas and ellipses",
+    "optionB": "basic properties and equations of circles and parabolas",
+    "optionC": "3D conic sections",
+    "optionD": "spherical sections",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "005f71cb-c45b-4756-948d-85fca4c19e3f",
+    "content": "The gradient vector and its geometric interpretation provide information about:",
+    "optionA": "the integral of a function",
+    "optionB": "the direction of steepest ascent and rate of change",
+    "optionC": "the concavity of a function",
+    "optionD": "the limits of a function",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "ad4453e3-206a-4c4b-ac4e-295f9b46d79f",
+    "content": "Cones are geometric solids with a:",
+    "optionA": "polygonal base and triangular faces meeting at a vertex",
+    "optionB": "circular base and a vertex",
+    "optionC": "rectangular base and rectangular faces",
+    "optionD": "spherical base",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "3eb84e8b-233e-4acc-86d6-e09ad7cfa489",
+    "content": "The inverse sine function, arcsin(x) or sin⁻¹(x), has a range of:",
+    "optionA": "[0, π]",
+    "optionB": "(-π/2, π/2)",
+    "optionC": "[−π/2, π/2]",
+    "optionD": "(0, π)",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "e6feb303-1e44-4fd9-8566-41302cd12651",
+    "content": "Applications of polar coordinates are useful in:",
+    "optionA": "rectangular regions",
+    "optionB": "problems with circular symmetry",
+    "optionC": "linear equations",
+    "optionD": "polynomial equations",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "e7042594-fc0d-4205-9c4f-46cb726cb850",
+    "content": "Systems of linear equations in three variables can be solved using methods like:",
+    "optionA": "graphing in 2D",
+    "optionB": "substitution and elimination",
+    "optionC": "quadratic formula",
+    "optionD": "trigonometric identities",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "2957babc-1d99-48e1-bd90-5b1f74f86c19",
+    "content": "Graphs of functions and transformations are studied to understand:",
+    "optionA": "derivatives",
+    "optionB": "how functions behave and change shape",
+    "optionC": "integrals",
+    "optionD": "limits",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "8e189a64-4533-43bc-8500-de8cc1a293b9",
+    "content": "Convergence and divergence of improper integrals are tested to determine if the integral:",
+    "optionA": "has a finite value",
+    "optionB": "has an infinite value or is undefined",
+    "optionC": "is always zero",
+    "optionD": "is always one",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "2dcd3d06-0fd9-47dd-89a5-5e973f91370c",
+    "content": "Implicit differentiation with trigonometric functions involves differentiating:",
+    "optionA": "polynomial functions",
+    "optionB": "functions where trigonometric terms are implicitly defined",
+    "optionC": "exponential functions",
+    "optionD": "logarithmic functions",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "e2642060-868e-4076-846a-deb120b4b003",
+    "content": "The dot product of vectors is a:",
+    "optionA": "vector",
+    "optionB": "scalar",
+    "optionC": "matrix",
+    "optionD": "set",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "6a6d6275-cc42-4915-be27-def8235f7b6b",
+    "content": "Using determinants to find matrix inverses is applicable to:",
+    "optionA": "all matrices",
+    "optionB": "square matrices",
+    "optionC": "rectangular matrices",
+    "optionD": "diagonal matrices",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "8f1b21d3-c1d6-47af-869a-aa9f775ea5f4",
+    "content": "Inverse functions 'undo' the action of:",
+    "optionA": "derivatives",
+    "optionB": "integrals",
+    "optionC": "the original function",
+    "optionD": "limits",
+    "correctAnswer": "C"
+  },
+  {
+    "quizId": "01b836a4-e493-47a3-ad9e-d4d7590e0421",
+    "content": "Differentiation and integration of power series can be performed term-by-term within their:",
+    "optionA": "domain",
+    "optionB": "interval of convergence",
+    "optionC": "range",
+    "optionD": "radius of convergence",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "b0df5b6b-1d10-4da4-adde-283472cdf5e7",
+    "content": "Integration by Substitution (u-Substitution) is used to simplify integrals by:",
+    "optionA": "integrating by parts",
+    "optionB": "changing variables",
+    "optionC": "using partial fractions",
+    "optionD": "using trigonometric identities",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "0a0647f2-5c4f-4061-b3ee-3af64daea405",
+    "content": "Solving linear equations in one variable involves finding the value of the variable that:",
+    "optionA": "makes the equation false",
+    "optionB": "makes the equation true",
+    "optionC": "makes the equation undefined",
+    "optionD": "makes the equation zero",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "f487487f-0e9d-47bd-ae0a-e8a718503829",
+    "content": "The determinant of a 3x3 matrix is calculated using:",
+    "optionA": "a simple formula like for 2x2 matrices",
+    "optionB": "cofactor expansion or similar methods",
+    "optionC": "only row operations",
+    "optionD": "only column operations",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "78a337d8-4d09-4b8a-812f-b19a7f39eff9",
+    "content": "Applications of sequences and series in calculus include:",
+    "optionA": "only finding sums of finite sequences",
+    "optionB": "representing functions, approximating values, and solving problems in physics and engineering",
+    "optionC": "only solving algebraic equations",
+    "optionD": "only graphing functions",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "213851bb-039b-4663-a02c-493b396ab870",
+    "content": "Circles and their properties are fundamental in:",
+    "optionA": "linear algebra",
+    "optionB": "geometry and trigonometry",
+    "optionC": "calculus",
+    "optionD": "differential equations",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "3f48ace6-003f-4ac8-bfb2-a9b53a7e5c01",
+    "content": "The Chain Rule for partial derivatives is used to differentiate:",
+    "optionA": "functions of one variable",
+    "optionB": "composite functions of several variables",
+    "optionC": "simple polynomial functions",
+    "optionD": "basic trigonometric functions",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "256cbcc2-d106-483e-b776-5e644126f161",
+    "content": "Inverse trigonometric functions are also known as:",
+    "optionA": "hyperbolic functions",
+    "optionB": "arc functions",
+    "optionC": "exponential functions",
+    "optionD": "logarithmic functions",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "7bf692f3-8efa-4f04-ba89-6a93ebb73fe0",
+    "content": "Set operations like complement and difference are used to:",
+    "optionA": "add and subtract sets",
+    "optionB": "find elements not in a set or in one set but not another",
+    "optionC": "multiply and divide sets",
+    "optionD": "find limits of sets",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "3bcda292-6686-47b0-b581-eba9142d4ee4",
+    "content": "Fluid pressure and force are important concepts in:",
+    "optionA": "plane geometry",
+    "optionB": "physics and engineering, particularly fluid mechanics",
+    "optionC": "linear algebra",
+    "optionD": "calculus of single variable functions",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "a9616efb-6011-4f7c-b55b-dcb306629c55",
+    "content": "Applications of solids with Volume=1/3(Base Area*Height) include:",
+    "optionA": "prisms and cylinders",
+    "optionB": "pyramids and cones",
+    "optionC": "spheres and hemispheres",
+    "optionD": "rectangular solids",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "ad009764-0d76-4a08-a94a-2e6b8ec3e48a",
+    "content": "Differentials vs Derivatives: Differentials represent:",
+    "optionA": "exact rates of change",
+    "optionB": "approximations of changes in function values",
+    "optionC": "instantaneous rates of change",
+    "optionD": "average rates of change",
+    "correctAnswer": "B"
+  },
+  {
+    "quizId": "fc76ff01-3082-441c-aceb-cae639de2f3c",
+    "content": "Setting Up Double Integrals for Volume Calculation involves defining:",
+    "optionA": "single limits of integration",
+    "optionB": "regions of integration in the xy-plane and integrands",
+    "optionC": "limits for single integrals",
+    "optionD": "limits for triple integrals",
+    "correctAnswer": "B"
+  }
+]
