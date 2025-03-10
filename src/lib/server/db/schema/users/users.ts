@@ -3,7 +3,7 @@ import { check, pgTable, text, timestamp, varchar } from 'drizzle-orm/pg-core';
 import { userRoleEnum } from './userRoleEnum';
 
 export const users = pgTable(
-  'user',
+  'users',
   {
     id: text('id').primaryKey().notNull(),
     username: varchar('username', { length: 30 }).unique().notNull(),
