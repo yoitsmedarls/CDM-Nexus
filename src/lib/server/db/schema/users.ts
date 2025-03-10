@@ -1,19 +1,6 @@
 import { sql } from 'drizzle-orm';
-import {
-  check,
-  customType,
-  pgTable,
-  text,
-  timestamp,
-  varchar,
-} from 'drizzle-orm/pg-core';
+import { check, pgTable, text, timestamp, varchar } from 'drizzle-orm/pg-core';
 import { userRoleEnum } from './userRoleEnum';
-
-const bytea = customType<{ data: Uint8Array }>({
-  dataType() {
-    return 'bytea';
-  },
-});
 
 export const users = pgTable(
   'users',
@@ -24,7 +11,7 @@ export const users = pgTable(
     cdmEmail: varchar('cdm_email', { length: 255 }).unique().notNull(),
     role: userRoleEnum('role').notNull().default('student'),
     passwordHash: text('password_hash').notNull(),
-    recoveryCode: bytea('recovery_code').notNull(),
+    recoveryCode: text('recovery_code').notNull(),
     dateJoined: timestamp('date_joined', {
       withTimezone: true,
     })
