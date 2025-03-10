@@ -6,10 +6,7 @@ import {
   verifyFullNameInput,
   verifyUsernameInput,
 } from '$lib/server/auth/user';
-import {
-  hashPassword,
-  verifyPasswordStrength,
-} from '$lib/server/auth/password';
+import { verifyPasswordStrength } from '$lib/server/auth/password';
 import { generateSessionToken, generateUserId } from '$lib/server/auth/utils';
 import { createSession } from '$lib/server/auth/session';
 import { setSessionTokenCookie } from '$lib/server/auth/cookie';
@@ -103,7 +100,7 @@ export const actions: Actions = {
         fullName,
         cdmEmail,
         username,
-        await hashPassword(password)
+        password
       );
 
       const sessionToken = generateSessionToken();
