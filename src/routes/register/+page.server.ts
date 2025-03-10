@@ -111,7 +111,6 @@ export const actions: Actions = {
       const redirectTo = event.url.searchParams.get('redirectTo');
 
       if (redirectTo) {
-        console.log('REDIRECTED!!!!');
         throw redirect(302, `/${redirectTo}`);
       }
     }
