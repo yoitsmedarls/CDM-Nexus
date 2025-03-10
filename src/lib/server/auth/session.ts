@@ -41,7 +41,7 @@ export async function validateSessionToken(
     .innerJoin(users, eq(sessions.userId, users.id))
     .where(eq(sessions.id, sessionId));
 
-  if (result === null) {
+  if (!result) {
     return { session: null, user: null };
   }
 

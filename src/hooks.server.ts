@@ -7,9 +7,9 @@ import { validateSessionToken } from '$lib/server/auth/session';
 import type { Handle } from '@sveltejs/kit';
 
 const authHandler: Handle = async ({ event, resolve }) => {
-  const sessionToken = event.cookies.get(sessionCookieName) ?? null;
+  const sessionToken = event.cookies.get(sessionCookieName);
 
-  if (sessionToken === null) {
+  if (!sessionToken) {
     event.locals.user = null;
     event.locals.session = null;
     return resolve(event);
