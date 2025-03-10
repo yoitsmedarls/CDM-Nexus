@@ -14,10 +14,10 @@ export async function createSession(
   token: string,
   userId: string
 ): Promise<SelectSession> {
-  const id = encodeHexLowerCase(sha256(new TextEncoder().encode(token)));
+  const sessionId = encodeHexLowerCase(sha256(new TextEncoder().encode(token)));
 
   const createdSession: SelectSession = {
-    id,
+    id: sessionId,
     userId,
     expiresAt: new Date(Date.now() + DAY_IN_MS * 30),
   };
@@ -30,7 +30,7 @@ export async function createSession(
 export async function validateSessionToken(
   token: string
 ): Promise<SessionValidationResult> {
-  const id = encodeHexLowerCase(sha256(new TextEncoder().encode(token)));
+  const sessionId = encodeHexLowerCase(sha256(new TextEncoder().encode(token)));
 
   const [result]: {
     user: SelectUser;
@@ -39,7 +39,7 @@ export async function validateSessionToken(
     .select({ user: users, session: sessions })
     .from(sessions)
     .innerJoin(users, eq(sessions.userId, users.id))
-    .where(eq(sessions.id, id));
+    .where(eq(sessions.id, sessionId));
 
   if (result === null) {
     return { session: null, user: null };
