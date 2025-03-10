@@ -14,3 +14,4 @@ export * from './schema/courses/examQuestions';
 export * from './schema/users/users';
 export * from './schema/users/userRoleEnum';
 export * from './schema/users/sessions';
+export * from './schema/users/passwordResetSessions';
