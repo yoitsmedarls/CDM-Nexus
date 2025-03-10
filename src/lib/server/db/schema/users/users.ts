@@ -22,7 +22,7 @@ export const users = pgTable(
     username: varchar('username', { length: 30 }).unique().notNull(),
     fullName: varchar('full_name', { length: 255 }).notNull(),
     cdmEmail: varchar('cdm_email', { length: 255 }).unique().notNull(),
-    role: userRoleEnum('role').notNull(),
+    role: userRoleEnum('role').notNull().default('student'),
     passwordHash: text('password_hash').notNull(),
     totp_key: bytea('totp_key'),
     recoveryCode: bytea('recovery_code').notNull(),
