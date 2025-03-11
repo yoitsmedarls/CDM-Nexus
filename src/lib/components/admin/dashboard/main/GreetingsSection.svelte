@@ -7,7 +7,7 @@
 </script>
 
 <hgroup
-  class="hgroup-bg-image flex flex-col border-b-1 border-gray-100 bg-cover bg-bottom p-4 transition-all duration-200 md:border-0 md:bg-gray-500 md:pt-12 md:pb-6 xl:rounded-t-md xl:pt-16"
+  class="hgroup-bg-image flex flex-col border-b-1 border-gray-100 bg-cover bg-bottom p-4 transition-all duration-200 md:border-0 md:bg-gray-500 md:pt-12 md:pb-6 xl:rounded-t-sm xl:pt-16"
 >
   <h1
     class="font-poppins 2xs:text-[1.375rem] w-fit text-xl font-semibold text-gray-800 transition-all duration-100 sm:text-2xl md:text-gray-50 lg:text-3xl"
