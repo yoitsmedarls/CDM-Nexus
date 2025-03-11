@@ -5,18 +5,11 @@
   let viewportWidth: number = $state(0);
   let inDuration: number = $state(200);
   let navigationOptions = $state([
-    {
-      text: 'Courses',
-      slug: 'courses',
-    },
-    {
-      text: 'Tutors',
-      slug: 'tutors',
-    },
-    {
-      text: 'Schedules',
-      slug: 'schedules',
-    },
+    { text: 'Account', slug: 'account' },
+    { text: 'Courses', slug: 'courses' },
+    { text: 'Tutors', slug: 'tutors' },
+    { text: 'Schedules', slug: 'schedules' },
+    { text: 'Settings', slug: 'settings' },
   ]);
 
   let { children }: { children: Snippet } = $props();
