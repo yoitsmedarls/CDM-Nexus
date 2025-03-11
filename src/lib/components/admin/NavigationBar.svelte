@@ -19,7 +19,7 @@
   <div
     class="flex min-h-20 w-full flex-row items-center border-gray-200 transition-all duration-200 max-xl:justify-between lg:min-h-24 xl:flex-col xl:gap-4 xl:rounded-md xl:border-1 xl:p-4"
   >
-    <a href="dashboard">
+    <a href="/admin/dashboard">
       <h1
         class="font-poppins 2xs:text-[1.375rem] xl:text-cdm-blue-950 w-fit text-xl font-semibold text-gray-800 transition-all duration-100 sm:text-2xl lg:text-3xl xl:py-4 xl:pr-12 xl:pl-2"
       >
@@ -48,7 +48,7 @@
         <div class="xl:flex xl:w-full xl:flex-col">
           {#each navigationOptions as option (option.slug)}
             <a
-              href={option.slug}
+              href={`/admin/${option.slug}`}
               class="font-poppins active:text-cdm-blue-950 max-xl:hover:text-cdm-blue-900 xl:hover:text-cdm-blue-950 xl:active:bg-cdm-blue-100 xl:hover:bg-cdm-blue-50 rounded-md p-2 text-sm font-semibold text-gray-800 transition-all duration-100 lg:text-base xl:block xl:w-full xl:text-gray-800"
             >
               {option.text}
