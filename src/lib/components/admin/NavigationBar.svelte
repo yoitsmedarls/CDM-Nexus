@@ -14,7 +14,7 @@
 </script>
 
 <header
-  class="sticky top-0 flex w-full overflow-auto border-white bg-white transition-all duration-200 max-xl:px-4 xl:bottom-0 xl:left-0 xl:h-svh xl:max-h-[88rem] xl:min-h-fit xl:max-w-fit xl:min-w-fit xl:border-8"
+  class="sticky top-0 flex w-full overflow-auto border-white bg-white transition-all duration-200 max-xl:px-4 xl:bottom-0 xl:left-0 xl:h-svh xl:max-h-[80rem] xl:min-h-fit xl:max-w-fit xl:min-w-fit xl:border-8"
 >
   <div
     class="flex min-h-20 w-full flex-row items-center border-gray-200 transition-all duration-200 max-xl:justify-between lg:min-h-24 xl:flex-col xl:gap-4 xl:rounded-md xl:border-1 xl:p-4"

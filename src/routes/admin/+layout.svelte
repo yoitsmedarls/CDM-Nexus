@@ -18,7 +18,7 @@
 <svelte:window bind:innerWidth={viewportWidth} />
 
 <div
-  class="mx-auto flex max-w-[128rem] grow flex-col justify-between xl:flex-row"
+  class="mx-auto flex w-full max-w-[128rem] grow flex-col justify-between xl:flex-row"
 >
   <NavigationBar {inDuration} {navigationOptions} {viewportWidth}
   ></NavigationBar>
