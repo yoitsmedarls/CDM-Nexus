@@ -1,8 +1,10 @@
 <script lang="ts">
   let {
-    user,
+    title,
+    subtitle,
   }: {
-    user: { username: string; cdmEmail: string };
+    title?: string;
+    subtitle?: string;
   } = $props();
 </script>
 
@@ -12,12 +14,12 @@
   <h1
     class="font-poppins 2xs:text-[1.375rem] w-fit text-xl font-semibold text-gray-800 transition-all duration-100 sm:text-2xl md:text-gray-50 lg:text-3xl"
   >
-    Welcome, {user.username}!
+    {title ? title : 'Untitled'}
   </h1>
   <p
     class="font-nunito 2xs:text-[0.875rem] text-[0.75rem] font-semibold text-gray-800 transition-all duration-100 sm:text-base md:text-white lg:text-lg"
   >
-    {user.cdmEmail}
+    {subtitle ? subtitle : 'No description.'}
   </p>
 </hgroup>
 
