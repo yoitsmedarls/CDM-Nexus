@@ -6,7 +6,7 @@
 </script>
 
 <aside
-  class="xl:bg-cdm-red-50 flex w-full flex-col gap-2 rounded-md px-2 py-4 transition-all duration-100 md:w-[25%] md:max-w-xs md:min-w-[16rem] md:bg-gray-50"
+  class="xl:bg-cdm-blue-50 flex w-full flex-col gap-2 rounded-md px-2 py-4 transition-all duration-200 md:w-[25%] md:max-w-xs md:min-w-[16rem] md:bg-gray-50 xl:h-fit"
 >
   <section
     class="min-h-48 rounded-md border-gray-200 bg-white p-2 max-md:bg-gray-100"
