@@ -17,21 +17,25 @@
   let user = $derived(data.user);
   let infoBoxes = $derived([
     {
+      id: 'no-of-courses',
       info: data.coursesCount.toString(),
       label: data.coursesCount > 1 ? 'Courses' : 'Course',
       description: 'Published & Unpublished',
     },
     {
+      id: 'no-of-tutors',
       info: data.tutorsCount.toString(),
       label: data.tutorsCount > 1 ? 'Tutors' : 'Tutor',
       description: 'Active & Inactive',
     },
     {
+      id: 'no-of-students',
       info: data.studentsCount.toString(),
       label: data.studentsCount > 1 ? 'Students' : 'Student',
       description: 'With An Account',
     },
     {
+      id: 'no-of-site-visits',
       info: data.visitsCount.toString(),
       label: data.visitsCount > 1 ? 'Site Visits' : 'Site Visit',
       description: 'Across All Courses',
@@ -50,7 +54,7 @@
     <section
       class="grid min-h-fit grid-cols-2 gap-2 border-b-1 border-gray-100 p-2 pb-4 lg:grid-cols-4"
     >
-      {#each infoBoxes as box}
+      {#each infoBoxes as box (box.id)}
         <InfoBox
           info={box.info}
           label={box.label}
@@ -61,7 +65,7 @@
     <section
       class="flex flex-col gap-2 border-b-1 border-gray-100 px-2 py-4 lg:flex-row xl:justify-center"
     >
-      {#each charts as chart}
+      {#each charts as chart (chart.id)}
         <div
           class="flex grow flex-col overflow-clip rounded-md bg-gray-100 p-4 xl:max-w-1/2"
         >

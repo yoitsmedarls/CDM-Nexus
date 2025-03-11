@@ -1,8 +1,8 @@
 <script lang="ts">
-  let events: { text: string }[] = $state([]);
+  let events: { id: number; text: string }[] = $state([]);
 
   for (let index = 1; index <= 8; index++) {
-    events.push({ text: 'Event No. ' + index });
+    events.push({ id: index, text: 'Event No. ' + index });
   }
 </script>
 
@@ -14,7 +14,7 @@
   >
     Events
   </h2>
-  {#each events as event}
+  {#each events as event (event.id)}
     <div class="flex flex-col justify-center">
       <h3
         class="font-nunito 2xs:text-[0.75rem] hover:bg-cdm-red-50 rounded-sm p-2 pb-2 text-[0.675rem] font-semibold text-gray-800 transition-all duration-100 sm:text-[0.875rem] lg:text-base"
