@@ -128,6 +128,11 @@
           class="font-poppins border-cdm-blue-900 text-cdm-blue-900 hover:bg-cdm-blue-900 active:bg-cdm-blue-950 active:border-cdm-blue-950 rounded-md border-2 bg-white px-4 py-2 text-sm font-semibold transition-all duration-100 hover:text-white active:text-white lg:text-base xl:text-center"
           >Update Course</button
         >
+        <button
+          formaction="?/deleteCourse"
+          class="font-poppins border-cdm-red-700 text-cdm-red-700 hover:bg-cdm-red-700 active:bg-cdm-red-800 active:border-cdm-red-800 rounded-md border-2 bg-white px-4 py-2 text-sm font-semibold transition-all duration-100 hover:text-white active:text-white lg:text-base xl:text-center"
+          >Delete Course</button
+        >
       </fieldset>
     </form>
   </section>
@@ -175,7 +180,7 @@
               <li>
                 <a
                   class="font-nunito hover:text-cdm-blue-900 active:text-cdm-blue-950 inline-block w-full rounded-sm border-1 border-gray-200 p-2 text-sm transition-all duration-100 hover:bg-gray-50 active:bg-gray-100 sm:text-base lg:text-lg"
-                  href={`/admin/courses/${data.queriedCourse.slug}/${lesson.slug}`}
+                  href={`${data.queriedCourse.slug}/${lesson.slug}`}
                 >
                   {lesson.title}
                 </a>

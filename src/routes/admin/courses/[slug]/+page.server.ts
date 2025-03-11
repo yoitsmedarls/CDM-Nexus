@@ -1,5 +1,5 @@
 import { db } from '$lib/server/db';
-import { eq } from 'drizzle-orm';
+import { desc, eq } from 'drizzle-orm';
 import type { PageServerLoad } from './$types';
 import { courses, lessons, type InsertCourse } from '$lib/server/db/schema';
 import { error, fail, redirect, type Actions } from '@sveltejs/kit';
@@ -17,7 +17,8 @@ export const load = (async ({ params }) => {
   const queriedLessons = await db
     .select()
     .from(lessons)
-    .where(eq(lessons.courseId, queriedCourse.id));
+    .where(eq(lessons.courseId, queriedCourse.id))
+    .orderBy(desc(lessons.dateModified));
 
   return { queriedCourse, queriedLessons };
 }) satisfies PageServerLoad;
@@ -70,6 +71,28 @@ export const actions: Actions = {
       });
     }
 
-    return redirect(302, '/admin/courses/');
+    return redirect(302, slug);
+  },
+  deleteCourse: async (event) => {
+    const formData: FormData = await event.request.formData();
+
+    const id: string | undefined = formData.get('course-id')?.toString().trim();
+
+    if (!id) {
+      return fail(400, {
+        message: 'Something went wrong. Please try again later.',
+      });
+    }
+
+    try {
+      await db.delete(courses).where(eq(courses.id, id));
+    } catch (error) {
+      console.error(error);
+      return fail(500, {
+        message: 'Something went wrong. Please try again later.',
+      });
+    }
+
+    return redirect(302, '/admin/courses');
   },
 };
