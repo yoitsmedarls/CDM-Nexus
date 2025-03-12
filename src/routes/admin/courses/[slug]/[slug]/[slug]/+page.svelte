@@ -236,9 +236,9 @@
         </fieldset>
         <fieldset class="flex flex-row justify-end gap-4">
           <p class="text-cdm-red-600 font-nunito inline-block py-2 pr-2">
-            <!-- {#if form?.message}
-              {form?.message ?? ''}
-            {/if} -->
+            {#if form?.lectureMaterialMessage}
+              {form?.lectureMaterialMessage ?? ''}
+            {/if}
           </p>
           <button
             type="submit"

@@ -147,7 +147,7 @@ export const actions: Actions = {
       .trim();
 
     if (!id || !topicId || !ytVideoId || !title || !description) {
-      return fail(400, { topicMessage: 'Fill up all the fields.' });
+      return fail(400, { lectureMaterialMessage: 'Fill up all the fields.' });
     }
 
     const updatedLectureMaterial: InsertLectureMaterial = {
@@ -165,7 +165,7 @@ export const actions: Actions = {
     } catch (error) {
       console.error(error);
       return fail(500, {
-        topicMessage: 'Something went wrong. Please try again later.',
+        lectureMaterialMessage: 'Something went wrong. Please try again later.',
       });
     }
 
@@ -182,7 +182,7 @@ export const actions: Actions = {
 
     if (!id) {
       return fail(400, {
-        topicMessage: 'Something went wrong. Please try again later.',
+        lectureMaterialMessage: 'Something went wrong. Please try again later.',
       });
     }
 
@@ -191,7 +191,7 @@ export const actions: Actions = {
     } catch (error) {
       console.error(error);
       return fail(500, {
-        topicMessage: 'Something went wrong. Please try again later.',
+        lectureMaterialMessage: 'Something went wrong. Please try again later.',
       });
     }
 
