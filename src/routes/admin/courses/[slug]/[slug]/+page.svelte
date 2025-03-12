@@ -5,6 +5,7 @@
   let { form, data }: PageProps = $props();
 
   let lesson = $state(data.queriedLesson);
+  let addTopicPanelVisible = $state(false);
 </script>
 
 <section
@@ -158,16 +159,133 @@
     <ul
       class="grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
     >
-      {#each data.queriedTopics as topic (topic.id)}
-        <li>
-          <a
-            class="font-nunito hover:text-cdm-blue-900 active:text-cdm-blue-950 inline-block h-full w-full rounded-sm border-1 border-gray-200 p-2 text-sm transition-all duration-100 hover:bg-gray-50 active:bg-gray-100 sm:text-base lg:text-lg"
-            href={`${lesson.slug}/${topic.slug}`}
-          >
-            {topic.title}
-          </a>
+      {#if data.queriedTopics[0]}
+        {#each data.queriedTopics as topic (topic.id)}
+          <li>
+            <a
+              class="font-nunito hover:text-cdm-blue-900 active:text-cdm-blue-950 inline-block h-full w-full rounded-sm border-1 border-gray-200 p-2 text-sm transition-all duration-100 hover:bg-gray-50 active:bg-gray-100 sm:text-base lg:text-lg"
+              href={`${lesson.slug}/${topic.slug}`}
+            >
+              {topic.title}
+            </a>
+          </li>
+        {/each}
+      {:else}
+        <li
+          class="font-nunito inline-block h-full w-full rounded-sm p-2 text-sm transition-all duration-100 sm:text-base lg:text-lg"
+        >
+          No topics yet...
         </li>
-      {/each}
+      {/if}
     </ul>
+    <div
+      class="max-md:relative max-md:inset-0 max-md:flex max-md:grow max-md:flex-col md:col-span-2"
+    >
+      <button
+        class={[
+          addTopicPanelVisible ? 'hidden' : 'block',
+          'font-poppins border-cdm-blue-900 text-cdm-blue-900 hover:bg-cdm-blue-900 active:bg-cdm-blue-950 active:border-cdm-blue-950 rounded-md border-2 bg-white px-4 py-2 text-sm font-semibold transition-all duration-100 hover:text-white active:text-white md:ml-auto lg:text-base xl:text-center',
+        ]}
+        onclick={() => (addTopicPanelVisible = !addTopicPanelVisible)}
+      >
+        Add Topic
+      </button>
+      <div
+        class={[
+          addTopicPanelVisible ? 'fixed' : 'hidden',
+          'inset-0 flex h-full w-full flex-col bg-[#00000040] p-4 md:justify-center md:align-middle',
+        ]}
+      >
+        <form
+          method="post"
+          action="?/addTopic"
+          use:enhance
+          class="mx-auto flex w-full max-w-4xl min-w-sm flex-col rounded-md bg-white p-4 drop-shadow-md max-md:h-full md:h-fit"
+        >
+          <div class="flex flex-row justify-between pb-2">
+            <h1
+              class="font-poppins 2xs:text-base text-cdm-blue-950 w-fit pb-2 text-sm font-semibold transition-all duration-100 sm:text-lg lg:text-xl"
+            >
+              Add a topic
+            </h1>
+            <button
+              type="button"
+              class={[addTopicPanelVisible ? 'block' : 'hidden']}
+              onclick={() => (addTopicPanelVisible = !addTopicPanelVisible)}
+            >
+              <span
+                class="material-symbols-rounded hover:bg-cdm-red-50 active:bg-cdm-red-100 rounded-md transition-all duration-100"
+              >
+                <span
+                  class="text-cdm-red-800 2xs:text-[1.625rem] px-1 text-2xl transition-all duration-100 sm:text-3xl"
+                >
+                  close
+                </span>
+              </span>
+            </button>
+          </div>
+          <fieldset class="flex flex-col pb-2 md:flex-row">
+            <label
+              for="topic-lesson-id"
+              class="font-nunito inline-block pt-1 pr-4 text-left font-semibold whitespace-nowrap text-gray-800 md:max-w-32 md:min-w-32"
+            >
+              Lesson ID:
+            </label>
+            <input
+              readonly
+              minlength="8"
+              name="topic-lesson-id"
+              id="topic-lesson-id"
+              type="text"
+              maxlength="8"
+              bind:value={lesson.id}
+              class="font-nunito w-full rounded-xs border-0 border-gray-200 p-0 text-gray-700 transition-all duration-100"
+            />
+          </fieldset>
+          <fieldset class="flex flex-col pb-2 md:flex-row">
+            <label
+              for="topic-title"
+              class="font-nunito inline-block pt-1 pr-4 text-left font-semibold whitespace-nowrap text-gray-800 md:max-w-32 md:min-w-32"
+            >
+              Title:
+            </label>
+            <input
+              name="topic-title"
+              id="topic-title"
+              type="text"
+              maxlength="255"
+              placeholder="Topic Title"
+              class="font-nunito w-full rounded-xs border-1 border-gray-200 p-1 text-gray-700 transition-all duration-100"
+            />
+          </fieldset>
+          <fieldset class="flex flex-col pb-2 md:flex-row">
+            <label
+              for="topic-description"
+              class="font-nunito inline-block pt-1 pr-4 text-left font-semibold whitespace-nowrap text-gray-800 md:max-w-32 md:min-w-32"
+            >
+              Description:
+            </label>
+            <textarea
+              id="topic-description"
+              name="topic-description"
+              placeholder="Describe the coverage of the topic."
+              class="font-nunito inline-block field-sizing-fixed min-h-20 w-full resize-y rounded-xs border-1 border-gray-200 p-1 text-gray-700"
+            ></textarea>
+          </fieldset>
+          <fieldset class="flex flex-row justify-end gap-4">
+            <p class="text-cdm-red-600 font-nunito inline-block py-2 pr-2">
+              {#if form?.message}
+                {form?.message ?? ''}
+              {/if}
+            </p>
+            <button
+              type="submit"
+              class="font-poppins border-cdm-blue-900 text-cdm-blue-900 hover:bg-cdm-blue-900 active:bg-cdm-blue-950 active:border-cdm-blue-950 rounded-md border-2 bg-white px-4 py-2 text-sm font-semibold transition-all duration-100 hover:text-white active:text-white lg:text-base xl:text-center"
+              >Add Topic</button
+            >
+          </fieldset>
+        </form>
+      </div>
+    </div>
   </section>
 </section>
