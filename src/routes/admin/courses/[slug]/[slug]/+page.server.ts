@@ -51,10 +51,6 @@ export const actions: Actions = {
       ?.toString()
       .trim();
 
-    console.log();
-    console.log(id, courseId, title, description, termInput, publishedInput);
-    console.log();
-
     if (
       !id ||
       !courseId ||
