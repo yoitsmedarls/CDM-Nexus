@@ -169,7 +169,7 @@ export const actions: Actions = {
       });
     }
 
-    return redirect(302, '');
+    return redirect(302, event.url.pathname);
   },
 
   deleteLectureMaterial: async (event) => {
@@ -195,6 +195,52 @@ export const actions: Actions = {
       });
     }
 
-    return redirect(302, '');
+    return redirect(302, event.url.pathname);
+  },
+
+  addLectureMaterial: async (event) => {
+    const formData: FormData = await event.request.formData();
+
+    const topicId: string | undefined = formData
+      .get('insert-lecture-material-topic-id')
+      ?.toString()
+      .trim();
+    const title: string | undefined = formData
+      .get('insert-lecture-material-title')
+      ?.toString()
+      .trim();
+    const ytVideoId: string | undefined = formData
+      .get('insert-lecture-material-yt-video-id')
+      ?.toString()
+      .trim();
+    const description: string | undefined = formData
+      .get('insert-lecture-material-description')
+      ?.toString()
+      .trim();
+
+    if (!topicId || !title || !ytVideoId || !description) {
+      return fail(400, {
+        insertLectureMaterialMessage: 'Fill up all the fields.',
+      });
+    }
+
+    const updatedLectureMaterial: InsertLectureMaterial = {
+      topicId,
+      title,
+      ytVideoId,
+      description,
+    };
+
+    try {
+      await db.insert(lectureMaterials).values(updatedLectureMaterial);
+    } catch (error) {
+      console.error(error);
+      return fail(500, {
+        insertLectureMaterialMessage:
+          'Something went wrong. Please try again later.',
+      });
+    }
+
+    return redirect(302, event.url.pathname);
   },
 };

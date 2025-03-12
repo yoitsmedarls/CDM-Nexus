@@ -8,6 +8,8 @@
   let lectureMaterial = $state(data.queriedLectureMaterial);
   let quiz = $state(data.queriedQuiz);
   let quizQuestions = $state(data.queriedQuizQuestions);
+
+  let addLectureMaterialPanelVisible = $state(false);
 </script>
 
 <section
@@ -157,7 +159,7 @@
             allowfullscreen
           ></iframe>
         </div>
-        <form action="?/updateLectureMaterial" method="post" use:enhance>
+        <form action="?/updateLectureMaterial" method="post">
           <fieldset class="hidden pb-2 md:flex-row">
             <label
               for="lecture-material-id"
@@ -261,6 +263,131 @@
       >
         No lecture material yet...
       </p>
+      <div
+        class="max-md:relative max-md:inset-0 max-md:flex max-md:grow max-md:flex-col md:col-span-2"
+      >
+        <button
+          class={[
+            addLectureMaterialPanelVisible ? 'hidden' : 'block',
+            'font-poppins border-cdm-blue-900 text-cdm-blue-900 hover:bg-cdm-blue-900 active:bg-cdm-blue-950 active:border-cdm-blue-950 rounded-md border-2 bg-white px-4 py-2 text-sm font-semibold transition-all duration-100 hover:text-white active:text-white md:ml-auto lg:text-base xl:text-center',
+          ]}
+          onclick={() =>
+            (addLectureMaterialPanelVisible = !addLectureMaterialPanelVisible)}
+        >
+          Add Lecture Material
+        </button>
+        <div
+          class={[
+            addLectureMaterialPanelVisible ? 'fixed' : 'hidden',
+            'inset-0 flex h-full w-full flex-col bg-[#00000040] p-4 md:justify-center md:align-middle',
+          ]}
+        >
+          <form
+            method="post"
+            action="?/addLectureMaterial"
+            class="mx-auto flex w-full max-w-4xl min-w-sm flex-col rounded-md bg-white p-4 drop-shadow-md max-md:h-full md:h-fit"
+          >
+            <div class="flex flex-row justify-between pb-2">
+              <h1
+                class="font-poppins 2xs:text-base text-cdm-blue-950 w-fit pb-2 text-sm font-semibold transition-all duration-100 sm:text-lg lg:text-xl"
+              >
+                Add a lecture material
+              </h1>
+              <button
+                type="button"
+                class={[addLectureMaterialPanelVisible ? 'block' : 'hidden']}
+                onclick={() =>
+                  (addLectureMaterialPanelVisible =
+                    !addLectureMaterialPanelVisible)}
+              >
+                <span
+                  class="material-symbols-rounded hover:bg-cdm-red-50 active:bg-cdm-red-100 rounded-md transition-all duration-100"
+                >
+                  <span
+                    class="text-cdm-red-800 2xs:text-[1.625rem] px-1 text-2xl transition-all duration-100 sm:text-3xl"
+                  >
+                    close
+                  </span>
+                </span>
+              </button>
+            </div>
+            <fieldset class="flex flex-col pb-2 md:flex-row">
+              <label
+                for="insert-lecture-material-topic-id"
+                class="font-nunito inline-block pt-1 pr-4 text-left font-semibold whitespace-nowrap text-gray-800 md:max-w-32 md:min-w-32"
+              >
+                Topic ID:
+              </label>
+              <input
+                readonly
+                name="insert-lecture-material-topic-id"
+                id="insert-lecture-material-topic-id"
+                type="text"
+                bind:value={topic.id}
+                class="font-nunito w-full rounded-xs border-0 border-gray-200 p-0 text-gray-700 transition-all duration-100"
+              />
+            </fieldset>
+            <fieldset class="flex flex-col pb-2 md:flex-row">
+              <label
+                for="insert-lecture-material-title"
+                class="font-nunito inline-block pt-1 pr-4 text-left font-semibold whitespace-nowrap text-gray-800 md:max-w-32 md:min-w-32"
+              >
+                Title:
+              </label>
+              <input
+                name="insert-lecture-material-title"
+                id="insert-lecture-material-title"
+                type="text"
+                maxlength="255"
+                placeholder="Lecture Material Title"
+                class="font-nunito w-full rounded-xs border-1 border-gray-200 p-1 text-gray-700 transition-all duration-100"
+              />
+            </fieldset>
+            <fieldset class="flex flex-col pb-2 md:flex-row">
+              <label
+                for="insert-lecture-material-yt-video-id"
+                class="font-nunito inline-block pt-1 pr-4 text-left font-semibold whitespace-nowrap text-gray-800 md:max-w-32 md:min-w-32"
+              >
+                Video ID:
+              </label>
+              <input
+                name="insert-lecture-material-yt-video-id"
+                id="insert-lecture-material-yt-video-id"
+                type="text"
+                maxlength="11"
+                placeholder="YouTube Video ID"
+                class="font-nunito w-full rounded-xs border-1 border-gray-200 p-1 text-gray-700 transition-all duration-100"
+              />
+            </fieldset>
+            <fieldset class="flex flex-col pb-2 md:flex-row">
+              <label
+                for="insert-lecture-material-description"
+                class="font-nunito inline-block pt-1 pr-4 text-left font-semibold whitespace-nowrap text-gray-800 md:max-w-32 md:min-w-32"
+              >
+                Description:
+              </label>
+              <textarea
+                id="insert-lecture-material-description"
+                name="insert-lecture-material-description"
+                placeholder="Describe the coverage of the lecture material."
+                class="font-nunito inline-block field-sizing-fixed min-h-20 w-full resize-y rounded-xs border-1 border-gray-200 p-1 text-gray-700"
+              ></textarea>
+            </fieldset>
+            <fieldset class="flex flex-row justify-end gap-4">
+              <p class="text-cdm-red-600 font-nunito inline-block py-2 pr-2">
+                {#if form?.insertLectureMaterialMessage}
+                  {form?.insertLectureMaterialMessage ?? ''}
+                {/if}
+              </p>
+              <button
+                type="submit"
+                class="font-poppins border-cdm-blue-900 text-cdm-blue-900 hover:bg-cdm-blue-900 active:bg-cdm-blue-950 active:border-cdm-blue-950 rounded-md border-2 bg-white px-4 py-2 text-sm font-semibold transition-all duration-100 hover:text-white active:text-white lg:text-base xl:text-center"
+                >Add Lecture Material</button
+              >
+            </fieldset>
+          </form>
+        </div>
+      </div>
     {/if}
   </section>
   <section class="flex flex-col gap-2 transition-all duration-100">
