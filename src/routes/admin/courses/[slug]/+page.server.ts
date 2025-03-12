@@ -1,7 +1,12 @@
 import { db } from '$lib/server/db';
 import { desc, eq } from 'drizzle-orm';
 import type { PageServerLoad } from './$types';
-import { courses, lessons, type InsertCourse } from '$lib/server/db/schema';
+import {
+  courses,
+  lessons,
+  type InsertCourse,
+  type InsertLesson,
+} from '$lib/server/db/schema';
 import { error, fail, redirect, type Actions } from '@sveltejs/kit';
 
 export const load = (async ({ params }) => {
@@ -73,6 +78,7 @@ export const actions: Actions = {
 
     return redirect(302, slug);
   },
+
   deleteCourse: async (event) => {
     const formData: FormData = await event.request.formData();
 
@@ -94,5 +100,54 @@ export const actions: Actions = {
     }
 
     return redirect(302, '/admin/courses');
+  },
+
+  addLesson: async (event) => {
+    const formData: FormData = await event.request.formData();
+
+    const courseId: string | undefined = formData
+      .get('lesson-course-id')
+      ?.toString()
+      .trim();
+    const title: string | undefined = formData
+      .get('lesson-title')
+      ?.toString()
+      .trim();
+    const description: string | undefined = formData
+      .get('lesson-description')
+      ?.toString()
+      .trim();
+    const termInput: string | undefined = formData
+      .get('lesson-term')
+      ?.toString()
+      .trim();
+
+    if (!courseId || !title || !description || !termInput) {
+      return fail(400, { message: 'Fill up all the fields.' });
+    }
+
+    const slugPass1: string = title.toLowerCase().replaceAll(/[^a-z-]/g, '-');
+    const slug: string = slugPass1.replaceAll(/-(-)+/g, '-');
+    const term: 'midterm' | 'finals' =
+      termInput === 'midterm' ? 'midterm' : 'finals';
+
+    const updatedLesson: InsertLesson = {
+      courseId,
+      title,
+      description,
+      slug,
+      term,
+    };
+
+    try {
+      await db.insert(lessons).values(updatedLesson);
+    } catch (error) {
+      console.error(error);
+      return fail(500, {
+        message: 'Something went wrong. Please try again later.',
+      });
+    }
+
+    return redirect(302, event.url.pathname + `/${slug}`);
   },
 };

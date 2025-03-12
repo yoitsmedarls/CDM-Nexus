@@ -88,6 +88,7 @@ export const actions: Actions = {
 
     return redirect(302, slug);
   },
+
   deleteLesson: async (event) => {
     const formData: FormData = await event.request.formData();
 

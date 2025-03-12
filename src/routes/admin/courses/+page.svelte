@@ -112,6 +112,7 @@
       <form
         method="post"
         action="?/addCourse"
+        use:enhance
         class="mx-auto flex w-full max-w-4xl min-w-sm flex-col rounded-md bg-white p-4 drop-shadow-md max-md:h-full md:h-fit"
       >
         <div class="flex flex-row justify-between pb-2">
@@ -144,7 +145,6 @@
             Course Code:
           </label>
           <input
-            required
             minlength="8"
             name="course-id"
             id="course-id"
@@ -162,7 +162,6 @@
             Title:
           </label>
           <input
-            required
             name="course-title"
             id="course-title"
             type="text"
@@ -179,7 +178,6 @@
             Description:
           </label>
           <textarea
-            required
             id="course-description"
             name="course-description"
             placeholder="Describe the coverage of the course."

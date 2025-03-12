@@ -44,6 +44,6 @@ export const actions: Actions = {
       });
     }
 
-    return redirect(302, '/admin/courses/');
+    return redirect(302, event.url.pathname + `/${slug}`);
   },
 };
