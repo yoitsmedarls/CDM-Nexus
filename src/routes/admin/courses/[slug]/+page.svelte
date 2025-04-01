@@ -306,7 +306,7 @@
               <button
                 type="submit"
                 class="font-poppins border-cdm-blue-900 text-cdm-blue-900 hover:bg-cdm-blue-900 active:bg-cdm-blue-950 active:border-cdm-blue-950 rounded-md border-2 bg-white px-4 py-2 text-sm font-semibold transition-all duration-100 hover:text-white active:text-white lg:text-base xl:text-center"
-                >Add Course</button
+                >Add Lesson</button
               >
             </fieldset>
           </form>

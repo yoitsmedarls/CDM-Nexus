@@ -1,5 +1,10 @@
 import { db } from '$lib/server/db';
-import { lessons, topics, type InsertLesson } from '$lib/server/db/schema';
+import {
+  lessons,
+  topics,
+  type InsertLesson,
+  type InsertTopic,
+} from '$lib/server/db/schema';
 import { desc, eq } from 'drizzle-orm';
 import type { PageServerLoad } from './$types';
 import { error, redirect } from '@sveltejs/kit';
@@ -110,5 +115,47 @@ export const actions: Actions = {
     }
 
     return redirect(302, '/admin/courses');
+  },
+
+  addTopic: async (event) => {
+    const formData: FormData = await event.request.formData();
+
+    const lessonId: string | undefined = formData
+      .get('topic-lesson-id')
+      ?.toString()
+      .trim();
+    const title: string | undefined = formData
+      .get('topic-title')
+      ?.toString()
+      .trim();
+    const description: string | undefined = formData
+      .get('topic-description')
+      ?.toString()
+      .trim();
+
+    if (!lessonId || !title || !description) {
+      return fail(400, { topicMessage: 'Fill up all the fields.' });
+    }
+
+    const slugPass1: string = title.toLowerCase().replaceAll(/[^a-z-]/g, '-');
+    const slug: string = slugPass1.replaceAll(/-(-)+/g, '-');
+
+    const createdTopic: InsertTopic = {
+      lessonId,
+      title,
+      description,
+      slug,
+    };
+
+    try {
+      await db.insert(topics).values(createdTopic);
+    } catch (error) {
+      console.error(error);
+      return fail(500, {
+        topicMessage: 'Something went wrong. Please try again later.',
+      });
+    }
+
+    return redirect(302, event.url.pathname + `/${slug}`);
   },
 };

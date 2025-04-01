@@ -143,116 +143,125 @@
     >
       Lecture Material
     </h2>
-    <div class="flex flex-col gap-4">
-      <div class="flex h-fit min-h-40 flex-col justify-center px-4 pt-2 pb-8">
-        <iframe
-          src={`https://www.youtube.com/embed/${lectureMaterial.ytVideoId}`}
-          title={lectureMaterial.title}
-          class="block aspect-video w-full max-w-4xl self-center"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
+
+    {#if lectureMaterial}
+      <div class="flex flex-col gap-4">
+        <div class="flex h-fit min-h-40 flex-col justify-center px-4 pt-2 pb-8">
+          <iframe
+            src={`https://www.youtube.com/embed/${lectureMaterial.ytVideoId}`}
+            title={lectureMaterial.title}
+            class="block aspect-video w-full max-w-4xl self-center"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <form action="?/updateLectureMaterial" method="post" use:enhance>
+          <fieldset class="hidden pb-2 md:flex-row">
+            <label
+              for="lecture-material-id"
+              class="font-nunito inline-block pt-1 pr-4 text-left font-semibold whitespace-nowrap text-gray-800 md:max-w-32 md:min-w-32"
+            >
+              ID:
+            </label>
+            <input
+              name="lecture-material-id"
+              id="lecture-material-id"
+              type="text"
+              readonly
+              bind:value={lectureMaterial.id}
+              class="font-nunito w-full rounded-xs border-0 p-0 text-gray-700 transition-all duration-100"
+            />
+          </fieldset>
+          <fieldset class="hidden pb-2 md:flex-row">
+            <label
+              for="lecture-material-topic-id"
+              class="font-nunito inline-block pt-1 pr-4 text-left font-semibold whitespace-nowrap text-gray-800 md:max-w-32 md:min-w-32"
+            >
+              From Topic:
+            </label>
+            <input
+              name="lecture-material-topic-id"
+              id="lecture-material-topic-id"
+              type="text"
+              readonly
+              bind:value={lectureMaterial.topicId}
+              class="font-nunito w-full rounded-xs border-0 p-0 text-gray-700 transition-all duration-100"
+            />
+          </fieldset>
+          <fieldset class="flex flex-col pb-2 md:flex-row">
+            <label
+              for="lecture-material-yt-video-id"
+              class="font-nunito inline-block pt-1 pr-4 text-left font-semibold whitespace-nowrap text-gray-800 md:max-w-32 md:min-w-32"
+            >
+              Video ID:
+            </label>
+            <input
+              name="lecture-material-yt-video-id"
+              id="lecture-material-yt-video-id"
+              type="text"
+              maxlength="255"
+              bind:value={lectureMaterial.ytVideoId}
+              class="font-nunito w-full rounded-xs border-1 border-gray-200 p-1 text-gray-700 transition-all duration-100"
+            />
+          </fieldset>
+          <fieldset class="flex flex-col pb-2 md:flex-row">
+            <label
+              for="lecture-material-title"
+              class="font-nunito inline-block pt-1 pr-4 text-left font-semibold whitespace-nowrap text-gray-800 md:max-w-32 md:min-w-32"
+            >
+              Title:
+            </label>
+            <input
+              name="lecture-material-title"
+              id="lecture-material-title"
+              type="text"
+              maxlength="255"
+              bind:value={lectureMaterial.title}
+              class="font-nunito w-full rounded-xs border-1 border-gray-200 p-1 text-gray-700 transition-all duration-100"
+            />
+          </fieldset>
+          <fieldset class="flex flex-col pb-2 md:flex-row">
+            <label
+              for="lecture-material-description"
+              class="font-nunito inline-block pt-1 pr-4 text-left font-semibold whitespace-nowrap text-gray-800 md:max-w-32 md:min-w-32"
+            >
+              Description:
+            </label>
+            <textarea
+              id="lecture-material-description"
+              name="lecture-material-description"
+              class="font-nunito inline-block field-sizing-fixed min-h-20 w-full resize-y rounded-xs border-1 border-gray-200 p-1 text-gray-700"
+              >{lectureMaterial.description.trim()}</textarea
+            >
+          </fieldset>
+          <fieldset class="flex flex-row justify-end gap-4">
+            <p class="text-cdm-red-600 font-nunito inline-block py-2 pr-2">
+              {#if form?.lectureMaterialMessage}
+                {form?.lectureMaterialMessage ?? ''}
+              {/if}
+            </p>
+            <button
+              type="submit"
+              class="font-poppins border-cdm-blue-900 text-cdm-blue-900 hover:bg-cdm-blue-900 active:bg-cdm-blue-950 active:border-cdm-blue-950 rounded-md border-2 bg-white px-4 py-2 text-sm font-semibold transition-all duration-100 hover:text-white active:text-white lg:text-base xl:text-center"
+              >Update Lecture Material</button
+            >
+            <button
+              formaction="?/deleteLectureMaterial"
+              class="font-poppins border-cdm-red-700 text-cdm-red-700 hover:bg-cdm-red-700 active:bg-cdm-red-800 active:border-cdm-red-800 rounded-md border-2 bg-white px-4 py-2 text-sm font-semibold transition-all duration-100 hover:text-white active:text-white lg:text-base xl:text-center"
+              >Delete Lecture Material</button
+            >
+          </fieldset>
+        </form>
       </div>
-      <form action="?/updateLectureMaterial" method="post" use:enhance>
-        <fieldset class="hidden pb-2 md:flex-row">
-          <label
-            for="lecture-material-id"
-            class="font-nunito inline-block pt-1 pr-4 text-left font-semibold whitespace-nowrap text-gray-800 md:max-w-32 md:min-w-32"
-          >
-            ID:
-          </label>
-          <input
-            name="lecture-material-id"
-            id="lecture-material-id"
-            type="text"
-            readonly
-            bind:value={lectureMaterial.id}
-            class="font-nunito w-full rounded-xs border-0 p-0 text-gray-700 transition-all duration-100"
-          />
-        </fieldset>
-        <fieldset class="hidden pb-2 md:flex-row">
-          <label
-            for="lecture-material-topic-id"
-            class="font-nunito inline-block pt-1 pr-4 text-left font-semibold whitespace-nowrap text-gray-800 md:max-w-32 md:min-w-32"
-          >
-            From Topic:
-          </label>
-          <input
-            name="lecture-material-topic-id"
-            id="lecture-material-topic-id"
-            type="text"
-            readonly
-            bind:value={lectureMaterial.topicId}
-            class="font-nunito w-full rounded-xs border-0 p-0 text-gray-700 transition-all duration-100"
-          />
-        </fieldset>
-        <fieldset class="flex flex-col pb-2 md:flex-row">
-          <label
-            for="lecture-material-yt-video-id"
-            class="font-nunito inline-block pt-1 pr-4 text-left font-semibold whitespace-nowrap text-gray-800 md:max-w-32 md:min-w-32"
-          >
-            Video ID:
-          </label>
-          <input
-            name="lecture-material-yt-video-id"
-            id="lecture-material-yt-video-id"
-            type="text"
-            maxlength="255"
-            bind:value={lectureMaterial.ytVideoId}
-            class="font-nunito w-full rounded-xs border-1 border-gray-200 p-1 text-gray-700 transition-all duration-100"
-          />
-        </fieldset>
-        <fieldset class="flex flex-col pb-2 md:flex-row">
-          <label
-            for="lecture-material-title"
-            class="font-nunito inline-block pt-1 pr-4 text-left font-semibold whitespace-nowrap text-gray-800 md:max-w-32 md:min-w-32"
-          >
-            Title:
-          </label>
-          <input
-            name="lecture-material-title"
-            id="lecture-material-title"
-            type="text"
-            maxlength="255"
-            bind:value={lectureMaterial.title}
-            class="font-nunito w-full rounded-xs border-1 border-gray-200 p-1 text-gray-700 transition-all duration-100"
-          />
-        </fieldset>
-        <fieldset class="flex flex-col pb-2 md:flex-row">
-          <label
-            for="lecture-material-description"
-            class="font-nunito inline-block pt-1 pr-4 text-left font-semibold whitespace-nowrap text-gray-800 md:max-w-32 md:min-w-32"
-          >
-            Description:
-          </label>
-          <textarea
-            id="lecture-material-description"
-            name="lecture-material-description"
-            class="font-nunito inline-block field-sizing-fixed min-h-20 w-full resize-y rounded-xs border-1 border-gray-200 p-1 text-gray-700"
-            >{lectureMaterial.description.trim()}</textarea
-          >
-        </fieldset>
-        <fieldset class="flex flex-row justify-end gap-4">
-          <p class="text-cdm-red-600 font-nunito inline-block py-2 pr-2">
-            {#if form?.lectureMaterialMessage}
-              {form?.lectureMaterialMessage ?? ''}
-            {/if}
-          </p>
-          <button
-            type="submit"
-            class="font-poppins border-cdm-blue-900 text-cdm-blue-900 hover:bg-cdm-blue-900 active:bg-cdm-blue-950 active:border-cdm-blue-950 rounded-md border-2 bg-white px-4 py-2 text-sm font-semibold transition-all duration-100 hover:text-white active:text-white lg:text-base xl:text-center"
-            >Update Lecture Material</button
-          >
-          <button
-            formaction="?/deleteLectureMaterial"
-            class="font-poppins border-cdm-red-700 text-cdm-red-700 hover:bg-cdm-red-700 active:bg-cdm-red-800 active:border-cdm-red-800 rounded-md border-2 bg-white px-4 py-2 text-sm font-semibold transition-all duration-100 hover:text-white active:text-white lg:text-base xl:text-center"
-            >Delete Lecture Material</button
-          >
-        </fieldset>
-      </form>
-    </div>
+    {:else}
+      <p
+        class="font-nunito inline-block h-full w-full rounded-sm p-2 text-sm transition-all duration-100 sm:text-base lg:text-lg"
+      >
+        No lecture material yet...
+      </p>
+    {/if}
   </section>
   <section class="flex flex-col gap-2 transition-all duration-100">
     <h2
@@ -312,6 +321,12 @@
           {/each}
         </ol>
       </div>
+    {:else}
+      <p
+        class="font-nunito inline-block h-full w-full rounded-sm p-2 text-sm transition-all duration-100 sm:text-base lg:text-lg"
+      >
+        No quiz yet...
+      </p>
     {/if}
   </section>
 </section>
