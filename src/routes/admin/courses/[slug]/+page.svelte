@@ -14,7 +14,7 @@
     <h2
       class="font-poppins 2xs:text-xl text-cdm-blue-950 w-fit pb-2 text-lg font-semibold transition-all duration-100 sm:text-[1.375rem] lg:text-2xl"
     >
-      {data.queriedCourse.title}
+      {course.title}
     </h2>
     <div class="flex flex-row pb-2">
       <p
@@ -23,12 +23,9 @@
         Last Modified:
       </p>
       <p class="font-nunito text-gray-700">
-        {data.queriedCourse?.dateModified.toLocaleDateString(
-          navigator.language,
-          {
-            dateStyle: 'medium',
-          }
-        )}
+        {course.dateModified.toLocaleDateString(navigator.language, {
+          dateStyle: 'medium',
+        })}
       </p>
     </div>
     <form

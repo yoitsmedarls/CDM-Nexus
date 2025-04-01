@@ -14,7 +14,7 @@
     <h2
       class="font-poppins 2xs:text-xl text-cdm-blue-950 w-fit pb-2 text-lg font-semibold transition-all duration-100 sm:text-[1.375rem] lg:text-2xl"
     >
-      {data.queriedLesson.title}
+      {lesson.title}
     </h2>
     <div class="flex flex-row pb-2">
       <p
@@ -23,12 +23,9 @@
         Last Modified:
       </p>
       <p class="font-nunito text-gray-700">
-        {data.queriedLesson?.dateModified.toLocaleDateString(
-          navigator.language,
-          {
-            dateStyle: 'medium',
-          }
-        )}
+        {lesson.dateModified.toLocaleDateString(navigator.language, {
+          dateStyle: 'medium',
+        })}
       </p>
     </div>
     <form
@@ -164,7 +161,7 @@
       {#each data.queriedTopics as topic (topic.id)}
         <li>
           <a
-            class="font-nunito hover:text-cdm-blue-900 active:text-cdm-blue-950 inline-block w-full rounded-sm border-1 border-gray-200 p-2 text-sm transition-all duration-100 hover:bg-gray-50 active:bg-gray-100 sm:text-base lg:text-lg"
+            class="font-nunito hover:text-cdm-blue-900 active:text-cdm-blue-950 inline-block h-full w-full rounded-sm border-1 border-gray-200 p-2 text-sm transition-all duration-100 hover:bg-gray-50 active:bg-gray-100 sm:text-base lg:text-lg"
             href={`${lesson.slug}/${topic.slug}`}
           >
             {topic.title}
