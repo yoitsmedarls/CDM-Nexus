@@ -19,3 +19,223 @@ body {
   flex-direction: column;
   flex-grow: 1;
 }
+
+@theme {
+  --*: initial;
+
+  /* CDM Nexus Fonts */
+  --font-poppins: 'Poppins', sans-serif;
+  --font-nunito: 'Nunito', sans-serif;
+  --font-merriweather: 'Merriweather', serif;
+
+  /* CDM Blue: Default is 900 */
+  --color-blue-50: oklch(0.97 0.0167 236.69);
+  --color-blue-100: oklch(0.93 0.0383 236.06);
+  --color-blue-200: oklch(0.88 0.0669 234.33);
+  --color-blue-300: oklch(0.82 0.1089 233.03);
+  --color-blue-400: oklch(0.74 0.1521 240.33);
+  --color-blue-500: oklch(0.64 0.1958 252.92);
+  --color-blue-600: oklch(0.57 0.239663 260.6824);
+  --color-blue-700: oklch(0.52 0.2669 263.15);
+  --color-blue-800: oklch(0.46 0.235 263.17);
+  --color-blue-900: oklch(0.37 0.1654 261.49);
+  --color-blue-950: oklch(0.29 0.1185 262.24);
+
+  /* CDM Yellow: Default is 500 */
+  --color-yellow-50: oklch(0.99 0.03 104.9);
+  --color-yellow-100: oklch(0.98 0.0777 106.96);
+  --color-yellow-200: oklch(0.97 0.1383 106.52);
+  --color-yellow-300: oklch(0.93 0.1797 103.52);
+  --color-yellow-400: oklch(0.9 0.1848 98.15);
+  --color-yellow-500: oklch(0.87 0.1775 91.69);
+  --color-yellow-600: oklch(0.77 0.157374 82.0571);
+  --color-yellow-700: oklch(0.65 0.1233 72.23);
+  --color-yellow-800: oklch(0.53 0.109 66.98);
+  --color-yellow-900: oklch(0.43 0.0915 62.48);
+  --color-yellow-950: oklch(0.29 0.0654 58.63);
+
+  /* CDM Red: Default is 600 */
+  --color-red-50: oklch(0.97 0.0119 23.7);
+  --color-red-100: oklch(0.94 0.0321 20.11);
+  --color-red-200: oklch(0.89 0.0595 22.18);
+  --color-red-300: oklch(0.81 0.1061 22.47);
+  --color-red-400: oklch(0.72 0.1701 25.17);
+  --color-red-500: oklch(0.65 0.2128 27.48);
+  --color-red-600: oklch(0.59 0.2204 28.98);
+  --color-red-700: oklch(0.52 0.1938 29.02);
+  --color-red-800: oklch(0.45 0.1643 28.57);
+  --color-red-900: oklch(0.4 0.1349 27.87);
+  --color-red-950: oklch(0.26 0.0903 28.21);
+
+  /* Default Orange */
+  --color-orange-50: oklch(0.98 0.016 73.684);
+  --color-orange-100: oklch(0.954 0.038 75.164);
+  --color-orange-200: oklch(0.901 0.076 70.697);
+  --color-orange-300: oklch(0.837 0.128 66.29);
+  --color-orange-400: oklch(0.75 0.173 55.934);
+  --color-orange-500: oklch(0.705 0.213 47.604);
+  --color-orange-600: oklch(0.646 0.222 41.116);
+  --color-orange-700: oklch(0.553 0.195 38.402);
+  --color-orange-800: oklch(0.47 0.157 37.304);
+  --color-orange-900: oklch(0.408 0.123 38.172);
+  --color-orange-950: oklch(0.266 0.079 36.259);
+
+  /* Default Green */
+  --color-green-50: oklch(0.9718 0.024 159.16);
+  --color-green-100: oklch(0.941 0.053 157.78);
+  --color-green-200: oklch(0.8868 0.106 155.61);
+  --color-green-300: oklch(0.8368 0.152 153.84);
+  --color-green-400: oklch(0.797 0.191 151.16);
+  --color-green-500: oklch(0.7227 0.192 149.58);
+  --color-green-600: oklch(0.6228 0.164 149.79);
+  --color-green-700: oklch(0.5216 0.135 149.96);
+  --color-green-800: oklch(0.4152 0.105 150.23);
+  --color-green-900: oklch(0.3051 0.073 151.09);
+  --color-green-950: oklch(0.243 0.053 152.56);
+
+  /* Gray */
+  --color-gray-50: oklch(0.985 0.002 247.839);
+  --color-gray-100: oklch(0.967 0.003 264.542);
+  --color-gray-200: oklch(0.928 0.006 264.531);
+  --color-gray-300: oklch(0.872 0.01 258.338);
+  --color-gray-400: oklch(0.707 0.022 261.325);
+  --color-gray-500: oklch(0.551 0.027 264.364);
+  --color-gray-600: oklch(0.446 0.03 256.802);
+  --color-gray-700: oklch(0.373 0.034 259.733);
+  --color-gray-800: oklch(0.278 0.033 256.848);
+  --color-gray-900: oklch(0.21 0.034 264.665);
+  --color-gray-950: oklch(0.13 0.028 261.692);
+
+  /* Basic Colors */
+  --color-black: #000;
+  --color-white: #fff;
+
+  /* Default Spacing */
+  --spacing: 0.25rem;
+
+  /* Custom Breakpoints */
+  --breakpoint-2xs: 24rem;
+  --breakpoint-xs: 32rem;
+  --breakpoint-sm: 40rem;
+  --breakpoint-md: 48rem;
+  --breakpoint-lg: 64rem;
+  --breakpoint-xl: 80rem;
+  --breakpoint-2xl: 96rem;
+
+  /* Default Container Queries */
+  --container-3xs: 16rem;
+  --container-2xs: 18rem;
+  --container-xs: 20rem;
+  --container-sm: 24rem;
+  --container-md: 28rem;
+  --container-lg: 32rem;
+  --container-xl: 36rem;
+  --container-2xl: 42rem;
+  --container-3xl: 48rem;
+  --container-4xl: 56rem;
+  --container-5xl: 64rem;
+  --container-6xl: 72rem;
+  --container-7xl: 80rem;
+
+  /* Default Font Sizes */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+  --text-5xl: 3rem;
+  --text-6xl: 3.75rem;
+  --text-7xl: 4.5rem;
+  --text-8xl: 6rem;
+  --text-9xl: 8rem;
+
+  /* Line Heights for Default Font Sizes */
+  --text-xs--line-height: calc(1 / 0.75);
+  --text-sm--line-height: calc(1.25 / 0.875);
+  --text-base--line-height: calc(1.5 / 1);
+  --text-lg--line-height: calc(1.75 / 1.125);
+  --text-xl--line-height: calc(1.75 / 1.25);
+  --text-2xl--line-height: calc(2 / 1.5);
+  --text-3xl--line-height: calc(2.25 / 1.875);
+  --text-4xl--line-height: calc(2.5 / 2.25);
+  --text-5xl--line-height: 1;
+  --text-6xl--line-height: 1;
+  --text-7xl--line-height: 1;
+  --text-8xl--line-height: 1;
+  --text-9xl--line-height: 1;
+
+  /* Default Font Weights */
+  --font-weight-thin: 100;
+  --font-weight-extralight: 200;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+  --font-weight-black: 900;
+
+  /* Default Letter Spacings */
+  --tracking-tighter: -0.05em;
+  --tracking-tight: -0.025em;
+  --tracking-normal: 0em;
+  --tracking-wide: 0.025em;
+  --tracking-wider: 0.05em;
+  --tracking-widest: 0.1em;
+
+  /* Default Line Heights */
+  --leading-tight: 1.25;
+  --leading-snug: 1.375;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.625;
+  --leading-loose: 2;
+
+  /* Default Radius Values */
+  --radius-xs: 0.125rem;
+  --radius-sm: 0.25rem;
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-2xl: 1rem;
+  --radius-3xl: 1.5rem;
+  --radius-4xl: 2rem;
+
+  /* Default Shadow Values */
+  --shadow-2xs: 0 1px rgb(0 0 0 / 0.05);
+  --shadow-xs: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg:
+    0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-xl:
+    0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+
+  /* Default Inset Shadow Values */
+  --inset-shadow-2xs: inset 0 1px rgb(0 0 0 / 0.05);
+  --inset-shadow-xs: inset 0 1px 1px rgb(0 0 0 / 0.05);
+  --inset-shadow-sm: inset 0 2px 4px rgb(0 0 0 / 0.05);
+
+  /* Default Drop Shadow Values */
+  --drop-shadow-xs: 0 1px 1px rgb(0 0 0 / 0.05);
+  --drop-shadow-sm: 0 1px 2px rgb(0 0 0 / 0.15);
+  --drop-shadow-md: 0 3px 3px rgb(0 0 0 / 0.12);
+  --drop-shadow-lg: 0 4px 4px rgb(0 0 0 / 0.15);
+  --drop-shadow-xl: 0 9px 7px rgb(0 0 0 / 0.1);
+  --drop-shadow-2xl: 0 25px 25px rgb(0 0 0 / 0.15);
+
+  /* Default Blur Values */
+  --blur-xs: 4px;
+  --blur-sm: 8px;
+  --blur-md: 12px;
+  --blur-lg: 16px;
+  --blur-xl: 24px;
+  --blur-2xl: 40px;
+  --blur-3xl: 64px;
+
+  /* Aspect ratio for videos */
+  --aspect-video: 16 / 9;
+}
