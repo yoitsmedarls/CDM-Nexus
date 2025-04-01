@@ -18,7 +18,7 @@ export const quiz = pgTable(
     topicId: uuid('topic_id')
       .notNull()
       .references(() => topic.id, { onDelete: 'cascade' }),
-    title: varchar('title', { length: 255 }).unique().notNull(),
+    title: varchar('title', { length: 255 }).notNull(),
     description: text('description').notNull(),
     length: integer('length').notNull(),
   },

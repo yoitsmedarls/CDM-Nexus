@@ -16,7 +16,7 @@ export const lectureMaterial = pgTable(
     topicId: uuid('topic_id')
       .notNull()
       .references(() => topic.id, { onDelete: 'cascade' }),
-    title: varchar('title', { length: 255 }).unique().notNull(),
+    title: varchar('title', { length: 255 }).notNull(),
     description: text('description').notNull(),
     ytVideoId: text('yt_video_id').notNull(),
   },

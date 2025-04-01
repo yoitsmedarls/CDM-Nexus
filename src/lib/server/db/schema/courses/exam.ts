@@ -20,7 +20,7 @@ export const exam = pgTable(
       .notNull()
       .references(() => course.id, { onDelete: 'cascade' }),
     term: termEnum('term').notNull(),
-    title: varchar('title', { length: 255 }).unique().notNull(),
+    title: varchar('title', { length: 255 }).notNull(),
     description: text('description').notNull(),
     length: integer('length').notNull(),
   },
