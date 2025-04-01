@@ -1,0 +1,33 @@
+<script lang="ts">
+  import NavigationBar from '$lib/components/admin/NavigationBar.svelte';
+  import type { Snippet } from 'svelte';
+
+  let viewportWidth: number = $state(0);
+  let inDuration: number = $state(200);
+  let navigationOptions = $state([
+    {
+      text: 'Courses',
+      slug: 'courses',
+    },
+    {
+      text: 'Tutors',
+      slug: 'tutors',
+    },
+    {
+      text: 'Schedules',
+      slug: 'schedules',
+    },
+  ]);
+
+  let { children }: { children: Snippet } = $props();
+</script>
+
+<svelte:window bind:innerWidth={viewportWidth} />
+
+<div class="flex grow flex-col justify-between xl:flex-row">
+  <NavigationBar {inDuration} {navigationOptions} {viewportWidth}
+  ></NavigationBar>
+  <div class="flex grow flex-col md:flex-row xl:gap-2 xl:py-2 xl:pr-2">
+    {@render children()}
+  </div>
+</div>

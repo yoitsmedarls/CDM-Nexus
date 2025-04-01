@@ -2,26 +2,19 @@
   import { enhance } from '$app/forms';
   import { fade } from 'svelte/transition';
 
-  let navigationOptions = $state([
-    {
-      text: 'Courses',
-      slug: 'courses',
-    },
-    {
-      text: 'Tutors',
-      slug: 'tutors',
-    },
-    {
-      text: 'Schedule',
-      slug: 'schedule',
-    },
-  ]);
-
-  let vw: number = $state(0);
-  let inDuration: number = $state(200);
+  let {
+    viewportWidth,
+    inDuration,
+    navigationOptions,
+  }: {
+    viewportWidth: number;
+    inDuration: number;
+    navigationOptions: {
+      text: string;
+      slug: string;
+    }[];
+  } = $props();
 </script>
-
-<svelte:window bind:innerWidth={vw} />
 
 <header
   class="xl:bg-cdm-blue-950 relative flex w-full overflow-clip border-white bg-white px-4 transition-all duration-200 xl:sticky xl:top-0 xl:bottom-0 xl:left-0 xl:max-h-svh xl:max-w-fit xl:min-w-fit xl:rounded-[0.875rem] xl:border-8 xl:py-4"
@@ -33,11 +26,11 @@
       <h1
         class="font-poppins 2xs:text-[1.375rem] w-fit text-xl font-semibold text-gray-800 transition-all duration-100 sm:text-2xl lg:text-3xl xl:py-4 xl:pr-8 xl:pl-2 xl:text-white"
       >
-        {vw < 1280 ? 'Dashboard' : 'CDM Nexus'}
+        {viewportWidth < 1280 ? 'Dashboard' : 'CDM Nexus'}
       </h1>
       <hr class="hidden text-white xl:block" />
     </a>
-    {#if vw < 768}
+    {#if viewportWidth < 768}
       <button
         in:fade={{ duration: inDuration }}
         class="grid place-items-center md:hidden"
