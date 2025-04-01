@@ -3,7 +3,7 @@ export * from './schema/stateEnum';
 export * from './schema/termEnum';
 export * from './schema/courses';
 export * from './schema/lessons';
-export * from './schema/examQuestions';
+export * from './schema/topics';
 export * from './schema/lectureMaterials';
 export * from './schema/quizzes';
 export * from './schema/quizQuestions';
