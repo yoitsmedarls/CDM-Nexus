@@ -68,12 +68,7 @@
         <span class="flex h-6 flex-row justify-center px-0.5 xl:hidden">
           <span class="border-r-1 border-[#06266550]"></span>
         </span>
-        <form
-          class="flex w-full flex-col"
-          method="post"
-          action="?/logout"
-          use:enhance
-        >
+        <form class="flex w-full flex-col" method="post" use:enhance>
           <button
             class="font-poppins border-cdm-red-700 text-cdm-red-700 hover:bg-cdm-red-700 active:bg-cdm-red-800 active:border-cdm-red-800 rounded-md border-2 bg-white px-4 py-2 text-sm font-semibold transition-all duration-100 hover:text-white active:text-white lg:text-base xl:w-full xl:text-center"
           >
