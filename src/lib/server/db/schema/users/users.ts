@@ -24,7 +24,7 @@ export const users = pgTable(
     cdmEmail: varchar('cdm_email', { length: 255 }).unique().notNull(),
     role: userRoleEnum('role').notNull().default('student'),
     passwordHash: text('password_hash').notNull(),
-    totp_key: bytea('totp_key'),
+    totpKey: bytea('totp_key'),
     recoveryCode: bytea('recovery_code').notNull(),
     dateJoined: timestamp('date_joined', {
       withTimezone: true,
