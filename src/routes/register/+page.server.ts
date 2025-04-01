@@ -8,8 +8,7 @@ import {
 } from '$lib/server/auth/user';
 import { verifyPasswordStrength } from '$lib/server/auth/password';
 import { generateSessionToken, generateUserId } from '$lib/server/auth/utils';
-import { createSession } from '$lib/server/auth/session';
-import { setSessionTokenCookie } from '$lib/server/auth/cookie';
+import { createSession, setSessionTokenCookie } from '$lib/server/auth/session';
 import {
   checkEmailAvailability,
   verifyEmailInput,

@@ -5,8 +5,7 @@ import type { PageServerLoad, Actions } from './$types';
 import { checkIfUserExists, verifyUsernameInput } from '$lib/server/auth/user';
 import { users, type SelectUser } from '$lib/server/db/schema';
 import { generateSessionToken } from '$lib/server/auth/utils';
-import { createSession } from '$lib/server/auth/session';
-import { setSessionTokenCookie } from '$lib/server/auth/cookie';
+import { createSession, setSessionTokenCookie } from '$lib/server/auth/session';
 import {
   verifyPasswordHash,
   verifyPasswordStrength,
