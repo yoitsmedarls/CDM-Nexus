@@ -5,6 +5,7 @@
   let { form, data }: PageProps = $props();
 
   let course = $state(data.queriedCourse);
+  let addLessonPanelVisible = $state(false);
 </script>
 
 <section
@@ -185,6 +186,131 @@
             {/if}
           {/each}
         </ul>
+      </div>
+      <div
+        class="max-md:relative max-md:inset-0 max-md:flex max-md:grow max-md:flex-col md:col-span-2"
+      >
+        <button
+          class={[
+            addLessonPanelVisible ? 'hidden' : 'block',
+            'font-poppins border-cdm-blue-900 text-cdm-blue-900 hover:bg-cdm-blue-900 active:bg-cdm-blue-950 active:border-cdm-blue-950 rounded-md border-2 bg-white px-4 py-2 text-sm font-semibold transition-all duration-100 hover:text-white active:text-white md:ml-auto lg:text-base xl:text-center',
+          ]}
+          onclick={() => (addLessonPanelVisible = !addLessonPanelVisible)}
+        >
+          Add Lesson
+        </button>
+        <div
+          class={[
+            addLessonPanelVisible ? 'fixed' : 'hidden',
+            'inset-0 flex h-full w-full flex-col bg-[#00000040] p-4 md:justify-center md:align-middle',
+          ]}
+        >
+          <form
+            method="post"
+            action="?/addLesson"
+            use:enhance
+            class="mx-auto flex w-full max-w-4xl min-w-sm flex-col rounded-md bg-white p-4 drop-shadow-md max-md:h-full md:h-fit"
+          >
+            <div class="flex flex-row justify-between pb-2">
+              <h1
+                class="font-poppins 2xs:text-base text-cdm-blue-950 w-fit pb-2 text-sm font-semibold transition-all duration-100 sm:text-lg lg:text-xl"
+              >
+                Add a lesson
+              </h1>
+              <button
+                type="button"
+                class={[addLessonPanelVisible ? 'block' : 'hidden']}
+                onclick={() => (addLessonPanelVisible = !addLessonPanelVisible)}
+              >
+                <span
+                  class="material-symbols-rounded hover:bg-cdm-red-50 active:bg-cdm-red-100 rounded-md transition-all duration-100"
+                >
+                  <span
+                    class="text-cdm-red-800 2xs:text-[1.625rem] px-1 text-2xl transition-all duration-100 sm:text-3xl"
+                  >
+                    close
+                  </span>
+                </span>
+              </button>
+            </div>
+            <fieldset class="flex flex-col pb-2 md:flex-row">
+              <label
+                for="lesson-course-id"
+                class="font-nunito inline-block pt-1 pr-4 text-left font-semibold whitespace-nowrap text-gray-800 md:max-w-32 md:min-w-32"
+              >
+                Course Code:
+              </label>
+              <input
+                readonly
+                minlength="8"
+                name="lesson-course-id"
+                id="lesson-course-id"
+                type="text"
+                maxlength="8"
+                bind:value={course.id}
+                class="font-nunito w-full rounded-xs border-0 border-gray-200 p-0 text-gray-700 transition-all duration-100"
+              />
+            </fieldset>
+            <fieldset class="flex flex-col pb-2 md:flex-row">
+              <label
+                for="lesson-title"
+                class="font-nunito inline-block pt-1 pr-4 text-left font-semibold whitespace-nowrap text-gray-800 md:max-w-32 md:min-w-32"
+              >
+                Title:
+              </label>
+              <input
+                name="lesson-title"
+                id="lesson-title"
+                type="text"
+                maxlength="255"
+                placeholder="Lesson Title"
+                class="font-nunito w-full rounded-xs border-1 border-gray-200 p-1 text-gray-700 transition-all duration-100"
+              />
+            </fieldset>
+            <fieldset class="flex flex-col pb-2 md:flex-row">
+              <label
+                for="lesson-description"
+                class="font-nunito inline-block pt-1 pr-4 text-left font-semibold whitespace-nowrap text-gray-800 md:max-w-32 md:min-w-32"
+              >
+                Description:
+              </label>
+              <textarea
+                id="lesson-description"
+                name="lesson-description"
+                placeholder="Describe the coverage of the lesson."
+                class="font-nunito inline-block field-sizing-fixed min-h-20 w-full resize-y rounded-xs border-1 border-gray-200 p-1 text-gray-700"
+              ></textarea>
+            </fieldset>
+            <fieldset class="flex flex-col pb-2 md:flex-row">
+              <label
+                for="lesson-term"
+                class="font-nunito inline-block pt-1 pr-4 text-left font-semibold whitespace-nowrap text-gray-800 md:max-w-32 md:min-w-32"
+              >
+                Term:
+              </label>
+              <select
+                name="lesson-term"
+                id="lesson-term"
+                class="font-nunito w-full rounded-xs border-1 border-gray-200 p-1 text-gray-700 capitalize transition-all duration-100"
+              >
+                <option class="font-nunito" value="midterm">Midterm</option>
+                <option class="font-nunito" value="finals">Finals</option>
+              </select>
+            </fieldset>
+            <fieldset class="flex flex-row justify-end gap-4">
+              <p class="text-cdm-red-600 font-nunito inline-block py-2 pr-2">
+                {#if form?.message}
+                  {form?.message ?? ''}
+                {/if}
+              </p>
+              <button
+                type="submit"
+                class="font-poppins border-cdm-blue-900 text-cdm-blue-900 hover:bg-cdm-blue-900 active:bg-cdm-blue-950 active:border-cdm-blue-950 rounded-md border-2 bg-white px-4 py-2 text-sm font-semibold transition-all duration-100 hover:text-white active:text-white lg:text-base xl:text-center"
+                >Add Course</button
+              >
+            </fieldset>
+          </form>
+        </div>
       </div>
     </div>
   </section>
