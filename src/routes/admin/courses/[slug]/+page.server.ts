@@ -1,13 +1,25 @@
 import { db } from '$lib/server/db';
-import { courses, type InsertCourse } from '$lib/server/db/schema';
-import { fail, redirect, type Actions } from '@sveltejs/kit';
-import type { PageServerLoad } from './$types';
 import { eq } from 'drizzle-orm';
+import type { PageServerLoad } from './$types';
+import { courses, lessons, type InsertCourse } from '$lib/server/db/schema';
+import { error, fail, redirect, type Actions } from '@sveltejs/kit';
 
-export const load = (async () => {
-  const queriedCourses = await db.select().from(courses).orderBy(courses.id);
+export const load = (async ({ params }) => {
+  const [queriedCourse] = await db
+    .select()
+    .from(courses)
+    .where(eq(courses.slug, params.slug));
 
-  return { queriedCourses };
+  if (!queriedCourse) {
+    error(404, 'Sorry, your requested URL does not exist.');
+  }
+
+  const queriedLessons = await db
+    .select()
+    .from(lessons)
+    .where(eq(lessons.courseId, queriedCourse.id));
+
+  return { queriedCourse, queriedLessons };
 }) satisfies PageServerLoad;
 
 export const actions: Actions = {
