@@ -7,7 +7,7 @@
 
 {#if data.user}
   <h1>Hello, {data.user.username}</h1>
-  <p>ID: {data.user.id}</p>
+  <p>={data.user.cdmEmail}</p>
 
   <form class="flex w-full flex-col" method="post" use:enhance>
     <button
