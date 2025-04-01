@@ -2,7 +2,6 @@
   import Dashboard from '$lib/components/admin/dashboard/Dashboard.svelte';
   import NavigationBar from '$lib/components/admin/dashboard/NavigationBar.svelte';
   import SidePanel from '$lib/components/admin/dashboard/SidePanel.svelte';
-  import { enhance } from '$app/forms';
   import type { PageData } from './$types';
 
   let { data }: { data: PageData } = $props();
