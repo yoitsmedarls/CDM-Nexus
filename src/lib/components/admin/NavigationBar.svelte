@@ -9,18 +9,15 @@
   }: {
     viewportWidth: number;
     inDuration: number;
-    navigationOptions: {
-      text: string;
-      slug: string;
-    }[];
+    navigationOptions: { text: string; slug: string }[];
   } = $props();
 </script>
 
 <header
-  class="xl:bg-cdm-blue-950 relative flex w-full overflow-clip border-white bg-white px-4 transition-all duration-200 xl:sticky xl:top-0 xl:bottom-0 xl:left-0 xl:max-h-svh xl:max-w-fit xl:min-w-fit xl:rounded-[0.875rem] xl:border-8 xl:py-4"
+  class="xl:bg-cdm-blue-950 sticky top-0 flex w-full overflow-clip border-white bg-white px-4 transition-all duration-200 xl:bottom-0 xl:left-0 xl:max-h-svh xl:max-w-fit xl:min-w-fit xl:rounded-[0.875rem] xl:border-8 xl:py-4"
 >
   <div
-    class="xs:px-2 flex min-h-20 w-full flex-row items-center transition-all duration-200 max-xl:justify-between lg:min-h-24 xl:flex-col xl:gap-4 xl:px-0"
+    class="flex min-h-20 w-full flex-row items-center transition-all duration-200 max-xl:justify-between lg:min-h-24 xl:flex-col xl:gap-4"
   >
     <a href="dashboard">
       <h1

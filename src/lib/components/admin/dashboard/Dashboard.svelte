@@ -1,23 +1,25 @@
 <script lang="ts">
   import type { SelectUser } from '$lib/server/db/schema';
-
-  let infoBoxes: { text: string }[] = $state([]);
-  for (let index = 1; index <= 4; index++) {
-    infoBoxes.push({ text: 'Info Box ' + index });
-  }
+  import InfoBox from './InfoBox.svelte';
 
   let charts: { id: string; text: string }[] = $state([]);
   charts.push({ id: 'pie-chart', text: 'Pie Chart' });
   charts.push({ id: 'bar-chart', text: 'Bar Chart' });
 
-  let { user }: { user?: { username: string; cdmEmail: string } } = $props();
+  let {
+    user,
+    infoBoxes,
+  }: {
+    user: { username: string; cdmEmail: string };
+    infoBoxes: { info: string; label: string; description: string }[];
+  } = $props();
 </script>
 
 <main
   class="flex w-full grow flex-col overflow-clip transition-all duration-200"
 >
   <hgroup
-    class="hgroup-bg-image xs:px-4 flex flex-col border-b-1 border-gray-100 bg-cover bg-bottom px-2 py-4 transition-all duration-200 md:border-0 md:bg-gray-300 md:pt-12 md:pb-6 xl:rounded-t-md xl:pt-16"
+    class="hgroup-bg-image flex flex-col border-b-1 border-gray-100 bg-cover bg-bottom p-4 transition-all duration-200 md:border-0 md:bg-gray-300 md:pt-12 md:pb-6 xl:rounded-t-md xl:pt-16"
   >
     <h1
       class="font-poppins 2xs:text-[1.375rem] w-fit text-xl font-semibold text-gray-800 transition-all duration-100 sm:text-2xl md:text-gray-50 lg:text-3xl"
@@ -37,15 +39,11 @@
       class="grid min-h-fit grid-cols-2 gap-2 border-b-1 border-gray-100 p-2 pb-4 lg:grid-cols-4"
     >
       {#each infoBoxes as box}
-        <div
-          class="flex max-h-48 min-h-20 w-full min-w-20 grow flex-col items-center justify-center overflow-clip rounded-md bg-gray-100 p-2 transition-all duration-100 xl:min-h-28"
-        >
-          <h2
-            class="font-nunito 2xs:text-[0.875rem] text-[0.75rem] font-semibold text-gray-800 transition-all duration-100 sm:text-base lg:text-lg"
-          >
-            {box.text}
-          </h2>
-        </div>
+        <InfoBox
+          info={box.info}
+          label={box.label}
+          description={box.description}
+        />
       {/each}
     </section>
     <section
