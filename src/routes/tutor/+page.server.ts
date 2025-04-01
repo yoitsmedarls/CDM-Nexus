@@ -11,5 +11,5 @@ export const load = (async (event) => {
     return redirect(302, handleLoginRedirect(event));
   }
 
-  return redirect(303, '/tutor/create');
+  return redirect(303, '/tutor/home');
 }) satisfies PageServerLoad;
