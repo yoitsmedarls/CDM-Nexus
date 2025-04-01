@@ -5,7 +5,7 @@
 </script>
 
 <main
-  class="flex w-full grow flex-col overflow-clip transition-all duration-200"
+  class="flex w-full grow flex-col overflow-clip rounded-md border-gray-200 transition-all duration-200 xl:border-1"
 >
   {#if children}
     {@render children()}
