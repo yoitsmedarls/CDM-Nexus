@@ -161,7 +161,7 @@
     <ul
       class="grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
     >
-      {#each data.queriedTopics as topic}
+      {#each data.queriedTopics as topic (topic.id)}
         <li>
           <a
             class="font-nunito hover:text-cdm-blue-900 active:text-cdm-blue-950 inline-block w-full rounded-sm border-1 border-gray-200 p-2 text-sm transition-all duration-100 hover:bg-gray-50 active:bg-gray-100 sm:text-base lg:text-lg"
