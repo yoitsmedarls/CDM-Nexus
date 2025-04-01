@@ -1,9 +1,9 @@
 <script lang="ts">
   import { enhance } from '$app/forms';
   import { fade } from 'svelte/transition';
-  import type { ActionData } from './$types';
+  import type { PageProps } from './$types';
 
-  let { form }: { form: ActionData } = $props();
+  let { form, data }: PageProps = $props();
 </script>
 
 <main
@@ -62,6 +62,12 @@
         </button>
       </div>
     </form>
+    <a
+      href={data.redirectTo ? '/login' + data.redirectTo : '/login'}
+      class="font-poppins text-right text-sm text-blue-400 transition duration-100 ease-in-out hover:text-blue-500 active:text-blue-600"
+    >
+      Have an account?
+    </a>
     {#if form?.message}
       <p transition:fade={{ duration: 100 }} class="text-red-500">
         {form?.message ?? ''}
