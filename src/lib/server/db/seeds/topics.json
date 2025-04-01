@@ -1,0 +1,2137 @@
+[
+  {
+    "id": "93ec080e-a9ae-42d5-a89e-25634f8b60c3",
+    "lessonId": "024f86a2-453c-4810-a892-9caf29d029d6",
+    "title": "Applications of Plane Analytic Geometry",
+    "description": "Applications of plane analytic geometry in coordinate geometry problems, geometric proofs, and real-world modeling.",
+    "slug": "applications-plane-analytic-geometry"
+  },
+  {
+    "id": "9e100905-bdc8-41f3-abc9-871f89cfffd8",
+    "lessonId": "024f86a2-453c-4810-a892-9caf29d029d6",
+    "title": "Distance and Midpoint Formulas",
+    "description": "Using distance and midpoint formulas to calculate distances between points and find midpoints of line segments in a plane.",
+    "slug": "distance-midpoint-formulas"
+  },
+  {
+    "id": "620b72ae-f873-48ea-a686-a64e0fb644e2",
+    "lessonId": "024f86a2-453c-4810-a892-9caf29d029d6",
+    "title": "Equations of Lines in a Plane",
+    "description": "Different forms of equations of lines (slope-intercept form, point-slope form, standard form) and converting between them.",
+    "slug": "equations-lines-plane"
+  },
+  {
+    "id": "2e7d1174-45a3-411b-90e6-f8950df64490",
+    "lessonId": "024f86a2-453c-4810-a892-9caf29d029d6",
+    "title": "Slope of a Line and Parallel and Perpendicular Lines",
+    "description": "Understanding the concept of slope, and conditions for parallel and perpendicular lines in terms of their slopes.",
+    "slug": "slope-line-parallel-perpendicular"
+  },
+  {
+    "id": "0a698bf0-c5fa-408a-b22b-2eff35171bf4",
+    "lessonId": "024f86a2-453c-4810-a892-9caf29d029d6",
+    "title": "The Cartesian Coordinate System in Plane Geometry",
+    "description": "Introduction to the Cartesian coordinate system and its use in representing points and figures in a plane.",
+    "slug": "cartesian-coordinate-system-plane"
+  },
+  {
+    "id": "71b14553-d9ff-4e5b-8bcc-eca13eb09939",
+    "lessonId": "06732ae6-e711-403f-a76a-89f9c9325e00",
+    "title": "Applications of Set Operations",
+    "description": "Applying set operations to solve real-world problems, including categorization, data analysis, and logical reasoning.",
+    "slug": "applications-set-operations"
+  },
+  {
+    "id": "cf88436a-4b27-4e55-ac1c-e92eb370cad3",
+    "lessonId": "06732ae6-e711-403f-a76a-89f9c9325e00",
+    "title": "Basic Set Definitions and Notation",
+    "description": "Understanding the fundamental definitions and notations used in set theory, including elements, sets, and common set notations.",
+    "slug": "basic-set-definitions"
+  },
+  {
+    "id": "f98d408d-35d0-4468-941b-bef8c595567d",
+    "lessonId": "06732ae6-e711-403f-a76a-89f9c9325e00",
+    "title": "Set Operations: Complement and Difference",
+    "description": "Understanding set complement and difference operations, including absolute and relative complements, and applying these operations to solve problems.",
+    "slug": "set-operations-complement-difference"
+  },
+  {
+    "id": "cbb7aa03-3c17-46ae-98e9-c9d85f00cc1a",
+    "lessonId": "06732ae6-e711-403f-a76a-89f9c9325e00",
+    "title": "Set Operations: Union and Intersection",
+    "description": "Learning about the operations of union and intersection on sets, and how to perform these operations and interpret the results.",
+    "slug": "set-operations-union-intersection"
+  },
+  {
+    "id": "739b8330-680e-4483-8ebf-b56239efbb7e",
+    "lessonId": "06732ae6-e711-403f-a76a-89f9c9325e00",
+    "title": "Types of Sets and Venn Diagrams",
+    "description": "Exploring different types of sets such as subsets, universal sets, empty sets, and representing sets visually using Venn diagrams.",
+    "slug": "types-of-sets-venn-diagrams"
+  },
+  {
+    "id": "63e41152-f7e2-45e7-bba1-f13dcf0af533",
+    "lessonId": "078d5dee-9716-4259-a9e2-d6ce217d5173",
+    "title": "Applications of Ratio, Proportion, and Variation",
+    "description": "Real-world applications of ratio, proportion, and variation in fields such as scaling, mixtures, and physics.",
+    "slug": "applications-ratio-proportion-variation"
+  },
+  {
+    "id": "2ba636c1-d7c8-4d00-ac17-805ef6e5f7fe",
+    "lessonId": "078d5dee-9716-4259-a9e2-d6ce217d5173",
+    "title": "Direct Variation",
+    "description": "Exploring direct variation relationships, identifying the constant of proportionality, and solving direct variation problems.",
+    "slug": "direct-variation"
+  },
+  {
+    "id": "89dbbab4-7cc5-4649-8aaa-cea81ca13097",
+    "lessonId": "078d5dee-9716-4259-a9e2-d6ce217d5173",
+    "title": "Inverse Variation",
+    "description": "Understanding inverse variation relationships and solving problems involving inverse proportionality.",
+    "slug": "inverse-variation"
+  },
+  {
+    "id": "e0da5f24-e42c-4a34-9029-4d73afd48b64",
+    "lessonId": "078d5dee-9716-4259-a9e2-d6ce217d5173",
+    "title": "Joint and Combined Variation",
+    "description": "Exploring joint variation (variation with multiple variables) and combined variation (combinations of direct and inverse variation).",
+    "slug": "joint-combined-variation"
+  },
+  {
+    "id": "bd032c87-676c-4207-9809-3e7c8b26b084",
+    "lessonId": "078d5dee-9716-4259-a9e2-d6ce217d5173",
+    "title": "Understanding Ratios and Proportions",
+    "description": "Defining ratios and proportions, and solving problems involving proportional relationships.",
+    "slug": "understanding-ratios-proportions"
+  },
+  {
+    "id": "5f7e4f2c-adbc-49c7-822d-49b4d8603e1d",
+    "lessonId": "0b91cc1d-468b-416d-9814-a0af3879c12a",
+    "title": "Applications of Multiple Integrals",
+    "description": "Applications of multiple integrals in finding volumes, mass, center of mass, and moments of inertia.",
+    "slug": "applications-multiple-integrals"
+  },
+  {
+    "id": "b4e1428f-d982-4fa4-a3cf-1c692ff42617",
+    "lessonId": "0b91cc1d-468b-416d-9814-a0af3879c12a",
+    "title": "Double Integrals in Polar Coordinates",
+    "description": "Evaluating double integrals using polar coordinates and converting between Cartesian and polar integrals.",
+    "slug": "double-integrals-polar-coordinates"
+  },
+  {
+    "id": "4d3ba26d-9d9c-47bb-b620-2e703da9eb30",
+    "lessonId": "0b91cc1d-468b-416d-9814-a0af3879c12a",
+    "title": "Double Integrals over General Regions",
+    "description": "Evaluating double integrals over general bounded regions and setting up limits of integration.",
+    "slug": "double-integrals-general-regions"
+  },
+  {
+    "id": "4b591b63-3fcd-44b0-9526-352274e5aa87",
+    "lessonId": "0b91cc1d-468b-416d-9814-a0af3879c12a",
+    "title": "Introduction to Double Integrals",
+    "description": "Introducing double integrals over rectangular regions and understanding their interpretation as volume.",
+    "slug": "introduction-double-integrals"
+  },
+  {
+    "id": "d52fe8f5-2601-45ed-8f3e-cb6cd2ab958b",
+    "lessonId": "0b91cc1d-468b-416d-9814-a0af3879c12a",
+    "title": "Triple Integrals in Cartesian Coordinates",
+    "description": "Extending integration to triple integrals in Cartesian coordinates and evaluating triple integrals.",
+    "slug": "triple-integrals-cartesian-coordinates"
+  },
+  {
+    "id": "cb9f6494-f9fe-47d5-a559-72edf339a3d7",
+    "lessonId": "0f824269-d178-44cc-a579-bf5247d6d62c",
+    "title": "Applications of Definite Integrals in Geometry",
+    "description": "Geometric applications of definite integrals, including area, volume, arc length, and surface area calculations.",
+    "slug": "applications-definite-integrals-geometry"
+  },
+  {
+    "id": "ad63ac9a-37be-4393-bb2c-7f64c948e418",
+    "lessonId": "0f824269-d178-44cc-a579-bf5247d6d62c",
+    "title": "Arc Length and Surface Area of Revolution",
+    "description": "Calculating arc length and surface area of revolution using definite integrals.",
+    "slug": "arc-length-surface-area-revolution-2094"
+  },
+  {
+    "id": "9b77a6a1-fc54-404d-ba54-0c48027570cb",
+    "lessonId": "0f824269-d178-44cc-a579-bf5247d6d62c",
+    "title": "Area Between Curves Using Definite Integrals",
+    "description": "Using definite integrals to calculate the area between curves in the plane.",
+    "slug": "area-between-curves-definite-integrals-2094"
+  },
+  {
+    "id": "02999c36-8174-4277-a82d-ce0d45d5d925",
+    "lessonId": "0f824269-d178-44cc-a579-bf5247d6d62c",
+    "title": "Volume by Cylindrical Shells Method",
+    "description": "Using the cylindrical shells method to find volumes of solids of revolution with definite integrals.",
+    "slug": "volume-cylindrical-shells-method-2094"
+  },
+  {
+    "id": "13ecef02-c5cc-4f52-9286-106e45b654d9",
+    "lessonId": "0f824269-d178-44cc-a579-bf5247d6d62c",
+    "title": "Volume by Slicing, Disk, and Washer Methods",
+    "description": "Calculating volumes of solids using slicing, disk, and washer methods with definite integrals.",
+    "slug": "volume-slicing-disk-washer-methods-2094"
+  },
+  {
+    "id": "4247d2a3-39eb-4172-8fb0-37413b40b474",
+    "lessonId": "13084068-f93f-41d1-b0e4-f1122f659291",
+    "title": "Applications of Sequences and Series",
+    "description": "Applications of sequences and series in compound interest, annuities, and other financial and mathematical models.",
+    "slug": "applications-sequences-series"
+  },
+  {
+    "id": "cfa88614-0479-4c29-a956-4e4a81036abd",
+    "lessonId": "13084068-f93f-41d1-b0e4-f1122f659291",
+    "title": "Arithmetic Sequences and Series",
+    "description": "Exploring arithmetic sequences, finding the nth term, and calculating the sum of arithmetic series.",
+    "slug": "arithmetic-sequences-series"
+  },
+  {
+    "id": "90ca979b-d0f0-4de6-8829-c491c385ddfa",
+    "lessonId": "13084068-f93f-41d1-b0e4-f1122f659291",
+    "title": "Geometric Sequences and Series",
+    "description": "Understanding geometric sequences, finding the nth term, and calculating the sum of finite and infinite geometric series.",
+    "slug": "geometric-sequences-series"
+  },
+  {
+    "id": "3dc5a513-de66-4e71-a967-8d51c3ab18a2",
+    "lessonId": "13084068-f93f-41d1-b0e4-f1122f659291",
+    "title": "Infinite Geometric Series and Convergence",
+    "description": "Conditions for convergence of infinite geometric series and calculating the sum of convergent infinite geometric series.",
+    "slug": "infinite-geometric-series-convergence"
+  },
+  {
+    "id": "bfa13030-c78e-4ba3-80bf-f1319e0cab01",
+    "lessonId": "13084068-f93f-41d1-b0e4-f1122f659291",
+    "title": "Introduction to Sequences and Series",
+    "description": "Defining sequences and series, understanding notation, and distinguishing between arithmetic and geometric sequences.",
+    "slug": "introduction-sequences-series"
+  },
+  {
+    "id": "584cb08b-73ab-453b-8c5b-4491ea5eba40",
+    "lessonId": "158d94ba-3ce8-4c1f-902a-f201ec885327",
+    "title": "Applications of Divergence Test",
+    "description": "Applications and limitations of the Divergence Test in determining series behavior.",
+    "slug": "applications-divergence-test"
+  },
+  {
+    "id": "3396a191-6fd0-476a-8e24-905479f8e826",
+    "lessonId": "158d94ba-3ce8-4c1f-902a-f201ec885327",
+    "title": "Convergence and Divergence of Sequences",
+    "description": "Determining convergence and divergence of sequences and finding limits of convergent sequences.",
+    "slug": "convergence-divergence-sequences-divergence"
+  },
+  {
+    "id": "ecb5f09f-8835-4e21-bac4-1e52da1148d2",
+    "lessonId": "158d94ba-3ce8-4c1f-902a-f201ec885327",
+    "title": "Convergence and Divergence of Series",
+    "description": "Determining convergence and divergence of infinite series and understanding the concept of sum.",
+    "slug": "convergence-divergence-series-divergence"
+  },
+  {
+    "id": "216265e9-704b-4fe0-b48b-15f35ffa2ebc",
+    "lessonId": "158d94ba-3ce8-4c1f-902a-f201ec885327",
+    "title": "Introduction to Series and Sequences",
+    "description": "Defining series and sequences and understanding basic terminology.",
+    "slug": "introduction-series-sequences-divergence"
+  },
+  {
+    "id": "6574f098-567b-4580-ac99-f9f7f23a4706",
+    "lessonId": "158d94ba-3ce8-4c1f-902a-f201ec885327",
+    "title": "The Test for Divergence",
+    "description": "Using the Test for Divergence to determine if a series diverges.",
+    "slug": "test-for-divergence"
+  },
+  {
+    "id": "de29f7dd-1c6f-479d-874d-1053eb99976c",
+    "lessonId": "1694ea0d-1c17-4129-9de0-50d72c8909e0",
+    "title": "Applications of Surfaces in 3D Geometry",
+    "description": "Applications of surfaces in 3D geometry, computer graphics, and modeling 3D objects.",
+    "slug": "applications-surfaces-3d-geometry"
+  },
+  {
+    "id": "3c7e88e5-2860-42d9-92b7-ccf542122ed3",
+    "lessonId": "1694ea0d-1c17-4129-9de0-50d72c8909e0",
+    "title": "Cylindrical and Spherical Coordinates",
+    "description": "Introducing cylindrical and spherical coordinate systems and converting between Cartesian, cylindrical, and spherical coordinates.",
+    "slug": "cylindrical-spherical-coordinates"
+  },
+  {
+    "id": "222e13d3-d1c5-4ba1-829f-c643f1249996",
+    "lessonId": "1694ea0d-1c17-4129-9de0-50d72c8909e0",
+    "title": "Hyperboloids and Cones",
+    "description": "Understanding hyperboloids and cones as types of quadric surfaces, their equations, and properties.",
+    "slug": "hyperboloids-cones"
+  },
+  {
+    "id": "9503200f-400b-43cc-8855-263451c2c6c2",
+    "lessonId": "1694ea0d-1c17-4129-9de0-50d72c8909e0",
+    "title": "Parametric Surfaces",
+    "description": "Representing surfaces parametrically and understanding parametric equations of surfaces.",
+    "slug": "parametric-surfaces"
+  },
+  {
+    "id": "938a52bd-80a3-4aea-96c5-d7b60dd88fd4",
+    "lessonId": "1694ea0d-1c17-4129-9de0-50d72c8909e0",
+    "title": "Quadric Surfaces: Ellipsoids and Paraboloids",
+    "description": "Exploring quadric surfaces, focusing on ellipsoids and paraboloids, their standard equations, and properties.",
+    "slug": "quadric-surfaces-ellipsoids-paraboloids"
+  },
+  {
+    "id": "5bd9890d-6e17-4181-87d9-edde5ad4c80b",
+    "lessonId": "198bdd69-891b-43a6-9db0-688293d13382",
+    "title": "Applications of the Fundamental Theorem of Calculus",
+    "description": "Applications of the Fundamental Theorem of Calculus in evaluating integrals and solving problems in calculus.",
+    "slug": "applications-fundamental-theorem-calculus"
+  },
+  {
+    "id": "c35e4992-a8a0-4d0c-a539-b42bd4a5acbb",
+    "lessonId": "198bdd69-891b-43a6-9db0-688293d13382",
+    "title": "Definition of the Definite Integral",
+    "description": "Formal definition of the definite integral as a limit of Riemann sums and understanding its geometric interpretation as area.",
+    "slug": "definition-definite-integral"
+  },
+  {
+    "id": "cbda8bb8-c14b-4bfe-a5ac-e83f1cce0228",
+    "lessonId": "198bdd69-891b-43a6-9db0-688293d13382",
+    "title": "Fundamental Theorem of Calculus Part 1",
+    "description": "Understanding and applying the Fundamental Theorem of Calculus Part 1 to evaluate derivatives of integrals.",
+    "slug": "fundamental-theorem-calculus-part-1"
+  },
+  {
+    "id": "2d65125b-d36c-4be7-b17a-7ec5f92ed6a3",
+    "lessonId": "198bdd69-891b-43a6-9db0-688293d13382",
+    "title": "Fundamental Theorem of Calculus Part 2",
+    "description": "Understanding and applying the Fundamental Theorem of Calculus Part 2 to evaluate definite integrals using antiderivatives.",
+    "slug": "fundamental-theorem-calculus-part-2"
+  },
+  {
+    "id": "64af0b3d-9fe7-4d77-976e-dd570185048b",
+    "lessonId": "198bdd69-891b-43a6-9db0-688293d13382",
+    "title": "Properties of Definite Integrals",
+    "description": "Exploring properties of definite integrals, such as linearity, additivity, and comparison properties.",
+    "slug": "properties-definite-integrals"
+  },
+  {
+    "id": "59078185-5bbc-4773-8ee4-3d81376a1fe5",
+    "lessonId": "24987b7a-ef0e-4ddf-b096-8ed7fa7de85d",
+    "title": "Combining Differentiation Rules",
+    "description": "Combining power rule, product rule, quotient rule, and chain rule to differentiate complex functions.",
+    "slug": "combining-differentiation-rules"
+  },
+  {
+    "id": "a9dd255b-e511-47a7-a9c7-25f41b926c52",
+    "lessonId": "24987b7a-ef0e-4ddf-b096-8ed7fa7de85d",
+    "title": "The Chain Rule for Differentiation",
+    "description": "Mastering the chain rule for differentiating composite functions and understanding its applications.",
+    "slug": "chain-rule-differentiation"
+  },
+  {
+    "id": "b8fdcb9c-b7eb-4829-8948-63cdac6b04aa",
+    "lessonId": "24987b7a-ef0e-4ddf-b096-8ed7fa7de85d",
+    "title": "The Power Rule for Differentiation",
+    "description": "Understanding and applying the power rule for differentiation to find derivatives of power functions.",
+    "slug": "power-rule-differentiation"
+  },
+  {
+    "id": "6d8ce279-5aef-474d-a2c4-e2cbf6ca2cca",
+    "lessonId": "24987b7a-ef0e-4ddf-b096-8ed7fa7de85d",
+    "title": "The Product Rule for Differentiation",
+    "description": "Using the product rule to find derivatives of products of two functions.",
+    "slug": "product-rule-differentiation"
+  },
+  {
+    "id": "b7af3672-3101-448b-9d83-df3b8d9af31b",
+    "lessonId": "24987b7a-ef0e-4ddf-b096-8ed7fa7de85d",
+    "title": "The Quotient Rule for Differentiation",
+    "description": "Applying the quotient rule to find derivatives of quotients of two functions.",
+    "slug": "quotient-rule-differentiation"
+  },
+  {
+    "id": "6552830b-6cef-49c7-b8bc-a4021685d508",
+    "lessonId": "2f08448d-f01e-4f93-94d0-ea9a7c593057",
+    "title": "Applications of Equations in One Variable",
+    "description": "Applying equations in one variable to solve word problems and real-life scenarios in various disciplines.",
+    "slug": "applications-equations-one-variable"
+  },
+  {
+    "id": "f3e6ba2f-0b24-423a-a777-1b10890e5ac4",
+    "lessonId": "2f08448d-f01e-4f93-94d0-ea9a7c593057",
+    "title": "Solving Linear Equations in One Variable",
+    "description": "Methods for solving linear equations with one variable, including using inverse operations and properties of equality.",
+    "slug": "solving-linear-equations-one-variable"
+  },
+  {
+    "id": "6ef472c9-77b6-4c09-a606-9893dc7c7eed",
+    "lessonId": "2f08448d-f01e-4f93-94d0-ea9a7c593057",
+    "title": "Solving Quadratic Equations in One Variable",
+    "description": "Techniques for solving quadratic equations, including factoring, using the quadratic formula, and completing the square.",
+    "slug": "solving-quadratic-equations-one-variable"
+  },
+  {
+    "id": "15e62551-cc5b-4277-a758-006abb749b4d",
+    "lessonId": "2f08448d-f01e-4f93-94d0-ea9a7c593057",
+    "title": "Solving Radical Equations in One Variable",
+    "description": "Methods for solving equations containing radical expressions, including isolating the radical and squaring both sides.",
+    "slug": "solving-radical-equations-one-variable"
+  },
+  {
+    "id": "8c6a2f73-a8c5-4684-96a3-ed8b35f7a82c",
+    "lessonId": "2f08448d-f01e-4f93-94d0-ea9a7c593057",
+    "title": "Solving Rational Equations in One Variable",
+    "description": "Solving equations involving rational expressions, including identifying extraneous solutions and handling proportions.",
+    "slug": "solving-rational-equations-one-variable"
+  },
+  {
+    "id": "2904dde1-1d2c-47df-b4b6-ec8b0f0b0391",
+    "lessonId": "35d89fc3-9b2b-44d4-8767-9113dd37e598",
+    "title": "Applications of Spherical Trigonometry",
+    "description": "Applications of spherical trigonometry in astronomy, navigation on Earth, and other fields involving spherical geometry.",
+    "slug": "applications-spherical-trigonometry"
+  },
+  {
+    "id": "e2151810-de42-4b8a-a879-239ca3625c2e",
+    "lessonId": "35d89fc3-9b2b-44d4-8767-9113dd37e598",
+    "title": "Introduction to Spherical Trigonometry",
+    "description": "Introducing spherical trigonometry and its differences from plane trigonometry, focusing on triangles on a sphere.",
+    "slug": "introduction-spherical-trigonometry"
+  },
+  {
+    "id": "6dea576c-5a04-4673-97bf-7d1c284885e4",
+    "lessonId": "35d89fc3-9b2b-44d4-8767-9113dd37e598",
+    "title": "Laws of Sines and Cosines in Spherical Trigonometry",
+    "description": "Exploring the Law of Sines and Law of Cosines as they apply to spherical triangles.",
+    "slug": "laws-sines-cosines-spherical-trigonometry"
+  },
+  {
+    "id": "15911192-ee92-4a55-af7c-56dce67ecc7e",
+    "lessonId": "35d89fc3-9b2b-44d4-8767-9113dd37e598",
+    "title": "Solving Spherical Triangles",
+    "description": "Methods for solving spherical triangles, including finding angles and sides using spherical trigonometric laws.",
+    "slug": "solving-spherical-triangles"
+  },
+  {
+    "id": "c360fc2c-1223-4bc7-be59-7c265da1da9d",
+    "lessonId": "35d89fc3-9b2b-44d4-8767-9113dd37e598",
+    "title": "Spherical Triangles and Great Circles",
+    "description": "Understanding spherical triangles, great circles, and the properties of triangles on a sphere.",
+    "slug": "spherical-triangles-great-circles"
+  },
+  {
+    "id": "e33d9ba0-93d7-47e6-998c-3fcf998094fe",
+    "lessonId": "361a6e35-24cb-4bf6-b5be-6e424808afa4",
+    "title": "Solving Trigonometric Equations",
+    "description": "Techniques for solving trigonometric equations, including using identities, factoring, and finding general solutions.",
+    "slug": "solving-trigonometric-equations"
+  },
+  {
+    "id": "0b77e9bb-17d1-4652-87a1-2f480455a392",
+    "lessonId": "361a6e35-24cb-4bf6-b5be-6e424808afa4",
+    "title": "Trigonometric Identities: Double-Angle and Half-Angle Formulas",
+    "description": "Applying double-angle and half-angle formulas to simplify trigonometric expressions and solve equations.",
+    "slug": "trigonometric-identities-double-half-angle"
+  },
+  {
+    "id": "2d24d2e3-f107-448b-934b-df45eeae1495",
+    "lessonId": "361a6e35-24cb-4bf6-b5be-6e424808afa4",
+    "title": "Trigonometric Identities: Pythagorean Identities",
+    "description": "Understanding and applying Pythagorean identities to simplify trigonometric expressions and solve equations.",
+    "slug": "trigonometric-identities-pythagorean"
+  },
+  {
+    "id": "c3974f6c-fc70-4bdc-a4c7-e08099a63aad",
+    "lessonId": "361a6e35-24cb-4bf6-b5be-6e424808afa4",
+    "title": "Trigonometric Identities: Sum and Difference Formulas",
+    "description": "Using sum and difference formulas for sine, cosine, and tangent to evaluate trigonometric functions and simplify expressions.",
+    "slug": "trigonometric-identities-sum-difference"
+  },
+  {
+    "id": "29b84441-e04a-4cc8-a7a0-742afde5256d",
+    "lessonId": "361a6e35-24cb-4bf6-b5be-6e424808afa4",
+    "title": "Verifying Trigonometric Identities",
+    "description": "Methods for verifying trigonometric identities by manipulating one side of the equation to match the other side.",
+    "slug": "verifying-trigonometric-identities"
+  },
+  {
+    "id": "5869f727-e476-475a-a387-fa837aa4915e",
+    "lessonId": "364e5306-6271-4547-a5ec-2adb78ba7812",
+    "title": "Applications of Continuity",
+    "description": "Applications of continuity in ensuring smooth transitions, modeling continuous processes, and in advanced calculus concepts.",
+    "slug": "applications-continuity"
+  },
+  {
+    "id": "9b8ec3af-e1b4-4b81-ab7d-47a7b25a91de",
+    "lessonId": "364e5306-6271-4547-a5ec-2adb78ba7812",
+    "title": "Continuity on an Interval",
+    "description": "Extending the concept of continuity to intervals and understanding continuity on open and closed intervals.",
+    "slug": "continuity-interval"
+  },
+  {
+    "id": "10ec45a3-1a7f-4af9-8b3b-0553c39e19a1",
+    "lessonId": "364e5306-6271-4547-a5ec-2adb78ba7812",
+    "title": "Definition of Continuity at a Point",
+    "description": "Defining continuity at a point and understanding the conditions for continuity.",
+    "slug": "definition-continuity-point"
+  },
+  {
+    "id": "3abbf2cc-862b-4dfe-9200-7dbe95a8b4cc",
+    "lessonId": "364e5306-6271-4547-a5ec-2adb78ba7812",
+    "title": "Properties of Continuous Functions",
+    "description": "Exploring properties of continuous functions, such as the Intermediate Value Theorem and Extreme Value Theorem.",
+    "slug": "properties-continuous-functions"
+  },
+  {
+    "id": "711717f4-3ead-4848-b495-6bc9bf1b7747",
+    "lessonId": "364e5306-6271-4547-a5ec-2adb78ba7812",
+    "title": "Types of Discontinuities",
+    "description": "Identifying different types of discontinuities (removable, jump, infinite) and understanding their properties.",
+    "slug": "types-discontinuities"
+  },
+  {
+    "id": "9218b4f0-64a6-4985-82f5-c5b8b635ab90",
+    "lessonId": "3910c6d7-d220-4a62-a524-d967ff8b5a7e",
+    "title": "Applications of Differentials",
+    "description": "Applications of differentials in approximating function values, error analysis, and in physics and engineering.",
+    "slug": "applications-differentials"
+  },
+  {
+    "id": "fd66a784-384b-4f79-a272-a75bac2bfb85",
+    "lessonId": "3910c6d7-d220-4a62-a524-d967ff8b5a7e",
+    "title": "Differentials vs Derivatives",
+    "description": "Distinguishing between differentials and derivatives and understanding their relationship.",
+    "slug": "differentials-vs-derivatives"
+  },
+  {
+    "id": "7828b1d4-f137-4ae7-8ed0-7fe04b76f214",
+    "lessonId": "3910c6d7-d220-4a62-a524-d967ff8b5a7e",
+    "title": "Error Estimation Using Differentials",
+    "description": "Estimating errors in measurements and calculations using differentials.",
+    "slug": "error-estimation-differentials"
+  },
+  {
+    "id": "551f335c-7ef4-4477-8856-7686437e991a",
+    "lessonId": "3910c6d7-d220-4a62-a524-d967ff8b5a7e",
+    "title": "Introduction to Differentials",
+    "description": "Introducing the concept of differentials and understanding the differential dx and dy.",
+    "slug": "introduction-differentials"
+  },
+  {
+    "id": "686200f1-2b31-442b-9fe7-e7ec2b0b5efb",
+    "lessonId": "3910c6d7-d220-4a62-a524-d967ff8b5a7e",
+    "title": "Linear Approximation Using Differentials",
+    "description": "Using differentials to approximate changes in function values and understanding linear approximation.",
+    "slug": "linear-approximation-differentials"
+  },
+  {
+    "id": "2c52d84b-be4c-4f6f-b21d-a1b359403975",
+    "lessonId": "3e0fc908-1908-437c-a482-9b66ad9c09ba",
+    "title": "Applications of Power Series",
+    "description": "Applications of power series in approximations, solving differential equations, and advanced mathematical analysis.",
+    "slug": "applications-power-series"
+  },
+  {
+    "id": "a1c61ee3-8d5f-4494-bdb2-aac8ecf49b2c",
+    "lessonId": "3e0fc908-1908-437c-a482-9b66ad9c09ba",
+    "title": "Convergence of Power Series",
+    "description": "Determining convergence of power series and understanding the interval of convergence.",
+    "slug": "convergence-power-series"
+  },
+  {
+    "id": "f39e39a0-1c23-4d35-9118-7d64c4ec0c57",
+    "lessonId": "3e0fc908-1908-437c-a482-9b66ad9c09ba",
+    "title": "Differentiation and Integration of Power Series",
+    "description": "Performing differentiation and integration of power series within their interval of convergence.",
+    "slug": "differentiation-integration-power-series"
+  },
+  {
+    "id": "d692fa77-5aa8-4cb1-b676-39337866a5c9",
+    "lessonId": "3e0fc908-1908-437c-a482-9b66ad9c09ba",
+    "title": "Introduction to Power Series",
+    "description": "Defining power series and understanding their form and representation.",
+    "slug": "introduction-power-series"
+  },
+  {
+    "id": "918c5b6f-c587-48c9-a934-2eaea43cd283",
+    "lessonId": "3e0fc908-1908-437c-a482-9b66ad9c09ba",
+    "title": "Representing Functions as Power Series",
+    "description": "Representing functions as power series using Taylor series and Maclaurin series.",
+    "slug": "representing-functions-power-series"
+  },
+  {
+    "id": "da47fe07-5e64-4cc3-a42c-bac57c41d592",
+    "lessonId": "480d39d0-0028-4337-8c5c-17bb5563dbbd",
+    "title": "Applications of Partial Fraction Decomposition",
+    "description": "Applications of partial fraction decomposition in calculus, particularly in integration and solving differential equations.",
+    "slug": "applications-partial-fraction-decomposition"
+  },
+  {
+    "id": "55193dc5-d30d-4a4d-9b1f-f6b5c3d99c94",
+    "lessonId": "480d39d0-0028-4337-8c5c-17bb5563dbbd",
+    "title": "Decomposition with Improper Rational Functions",
+    "description": "Performing partial fraction decomposition on improper rational functions by first using polynomial long division.",
+    "slug": "decomposition-improper-rational-functions"
+  },
+  {
+    "id": "b4b93bdb-ae28-4968-842a-946b36499b7a",
+    "lessonId": "480d39d0-0028-4337-8c5c-17bb5563dbbd",
+    "title": "Partial Fraction Decomposition: Linear Factors",
+    "description": "Decomposing rational expressions into partial fractions with distinct linear factors in the denominator.",
+    "slug": "partial-fraction-linear-factors"
+  },
+  {
+    "id": "85875627-2518-4e8a-b66d-b19a6a2d0eaa",
+    "lessonId": "480d39d0-0028-4337-8c5c-17bb5563dbbd",
+    "title": "Partial Fraction Decomposition: Quadratic Factors",
+    "description": "Decomposing rational expressions with irreducible quadratic factors in the denominator.",
+    "slug": "partial-fraction-quadratic-factors"
+  },
+  {
+    "id": "9c4e286d-7592-44f9-9361-07a267c362ca",
+    "lessonId": "480d39d0-0028-4337-8c5c-17bb5563dbbd",
+    "title": "Partial Fraction Decomposition: Repeated Linear Factors",
+    "description": "Handling repeated linear factors in the denominator when performing partial fraction decomposition.",
+    "slug": "partial-fraction-repeated-linear-factors"
+  },
+  {
+    "id": "b2756499-155b-4d89-adc6-953fc93382e8",
+    "lessonId": "55f2b59e-e51b-4864-a3af-88009a3450dd",
+    "title": "Applications of Inverse Trigonometric Functions",
+    "description": "Applications of inverse trigonometric functions in solving right triangles, navigation, and other geometric problems.",
+    "slug": "applications-inverse-trigonometric-functions"
+  },
+  {
+    "id": "cfc63c6e-c3e6-4b0d-9d93-be2aaa2a4209",
+    "lessonId": "55f2b59e-e51b-4864-a3af-88009a3450dd",
+    "title": "Graphs of Inverse Trigonometric Functions",
+    "description": "Graphing inverse sine, inverse cosine, and inverse tangent functions and understanding their key features.",
+    "slug": "graphs-inverse-trigonometric-functions"
+  },
+  {
+    "id": "5cbf9edd-5b6d-4c7a-a1a1-9a6159090726",
+    "lessonId": "55f2b59e-e51b-4864-a3af-88009a3450dd",
+    "title": "Inverse Cosine Function and its Properties",
+    "description": "Defining the inverse cosine function (arccos), understanding its domain and range, and evaluating inverse cosine values.",
+    "slug": "inverse-cosine-function-properties"
+  },
+  {
+    "id": "ed65eea0-0c3d-49f7-8f95-94e7e1834e29",
+    "lessonId": "55f2b59e-e51b-4864-a3af-88009a3450dd",
+    "title": "Inverse Sine Function and its Properties",
+    "description": "Defining the inverse sine function (arcsin), understanding its domain and range, and evaluating inverse sine values.",
+    "slug": "inverse-sine-function-properties"
+  },
+  {
+    "id": "16466473-adf1-4df9-8247-2ff9b3688fd4",
+    "lessonId": "55f2b59e-e51b-4864-a3af-88009a3450dd",
+    "title": "Inverse Tangent Function and its Properties",
+    "description": "Defining the inverse tangent function (arctan), understanding its domain and range, and evaluating inverse tangent values.",
+    "slug": "inverse-tangent-function-properties"
+  },
+  {
+    "id": "b30c8f18-10a7-439e-ab57-c721c87c19c0",
+    "lessonId": "5815a3d9-5198-4026-9074-186e0e6402c2",
+    "title": "Applications of Linear Equations in Geometry",
+    "description": "Using linear equations to solve geometric problems involving lines, distances, and intersections.",
+    "slug": "applications-linear-equations-geometry"
+  },
+  {
+    "id": "decba32a-1eed-4bbe-9844-3a78bfd85aad",
+    "lessonId": "5815a3d9-5198-4026-9074-186e0e6402c2",
+    "title": "Parallel and Perpendicular Lines Equations",
+    "description": "Finding equations of lines that are parallel or perpendicular to a given line and passing through a specific point.",
+    "slug": "parallel-perpendicular-lines-equations"
+  },
+  {
+    "id": "bcf5f119-fda3-4984-8a2b-30c136ac462a",
+    "lessonId": "5815a3d9-5198-4026-9074-186e0e6402c2",
+    "title": "Point-Slope Form of a Line",
+    "description": "Using the point-slope form (y - y1 = m(x - x1)) to find equations of lines when given a point and the slope.",
+    "slug": "point-slope-form-line"
+  },
+  {
+    "id": "df73707c-44c0-4a4d-abe5-92d36f7ea27d",
+    "lessonId": "5815a3d9-5198-4026-9074-186e0e6402c2",
+    "title": "Slope-Intercept Form of a Line",
+    "description": "Understanding the slope-intercept form (y = mx + b) and using it to graph lines and find equations of lines.",
+    "slug": "slope-intercept-form-line"
+  },
+  {
+    "id": "162a615f-6281-4966-8dc0-56fc175800d9",
+    "lessonId": "5815a3d9-5198-4026-9074-186e0e6402c2",
+    "title": "Standard Form of a Line",
+    "description": "Understanding the standard form (Ax + By = C) and converting equations of lines to standard form.",
+    "slug": "standard-form-line"
+  },
+  {
+    "id": "e9b1318d-8237-4fab-9250-852752d42ca3",
+    "lessonId": "583e8f73-4557-4a11-bb95-365bf14c3fac",
+    "title": "Formulating Linear Equations from Real-World Data",
+    "description": "Developing linear equations from real-world data sets, including data fitting and linear regression concepts.",
+    "slug": "formulating-linear-equations-data"
+  },
+  {
+    "id": "0de29cbd-7bce-400e-9d47-933f342f14bb",
+    "lessonId": "583e8f73-4557-4a11-bb95-365bf14c3fac",
+    "title": "Graphing Linear Equations to Solve Applications",
+    "description": "Using graphical methods to solve applications of linear equations, including finding intersections and interpreting graphs in context.",
+    "slug": "graphing-linear-equations-applications"
+  },
+  {
+    "id": "7fe212bf-3d35-4af9-94ee-fe477aef2c67",
+    "lessonId": "583e8f73-4557-4a11-bb95-365bf14c3fac",
+    "title": "Linear Equations in Business and Economics",
+    "description": "Applications of linear equations in business and economics, such as cost-volume-profit analysis, supply and demand, and break-even analysis.",
+    "slug": "linear-equations-business-economics"
+  },
+  {
+    "id": "40925521-db37-4c3e-919b-dd90a4ed170b",
+    "lessonId": "583e8f73-4557-4a11-bb95-365bf14c3fac",
+    "title": "Linear Equations in Science and Engineering",
+    "description": "Using linear equations to model and solve problems in science and engineering, including motion, force, and circuit analysis.",
+    "slug": "linear-equations-science-engineering"
+  },
+  {
+    "id": "b37afb0f-527f-4394-9ade-e145cecdb9a5",
+    "lessonId": "583e8f73-4557-4a11-bb95-365bf14c3fac",
+    "title": "Word Problems Involving Linear Equations",
+    "description": "Translating word problems into linear equations and solving them, including problems related to rate, mixture, and geometry.",
+    "slug": "word-problems-linear-equations"
+  },
+  {
+    "id": "0baeaab7-9946-4583-8c00-6344e75cee79",
+    "lessonId": "5b8fdfe1-c0e7-495a-be0a-8f3e1470dd54",
+    "title": "Evaluating Algebraic Expressions",
+    "description": "Understand how to evaluate algebraic expressions by substituting given values for variables and performing the arithmetic operations.",
+    "slug": "evaluating-algebraic-expressions"
+  },
+  {
+    "id": "2f4d91d8-72d4-43bf-aa39-7dee0190bb33",
+    "lessonId": "5b8fdfe1-c0e7-495a-be0a-8f3e1470dd54",
+    "title": "Factoring Algebraic Expressions",
+    "description": "Techniques for factoring algebraic expressions, including factoring out common factors, factoring quadratic expressions, and special factoring patterns.",
+    "slug": "factoring-algebraic-expressions"
+  },
+  {
+    "id": "9db916d0-5274-4045-b5f4-f01c6d61ea9b",
+    "lessonId": "5b8fdfe1-c0e7-495a-be0a-8f3e1470dd54",
+    "title": "Operations with Algebraic Fractions",
+    "description": "Performing operations such as addition, subtraction, multiplication, and division with algebraic fractions, including simplifying rational expressions.",
+    "slug": "operations-algebraic-fractions"
+  },
+  {
+    "id": "d21e7594-17c6-41f2-b12b-10f63e92cd01",
+    "lessonId": "5b8fdfe1-c0e7-495a-be0a-8f3e1470dd54",
+    "title": "Polynomial Expressions",
+    "description": "Introduction to polynomial expressions, including identifying terms, coefficients, degrees, and types of polynomials.",
+    "slug": "polynomial-expressions"
+  },
+  {
+    "id": "e7847fcc-c7d3-426c-9037-0af20c3e787b",
+    "lessonId": "5b8fdfe1-c0e7-495a-be0a-8f3e1470dd54",
+    "title": "Simplifying Algebraic Expressions",
+    "description": "Learn how to simplify algebraic expressions by combining like terms, using the distributive property, and applying order of operations.",
+    "slug": "simplifying-algebraic-expressions"
+  },
+  {
+    "id": "7431d715-de77-4449-8212-d204ca322f14",
+    "lessonId": "5edcd77f-032b-40e1-ad4c-719db657dc9c",
+    "title": "Average Value of a Function",
+    "description": "Calculating the average value of a function over an interval using definite integrals.",
+    "slug": "average-value-function"
+  },
+  {
+    "id": "82ca1887-1877-4f22-970c-6dbfdc4212d1",
+    "lessonId": "5edcd77f-032b-40e1-ad4c-719db657dc9c",
+    "title": "Center of Mass and Centroids",
+    "description": "Finding the center of mass and centroids of regions and solids using integrals.",
+    "slug": "center-mass-centroids"
+  },
+  {
+    "id": "ccff5497-3846-4a44-9891-100da664e64b",
+    "lessonId": "5edcd77f-032b-40e1-ad4c-719db657dc9c",
+    "title": "Fluid Pressure and Force",
+    "description": "Using integrals to calculate fluid pressure and force against submerged surfaces.",
+    "slug": "fluid-pressure-force"
+  },
+  {
+    "id": "719cd5bd-351f-40d7-bab9-049f77c5e423",
+    "lessonId": "5edcd77f-032b-40e1-ad4c-719db657dc9c",
+    "title": "Probability and Integrals",
+    "description": "Applications of integrals in probability, including probability density functions and cumulative distribution functions.",
+    "slug": "probability-integrals"
+  },
+  {
+    "id": "ddcf7249-6a5b-40ca-bb8d-671c8824b839",
+    "lessonId": "5edcd77f-032b-40e1-ad4c-719db657dc9c",
+    "title": "Work Done by a Variable Force",
+    "description": "Using integrals to calculate work done by a variable force, such as in stretching a spring or lifting a chain.",
+    "slug": "work-variable-force"
+  },
+  {
+    "id": "04f692ac-8b3e-460f-85af-7045e3b3a50a",
+    "lessonId": "618e4550-4786-462c-b44d-73c40c06c2b4",
+    "title": "Applications of Volume Under a Surface",
+    "description": "Applications of volume under a surface calculations in geometry, physics, and engineering.",
+    "slug": "applications-volume-under-surface"
+  },
+  {
+    "id": "fd89887b-e15e-4a62-8784-d5ffa8a9bfe6",
+    "lessonId": "618e4550-4786-462c-b44d-73c40c06c2b4",
+    "title": "Setting Up Double Integrals for Volume Calculation",
+    "description": "Strategies for setting up double integrals to calculate volumes of various regions under surfaces.",
+    "slug": "setting-up-double-integrals-volume"
+  },
+  {
+    "id": "167f2f8e-d84f-4572-95d8-b164f97a227c",
+    "lessonId": "618e4550-4786-462c-b44d-73c40c06c2b4",
+    "title": "Using Polar Coordinates for Volume Calculation",
+    "description": "Using double integrals in polar coordinates to calculate volumes under surfaces with circular symmetry.",
+    "slug": "polar-coordinates-volume-calculation"
+  },
+  {
+    "id": "a1434568-dadb-4855-a55d-10343c419e16",
+    "lessonId": "618e4550-4786-462c-b44d-73c40c06c2b4",
+    "title": "Volume as a Double Integral",
+    "description": "Calculating volume under a surface using double integrals and setting up the integral limits.",
+    "slug": "volume-double-integral"
+  },
+  {
+    "id": "dc85ee16-e431-45d4-8cad-f5ced28d1e20",
+    "lessonId": "618e4550-4786-462c-b44d-73c40c06c2b4",
+    "title": "Volume Between Two Surfaces",
+    "description": "Finding the volume between two surfaces using double integrals and setting up appropriate integral limits.",
+    "slug": "volume-between-two-surfaces"
+  },
+  {
+    "id": "dd5cd80b-95c5-40c8-8ecd-ad9ea862af71",
+    "lessonId": "72d304be-12f7-4b24-b48d-a01390d7e7a7",
+    "title": "Applications of Limits in Multivariable Calculus",
+    "description": "Applications of limits in defining continuity, partial derivatives, and understanding behavior of multivariable functions.",
+    "slug": "applications-limits-multivariable-calculus"
+  },
+  {
+    "id": "632a3d2b-f9cf-4405-adaf-1cbe5b9196b0",
+    "lessonId": "72d304be-12f7-4b24-b48d-a01390d7e7a7",
+    "title": "Continuity of Functions of Several Variables",
+    "description": "Extending the concept of continuity to functions of several variables and understanding conditions for continuity.",
+    "slug": "continuity-functions-several-variables"
+  },
+  {
+    "id": "5f43d0ba-3c33-49c1-a1e3-304c0a67474d",
+    "lessonId": "72d304be-12f7-4b24-b48d-a01390d7e7a7",
+    "title": "Iterated Limits and Double Limits",
+    "description": "Distinguishing between iterated limits and double limits and evaluating limits of functions of two variables.",
+    "slug": "iterated-limits-double-limits"
+  },
+  {
+    "id": "041d6146-7009-4406-ab3f-d481ca228219",
+    "lessonId": "72d304be-12f7-4b24-b48d-a01390d7e7a7",
+    "title": "Limits of Functions of Two Variables",
+    "description": "Extending the concept of limits to functions of two variables and understanding the definition of limit.",
+    "slug": "limits-functions-two-variables"
+  },
+  {
+    "id": "6623dd75-d309-4bc4-a174-ab8247d2dd24",
+    "lessonId": "72d304be-12f7-4b24-b48d-a01390d7e7a7",
+    "title": "Paths of Approach and Non-Existence of Limits",
+    "description": "Using paths of approach to show non-existence of limits for functions of two variables.",
+    "slug": "paths-approach-non-existence-limits"
+  },
+  {
+    "id": "96e57fc4-ad6f-43f4-97d7-1b95910a2ff1",
+    "lessonId": "77639400-7675-4ed2-bf14-bf41e230a68e",
+    "title": "Applications of Systems of Linear Equations",
+    "description": "Applying systems of linear equations to solve multi-variable problems in fields like economics, engineering, and science.",
+    "slug": "applications-linear-systems"
+  },
+  {
+    "id": "83e0cf29-93b3-4e24-88fc-36d95babca42",
+    "lessonId": "77639400-7675-4ed2-bf14-bf41e230a68e",
+    "title": "Inconsistent and Dependent Systems",
+    "description": "Identifying and understanding inconsistent systems (no solution) and dependent systems (infinite solutions) in linear equations.",
+    "slug": "inconsistent-dependent-systems"
+  },
+  {
+    "id": "8495719e-8305-46bc-bfef-c4e5daf5bcb9",
+    "lessonId": "77639400-7675-4ed2-bf14-bf41e230a68e",
+    "title": "Solving Systems of Linear Equations by Elimination",
+    "description": "Employing the elimination method to solve systems of linear equations, focusing on adding or subtracting equations to eliminate variables.",
+    "slug": "solving-linear-systems-elimination"
+  },
+  {
+    "id": "af54c8a0-05d7-4f3d-a19f-95142a8c4b0d",
+    "lessonId": "77639400-7675-4ed2-bf14-bf41e230a68e",
+    "title": "Solving Systems of Linear Equations by Substitution",
+    "description": "Using the substitution method to solve systems of two or three linear equations in two or three variables.",
+    "slug": "solving-linear-systems-substitution"
+  },
+  {
+    "id": "ee6c14be-1d90-4d52-9244-fe41599faedb",
+    "lessonId": "77639400-7675-4ed2-bf14-bf41e230a68e",
+    "title": "Systems of Linear Equations in Three Variables",
+    "description": "Extending methods to solve systems of linear equations with three variables, including using matrices or combinations of substitution and elimination.",
+    "slug": "linear-systems-three-variables"
+  },
+  {
+    "id": "986b37ca-3819-4016-837e-7f18c509aed8",
+    "lessonId": "79b6a1b3-25ab-462b-ace6-75230c47d586",
+    "title": "Choosing the Right Integration Technique",
+    "description": "Strategies for choosing the appropriate integration technique (u-substitution, integration by parts, trigonometric substitution, partial fractions).",
+    "slug": "choosing-right-integration-technique"
+  },
+  {
+    "id": "53a65d50-ec14-4cc8-af62-1104f6077cb9",
+    "lessonId": "79b6a1b3-25ab-462b-ace6-75230c47d586",
+    "title": "Integration by Parts",
+    "description": "Learning and applying integration by parts for integrals involving products of functions.",
+    "slug": "integration-by-parts"
+  },
+  {
+    "id": "48e28f5b-e2a1-4b57-b864-18c912876f09",
+    "lessonId": "79b6a1b3-25ab-462b-ace6-75230c47d586",
+    "title": "Partial Fractions Integration",
+    "description": "Using partial fraction decomposition to integrate rational functions.",
+    "slug": "partial-fractions-integration"
+  },
+  {
+    "id": "a8f89443-3a7f-4a94-b6f9-332226a68c8e",
+    "lessonId": "79b6a1b3-25ab-462b-ace6-75230c47d586",
+    "title": "Trigonometric Integrals",
+    "description": "Techniques for integrating powers of trigonometric functions and products of trigonometric functions.",
+    "slug": "trigonometric-integrals"
+  },
+  {
+    "id": "2a0d75f0-520f-4bce-9eb7-03d09c1d51a4",
+    "lessonId": "79b6a1b3-25ab-462b-ace6-75230c47d586",
+    "title": "Trigonometric Substitution",
+    "description": "Using trigonometric substitution to evaluate integrals involving square roots of quadratic expressions.",
+    "slug": "trigonometric-substitution"
+  },
+  {
+    "id": "9e0149b0-5051-4625-b149-3544261a0c56",
+    "lessonId": "7dd044dd-6a5f-40dd-a09e-c4c80d7d74f4",
+    "title": "Composition of Functions",
+    "description": "Understanding the composition of functions and performing operations of function composition.",
+    "slug": "composition-functions"
+  },
+  {
+    "id": "ef5e1ae6-fcf8-40e2-98bb-50ab72dd2b25",
+    "lessonId": "7dd044dd-6a5f-40dd-a09e-c4c80d7d74f4",
+    "title": "Graphs of Functions and Transformations",
+    "description": "Graphing functions, understanding transformations of graphs (shifts, stretches, reflections), and analyzing graphs of functions.",
+    "slug": "graphs-functions-transformations"
+  },
+  {
+    "id": "341118e7-3429-4928-ba39-39b3c39418a7",
+    "lessonId": "7dd044dd-6a5f-40dd-a09e-c4c80d7d74f4",
+    "title": "Introduction to Functions and Function Notation",
+    "description": "Defining functions, understanding function notation, domain, and range, and identifying functions.",
+    "slug": "introduction-functions-notation"
+  },
+  {
+    "id": "f29d280c-44d7-4e49-b8b5-7227820ced23",
+    "lessonId": "7dd044dd-6a5f-40dd-a09e-c4c80d7d74f4",
+    "title": "Inverse Functions",
+    "description": "Finding inverse functions, determining if a function has an inverse, and understanding properties of inverse functions.",
+    "slug": "inverse-functions"
+  },
+  {
+    "id": "00bb5904-4eb6-41fb-a5bb-b36415a44287",
+    "lessonId": "7dd044dd-6a5f-40dd-a09e-c4c80d7d74f4",
+    "title": "Types of Functions: Linear, Quadratic, Polynomial, Rational",
+    "description": "Exploring different types of functions, including linear, quadratic, polynomial, and rational functions, and their properties.",
+    "slug": "types-functions-linear-quadratic-polynomial-rational"
+  },
+  {
+    "id": "6b80bf27-dabe-471f-81cb-834950db0e91",
+    "lessonId": "8042556d-86bc-41a1-8008-211fda8e838f",
+    "title": "Advantages of Logarithmic Differentiation",
+    "description": "Understanding the advantages of using logarithmic differentiation for simplifying complex differentiation problems.",
+    "slug": "advantages-logarithmic-differentiation"
+  },
+  {
+    "id": "35b8eadb-21f7-41f0-9082-116a68dbe630",
+    "lessonId": "8042556d-86bc-41a1-8008-211fda8e838f",
+    "title": "Applications of Logarithmic Differentiation",
+    "description": "Applications of logarithmic differentiation in optimization problems and simplifying complex derivatives in various fields.",
+    "slug": "applications-logarithmic-differentiation"
+  },
+  {
+    "id": "62a3879e-badf-46c7-a8e0-e292957eba6c",
+    "lessonId": "8042556d-86bc-41a1-8008-211fda8e838f",
+    "title": "Introduction to Logarithmic Differentiation",
+    "description": "Introducing logarithmic differentiation as a technique to differentiate complex functions involving products, quotients, and powers.",
+    "slug": "introduction-logarithmic-differentiation"
+  },
+  {
+    "id": "da484460-b267-4a19-b693-6f88768e8ad7",
+    "lessonId": "8042556d-86bc-41a1-8008-211fda8e838f",
+    "title": "Logarithmic Differentiation with Variable Exponents",
+    "description": "Using logarithmic differentiation to differentiate functions with variable bases and variable exponents.",
+    "slug": "logarithmic-differentiation-variable-exponents"
+  },
+  {
+    "id": "694bfdd2-c81a-4a25-8632-6e15306062cf",
+    "lessonId": "8042556d-86bc-41a1-8008-211fda8e838f",
+    "title": "Steps for Logarithmic Differentiation",
+    "description": "Learning the steps for logarithmic differentiation, including taking logarithms, differentiating implicitly, and simplifying.",
+    "slug": "steps-logarithmic-differentiation"
+  },
+  {
+    "id": "514c3101-fef1-47ea-9c09-2710ebd11bfd",
+    "lessonId": "81bb6deb-88c7-484f-8d2d-8cb579387df0",
+    "title": "Arc Length and Surface Area of Revolution",
+    "description": "Using definite integrals to calculate arc length of curves and surface area of solids of revolution.",
+    "slug": "arc-length-surface-area-revolution"
+  },
+  {
+    "id": "4e77007e-225f-42da-860a-b3045392d896",
+    "lessonId": "81bb6deb-88c7-484f-8d2d-8cb579387df0",
+    "title": "Area Between Curves Using Definite Integrals",
+    "description": "Using definite integrals to calculate the area between two curves in the plane.",
+    "slug": "area-between-curves-definite-integrals"
+  },
+  {
+    "id": "5b5d99ee-21cd-4ae8-864e-66580b327ca7",
+    "lessonId": "81bb6deb-88c7-484f-8d2d-8cb579387df0",
+    "title": "Volume by Cylindrical Shells",
+    "description": "Using the method of cylindrical shells to calculate volumes of solids of revolution.",
+    "slug": "volume-cylindrical-shells"
+  },
+  {
+    "id": "cc059ac2-d65e-4dc4-97fc-a26a8689a8f4",
+    "lessonId": "81bb6deb-88c7-484f-8d2d-8cb579387df0",
+    "title": "Volume by Disk and Washer Methods",
+    "description": "Using the disk and washer methods to calculate volumes of solids of revolution.",
+    "slug": "volume-disk-washer-methods"
+  },
+  {
+    "id": "a09f9d85-27a7-4770-beaa-778503d53346",
+    "lessonId": "81bb6deb-88c7-484f-8d2d-8cb579387df0",
+    "title": "Volume by Slicing",
+    "description": "Calculating volumes of solids by slicing and using definite integrals to sum up volumes of slices.",
+    "slug": "volume-by-slicing"
+  },
+  {
+    "id": "0c131a88-f87a-4c71-884e-d60fd3c50009",
+    "lessonId": "8216d489-50da-4ee3-a9c0-f273f2a422ad",
+    "title": "Absolute Value Expressions and Equations",
+    "description": "Understanding absolute value expressions, solving equations involving absolute values, and graphing absolute value functions.",
+    "slug": "absolute-value-expressions-equations"
+  },
+  {
+    "id": "9544235c-82d9-4f8b-b46c-bb0e65709573",
+    "lessonId": "8216d489-50da-4ee3-a9c0-f273f2a422ad",
+    "title": "Applications of Rational, Radical, and Absolute Value Expressions",
+    "description": "Real-world applications of rational, radical, and absolute value expressions in various fields like physics, engineering, and economics.",
+    "slug": "applications-rational-radical-absolute-value"
+  },
+  {
+    "id": "63226c75-f0b5-4594-97c7-5a4cc1aeec99",
+    "lessonId": "8216d489-50da-4ee3-a9c0-f273f2a422ad",
+    "title": "Radical Expressions: Simplification and Operations",
+    "description": "Learn to simplify radical expressions, understand properties of radicals, and perform operations such as addition, subtraction, multiplication, and division.",
+    "slug": "radical-expressions-simplification-operations"
+  },
+  {
+    "id": "c0f19d78-349d-4e34-a501-8f80d11853c5",
+    "lessonId": "8216d489-50da-4ee3-a9c0-f273f2a422ad",
+    "title": "Rational Expressions: Simplification and Operations",
+    "description": "Focus on simplifying rational expressions and performing operations like addition, subtraction, multiplication, and division.",
+    "slug": "rational-expressions-simplification-operations"
+  },
+  {
+    "id": "08abb24f-3a06-42b6-b364-374e25db7124",
+    "lessonId": "8216d489-50da-4ee3-a9c0-f273f2a422ad",
+    "title": "Working with Complex Rational Expressions",
+    "description": "Techniques for simplifying complex rational expressions, including expressions with nested fractions and negative exponents.",
+    "slug": "complex-rational-expressions"
+  },
+  {
+    "id": "9c10b45b-622b-421e-aaf9-bfb719e64e49",
+    "lessonId": "86b564ed-1223-4692-8ca4-6f0611e03e9e",
+    "title": "Applications of Functions of Several Variables",
+    "description": "Applications of functions of several variables in optimization, physics, economics, and other multi-dimensional contexts.",
+    "slug": "applications-functions-several-variables"
+  },
+  {
+    "id": "0a6abd58-9760-4527-aef4-44abff8eed88",
+    "lessonId": "86b564ed-1223-4692-8ca4-6f0611e03e9e",
+    "title": "Functions of Three or More Variables",
+    "description": "Extending the concept of functions to three or more variables and understanding their properties.",
+    "slug": "functions-three-more-variables"
+  },
+  {
+    "id": "b93f872f-7a31-4bdf-945d-270b6ecf64d4",
+    "lessonId": "86b564ed-1223-4692-8ca4-6f0611e03e9e",
+    "title": "Graphs and Level Curves of Functions of Two Variables",
+    "description": "Graphing functions of two variables and understanding level curves (contour lines) and their interpretations.",
+    "slug": "graphs-level-curves-functions-two-variables"
+  },
+  {
+    "id": "2971be3d-8bfb-4a37-a535-30fd13c00901",
+    "lessonId": "86b564ed-1223-4692-8ca4-6f0611e03e9e",
+    "title": "Introduction to Functions of Several Variables",
+    "description": "Defining functions of several variables, understanding domain and range, and function notation.",
+    "slug": "introduction-functions-several-variables"
+  },
+  {
+    "id": "168401c0-c780-48ca-81e5-68eaa865893a",
+    "lessonId": "86b564ed-1223-4692-8ca4-6f0611e03e9e",
+    "title": "Partial Derivatives and Rates of Change",
+    "description": "Introducing partial derivatives as rates of change with respect to one variable while holding others constant.",
+    "slug": "partial-derivatives-rates-change"
+  },
+  {
+    "id": "eda3a11e-0235-48ed-9c3d-207817da3b8d",
+    "lessonId": "88a17dc3-35a3-4315-8d2e-eaaad06c18da",
+    "title": "Applications of Polar Coordinates",
+    "description": "Applications of polar coordinates in navigation, physics, and engineering problems involving radial symmetry.",
+    "slug": "applications-polar-coordinates"
+  },
+  {
+    "id": "91566750-13ba-49ad-96f7-baedd5c0a719",
+    "lessonId": "88a17dc3-35a3-4315-8d2e-eaaad06c18da",
+    "title": "Area in Polar Coordinates",
+    "description": "Calculating areas of regions bounded by polar curves using integration in polar coordinates.",
+    "slug": "area-polar-coordinates"
+  },
+  {
+    "id": "aaf953dd-23e9-45e5-9fef-3c5dcde0cba2",
+    "lessonId": "88a17dc3-35a3-4315-8d2e-eaaad06c18da",
+    "title": "Graphs of Polar Equations",
+    "description": "Graphing polar equations, including circles, lines, and more complex curves in polar coordinates.",
+    "slug": "graphs-polar-equations"
+  },
+  {
+    "id": "5228afc2-07c8-432b-a23a-56d1bb7ae5ef",
+    "lessonId": "88a17dc3-35a3-4315-8d2e-eaaad06c18da",
+    "title": "Introduction to Polar Coordinates",
+    "description": "Introducing the polar coordinate system, converting between polar and Cartesian coordinates, and plotting points in polar coordinates.",
+    "slug": "introduction-polar-coordinates"
+  },
+  {
+    "id": "7ec90921-4310-438b-b79b-22ce3dcaf4c5",
+    "lessonId": "88a17dc3-35a3-4315-8d2e-eaaad06c18da",
+    "title": "Polar Equations of Conic Sections",
+    "description": "Representing conic sections using polar equations and understanding their properties in polar form.",
+    "slug": "polar-equations-conic-sections"
+  },
+  {
+    "id": "05898078-fbdf-42b3-a126-3ccaf4ef3458",
+    "lessonId": "8c79e27d-ef59-4944-bc8c-66c038d56f59",
+    "title": "Applications of Gradient and Directional Derivatives",
+    "description": "Applications of gradient and directional derivatives in optimization, physics, and engineering.",
+    "slug": "applications-gradient-directional-derivatives"
+  },
+  {
+    "id": "db557bc7-a165-4342-b3cd-a9fd1ad725a1",
+    "lessonId": "8c79e27d-ef59-4944-bc8c-66c038d56f59",
+    "title": "Directional Derivatives: Definition and Calculation",
+    "description": "Defining directional derivatives and calculating directional derivatives in any direction.",
+    "slug": "directional-derivatives-definition-calculation"
+  },
+  {
+    "id": "ed0f50f6-db77-4810-b921-be230b0d3faf",
+    "lessonId": "8c79e27d-ef59-4944-bc8c-66c038d56f59",
+    "title": "Gradient Vector and its Geometric Interpretation",
+    "description": "Introducing the gradient vector and understanding its geometric interpretation as direction of steepest ascent.",
+    "slug": "gradient-vector-geometric-interpretation"
+  },
+  {
+    "id": "85143eda-dd03-499d-becf-ee7636c803af",
+    "lessonId": "8c79e27d-ef59-4944-bc8c-66c038d56f59",
+    "title": "Level Curves and Gradients",
+    "description": "Understanding the relationship between level curves (contour lines) and gradient vectors.",
+    "slug": "level-curves-gradients"
+  },
+  {
+    "id": "24bbe735-2c6e-4c98-9bda-8c93f0ed6810",
+    "lessonId": "8c79e27d-ef59-4944-bc8c-66c038d56f59",
+    "title": "Maximum Rate of Change and Direction of Steepest Ascent",
+    "description": "Using the gradient vector to find the maximum rate of change and the direction of steepest ascent for a function.",
+    "slug": "maximum-rate-change-steepest-ascent"
+  },
+  {
+    "id": "09ce7240-4115-4f81-827a-581745ded842",
+    "lessonId": "8ce1d160-d6dc-4964-8ee0-b274a71e2204",
+    "title": "Applications of Trigonometry in Navigation and Surveying",
+    "description": "Real-world applications of trigonometry in navigation, surveying, and calculating distances and heights.",
+    "slug": "applications-trigonometry-navigation-surveying"
+  },
+  {
+    "id": "6fb3aa32-b5fb-47ed-807b-6a5d0504167a",
+    "lessonId": "8ce1d160-d6dc-4964-8ee0-b274a71e2204",
+    "title": "Area of Triangles Using Trigonometry",
+    "description": "Calculating the area of triangles using trigonometric formulas, including Heron's formula and the formula involving sine.",
+    "slug": "area-triangles-trigonometry"
+  },
+  {
+    "id": "097b425d-ebe9-42d2-9552-a01599bd5597",
+    "lessonId": "8ce1d160-d6dc-4964-8ee0-b274a71e2204",
+    "title": "Law of Cosines",
+    "description": "Understanding and applying the Law of Cosines to solve oblique triangles, particularly when given side-angle-side or side-side-side.",
+    "slug": "law-of-cosines"
+  },
+  {
+    "id": "b734f2d5-5314-434b-8a89-26fff588e4bc",
+    "lessonId": "8ce1d160-d6dc-4964-8ee0-b274a71e2204",
+    "title": "Law of Sines",
+    "description": "Understanding and applying the Law of Sines to solve oblique triangles (non-right triangles).",
+    "slug": "law-of-sines"
+  },
+  {
+    "id": "aa23b885-971c-4936-9ff2-648e491bb6da",
+    "lessonId": "8ce1d160-d6dc-4964-8ee0-b274a71e2204",
+    "title": "Solving Right Triangles Using Trigonometry",
+    "description": "Using trigonometric ratios to solve right triangles, find missing sides and angles in practical problems.",
+    "slug": "solving-right-triangles-trigonometry"
+  },
+  {
+    "id": "fb980982-01ae-474f-bcd0-c38bbb42f7bd",
+    "lessonId": "8e9f4d09-00e8-4e21-86f0-2079aeed1352",
+    "title": "Applications of Solids with Volume = 1/3 (Base Area * Height)",
+    "description": "Real-world applications of pyramids and cones in architecture, design, and other fields.",
+    "slug": "applications-solids-volume-third-base-area-height"
+  },
+  {
+    "id": "ed57132f-2b97-40cd-ab47-9a3b475cfbc0",
+    "lessonId": "8e9f4d09-00e8-4e21-86f0-2079aeed1352",
+    "title": "Cones",
+    "description": "Understanding cones, their properties, and volume calculations.",
+    "slug": "cones"
+  },
+  {
+    "id": "16859861-7df4-4b1a-8c7c-27d5c5644c6c",
+    "lessonId": "8e9f4d09-00e8-4e21-86f0-2079aeed1352",
+    "title": "Pyramids",
+    "description": "Exploring pyramids, their properties, types, and volume calculations.",
+    "slug": "pyramids"
+  },
+  {
+    "id": "89b82fa1-e186-4b2e-9626-72db5f40d248",
+    "lessonId": "8e9f4d09-00e8-4e21-86f0-2079aeed1352",
+    "title": "Surface Area of Pyramids and Cones",
+    "description": "Calculating the surface area of pyramids and cones, including lateral surface area and total surface area.",
+    "slug": "surface-area-pyramids-cones"
+  },
+  {
+    "id": "a1720ed1-7910-4bb9-bc39-429d5e84c051",
+    "lessonId": "8e9f4d09-00e8-4e21-86f0-2079aeed1352",
+    "title": "Volume of Pyramids and Cones",
+    "description": "Calculating the volume of pyramids and cones using the formula Volume = 1/3 * (Base Area * Height).",
+    "slug": "volume-pyramids-cones"
+  },
+  {
+    "id": "a0359798-4f06-4871-9a86-1a485807daa5",
+    "lessonId": "9106eef8-cc0d-42ab-9962-a52b008560fe",
+    "title": "Applications of Vectors in Physics and Geometry",
+    "description": "Applications of vectors in physics (force, velocity) and geometry (lines, planes, distances).",
+    "slug": "applications-vectors-physics-geometry"
+  },
+  {
+    "id": "565315df-ebdb-4581-97d9-0e8812ba4eea",
+    "lessonId": "9106eef8-cc0d-42ab-9962-a52b008560fe",
+    "title": "Cross Product of Vectors in Three Dimensions",
+    "description": "Introducing the cross product of vectors in three dimensions, its properties, and applications in finding areas and volumes.",
+    "slug": "cross-product-vectors-three-dimensions"
+  },
+  {
+    "id": "f18a6602-d4cc-445a-8537-7d75a6f4d0d5",
+    "lessonId": "9106eef8-cc0d-42ab-9962-a52b008560fe",
+    "title": "Dot Product of Vectors",
+    "description": "Understanding the dot product of vectors, its properties, and applications in finding angles and projections.",
+    "slug": "dot-product-vectors"
+  },
+  {
+    "id": "d500efbd-25d7-4f43-988c-7c0f765c53e5",
+    "lessonId": "9106eef8-cc0d-42ab-9962-a52b008560fe",
+    "title": "Vectors in Three Dimensions: Components and Operations",
+    "description": "Extending vectors to three dimensions, vector components in 3D, and vector operations in three dimensions.",
+    "slug": "vectors-three-dimensions-components-operations"
+  },
+  {
+    "id": "6c8979bc-f3b8-4101-bf52-d8574f691c29",
+    "lessonId": "9106eef8-cc0d-42ab-9962-a52b008560fe",
+    "title": "Vectors in Two Dimensions: Components and Operations",
+    "description": "Introducing vectors in two dimensions, vector components, vector addition, subtraction, and scalar multiplication.",
+    "slug": "vectors-two-dimensions-components-operations"
+  },
+  {
+    "id": "5aa7b001-9ea9-4439-8ebd-61072f70806e",
+    "lessonId": "912699ef-fd54-41d3-b14f-db2878684bd6",
+    "title": "Applications of Inequalities",
+    "description": "Applying inequalities to solve optimization problems, constraint problems, and real-world scenarios involving ranges and limits.",
+    "slug": "applications-inequalities"
+  },
+  {
+    "id": "c76c7f3e-9778-48e6-9100-d7560cd667a7",
+    "lessonId": "912699ef-fd54-41d3-b14f-db2878684bd6",
+    "title": "Solving Compound Inequalities",
+    "description": "Solving compound inequalities involving 'and' and 'or' conditions and representing their solutions.",
+    "slug": "solving-compound-inequalities"
+  },
+  {
+    "id": "de0f2453-b1d2-413c-8f84-51576c39e392",
+    "lessonId": "912699ef-fd54-41d3-b14f-db2878684bd6",
+    "title": "Solving Linear Inequalities in One Variable",
+    "description": "Methods for solving linear inequalities in one variable and representing solutions on a number line and in interval notation.",
+    "slug": "solving-linear-inequalities-one-variable"
+  },
+  {
+    "id": "e37c190a-4392-4447-aa0f-49b6bcaf7ddc",
+    "lessonId": "912699ef-fd54-41d3-b14f-db2878684bd6",
+    "title": "Solving Quadratic Inequalities",
+    "description": "Techniques for solving quadratic inequalities, including using test intervals and graphical methods.",
+    "slug": "solving-quadratic-inequalities"
+  },
+  {
+    "id": "1e312568-6a19-4af2-b709-836354265d8b",
+    "lessonId": "912699ef-fd54-41d3-b14f-db2878684bd6",
+    "title": "Solving Rational Inequalities",
+    "description": "Solving inequalities involving rational expressions, including identifying critical points and test intervals.",
+    "slug": "solving-rational-inequalities"
+  },
+  {
+    "id": "9f3cbb05-f4d7-4b02-930c-0f822d12da83",
+    "lessonId": "99f88f05-3b7b-418a-bfb1-646184c2604f",
+    "title": "Applications of Conic Sections",
+    "description": "Applications of conic sections in optics, astronomy, engineering, and architecture.",
+    "slug": "applications-conic-sections"
+  },
+  {
+    "id": "4fd1a8a5-d733-49b9-a929-b9bc2eefba2d",
+    "lessonId": "99f88f05-3b7b-418a-bfb1-646184c2604f",
+    "title": "Ellipses and Hyperbolas",
+    "description": "Exploring ellipses and hyperbolas, their standard equations, foci, vertices, and asymptotes.",
+    "slug": "ellipses-hyperbolas"
+  },
+  {
+    "id": "4f0a3acc-7110-454b-b5da-31d19c8b88ce",
+    "lessonId": "99f88f05-3b7b-418a-bfb1-646184c2604f",
+    "title": "Equations of Conic Sections in Standard Form",
+    "description": "Writing equations of conic sections in standard form and identifying the type of conic section from its equation.",
+    "slug": "equations-conic-sections-standard-form"
+  },
+  {
+    "id": "4e16764c-567f-4e75-9fa9-3767c4e6a79a",
+    "lessonId": "99f88f05-3b7b-418a-bfb1-646184c2604f",
+    "title": "Graphing Conic Sections",
+    "description": "Graphing circles, parabolas, ellipses, and hyperbolas from their equations and identifying key features.",
+    "slug": "graphing-conic-sections"
+  },
+  {
+    "id": "ed06085f-cd38-49ff-b721-9acb9009a20e",
+    "lessonId": "99f88f05-3b7b-418a-bfb1-646184c2604f",
+    "title": "Introduction to Conic Sections: Circles and Parabolas",
+    "description": "Defining conic sections and focusing on circles and parabolas, their standard equations, and properties.",
+    "slug": "introduction-conic-sections-circles-parabolas"
+  },
+  {
+    "id": "f591cab2-a5cc-46bb-bb1e-4b792facb3b0",
+    "lessonId": "9c6c4e75-b0d9-481b-911e-8279b6fcc745",
+    "title": "Applications of Sequences and Series in Calculus",
+    "description": "Applications of sequences and series in representing functions, approximations, and advanced calculus topics.",
+    "slug": "applications-sequences-series-calculus"
+  },
+  {
+    "id": "c140331e-6d69-4989-906b-64e75e71498f",
+    "lessonId": "9c6c4e75-b0d9-481b-911e-8279b6fcc745",
+    "title": "Convergence and Divergence of Sequences",
+    "description": "Determining convergence and divergence of sequences and finding limits of convergent sequences.",
+    "slug": "convergence-divergence-sequences"
+  },
+  {
+    "id": "7a1b95b7-15a4-4fad-9990-4692c77dd734",
+    "lessonId": "9c6c4e75-b0d9-481b-911e-8279b6fcc745",
+    "title": "Convergence and Divergence of Series",
+    "description": "Determining convergence and divergence of infinite series and understanding the concept of sum of a convergent series.",
+    "slug": "convergence-divergence-series"
+  },
+  {
+    "id": "692fcd16-149a-40c6-98ad-bdd5368cb332",
+    "lessonId": "9c6c4e75-b0d9-481b-911e-8279b6fcc745",
+    "title": "Geometric Series and Telescoping Series",
+    "description": "Analyzing geometric series and telescoping series and calculating their sums when convergent.",
+    "slug": "geometric-telescoping-series"
+  },
+  {
+    "id": "8ddb48fb-e5fd-422b-8b70-9a87d37401d5",
+    "lessonId": "9c6c4e75-b0d9-481b-911e-8279b6fcc745",
+    "title": "Introduction to Sequences and Series",
+    "description": "Defining sequences and series, understanding notation, and basic properties.",
+    "slug": "introduction-sequences-series-calculus"
+  },
+  {
+    "id": "776a093e-fcc8-4a56-9a4e-dfbe0527bd7b",
+    "lessonId": "9e0567a9-8ffc-4a1a-ae93-9ef37bf61735",
+    "title": "Applications of Trigonometric Functions",
+    "description": "Applications of trigonometric functions in physics, engineering, navigation, and other fields.",
+    "slug": "applications-trigonometric-functions"
+  },
+  {
+    "id": "dadbfbf6-8002-481c-861f-183934b2485d",
+    "lessonId": "9e0567a9-8ffc-4a1a-ae93-9ef37bf61735",
+    "title": "Graphs of Trigonometric Functions",
+    "description": "Graphing sine, cosine, tangent, cosecant, secant, and cotangent functions and understanding their properties (amplitude, period, phase shift).",
+    "slug": "graphs-trigonometric-functions"
+  },
+  {
+    "id": "adfd3e36-80e6-4067-b941-2555cfc3df08",
+    "lessonId": "9e0567a9-8ffc-4a1a-ae93-9ef37bf61735",
+    "title": "Introduction to Trigonometric Functions",
+    "description": "Defining the six trigonometric functions (sine, cosine, tangent, cosecant, secant, cotangent) using the unit circle and right triangles.",
+    "slug": "introduction-trigonometric-functions"
+  },
+  {
+    "id": "f8e54afd-d2b7-4203-8205-6901b2780f86",
+    "lessonId": "9e0567a9-8ffc-4a1a-ae93-9ef37bf61735",
+    "title": "Inverse Trigonometric Functions",
+    "description": "Understanding the concept of inverse trigonometric functions and evaluating inverse trigonometric functions.",
+    "slug": "inverse-trigonometric-functions-topic"
+  },
+  {
+    "id": "9caeb91e-2a4d-4741-9b0a-d14235e7bc8a",
+    "lessonId": "9e0567a9-8ffc-4a1a-ae93-9ef37bf61735",
+    "title": "Trigonometric Functions of Special Angles",
+    "description": "Evaluating trigonometric functions for special angles (30°, 45°, 60°, and their radian equivalents) and using the unit circle.",
+    "slug": "trigonometric-functions-special-angles"
+  },
+  {
+    "id": "8b6f3f8a-e88d-460d-8abb-0f97911f29f6",
+    "lessonId": "9fa2d548-5ee5-479e-bde4-f7f33e0f2f78",
+    "title": "Applications of Complex Numbers",
+    "description": "Exploring applications of complex numbers in fields such as electrical engineering, quantum mechanics, and signal analysis.",
+    "slug": "applications-complex-numbers"
+  },
+  {
+    "id": "759a02c9-3549-4fc8-9aa9-f4bf0d34bf2c",
+    "lessonId": "9fa2d548-5ee5-479e-bde4-f7f33e0f2f78",
+    "title": "Graphical Representation of Complex Numbers",
+    "description": "Representing complex numbers graphically on the complex plane, including the Argand diagram and polar form.",
+    "slug": "graphical-complex-numbers"
+  },
+  {
+    "id": "29d5c033-c8f2-4c26-9439-3def19024dd3",
+    "lessonId": "9fa2d548-5ee5-479e-bde4-f7f33e0f2f78",
+    "title": "Introduction to Complex Numbers",
+    "description": "Defining complex numbers, imaginary units, and the complex number system, including standard form and basic properties.",
+    "slug": "introduction-complex-numbers"
+  },
+  {
+    "id": "09b8a730-9ede-4de3-90aa-a4c4dc7ab181",
+    "lessonId": "9fa2d548-5ee5-479e-bde4-f7f33e0f2f78",
+    "title": "Operations with Complex Numbers",
+    "description": "Performing arithmetic operations with complex numbers, including addition, subtraction, multiplication, and division.",
+    "slug": "operations-complex-numbers"
+  },
+  {
+    "id": "45c58e94-6d18-4802-baee-81ffd817bb2a",
+    "lessonId": "9fa2d548-5ee5-479e-bde4-f7f33e0f2f78",
+    "title": "Polar Form of Complex Numbers and De Moivre's Theorem",
+    "description": "Converting complex numbers to polar form and using De Moivre's Theorem for powers and roots of complex numbers.",
+    "slug": "polar-form-de-moivres-theorem"
+  },
+  {
+    "id": "66f1bed0-61ca-44cc-a69c-96d0bc4901e8",
+    "lessonId": "9fe761ba-980c-4753-957c-16aefa503359",
+    "title": "Derivatives of Exponential and Logarithmic Functions",
+    "description": "Finding derivatives of exponential functions (including e^x) and logarithmic functions (including ln(x)).",
+    "slug": "derivatives-exponential-logarithmic-functions"
+  },
+  {
+    "id": "b43ca4c3-6d9d-45c6-b00d-385d405256b8",
+    "lessonId": "9fe761ba-980c-4753-957c-16aefa503359",
+    "title": "Derivatives of Inverse Trigonometric Functions",
+    "description": "Learning derivative rules for inverse trigonometric functions such as arcsin(x), arccos(x), and arctan(x).",
+    "slug": "derivatives-inverse-trigonometric-functions"
+  },
+  {
+    "id": "58c65ffa-9854-482e-bd1e-92c35224294c",
+    "lessonId": "9fe761ba-980c-4753-957c-16aefa503359",
+    "title": "Derivatives of Polynomial Functions",
+    "description": "Learning to find derivatives of polynomial functions using the power rule and sum/difference rule.",
+    "slug": "derivatives-polynomial-functions"
+  },
+  {
+    "id": "0825de23-bb82-4a63-9be2-705a2c47d7c1",
+    "lessonId": "9fe761ba-980c-4753-957c-16aefa503359",
+    "title": "Derivatives of Rational Functions",
+    "description": "Applying differentiation rules to find derivatives of rational functions.",
+    "slug": "derivatives-rational-functions"
+  },
+  {
+    "id": "19467cf1-cc8c-4768-9375-5e3b0a90462d",
+    "lessonId": "9fe761ba-980c-4753-957c-16aefa503359",
+    "title": "Derivatives of Trigonometric Functions",
+    "description": "Memorizing and applying derivative rules for sine, cosine, tangent, and other trigonometric functions.",
+    "slug": "derivatives-trigonometric-functions"
+  },
+  {
+    "id": "642e4589-a0d5-4e1c-89ae-15283e9373ad",
+    "lessonId": "a0a54847-c81a-4657-b0f1-5731111f481b",
+    "title": "Basic Integration Formulas: Power Rule and Sum Rule",
+    "description": "Learning basic integration formulas, including the power rule for integration and the sum rule.",
+    "slug": "basic-integration-formulas-power-sum-rule"
+  },
+  {
+    "id": "31a3c513-3f77-42b6-9fe8-477af5b8a48a",
+    "lessonId": "a0a54847-c81a-4657-b0f1-5731111f481b",
+    "title": "Integrals of Exponential and Logarithmic Functions",
+    "description": "Finding integrals of exponential functions (including e^x) and logarithmic functions (including 1/x).",
+    "slug": "integrals-exponential-logarithmic-functions"
+  },
+  {
+    "id": "cd652983-42eb-481e-b00e-43680c2b9bca",
+    "lessonId": "a0a54847-c81a-4657-b0f1-5731111f481b",
+    "title": "Integrals of Trigonometric Functions",
+    "description": "Memorizing and applying integration formulas for trigonometric functions (sine, cosine, tangent, etc.).",
+    "slug": "integrals-trigonometric-functions"
+  },
+  {
+    "id": "f3b0b611-b060-4c9a-93a1-cfdd8263fb96",
+    "lessonId": "a0a54847-c81a-4657-b0f1-5731111f481b",
+    "title": "Integration by Substitution (u-Substitution)",
+    "description": "Learning and applying the technique of integration by substitution (u-substitution) for more complex integrals.",
+    "slug": "integration-by-substitution-u-substitution"
+  },
+  {
+    "id": "082a5fc8-8640-4714-b56b-ab8a49a801c4",
+    "lessonId": "a0a54847-c81a-4657-b0f1-5731111f481b",
+    "title": "Using Integration Formulas and Substitution Together",
+    "description": "Combining basic integration formulas and u-substitution to solve a wider range of integrals.",
+    "slug": "integration-formulas-substitution-together"
+  },
+  {
+    "id": "7bb2414b-f815-4a35-99eb-ae33135e8949",
+    "lessonId": "a2d9a7ef-d858-47c3-a3c4-fd3462614684",
+    "title": "Applying L'Hospital's Rule for 0/0 Form",
+    "description": "Using L'Hospital's Rule to evaluate limits of functions in the indeterminate form 0/0.",
+    "slug": "lhospitals-rule-0-0-form"
+  },
+  {
+    "id": "7f094ffa-33cb-4279-a1d0-471bbb79d397",
+    "lessonId": "a2d9a7ef-d858-47c3-a3c4-fd3462614684",
+    "title": "Applying L'Hospital's Rule for ∞/∞ Form",
+    "description": "Using L'Hospital's Rule to evaluate limits of functions in the indeterminate form ∞/∞.",
+    "slug": "lhospitals-rule-infinity-infinity-form"
+  },
+  {
+    "id": "275bd821-3fe3-4699-a58e-753333ed3032",
+    "lessonId": "a2d9a7ef-d858-47c3-a3c4-fd3462614684",
+    "title": "Indeterminate Forms and L'Hospital's Rule",
+    "description": "Identifying indeterminate forms (0/0, ∞/∞) and introducing L'Hospital's Rule for evaluating limits of indeterminate forms.",
+    "slug": "indeterminate-forms-lhospitals-rule"
+  },
+  {
+    "id": "84c7c9db-4ffd-4c5b-b136-9195f571e0c0",
+    "lessonId": "a2d9a7ef-d858-47c3-a3c4-fd3462614684",
+    "title": "Limitations and Exceptions to L'Hospital's Rule",
+    "description": "Understanding limitations and conditions under which L'Hospital's Rule is applicable and recognizing cases where it should not be used.",
+    "slug": "limitations-exceptions-lhospitals-rule"
+  },
+  {
+    "id": "ca7b1201-6467-4f75-a003-4e0120c5eb57",
+    "lessonId": "a2d9a7ef-d858-47c3-a3c4-fd3462614684",
+    "title": "Other Indeterminate Forms and Transformations to 0/0 or ∞/∞",
+    "description": "Handling other indeterminate forms (0*∞, ∞-∞, 1^∞, 0^0, ∞^0) by transforming them into 0/0 or ∞/∞ to apply L'Hospital's Rule.",
+    "slug": "other-indeterminate-forms-transformations"
+  },
+  {
+    "id": "e3fadf2a-34b7-4fc8-9022-90203aa984f4",
+    "lessonId": "a5054111-ebbe-4682-affd-652d49e48667",
+    "title": "Applications of Solids with Volume = Base Area * Height",
+    "description": "Real-world applications of prisms and cylinders in calculating volumes of containers, buildings, and other structures.",
+    "slug": "applications-solids-base-area-height"
+  },
+  {
+    "id": "688cc952-3c5b-4483-8c57-2e92f3e777a3",
+    "lessonId": "a5054111-ebbe-4682-affd-652d49e48667",
+    "title": "Cubes and Rectangular Solids",
+    "description": "Focusing on cubes and rectangular solids as special types of prisms, and calculating their surface area and volume.",
+    "slug": "cubes-rectangular-solids"
+  },
+  {
+    "id": "ddb65527-5583-4fa6-86bf-06ada2284c28",
+    "lessonId": "a5054111-ebbe-4682-affd-652d49e48667",
+    "title": "Prisms and Cylinders",
+    "description": "Exploring prisms and cylinders, their properties, surface area, and volume calculations.",
+    "slug": "prisms-cylinders"
+  },
+  {
+    "id": "b92a7258-d942-4a13-8d6d-72d9ccb8ac8a",
+    "lessonId": "a5054111-ebbe-4682-affd-652d49e48667",
+    "title": "Surface Area of Prisms and Cylinders",
+    "description": "Calculating the surface area of prisms and cylinders, including lateral surface area and total surface area.",
+    "slug": "surface-area-prisms-cylinders"
+  },
+  {
+    "id": "087ac813-eb2e-419f-be53-632f3e0bd3b2",
+    "lessonId": "a5054111-ebbe-4682-affd-652d49e48667",
+    "title": "Volume of Solids with Uniform Cross-Section",
+    "description": "Understanding the principle that volume equals base area times height for solids with uniform cross-section.",
+    "slug": "volume-solids-uniform-cross-section"
+  },
+  {
+    "id": "977b496f-1fd9-4bdf-89cd-2c96df38813d",
+    "lessonId": "ae2dba5d-77bf-45c7-9692-668039c46a3d",
+    "title": "Applications of Definite Integrals in Physics and Engineering",
+    "description": "Applications of definite integrals in physics and engineering, such as work, energy, fluid dynamics, and mechanics.",
+    "slug": "applications-definite-integrals-physics-engineering"
+  },
+  {
+    "id": "d21d6fb2-772e-4fe3-8fe0-576ef900bf76",
+    "lessonId": "ae2dba5d-77bf-45c7-9692-668039c46a3d",
+    "title": "Average Value of a Function",
+    "description": "Calculating the average value of a function over an interval using definite integrals.",
+    "slug": "average-value-function-2094"
+  },
+  {
+    "id": "11835add-3974-4fdd-b21c-635dcb9a59d7",
+    "lessonId": "ae2dba5d-77bf-45c7-9692-668039c46a3d",
+    "title": "Center of Mass and Centroids",
+    "description": "Finding center of mass and centroids of planar regions using definite integrals.",
+    "slug": "center-mass-centroids-2094"
+  },
+  {
+    "id": "faaff8f8-cf72-4577-a975-2019d4ceea69",
+    "lessonId": "ae2dba5d-77bf-45c7-9692-668039c46a3d",
+    "title": "Fluid Pressure and Force",
+    "description": "Calculating fluid pressure and force on submerged surfaces using definite integrals.",
+    "slug": "fluid-pressure-force-2094"
+  },
+  {
+    "id": "4c184aab-74e6-416d-864d-018f8f46eb4e",
+    "lessonId": "ae2dba5d-77bf-45c7-9692-668039c46a3d",
+    "title": "Work and Energy Using Integrals",
+    "description": "Using integrals to calculate work done by variable forces and energy in physical systems.",
+    "slug": "work-energy-integrals"
+  },
+  {
+    "id": "87189b7d-3444-4cc6-a9cd-7be997fccb60",
+    "lessonId": "b173bc49-86d1-46d0-95ac-4a86e2ae3c50",
+    "title": "Applications of Limits",
+    "description": "Applications of limits in defining continuity, derivatives, and understanding the behavior of functions.",
+    "slug": "applications-limits"
+  },
+  {
+    "id": "49c197e3-e660-410e-818c-a100ce35ee0e",
+    "lessonId": "b173bc49-86d1-46d0-95ac-4a86e2ae3c50",
+    "title": "Intuitive Introduction to Limits",
+    "description": "Providing an intuitive understanding of limits, limit notation, and graphical interpretation of limits.",
+    "slug": "intuitive-introduction-limits"
+  },
+  {
+    "id": "4b041d85-9f9a-4656-9ac0-dc545f2466a1",
+    "lessonId": "b173bc49-86d1-46d0-95ac-4a86e2ae3c50",
+    "title": "Limit Laws and Techniques for Evaluating Limits",
+    "description": "Learning and applying limit laws to evaluate limits algebraically and using techniques such as direct substitution and factoring.",
+    "slug": "limit-laws-techniques-evaluating"
+  },
+  {
+    "id": "97a76625-8d8c-4e1b-860b-1a4aa87f52c3",
+    "lessonId": "b173bc49-86d1-46d0-95ac-4a86e2ae3c50",
+    "title": "Limits Involving Infinity",
+    "description": "Exploring limits involving infinity, including infinite limits and limits at infinity, and horizontal asymptotes.",
+    "slug": "limits-involving-infinity"
+  },
+  {
+    "id": "5c02da22-060c-4d30-a98d-7af9c8f59f2b",
+    "lessonId": "b173bc49-86d1-46d0-95ac-4a86e2ae3c50",
+    "title": "One-Sided Limits",
+    "description": "Understanding and evaluating one-sided limits (left-hand and right-hand limits) and their relationship to two-sided limits.",
+    "slug": "one-sided-limits"
+  },
+  {
+    "id": "6607f462-c349-481c-b29a-91d5c16d43cb",
+    "lessonId": "b4e4483e-75d2-4973-95cc-fc7e0cbe58a2",
+    "title": "Applications of Plane Figures in Geometry",
+    "description": "Applications of plane figures in geometric proofs, constructions, and real-world problems involving shapes and areas.",
+    "slug": "applications-plane-figures-geometry"
+  },
+  {
+    "id": "7e4425a4-0a49-4160-94b4-949356bc0a15",
+    "lessonId": "b4e4483e-75d2-4973-95cc-fc7e0cbe58a2",
+    "title": "Area and Perimeter of Plane Figures",
+    "description": "Calculating the area and perimeter of various plane figures, including triangles, quadrilaterals, polygons, and circles.",
+    "slug": "area-perimeter-plane-figures"
+  },
+  {
+    "id": "c3c3336c-50d1-423d-9498-5d3d274093f1",
+    "lessonId": "b4e4483e-75d2-4973-95cc-fc7e0cbe58a2",
+    "title": "Basic Plane Figures: Triangles and Quadrilaterals",
+    "description": "Review of basic plane figures, focusing on triangles and quadrilaterals, their properties, and classifications.",
+    "slug": "basic-plane-figures-triangles-quadrilaterals"
+  },
+  {
+    "id": "f6c96a40-a3ca-47c9-a25b-3bef8df32c3f",
+    "lessonId": "b4e4483e-75d2-4973-95cc-fc7e0cbe58a2",
+    "title": "Circles and their Properties",
+    "description": "Understanding circles, their parts (radius, diameter, circumference, area), and related theorems.",
+    "slug": "circles-properties"
+  },
+  {
+    "id": "25b8769c-0930-4f9f-801e-48bfcba19b38",
+    "lessonId": "b4e4483e-75d2-4973-95cc-fc7e0cbe58a2",
+    "title": "Polygons and their Properties",
+    "description": "Exploring polygons, their types, properties, interior and exterior angles, and classification.",
+    "slug": "polygons-properties"
+  },
+  {
+    "id": "0e114a2b-1712-4111-92c7-44998aba8ffa",
+    "lessonId": "b5cf265e-13f1-4eae-a53b-df5b899ba5da",
+    "title": "Applications of Implicit Differentiation",
+    "description": "Applications of implicit differentiation in related rates problems and finding slopes of tangent lines to implicitly defined curves.",
+    "slug": "applications-implicit-differentiation"
+  },
+  {
+    "id": "ab1b008c-a76e-4bc6-9bae-6c31f8ac8ced",
+    "lessonId": "b5cf265e-13f1-4eae-a53b-df5b899ba5da",
+    "title": "Higher-Order Implicit Differentiation",
+    "description": "Finding higher-order derivatives using implicit differentiation.",
+    "slug": "higher-order-implicit-differentiation"
+  },
+  {
+    "id": "f063b3de-707b-43ab-a41b-cce9e9f39cac",
+    "lessonId": "b5cf265e-13f1-4eae-a53b-df5b899ba5da",
+    "title": "Implicit Differentiation with Trigonometric Functions",
+    "description": "Applying implicit differentiation to find derivatives of implicitly defined trigonometric functions.",
+    "slug": "implicit-differentiation-trigonometric"
+  },
+  {
+    "id": "44681392-02e6-463b-8ea0-987ad13acc68",
+    "lessonId": "b5cf265e-13f1-4eae-a53b-df5b899ba5da",
+    "title": "Introduction to Implicit Differentiation",
+    "description": "Introducing implicit differentiation for finding derivatives of implicitly defined functions.",
+    "slug": "introduction-implicit-differentiation"
+  },
+  {
+    "id": "4335aee7-57b9-4e5a-ac6b-8f449bbb7639",
+    "lessonId": "b5cf265e-13f1-4eae-a53b-df5b899ba5da",
+    "title": "Steps for Implicit Differentiation",
+    "description": "Learning the steps involved in performing implicit differentiation, including differentiating both sides and solving for dy/dx.",
+    "slug": "steps-implicit-differentiation"
+  },
+  {
+    "id": "4220790c-a614-4a63-ba6b-d3c93f743921",
+    "lessonId": "b6b6e9e8-b47f-417c-8934-0b318a6b9032",
+    "title": "Concavity and Points of Inflection",
+    "description": "Using the second derivative to determine concavity of a graph and find points of inflection.",
+    "slug": "concavity-points-inflection"
+  },
+  {
+    "id": "34bb9b9a-e4d5-44d5-a42d-909f31d39dc7",
+    "lessonId": "b6b6e9e8-b47f-417c-8934-0b318a6b9032",
+    "title": "Finding Critical Points and Intervals of Increase/Decrease",
+    "description": "Using the first derivative to find critical points, intervals of increase and decrease, and to analyze function behavior.",
+    "slug": "critical-points-intervals-increase-decrease"
+  },
+  {
+    "id": "8f7b84da-cddb-457b-a910-9eecc357cd9c",
+    "lessonId": "b6b6e9e8-b47f-417c-8934-0b318a6b9032",
+    "title": "Optimization Problems",
+    "description": "Solving optimization problems using derivatives to find maximum and minimum values in applied contexts.",
+    "slug": "optimization-problems"
+  },
+  {
+    "id": "1a061c5d-00ad-42f7-a77d-95b9e8346f9a",
+    "lessonId": "b6b6e9e8-b47f-417c-8934-0b318a6b9032",
+    "title": "Using the First Derivative Test for Local Extrema",
+    "description": "Applying the First Derivative Test to find local maxima and minima of functions.",
+    "slug": "first-derivative-test-local-extrema"
+  },
+  {
+    "id": "af1c3dd3-0cc0-43db-8b51-1725001fe642",
+    "lessonId": "b6b6e9e8-b47f-417c-8934-0b318a6b9032",
+    "title": "Using the Second Derivative Test for Local Extrema",
+    "description": "Applying the Second Derivative Test to find local maxima and minima of functions.",
+    "slug": "second-derivative-test-local-extrema"
+  },
+  {
+    "id": "8d5a2159-e953-4e83-8297-1028f16924de",
+    "lessonId": "c3198fc0-99d6-40c5-bc7e-b6f1a4e8e3b9",
+    "title": "Applications of Improper Integrals",
+    "description": "Applications of improper integrals in probability, physics, and other fields where integration over infinite intervals is needed.",
+    "slug": "applications-improper-integrals"
+  },
+  {
+    "id": "f059192d-e2d6-4165-bd34-39c7dabc5d84",
+    "lessonId": "c3198fc0-99d6-40c5-bc7e-b6f1a4e8e3b9",
+    "title": "Convergence and Divergence of Improper Integrals",
+    "description": "Tests for convergence and divergence of improper integrals, including comparison tests and limit comparison tests.",
+    "slug": "convergence-divergence-improper-integrals"
+  },
+  {
+    "id": "a82e13d4-6ee1-4716-9518-71e2b43a6346",
+    "lessonId": "c3198fc0-99d6-40c5-bc7e-b6f1a4e8e3b9",
+    "title": "Improper Integrals with Discontinuous Integrands",
+    "description": "Evaluating improper integrals with discontinuous integrands and determining convergence or divergence.",
+    "slug": "improper-integrals-discontinuous-integrands"
+  },
+  {
+    "id": "ba7aa47c-d114-4059-9491-be13b283fa12",
+    "lessonId": "c3198fc0-99d6-40c5-bc7e-b6f1a4e8e3b9",
+    "title": "Improper Integrals with Infinite Limits",
+    "description": "Evaluating improper integrals with infinite limits of integration and determining convergence or divergence.",
+    "slug": "improper-integrals-infinite-limits"
+  },
+  {
+    "id": "cdf26e38-079b-4f71-85c9-251eb6c9e0b2",
+    "lessonId": "c3198fc0-99d6-40c5-bc7e-b6f1a4e8e3b9",
+    "title": "Introduction to Improper Integrals",
+    "description": "Defining improper integrals with infinite limits of integration or discontinuous integrands.",
+    "slug": "introduction-improper-integrals"
+  },
+  {
+    "id": "cf91cbc5-de74-467f-9029-ed7c9935d581",
+    "lessonId": "c9d65d72-d092-4b5d-bdf0-0a6e07b030a7",
+    "title": "Applications of Spheres in Geometry and Real World",
+    "description": "Applications of spheres in geometry, geography, astronomy, and other real-world contexts.",
+    "slug": "applications-spheres-geometry-real-world"
+  },
+  {
+    "id": "a6e3d1d3-a924-4192-89ee-a96b1a144702",
+    "lessonId": "c9d65d72-d092-4b5d-bdf0-0a6e07b030a7",
+    "title": "Definition and Properties of a Sphere",
+    "description": "Defining a sphere, understanding its properties, radius, diameter, and surface area and volume formulas.",
+    "slug": "definition-properties-sphere"
+  },
+  {
+    "id": "9a434bbc-cd3e-424a-be5f-67f43daa0964",
+    "lessonId": "c9d65d72-d092-4b5d-bdf0-0a6e07b030a7",
+    "title": "Hemispheres and Spherical Segments",
+    "description": "Exploring hemispheres and spherical segments, and calculating their surface area and volume.",
+    "slug": "hemispheres-spherical-segments"
+  },
+  {
+    "id": "5a7a10fc-1df0-4663-8801-5adcbc39f422",
+    "lessonId": "c9d65d72-d092-4b5d-bdf0-0a6e07b030a7",
+    "title": "Surface Area of a Sphere",
+    "description": "Calculating the surface area of a sphere using the formula and applying it to solve problems.",
+    "slug": "surface-area-sphere"
+  },
+  {
+    "id": "3d1331c9-7d2c-480b-aec8-624066a5deec",
+    "lessonId": "c9d65d72-d092-4b5d-bdf0-0a6e07b030a7",
+    "title": "Volume of a Sphere",
+    "description": "Calculating the volume of a sphere using the formula and applying it to solve problems.",
+    "slug": "volume-sphere"
+  },
+  {
+    "id": "d035955d-999f-4f01-8e0b-32424397ccd6",
+    "lessonId": "ce7a7d15-7a18-48b2-b60b-022907e6881f",
+    "title": "Applications of Combinatorial Mathematics",
+    "description": "Applications of combinatorial mathematics in probability, statistics, computer science, and other fields.",
+    "slug": "applications-combinatorial-mathematics"
+  },
+  {
+    "id": "50e282cc-7d50-47bd-a8cf-4679d3889320",
+    "lessonId": "ce7a7d15-7a18-48b2-b60b-022907e6881f",
+    "title": "Basic Counting Principles",
+    "description": "Fundamental principles of counting, including the addition principle and the multiplication principle.",
+    "slug": "basic-counting-principles"
+  },
+  {
+    "id": "6624af2d-4935-4b01-b44f-70d1d82e3660",
+    "lessonId": "ce7a7d15-7a18-48b2-b60b-022907e6881f",
+    "title": "Combinations",
+    "description": "Understanding combinations, calculating combinations of n objects taken r at a time, and solving combination problems.",
+    "slug": "combinations"
+  },
+  {
+    "id": "dfb2e802-db1c-43a9-b234-60b767c6c9f5",
+    "lessonId": "ce7a7d15-7a18-48b2-b60b-022907e6881f",
+    "title": "Permutations",
+    "description": "Understanding permutations, calculating permutations of n objects taken r at a time, and solving permutation problems.",
+    "slug": "permutations"
+  },
+  {
+    "id": "c3d3b343-fdc0-46c2-8128-38ae83652702",
+    "lessonId": "ce7a7d15-7a18-48b2-b60b-022907e6881f",
+    "title": "Permutations vs Combinations",
+    "description": "Distinguishing between permutations and combinations and choosing the appropriate method for counting problems.",
+    "slug": "permutations-vs-combinations"
+  },
+  {
+    "id": "39d565ac-8b37-4cfe-996b-9b5e80a9e41b",
+    "lessonId": "cf478faf-3228-4986-b859-92b380045e50",
+    "title": "Applications of Matrices",
+    "description": "Applications of matrices in computer graphics, cryptography, and solving systems of equations.",
+    "slug": "applications-matrices"
+  },
+  {
+    "id": "00b36797-de43-4f6f-8569-5f20194ef2fb",
+    "lessonId": "cf478faf-3228-4986-b859-92b380045e50",
+    "title": "Introduction to Matrices and Matrix Notation",
+    "description": "Defining matrices, understanding matrix notation, and identifying different types of matrices (e.g., square, row, column).",
+    "slug": "introduction-matrices-notation"
+  },
+  {
+    "id": "066c94c9-20ff-4664-ae76-845985d50d46",
+    "lessonId": "cf478faf-3228-4986-b859-92b380045e50",
+    "title": "Matrix Operations: Addition and Subtraction",
+    "description": "Performing matrix addition and subtraction, understanding conditions for these operations, and properties of matrix addition.",
+    "slug": "matrix-operations-addition-subtraction"
+  },
+  {
+    "id": "4c816d0f-fd9a-4b26-b664-f4cfb30738bc",
+    "lessonId": "cf478faf-3228-4986-b859-92b380045e50",
+    "title": "Matrix Operations: Matrix Multiplication",
+    "description": "Performing matrix multiplication, understanding conditions for multiplication, and properties of matrix multiplication.",
+    "slug": "matrix-operations-matrix-multiplication"
+  },
+  {
+    "id": "3d23bc9f-31ea-43ad-ab88-4701f8049c45",
+    "lessonId": "cf478faf-3228-4986-b859-92b380045e50",
+    "title": "Matrix Operations: Scalar Multiplication",
+    "description": "Understanding scalar multiplication of matrices and its properties.",
+    "slug": "matrix-operations-scalar-multiplication"
+  },
+  {
+    "id": "346e2ba9-c2f0-45e8-8678-6e25318c8bba",
+    "lessonId": "d33cadd7-1a31-4096-a806-b9e4c9a4b1ee",
+    "title": "Applications of Radius and Interval of Convergence",
+    "description": "Applications of radius and interval of convergence in determining the domain of power series representations and in numerical analysis.",
+    "slug": "applications-radius-interval-convergence"
+  },
+  {
+    "id": "e732c8cc-5d15-4e84-95df-3645ec836742",
+    "lessonId": "d33cadd7-1a31-4096-a806-b9e4c9a4b1ee",
+    "title": "Endpoint Behavior of Interval of Convergence",
+    "description": "Analyzing the behavior of power series at the endpoints of their interval of convergence.",
+    "slug": "endpoint-behavior-interval-convergence"
+  },
+  {
+    "id": "7b69063d-04aa-4133-ac19-0585193d77e2",
+    "lessonId": "d33cadd7-1a31-4096-a806-b9e4c9a4b1ee",
+    "title": "Interval of Convergence of a Power Series",
+    "description": "Finding the interval of convergence of a power series, including checking endpoints.",
+    "slug": "interval-convergence-power-series"
+  },
+  {
+    "id": "238979b4-93e4-4999-aeb7-09488d49c63e",
+    "lessonId": "d33cadd7-1a31-4096-a806-b9e4c9a4b1ee",
+    "title": "Power Series Representation of Functions",
+    "description": "Using power series to represent functions and finding the interval of convergence for these representations.",
+    "slug": "power-series-representation-functions"
+  },
+  {
+    "id": "451a8c7c-15bd-469e-8510-d7d391989984",
+    "lessonId": "d33cadd7-1a31-4096-a806-b9e4c9a4b1ee",
+    "title": "Radius of Convergence of a Power Series",
+    "description": "Determining the radius of convergence of a power series using the Ratio Test or Root Test.",
+    "slug": "radius-convergence-power-series"
+  },
+  {
+    "id": "103ec4fd-25bb-4005-8f3b-ab21fb17157d",
+    "lessonId": "e0fce50c-c08a-454a-8845-89c91577cc6f",
+    "title": "Applications of Partial Differentiation",
+    "description": "Applications of partial differentiation in optimization, tangent planes, rates of change, and multivariable calculus.",
+    "slug": "applications-partial-differentiation"
+  },
+  {
+    "id": "f6e5a9ec-d8c8-40c2-9dbe-f9007d3b965f",
+    "lessonId": "e0fce50c-c08a-454a-8845-89c91577cc6f",
+    "title": "Chain Rule for Partial Derivatives",
+    "description": "Extending the chain rule to functions of several variables and applying it to find partial derivatives of composite functions.",
+    "slug": "chain-rule-partial-derivatives"
+  },
+  {
+    "id": "a4c7f307-d486-443b-a499-0e4222bdbd53",
+    "lessonId": "e0fce50c-c08a-454a-8845-89c91577cc6f",
+    "title": "Clairaut's Theorem on Mixed Partial Derivatives",
+    "description": "Understanding and applying Clairaut's Theorem on the equality of mixed partial derivatives.",
+    "slug": "clairauts-theorem-mixed-partial-derivatives"
+  },
+  {
+    "id": "3c31d7a3-39fa-4480-9505-12424ae5f53f",
+    "lessonId": "e0fce50c-c08a-454a-8845-89c91577cc6f",
+    "title": "Higher-Order Partial Derivatives",
+    "description": "Calculating higher-order partial derivatives and understanding mixed partial derivatives.",
+    "slug": "higher-order-partial-derivatives"
+  },
+  {
+    "id": "2d987c0d-1990-4602-9948-5e2e6e1ac87f",
+    "lessonId": "e0fce50c-c08a-454a-8845-89c91577cc6f",
+    "title": "Partial Differentiation: First-Order Partial Derivatives",
+    "description": "Introducing partial differentiation and calculating first-order partial derivatives with respect to each variable.",
+    "slug": "partial-differentiation-first-order"
+  },
+  {
+    "id": "a3aa0ba7-4062-49bd-bc68-1c9bd6c1d4e2",
+    "lessonId": "e33021f9-18d9-4e2d-a00a-e5d567a264ac",
+    "title": "Comparison Test for Convergence",
+    "description": "Using the Comparison Test to determine convergence or divergence by comparing series.",
+    "slug": "comparison-test-convergence"
+  },
+  {
+    "id": "2163d8f9-4acd-40bd-bf18-1fa165556532",
+    "lessonId": "e33021f9-18d9-4e2d-a00a-e5d567a264ac",
+    "title": "Limit Comparison Test for Convergence",
+    "description": "Using the Limit Comparison Test to determine convergence or divergence by comparing limits of ratios of terms.",
+    "slug": "limit-comparison-test-convergence"
+  },
+  {
+    "id": "bac311a5-45a0-4c11-8f8e-74cbe1263af9",
+    "lessonId": "e33021f9-18d9-4e2d-a00a-e5d567a264ac",
+    "title": "Ratio Test for Convergence",
+    "description": "Using the Ratio Test to determine convergence or divergence based on the limit of ratios of consecutive terms.",
+    "slug": "ratio-test-convergence"
+  },
+  {
+    "id": "2e9285b1-d7e7-45fe-8196-b644f2e9900a",
+    "lessonId": "e33021f9-18d9-4e2d-a00a-e5d567a264ac",
+    "title": "Root Test for Convergence",
+    "description": "Using the Root Test to determine convergence or divergence based on the limit of nth roots of terms.",
+    "slug": "root-test-convergence"
+  },
+  {
+    "id": "07494bc5-f78f-4504-81fd-8019f96092ae",
+    "lessonId": "e33021f9-18d9-4e2d-a00a-e5d567a264ac",
+    "title": "The Integral Test for Convergence",
+    "description": "Using the Integral Test to determine convergence or divergence of infinite series.",
+    "slug": "integral-test-convergence"
+  },
+  {
+    "id": "b9cf5bdd-2a91-42ac-8ba1-5765a67e45b9",
+    "lessonId": "e369476e-189a-4178-913c-77f23d5a37fc",
+    "title": "Applications of the Derivative Definition",
+    "description": "Applications of the derivative definition in finding slopes of curves, rates of change, and in theoretical calculus.",
+    "slug": "applications-derivative-definition"
+  },
+  {
+    "id": "b9d71097-958e-4ce8-be5f-a10be07756ab",
+    "lessonId": "e369476e-189a-4178-913c-77f23d5a37fc",
+    "title": "Definition of the Derivative Using Limits",
+    "description": "Formal definition of the derivative using limits and calculating derivatives using the limit definition.",
+    "slug": "definition-derivative-using-limits"
+  },
+  {
+    "id": "2c581eee-2880-4fc7-b000-65feabccd077",
+    "lessonId": "e369476e-189a-4178-913c-77f23d5a37fc",
+    "title": "Derivative as Rate of Change",
+    "description": "Interpreting the derivative as the instantaneous rate of change and applying it to problems involving rates of change.",
+    "slug": "derivative-rate-of-change"
+  },
+  {
+    "id": "3b68857c-b376-406b-bc29-656e1f94fa2a",
+    "lessonId": "e369476e-189a-4178-913c-77f23d5a37fc",
+    "title": "Introduction to the Derivative as Slope of Tangent Line",
+    "description": "Introducing the derivative as the slope of the tangent line to a curve at a point and its geometric interpretation.",
+    "slug": "introduction-derivative-slope-tangent"
+  },
+  {
+    "id": "0a0bf4fd-5d45-4f02-ab26-5f1248fd0a6f",
+    "lessonId": "e369476e-189a-4178-913c-77f23d5a37fc",
+    "title": "Notations for the Derivative",
+    "description": "Understanding different notations for the derivative (Leibniz notation, Lagrange's notation, etc.) and their uses.",
+    "slug": "notations-derivative"
+  },
+  {
+    "id": "062d657f-6813-42f0-be5a-2869d9db56cb",
+    "lessonId": "e971af3a-2259-4cae-a114-6905b74c647f",
+    "title": "Applications of Differentiability and Continuity",
+    "description": "Applications of differentiability and continuity in optimization, curve sketching, and advanced calculus theory.",
+    "slug": "applications-differentiability-continuity"
+  },
+  {
+    "id": "57181b58-2ceb-439b-9308-a8b186bb61ce",
+    "lessonId": "e971af3a-2259-4cae-a114-6905b74c647f",
+    "title": "Continuity Does Not Imply Differentiability",
+    "description": "Understanding that continuity does not guarantee differentiability and exploring counterexamples.",
+    "slug": "continuity-not-imply-differentiability"
+  },
+  {
+    "id": "2ef4810b-2891-4d3b-9854-b6652a2bfc9f",
+    "lessonId": "e971af3a-2259-4cae-a114-6905b74c647f",
+    "title": "Differentiability Implies Continuity",
+    "description": "Understanding the theorem that differentiability at a point implies continuity at that point.",
+    "slug": "differentiability-implies-continuity"
+  },
+  {
+    "id": "3370468a-42f0-4e28-8484-1d6d4952473b",
+    "lessonId": "e971af3a-2259-4cae-a114-6905b74c647f",
+    "title": "Points of Non-Differentiability",
+    "description": "Identifying points where a function is not differentiable, such as corners, cusps, and vertical tangents.",
+    "slug": "points-non-differentiability"
+  },
+  {
+    "id": "798d3361-67ce-4e71-93bd-950d8ac9474c",
+    "lessonId": "e971af3a-2259-4cae-a114-6905b74c647f",
+    "title": "Relationship between Graphs of f and f'",
+    "description": "Analyzing the relationship between the graph of a function and the graph of its derivative.",
+    "slug": "relationship-graphs-f-f-prime"
+  },
+  {
+    "id": "eb4d8597-a78f-44a7-b2e9-c158a4af2ae1",
+    "lessonId": "f740d654-840d-4ed3-a45e-41de3b0cd7bc",
+    "title": "Applications of Determinants",
+    "description": "Applications of determinants in finding areas of triangles, volumes of parallelepipeds, and solving systems of linear equations using Cramer's Rule.",
+    "slug": "applications-determinants"
+  },
+  {
+    "id": "6857e706-92bd-44f7-9330-185b7dedafc8",
+    "lessonId": "f740d654-840d-4ed3-a45e-41de3b0cd7bc",
+    "title": "Determinant of a 2x2 Matrix",
+    "description": "Calculating the determinant of a 2x2 matrix and understanding its geometric interpretation.",
+    "slug": "determinant-2x2-matrix"
+  },
+  {
+    "id": "f565138a-969e-4c18-9ad0-95a1d44935bc",
+    "lessonId": "f740d654-840d-4ed3-a45e-41de3b0cd7bc",
+    "title": "Determinant of a 3x3 Matrix",
+    "description": "Calculating the determinant of a 3x3 matrix using cofactor expansion or row reduction.",
+    "slug": "determinant-3x3-matrix"
+  },
+  {
+    "id": "dc20b887-4161-4418-ad12-373e789e592c",
+    "lessonId": "f740d654-840d-4ed3-a45e-41de3b0cd7bc",
+    "title": "Properties of Determinants",
+    "description": "Exploring properties of determinants, such as how row operations and matrix transformations affect the determinant.",
+    "slug": "properties-determinants"
+  },
+  {
+    "id": "f1e0d668-d161-43ec-97a9-e91a46f024ef",
+    "lessonId": "f740d654-840d-4ed3-a45e-41de3b0cd7bc",
+    "title": "Using Determinants to Find Matrix Inverses",
+    "description": "Using determinants to determine if a matrix is invertible and to calculate the inverse of a matrix.",
+    "slug": "determinants-matrix-inverses"
+  },
+  {
+    "id": "a345b367-a1f4-49af-be9b-da83c2d72c25",
+    "lessonId": "fc8a7471-49dc-4785-8ded-a2aea6d73bd8",
+    "title": "Applications of Infinite Series",
+    "description": "Applications of infinite series in representing functions, approximations, and advanced mathematical concepts.",
+    "slug": "applications-infinite-series"
+  },
+  {
+    "id": "89b89462-72c9-4f7f-84f9-953afcee28d5",
+    "lessonId": "fc8a7471-49dc-4785-8ded-a2aea6d73bd8",
+    "title": "Geometric Series and Convergence",
+    "description": "Analyzing geometric series, determining conditions for convergence, and finding sums of convergent geometric series.",
+    "slug": "geometric-series-convergence-infinite"
+  },
+  {
+    "id": "55533c19-99e4-4abf-8b21-9362d6485639",
+    "lessonId": "fc8a7471-49dc-4785-8ded-a2aea6d73bd8",
+    "title": "Harmonic Series and p-Series",
+    "description": "Understanding harmonic series and p-series and determining their convergence or divergence.",
+    "slug": "harmonic-series-p-series"
+  },
+  {
+    "id": "5617f75a-a18e-47cc-8707-82900305cc68",
+    "lessonId": "fc8a7471-49dc-4785-8ded-a2aea6d73bd8",
+    "title": "Introduction to Infinite Series and Convergence",
+    "description": "Defining infinite series and understanding the concept of convergence and divergence.",
+    "slug": "introduction-infinite-series-convergence"
+  },
+  {
+    "id": "1e358129-5518-4c8f-a62a-8b21979f81ce",
+    "lessonId": "fc8a7471-49dc-4785-8ded-a2aea6d73bd8",
+    "title": "Telescoping Series and Partial Sums",
+    "description": "Analyzing telescoping series and calculating their sums using partial sums.",
+    "slug": "telescoping-series-partial-sums"
+  }
+]

@@ -1,429 +1,490 @@
 [
   {
-    "title": "Sets and Set Operations",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "sets-and-set-operations",
-    "courseId": "MATH2033",
-    "term": "midterm"
-  },
-  {
-    "title": "Algebraic Expressions",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "algebraic-expressions",
-    "courseId": "MATH2033",
-    "term": "midterm"
-  },
-  {
-    "title": "Rational, Radical, and Absolute-Valued Expressions",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "rational-radical-absolute-expressions",
-    "courseId": "MATH2033",
-    "term": "midterm"
-  },
-  {
-    "title": "Equations in One Variable",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "one-variable-equations",
-    "courseId": "MATH2033",
-    "term": "midterm"
-  },
-  {
-    "title": "Equations in Two or Three Variables: System of Linear Equations",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "system-of-linear-equations",
-    "courseId": "MATH2033",
-    "term": "midterm"
-  },
-  {
-    "title": "Applications of Linear Equations",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "application-linear-equations",
-    "courseId": "MATH2033",
-    "term": "midterm"
-  },
-  {
-    "title": "Complex Numbers",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "complex-numbers",
-    "courseId": "MATH2033",
-    "term": "finals"
-  },
-  {
-    "title": "Decomposition of Rational Expressions into Partial Fractions",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "partial-fraction-decomposition",
-    "courseId": "MATH2033",
-    "term": "finals"
-  },
-  {
-    "title": "Inequalities",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "inequalities",
-    "courseId": "MATH2033",
-    "term": "finals"
-  },
-  {
-    "title": "Ratio, Proportion, and Variation",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "ratio-proportion-variation",
-    "courseId": "MATH2033",
-    "term": "finals"
-  },
-  {
-    "title": "Matrices",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "matrices",
-    "courseId": "MATH2033",
-    "term": "finals"
-  },
-  {
-    "title": "Determinants",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "determinants",
-    "courseId": "MATH2033",
-    "term": "finals"
-  },
-  {
-    "title": "Sequences and Series",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "sequences-and-series",
-    "courseId": "MATH2033",
-    "term": "finals"
-  },
-  {
-    "title": "Combinatorial Mathematics",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "combinatorial-mathematics",
-    "courseId": "MATH2033",
-    "term": "finals"
-  },
-  {
-    "title": "Trigonometric Functions",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "trigonometric-functions",
-    "courseId": "MATH2044",
-    "term": "midterm"
-  },
-  {
-    "title": "Analytic Trigonometry",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "analytic-trigonometry",
-    "courseId": "MATH2044",
-    "term": "midterm"
-  },
-  {
-    "title": "Inverse Trigonometric Functions",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "inverse-trigonometric-functions",
-    "courseId": "MATH2044",
-    "term": "midterm"
-  },
-  {
-    "title": "Applications of Trigonometry",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "trigonometry-applications",
-    "courseId": "MATH2044",
-    "term": "midterm"
-  },
-  {
-    "title": "Spherical Trigonometry",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "spherical-trigonometry",
-    "courseId": "MATH2044",
-    "term": "midterm"
-  },
-  {
-    "title": "Plane Analytic Geometry",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "plane-analytic-geometry",
-    "courseId": "MATH2044",
-    "term": "finals"
-  },
-  {
-    "title": "The Line",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "the-line",
-    "courseId": "MATH2044",
-    "term": "finals"
-  },
-  {
-    "title": "Conic Sections",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "conic-sections",
-    "courseId": "MATH2044",
-    "term": "finals"
-  },
-  {
-    "title": "Polar Coordinates",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "polar-coordinates",
-    "courseId": "MATH2044",
-    "term": "finals"
-  },
-  {
-    "title": "Plane Figures",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "plane-figures",
-    "courseId": "MATH2044",
-    "term": "finals"
-  },
-  {
-    "title": "Solids for which Volume = Base Area * Height",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "solids-part-one",
-    "courseId": "MATH2044",
-    "term": "finals"
-  },
-  {
-    "title": "Solids for which volume = 1/3 (Base Area * Height)",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "solids-part-two",
-    "courseId": "MATH2044",
-    "term": "finals"
-  },
-  {
-    "title": "Sphere",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "sphere",
-    "courseId": "MATH2044",
-    "term": "finals"
-  },
-  {
-    "title": "Functions",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "functions",
-    "courseId": "MATH2074",
-    "term": "midterm"
-  },
-  {
-    "title": "Limit of a Function",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "limits",
-    "courseId": "MATH2074",
-    "term": "midterm"
-  },
-  {
-    "title": "Continuity of a Function",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "continuity",
-    "courseId": "MATH2074",
-    "term": "midterm"
-  },
-  {
-    "title": "The Derivative",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "the-derivative",
-    "courseId": "MATH2074",
-    "term": "midterm"
-  },
-  {
-    "title": "Derivative of Algebraic and Trancendental Functions",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "algebraic-transcendental-derivative",
-    "courseId": "MATH2074",
-    "term": "midterm"
-  },
-  {
-    "title": "The General Power Rule, Product, Quotient, and Chain Rule",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "four-primary-rules-differentiation",
-    "courseId": "MATH2074",
-    "term": "midterm"
-  },
-  {
-    "title": "Differentiability and Continuity",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "differentiability-and-continuity",
-    "courseId": "MATH2074",
-    "term": "midterm"
-  },
-  {
-    "title": "Implicit Differentiation",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "implicit-differentiation",
-    "courseId": "MATH2074",
-    "term": "midterm"
-  },
-  {
-    "title": "Logarithmic Differentiation",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "logarithmic-differentiation",
-    "courseId": "MATH2074",
-    "term": "midterm"
-  },
-  {
-    "title": "L'Hospital's Rule",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "lhospitals-rule",
-    "courseId": "MATH2074",
-    "term": "midterm"
-  },
-  {
-    "title": "The Differential",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "the-differential",
-    "courseId": "MATH2074",
-    "term": "midterm"
-  },
-  {
-    "title": "Applications of the Derivative",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "applications-of-the-derivative",
-    "courseId": "MATH2074",
-    "term": "finals"
-  },
-  {
-    "title": "Integration Formulas",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "integration-formulas",
-    "courseId": "MATH2074",
-    "term": "finals"
-  },
-  {
-    "title": "Integration Techniques",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "integration-techniques",
-    "courseId": "MATH2074",
-    "term": "finals"
-  },
-  {
-    "title": "Improper Integrals",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "improper-integrals",
-    "courseId": "MATH2074",
-    "term": "finals"
-  },
-  {
-    "title": "Applications of Definite Integrals",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "applications-definite-integrals",
-    "courseId": "MATH2074",
-    "term": "finals"
-  },
-  {
-    "title": "Other Applications of Integrals",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "other-applications-of-integrals",
-    "courseId": "MATH2074",
-    "term": "finals"
-  },
-  {
-    "title": "Sequences and Series",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "sequences-and-series",
-    "courseId": "MATH2074",
-    "term": "finals"
-  },
-  {
-    "title": "Definite Integrals",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "definite-integrals",
+    "id": "fc8a7471-49dc-4785-8ded-a2aea6d73bd8",
     "courseId": "MATH2094",
-    "term": "midterm"
-  },
-  {
-    "title": "Applications of Definite Integrals",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "applications-definite-integrals",
-    "courseId": "MATH2094",
-    "term": "midterm"
-  },
-  {
-    "title": "Other Applications of Definite Integrals",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "other-applications-definite-integrals",
-    "courseId": "MATH2094",
-    "term": "midterm"
-  },
-  {
-    "title": "Functions of Several Variables",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "several-variable-functions",
-    "courseId": "MATH2094",
-    "term": "midterm"
-  },
-  {
-    "title": "Surfaces",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "surfaces",
-    "courseId": "MATH2094",
-    "term": "midterm"
-  },
-  {
-    "title": "Limit of Functions of Several Variables",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "limits-of-several-variable-functions",
-    "courseId": "MATH2094",
-    "term": "midterm"
-  },
-  {
-    "title": "Partial Differentiation and Higher-Order Partial Derivatives",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "partial-differentiation-higher-order-derivatives",
-    "courseId": "MATH2094",
-    "term": "midterm"
-  },
-  {
-    "title": "Vectors in Two and Three Dimensions",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "vectors-two-three-dimensions",
-    "courseId": "MATH2094",
-    "term": "finals"
-  },
-  {
-    "title": "Gradient and Directional Derivatives",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "gradient-directional-derivatives",
-    "courseId": "MATH2094",
-    "term": "finals"
-  },
-  {
-    "title": "Multiple Integrals",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "multiple-integrals",
-    "courseId": "MATH2094",
-    "term": "finals"
-  },
-  {
-    "title": "Volume under a Surface",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "volume-under-a-surface",
-    "courseId": "MATH2094",
-    "term": "finals"
-  },
-  {
-    "title": "Series and Sequences and the Test for Divergence",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "series-sequences-and-divergence-test",
-    "courseId": "MATH2094",
-    "term": "finals"
-  },
-  {
     "title": "Infinite Series",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "infinite-series",
-    "courseId": "MATH2094",
-    "term": "finals"
+    "description": "This lesson delves deeper into infinite series. It covers different types of infinite series, such as geometric series, harmonic series, and telescoping series, and their convergence properties.",
+    "term": "finals",
+    "slug": "infinite-series"
   },
   {
+    "id": "f740d654-840d-4ed3-a45e-41de3b0cd7bc",
+    "courseId": "MATH2033",
+    "title": "Determinants",
+    "description": "This lesson focuses on determinants of square matrices, including methods for calculating determinants using cofactor expansion and row reduction. It covers properties of determinants and their applications in finding inverses of matrices, solving systems of linear equations (Cramer's Rule), and calculating areas and volumes.",
+    "term": "finals",
+    "slug": "determinants"
+  },
+  {
+    "id": "e971af3a-2259-4cae-a114-6905b74c647f",
+    "courseId": "MATH2074",
+    "title": "Differentiability and Continuity",
+    "description": "This lesson explores the relationship between differentiability and continuity. It covers the theorem that differentiability implies continuity, and examines cases where functions are continuous but not differentiable.",
+    "term": "midterm",
+    "slug": "differentiability-and-continuity"
+  },
+  {
+    "id": "e369476e-189a-4178-913c-77f23d5a37fc",
+    "courseId": "MATH2074",
+    "title": "The Derivative",
+    "description": "This lesson introduces the concept of the derivative of a function. It covers the definition of the derivative as the limit of a difference quotient, interpretations of the derivative as slope and rate of change, and basic differentiation rules.",
+    "term": "midterm",
+    "slug": "the-derivative"
+  },
+  {
+    "id": "e33021f9-18d9-4e2d-a00a-e5d567a264ac",
+    "courseId": "MATH2094",
     "title": "Convergence Tests for Infinite Series",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "convergence-test-infinite-series",
-    "courseId": "MATH2094",
-    "term": "finals"
+    "description": "This lesson focuses on various convergence tests for infinite series, including the Integral Test, Comparison Test, Limit Comparison Test, Ratio Test, and Root Test. It includes applying these tests to determine the convergence or divergence of infinite series.",
+    "term": "finals",
+    "slug": "convergence-test-infinite-series"
   },
   {
-    "title": "Power Series",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "power-series",
+    "id": "e0fce50c-c08a-454a-8845-89c91577cc6f",
     "courseId": "MATH2094",
-    "term": "finals"
+    "title": "Partial Differentiation and Higher-Order Partial Derivatives",
+    "description": "This lesson introduces partial differentiation for functions of several variables. It covers partial derivatives, higher-order partial derivatives, and Clairaut's Theorem on equality of mixed partial derivatives.",
+    "term": "midterm",
+    "slug": "partial-differentiation-higher-order-derivatives"
   },
   {
+    "id": "d33cadd7-1a31-4096-a806-b9e4c9a4b1ee",
+    "courseId": "MATH2094",
     "title": "Radius and Interval of Convergence",
-    "description": "A seeded lesson. For testing purposes only.",
-    "slug": "radius-and-interval-of-convergence",
+    "description": "This lesson focuses on determining the radius and interval of convergence of a power series. It includes using the Ratio Test or Root Test to find the radius of convergence and testing endpoints to determine the interval of convergence.",
+    "term": "finals",
+    "slug": "radius-and-interval-of-convergence"
+  },
+  {
+    "id": "cf478faf-3228-4986-b859-92b380045e50",
+    "courseId": "MATH2033",
+    "title": "Matrices",
+    "description": "This lesson introduces matrices and matrix operations, including addition, subtraction, scalar multiplication, and matrix multiplication. It also covers types of matrices, determinants, and inverses of matrices, as well as applications of matrices in solving systems of equations and transformations.",
+    "term": "finals",
+    "slug": "matrices"
+  },
+  {
+    "id": "ce7a7d15-7a18-48b2-b60b-022907e6881f",
+    "courseId": "MATH2033",
+    "title": "Combinatorial Mathematics",
+    "description": "This lesson covers basic principles of counting, permutations, and combinations. It includes techniques for solving counting problems, such as the multiplication principle, addition principle, permutations, and combinations, with applications in probability and other areas.",
+    "term": "finals",
+    "slug": "combinatorial-mathematics"
+  },
+  {
+    "id": "c9d65d72-d092-4b5d-bdf0-0a6e07b030a7",
+    "courseId": "MATH2044",
+    "title": "Sphere",
+    "description": "This lesson covers spheres, including their properties, equations, and formulas for surface area and volume. It includes calculating surface areas and volumes of spheres and solving related problems.",
+    "term": "finals",
+    "slug": "sphere"
+  },
+  {
+    "id": "c3198fc0-99d6-40c5-bc7e-b6f1a4e8e3b9",
+    "courseId": "MATH2074",
+    "title": "Improper Integrals",
+    "description": "This lesson introduces improper integrals, which are integrals with infinite limits of integration or discontinuous integrands. It covers evaluating improper integrals and determining their convergence or divergence.",
+    "term": "finals",
+    "slug": "improper-integrals"
+  },
+  {
+    "id": "b6b6e9e8-b47f-417c-8934-0b318a6b9032",
+    "courseId": "MATH2074",
+    "title": "Applications of the Derivative",
+    "description": "This lesson explores various applications of derivatives, including finding critical points, intervals of increase and decrease, concavity, optimization problems, related rates, and curve sketching.",
+    "term": "finals",
+    "slug": "applications-of-the-derivative"
+  },
+  {
+    "id": "b5cf265e-13f1-4eae-a53b-df5b899ba5da",
+    "courseId": "MATH2074",
+    "title": "Implicit Differentiation",
+    "description": "This lesson introduces implicit differentiation, a technique for finding derivatives of implicitly defined functions. It covers applying implicit differentiation to find dy/dx when y is not explicitly given as a function of x.",
+    "term": "midterm",
+    "slug": "implicit-differentiation"
+  },
+  {
+    "id": "b4e4483e-75d2-4973-95cc-fc7e0cbe58a2",
+    "courseId": "MATH2044",
+    "title": "Plane Figures",
+    "description": "This lesson covers properties and formulas for plane figures, including triangles, quadrilaterals, polygons, and circles. It includes calculating areas, perimeters, and other geometric measurements of plane figures.",
+    "term": "finals",
+    "slug": "plane-figures"
+  },
+  {
+    "id": "b173bc49-86d1-46d0-95ac-4a86e2ae3c50",
+    "courseId": "MATH2074",
+    "title": "Limit of a Function",
+    "description": "This lesson introduces the concept of limits of functions. It covers limit laws, techniques for evaluating limits, and one-sided limits, as well as the formal definition of a limit.",
+    "term": "midterm",
+    "slug": "limits"
+  },
+  {
+    "id": "ae2dba5d-77bf-45c7-9692-668039c46a3d",
     "courseId": "MATH2094",
-    "term": "finals"
+    "title": "Other Applications of Definite Integrals",
+    "description": "This lesson covers further applications of definite integrals in various fields, including fluid pressure and force, arc length, surface area of revolution, and applications in probability and statistics.",
+    "term": "midterm",
+    "slug": "other-applications-definite-integrals"
+  },
+  {
+    "id": "a5054111-ebbe-4682-affd-652d49e48667",
+    "courseId": "MATH2044",
+    "title": "Solids for which Volume = Base Area * Height",
+    "description": "This lesson focuses on solids for which the volume is given by the formula Volume = Base Area * Height, such as prisms and cylinders. It includes calculating volumes and surface areas of these solids and solving related problems.",
+    "term": "finals",
+    "slug": "solids-part-one"
+  },
+  {
+    "id": "a2d9a7ef-d858-47c3-a3c4-fd3462614684",
+    "courseId": "MATH2074",
+    "title": "L'Hospital's Rule",
+    "description": "This lesson introduces L'Hospital's Rule, a technique for evaluating limits of indeterminate forms such as 0/0 and ∞/∞. It covers applying L'Hospital's Rule to find limits that cannot be evaluated by direct substitution.",
+    "term": "midterm",
+    "slug": "lhospitals-rule"
+  },
+  {
+    "id": "a0a54847-c81a-4657-b0f1-5731111f481b",
+    "courseId": "MATH2074",
+    "title": "Integration Formulas",
+    "description": "This lesson introduces basic integration formulas for common functions, including power rule, trigonometric functions, exponential functions, and logarithmic functions. It covers using these formulas to find indefinite integrals.",
+    "term": "finals",
+    "slug": "integration-formulas"
+  },
+  {
+    "id": "9fe761ba-980c-4753-957c-16aefa503359",
+    "courseId": "MATH2074",
+    "title": "Derivative of Algebraic and Trancendental Functions",
+    "description": "This lesson covers differentiation of algebraic functions (polynomial, rational, radical) and transcendental functions (trigonometric, exponential, logarithmic). It includes applying differentiation rules to find derivatives of various types of functions.",
+    "term": "midterm",
+    "slug": "algebraic-transcendental-derivative"
+  },
+  {
+    "id": "9fa2d548-5ee5-479e-bde4-f7f33e0f2f78",
+    "courseId": "MATH2033",
+    "title": "Complex Numbers",
+    "description": "This lesson introduces the concept of complex numbers, including their algebraic properties, representation in the complex plane, and operations such as addition, subtraction, multiplication, and division. It also covers De Moivre's Theorem and its applications.",
+    "term": "finals",
+    "slug": "complex-numbers"
+  },
+  {
+    "id": "9e0567a9-8ffc-4a1a-ae93-9ef37bf61735",
+    "courseId": "MATH2044",
+    "title": "Trigonometric Functions",
+    "description": "This lesson introduces trigonometric functions, including sine, cosine, tangent, cotangent, secant, and cosecant. It covers their definitions, properties, graphs, and relationships, as well as the unit circle and radian measure.",
+    "term": "midterm",
+    "slug": "trigonometric-functions"
+  },
+  {
+    "id": "9c6c4e75-b0d9-481b-911e-8279b6fcc745",
+    "courseId": "MATH2074",
+    "title": "Sequences and Series",
+    "description": "This lesson introduces sequences and series, including convergence and divergence of sequences and series. It covers tests for convergence, such as the integral test, comparison test, ratio test, and root test, as well as power series and Taylor series.",
+    "term": "finals",
+    "slug": "sequences-and-series"
+  },
+  {
+    "id": "99f88f05-3b7b-418a-bfb1-646184c2604f",
+    "courseId": "MATH2044",
+    "title": "Conic Sections",
+    "description": "This lesson covers conic sections, including parabolas, circles, ellipses, and hyperbolas. It includes their definitions, equations in standard form, properties, and graphs, as well as applications of conic sections in optics, astronomy, and engineering.",
+    "term": "finals",
+    "slug": "conic-sections"
+  },
+  {
+    "id": "912699ef-fd54-41d3-b14f-db2878684bd6",
+    "courseId": "MATH2033",
+    "title": "Inequalities",
+    "description": "This lesson focuses on solving linear, quadratic, and rational inequalities. It includes techniques for finding solution sets and representing them graphically on the number line or in interval notation. Applications of inequalities in optimization and other areas are also explored.",
+    "term": "finals",
+    "slug": "inequalities"
+  },
+  {
+    "id": "9106eef8-cc0d-42ab-9962-a52b008560fe",
+    "courseId": "MATH2094",
+    "title": "Vectors in Two and Three Dimensions",
+    "description": "This lesson introduces vectors in two and three dimensions. It covers vector operations, dot product, cross product, and applications of vectors in geometry and physics.",
+    "term": "finals",
+    "slug": "vectors-two-three-dimensions"
+  },
+  {
+    "id": "8e9f4d09-00e8-4e21-86f0-2079aeed1352",
+    "courseId": "MATH2044",
+    "title": "Solids for which volume = 1/3 (Base Area * Height)",
+    "description": "This lesson focuses on solids for which the volume is given by the formula Volume = 1/3 * (Base Area * Height), such as pyramids and cones. It includes calculating volumes and surface areas of these solids and solving related problems.",
+    "term": "finals",
+    "slug": "solids-part-two"
+  },
+  {
+    "id": "8ce1d160-d6dc-4964-8ee0-b274a71e2204",
+    "courseId": "MATH2044",
+    "title": "Applications of Trigonometry",
+    "description": "This lesson explores applications of trigonometry in solving real-world problems, including right triangle trigonometry, the Law of Sines, the Law of Cosines, and applications in navigation, surveying, and physics.",
+    "term": "midterm",
+    "slug": "trigonometry-applications"
+  },
+  {
+    "id": "8c79e27d-ef59-4944-bc8c-66c038d56f59",
+    "courseId": "MATH2094",
+    "title": "Gradient and Directional Derivatives",
+    "description": "This lesson covers the gradient of a function of several variables and directional derivatives. It includes interpretations of the gradient, finding directional derivatives, and applications in optimization and physics.",
+    "term": "finals",
+    "slug": "gradient-directional-derivatives"
+  },
+  {
+    "id": "88a17dc3-35a3-4315-8d2e-eaaad06c18da",
+    "courseId": "MATH2044",
+    "title": "Polar Coordinates",
+    "description": "This lesson introduces polar coordinates as an alternative coordinate system to the Cartesian coordinate system. It covers conversion between polar and Cartesian coordinates, graphing polar equations, and applications of polar coordinates in calculus and physics.",
+    "term": "finals",
+    "slug": "polar-coordinates"
+  },
+  {
+    "id": "86b564ed-1223-4692-8ca4-6f0611e03e9e",
+    "courseId": "MATH2094",
+    "title": "Functions of Several Variables",
+    "description": "This lesson introduces functions of several variables, including functions of two and three variables. It covers domain and range, level curves and surfaces, and graphical representation of functions of several variables.",
+    "term": "midterm",
+    "slug": "several-variable-functions"
+  },
+  {
+    "id": "8216d489-50da-4ee3-a9c0-f273f2a422ad",
+    "courseId": "MATH2033",
+    "title": "Rational, Radical, and Absolute-Valued Expressions",
+    "description": "This lesson focuses on rational expressions, radical expressions, and absolute-valued expressions. It covers simplification, operations, and solving equations and inequalities involving these types of expressions. Topics include simplifying rational expressions, performing operations with radicals, and solving equations and inequalities with absolute values.",
+    "term": "midterm",
+    "slug": "rational-radical-absolute-expressions"
+  },
+  {
+    "id": "81bb6deb-88c7-484f-8d2d-8cb579387df0",
+    "courseId": "MATH2074",
+    "title": "Applications of Definite Integrals",
+    "description": "This lesson explores applications of definite integrals in geometry and physics, including finding areas between curves, volumes of solids of revolution, arc length, and work.",
+    "term": "finals",
+    "slug": "applications-definite-integrals"
+  },
+  {
+    "id": "8042556d-86bc-41a1-8008-211fda8e838f",
+    "courseId": "MATH2074",
+    "title": "Logarithmic Differentiation",
+    "description": "This lesson covers logarithmic differentiation, a technique for differentiating complex functions involving products, quotients, and powers. It includes using logarithms to simplify differentiation and applying logarithmic differentiation to various types of functions.",
+    "term": "midterm",
+    "slug": "logarithmic-differentiation"
+  },
+  {
+    "id": "7dd044dd-6a5f-40dd-a09e-c4c80d7d74f4",
+    "courseId": "MATH2074",
+    "title": "Functions",
+    "description": "This lesson introduces the concept of functions, including definitions, domain, range, types of functions, and function notation. It covers operations on functions and composition of functions, as well as graphical representation of functions.",
+    "term": "midterm",
+    "slug": "functions"
+  },
+  {
+    "id": "79b6a1b3-25ab-462b-ace6-75230c47d586",
+    "courseId": "MATH2074",
+    "title": "Integration Techniques",
+    "description": "This lesson covers various techniques of integration, including substitution, integration by parts, trigonometric substitution, and partial fraction decomposition. It includes applying these techniques to evaluate indefinite integrals.",
+    "term": "finals",
+    "slug": "integration-techniques"
+  },
+  {
+    "id": "77639400-7675-4ed2-bf14-bf41e230a68e",
+    "courseId": "MATH2033",
+    "title": "Equations in Two or Three Variables: System of Linear Equations",
+    "description": "This lesson deals with systems of linear equations in two or three variables. It covers methods for solving systems of linear equations, such as substitution, elimination, and matrix methods. Applications of systems of linear equations in various fields are also discussed.",
+    "term": "midterm",
+    "slug": "system-of-linear-equations"
+  },
+  {
+    "id": "72d304be-12f7-4b24-b48d-a01390d7e7a7",
+    "courseId": "MATH2094",
+    "title": "Limit of Functions of Several Variables",
+    "description": "This lesson extends the concept of limits to functions of several variables. It covers limits along different paths, continuity of functions of several variables, and techniques for evaluating limits.",
+    "term": "midterm",
+    "slug": "limits-of-several-variable-functions"
+  },
+  {
+    "id": "618e4550-4786-462c-b44d-73c40c06c2b4",
+    "courseId": "MATH2094",
+    "title": "Volume under a Surface",
+    "description": "This lesson focuses on using double integrals to calculate the volume under a surface in three-dimensional space. It includes setting up and evaluating double integrals to find volumes bounded by surfaces.",
+    "term": "finals",
+    "slug": "volume-under-a-surface"
+  },
+  {
+    "id": "5edcd77f-032b-40e1-ad4c-719db657dc9c",
+    "courseId": "MATH2074",
+    "title": "Other Applications of Integrals",
+    "description": "This lesson covers further applications of integrals in various fields, including average value of a function, center of mass, probability, and applications in economics and biology.",
+    "term": "finals",
+    "slug": "other-applications-of-integrals"
+  },
+  {
+    "id": "5b8fdfe1-c0e7-495a-be0a-8f3e1470dd54",
+    "courseId": "MATH2033",
+    "title": "Algebraic Expressions",
+    "description": "This lesson covers the definition and classification of algebraic expressions, including polynomials, monomials, binomials, and trinomials. It includes operations on algebraic expressions such as addition, subtraction, multiplication, and division, as well as simplification and evaluation of algebraic expressions.",
+    "term": "midterm",
+    "slug": "algebraic-expressions"
+  },
+  {
+    "id": "583e8f73-4557-4a11-bb95-365bf14c3fac",
+    "courseId": "MATH2033",
+    "title": "Applications of Linear Equations",
+    "description": "This lesson focuses on real-world applications of linear equations. It involves translating word problems into linear equations and systems of linear equations to solve practical problems in areas such as finance, physics, and engineering.",
+    "term": "midterm",
+    "slug": "application-linear-equations"
+  },
+  {
+    "id": "5815a3d9-5198-4026-9074-186e0e6402c2",
+    "courseId": "MATH2044",
+    "title": "The Line",
+    "description": "This lesson focuses on lines in the Cartesian plane, including different forms of equations of lines (slope-intercept form, point-slope form, standard form), slope, intercepts, parallel and perpendicular lines, and applications of linear equations in geometry.",
+    "term": "finals",
+    "slug": "the-line"
+  },
+  {
+    "id": "55f2b59e-e51b-4864-a3af-88009a3450dd",
+    "courseId": "MATH2044",
+    "title": "Inverse Trigonometric Functions",
+    "description": "This lesson introduces inverse trigonometric functions, including arcsine, arccosine, and arctangent. It covers their definitions, properties, graphs, and evaluation, as well as applications of inverse trigonometric functions.",
+    "term": "midterm",
+    "slug": "inverse-trigonometric-functions"
+  },
+  {
+    "id": "480d39d0-0028-4337-8c5c-17bb5563dbbd",
+    "courseId": "MATH2033",
+    "title": "Decomposition of Rational Expressions into Partial Fractions",
+    "description": "This lesson covers the technique of decomposing rational expressions into simpler partial fractions. It includes cases with linear and quadratic factors in the denominator and applications of partial fraction decomposition in calculus and other areas.",
+    "term": "finals",
+    "slug": "partial-fraction-decomposition"
+  },
+  {
+    "id": "3e0fc908-1908-437c-a482-9b66ad9c09ba",
+    "courseId": "MATH2094",
+    "title": "Power Series",
+    "description": "This lesson introduces power series, which are series where each term is a power of x. It covers representation of functions as power series, differentiation and integration of power series, and applications of power series.",
+    "term": "finals",
+    "slug": "power-series"
+  },
+  {
+    "id": "3910c6d7-d220-4a62-a524-d967ff8b5a7e",
+    "courseId": "MATH2074",
+    "title": "The Differential",
+    "description": "This lesson introduces the concept of differentials and linear approximation. It covers using differentials to approximate changes in function values and estimating errors in approximations.",
+    "term": "midterm",
+    "slug": "the-differential"
+  },
+  {
+    "id": "364e5306-6271-4547-a5ec-2adb78ba7812",
+    "courseId": "MATH2074",
+    "title": "Continuity of a Function",
+    "description": "This lesson defines continuity of a function at a point and on an interval. It covers types of discontinuities, properties of continuous functions, and the Intermediate Value Theorem.",
+    "term": "midterm",
+    "slug": "continuity"
+  },
+  {
+    "id": "361a6e35-24cb-4bf6-b5be-6e424808afa4",
+    "courseId": "MATH2044",
+    "title": "Analytic Trigonometry",
+    "description": "This lesson focuses on trigonometric identities, trigonometric equations, and techniques for proving trigonometric identities. It includes sum and difference formulas, double-angle and half-angle formulas, and solving trigonometric equations.",
+    "term": "midterm",
+    "slug": "analytic-trigonometry"
+  },
+  {
+    "id": "35d89fc3-9b2b-44d4-8767-9113dd37e598",
+    "courseId": "MATH2044",
+    "title": "Spherical Trigonometry",
+    "description": "This lesson introduces spherical trigonometry, which deals with triangles on the surface of a sphere. It covers spherical triangles, spherical angles, and formulas for solving spherical triangles, with applications in navigation and astronomy.",
+    "term": "midterm",
+    "slug": "spherical-trigonometry"
+  },
+  {
+    "id": "2f08448d-f01e-4f93-94d0-ea9a7c593057",
+    "courseId": "MATH2033",
+    "title": "Equations in One Variable",
+    "description": "This lesson introduces methods for solving equations in one variable, including linear, quadratic, and other types of equations. It covers techniques such as factoring, using the quadratic formula, and isolating the variable to find solutions. Applications of equations in one variable are also explored.",
+    "term": "midterm",
+    "slug": "one-variable-equations"
+  },
+  {
+    "id": "24987b7a-ef0e-4ddf-b096-8ed7fa7de85d",
+    "courseId": "MATH2074",
+    "title": "The General Power Rule, Product, Quotient, and Chain Rule",
+    "description": "This lesson focuses on the fundamental rules of differentiation: the Power Rule, Product Rule, Quotient Rule, and Chain Rule. It includes applying these rules to find derivatives of complex functions.",
+    "term": "midterm",
+    "slug": "four-primary-rules-differentiation"
+  },
+  {
+    "id": "198bdd69-891b-43a6-9db0-688293d13382",
+    "courseId": "MATH2094",
+    "title": "Definite Integrals",
+    "description": "This lesson introduces the concept of definite integrals. It covers the definition of the definite integral as a Riemann sum, properties of definite integrals, and the Fundamental Theorem of Calculus, relating differentiation and integration.",
+    "term": "midterm",
+    "slug": "definite-integrals"
+  },
+  {
+    "id": "1694ea0d-1c17-4129-9de0-50d72c8909e0",
+    "courseId": "MATH2094",
+    "title": "Surfaces",
+    "description": "This lesson focuses on surfaces in three-dimensional space. It covers quadric surfaces, cylindrical and spherical coordinates, and parametrization of surfaces.",
+    "term": "midterm",
+    "slug": "surfaces"
+  },
+  {
+    "id": "158d94ba-3ce8-4c1f-902a-f201ec885327",
+    "courseId": "MATH2094",
+    "title": "Series and Sequences and the Test for Divergence",
+    "description": "This lesson revisits sequences and series and introduces the Test for Divergence. It covers using the Test for Divergence to determine if an infinite series diverges and understanding the conditions under which the test is applicable.",
+    "term": "finals",
+    "slug": "series-sequences-and-divergence-test"
+  },
+  {
+    "id": "13084068-f93f-41d1-b0e4-f1122f659291",
+    "courseId": "MATH2033",
+    "title": "Sequences and Series",
+    "description": "This lesson introduces sequences and series, including arithmetic and geometric sequences and series. It covers formulas for finding the nth term and sum of finite and infinite series, as well as applications of sequences and series in various areas.",
+    "term": "finals",
+    "slug": "sequences-and-series"
+  },
+  {
+    "id": "0f824269-d178-44cc-a579-bf5247d6d62c",
+    "courseId": "MATH2094",
+    "title": "Applications of Definite Integrals",
+    "description": "This lesson explores applications of definite integrals, including finding areas, volumes, work, average value of a function, and other physical and geometric quantities.",
+    "term": "midterm",
+    "slug": "applications-definite-integrals"
+  },
+  {
+    "id": "0b91cc1d-468b-416d-9814-a0af3879c12a",
+    "courseId": "MATH2094",
+    "title": "Multiple Integrals",
+    "description": "This lesson introduces multiple integrals, including double and triple integrals. It covers evaluation of multiple integrals in Cartesian, polar, cylindrical, and spherical coordinates, and applications of multiple integrals in finding volumes and masses.",
+    "term": "finals",
+    "slug": "multiple-integrals"
+  },
+  {
+    "id": "078d5dee-9716-4259-a9e2-d6ce217d5173",
+    "courseId": "MATH2033",
+    "title": "Ratio, Proportion, and Variation",
+    "description": "This lesson covers ratios, proportions, and variations, including direct, inverse, joint, and combined variations. It involves setting up and solving problems involving these concepts and their applications in real-life situations.",
+    "term": "finals",
+    "slug": "ratio-proportion-variation"
+  },
+  {
+    "id": "06732ae6-e711-403f-a76a-89f9c9325e00",
+    "courseId": "MATH2033",
+    "title": "Sets and Set Operations",
+    "description": "This lesson introduces fundamental concepts of sets, including set notations, types of sets, and basic set operations such as union, intersection, complement, and difference. It also covers Venn diagrams and their applications in representing sets and set operations.",
+    "term": "midterm",
+    "slug": "sets-and-set-operations"
+  },
+  {
+    "id": "024f86a2-453c-4810-a892-9caf29d029d6",
+    "courseId": "MATH2044",
+    "title": "Plane Analytic Geometry",
+    "description": "This lesson introduces plane analytic geometry, which combines algebra and geometry to study geometric figures in the Cartesian plane. It covers topics such as distance and midpoint formulas, equations of lines and circles, and slopes of lines.",
+    "term": "finals",
+    "slug": "plane-analytic-geometry"
   }
 ]
