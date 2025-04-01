@@ -233,11 +233,9 @@
             </label>
             <input
               readonly
-              minlength="8"
               name="topic-lesson-id"
               id="topic-lesson-id"
               type="text"
-              maxlength="8"
               bind:value={lesson.id}
               class="font-nunito w-full rounded-xs border-0 border-gray-200 p-0 text-gray-700 transition-all duration-100"
             />
