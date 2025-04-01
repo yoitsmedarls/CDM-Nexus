@@ -10,7 +10,7 @@
   charts.push({ id: 'pie-chart', text: 'Pie Chart' });
   charts.push({ id: 'bar-chart', text: 'Bar Chart' });
 
-  let { user }: { user: SelectUser } = $props();
+  let { user }: { user?: { username: string; cdmEmail: string } } = $props();
 </script>
 
 <main
@@ -22,12 +22,12 @@
     <h1
       class="font-poppins 2xs:text-[1.375rem] w-fit text-xl font-semibold text-gray-800 transition-all duration-100 sm:text-2xl md:text-gray-50 lg:text-3xl"
     >
-      Welcome, {user.username}!
+      Welcome, {user?.username}!
     </h1>
     <p
       class="font-nunito 2xs:text-[0.875rem] text-[0.75rem] font-semibold text-gray-800 transition-all duration-100 sm:text-base md:text-white lg:text-lg"
     >
-      ID: {user.id}
+      {user?.cdmEmail}
     </p>
   </hgroup>
   <div
