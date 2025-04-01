@@ -15,12 +15,7 @@ export async function verifyPasswordHash(
   hash: string,
   password: string
 ): Promise<boolean> {
-  return await verify(hash, password, {
-    memoryCost: 19456,
-    timeCost: 2,
-    outputLen: 32,
-    parallelism: 1,
-  });
+  return await verify(hash, password);
 }
 
 export async function verifyPasswordStrength(
