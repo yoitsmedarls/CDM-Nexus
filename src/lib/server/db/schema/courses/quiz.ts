@@ -6,10 +6,9 @@ import {
   uuid,
   primaryKey,
 } from 'drizzle-orm/pg-core';
-
-import { topic } from './topic';
 import { relations } from 'drizzle-orm';
-import { question } from './question';
+import { topic } from './topic';
+import { quizQuestion } from './quizQuestion';
 
 export const quiz = pgTable(
   'quiz',
@@ -23,7 +22,10 @@ export const quiz = pgTable(
     length: integer('length').notNull(),
   },
   (table) => [
-    primaryKey({ name: 'quiz_pk', columns: [table.topicId, table.title] }),
+    primaryKey({
+      name: 'quiz_pk',
+      columns: [table.topicId, table.title],
+    }),
   ]
 );
 
@@ -31,7 +33,7 @@ export type SelectQuiz = typeof quiz.$inferSelect;
 export type InsertQuiz = typeof quiz.$inferInsert;
 
 export const quizRelations = relations(quiz, ({ one, many }) => ({
-  questions: many(question),
+  quizQuestions: many(quizQuestion),
   topic: one(topic, {
     fields: [quiz.topicId],
     references: [topic.id],
