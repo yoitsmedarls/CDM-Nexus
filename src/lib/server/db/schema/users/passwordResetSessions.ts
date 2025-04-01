@@ -7,7 +7,7 @@ export const passwordResetSessions = pgTable('password_reset_sessions', {
     .notNull()
     .references(() => users.id, { onDelete: 'cascade' }),
   cdmEmail: varchar('cdm_email', { length: 255 }).notNull(),
-  totpKey: text('totp_key').notNull(),
+  otp: text('otp').notNull(),
   expiresAt: timestamp('expires_at', { withTimezone: true }).notNull(),
 });
 
