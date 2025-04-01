@@ -62,7 +62,7 @@ export async function getUserByUsername(username: string): Promise<SelectUser> {
     .from(users)
     .where(eq(users.username, username));
 
-  if (user === null) {
+  if (!user) {
     throw new Error('User not found');
   }
 
@@ -75,7 +75,7 @@ export async function getUserByCdmEmail(cdmEmail: string): Promise<SelectUser> {
     .from(users)
     .where(eq(users.cdmEmail, cdmEmail));
 
-  if (user === null) {
+  if (!user) {
     throw new Error('User not found');
   }
 
@@ -113,7 +113,7 @@ export async function getUserPasswordHash(userId: string): Promise<string> {
     .from(users)
     .where(eq(users.id, userId));
 
-  if (user === null) {
+  if (!user) {
     throw new Error('User not found');
   }
 
@@ -126,7 +126,7 @@ export async function getUserRecoveryCode(userId: string): Promise<string> {
     .from(users)
     .where(eq(users.id, userId));
 
-  if (user === null) {
+  if (!user) {
     throw new Error('User not found');
   }
 
