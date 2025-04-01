@@ -15,6 +15,21 @@ export function verifyUsernameInput(username: string): boolean {
   );
 }
 
+export async function checkUsernameAvailability(
+  username: string
+): Promise<boolean> {
+  const [existingUser]: SelectUser[] = await db
+    .select()
+    .from(users)
+    .where(eq(users.username, username));
+
+  if (existingUser) {
+    return false;
+  }
+
+  return true;
+}
+
 export async function createUser(
   fullName: string,
   cdmEmail: string,
