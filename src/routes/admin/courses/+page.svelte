@@ -1,4 +1,6 @@
 <script lang="ts">
+  import Body from '$lib/components/admin/Body.svelte';
+  import Header from '$lib/components/admin/Header.svelte';
   import MainWrapper from '$lib/components/admin/MainWrapper.svelte';
   import SidePanel from '$lib/components/admin/SidePanel.svelte';
   import type { PageData } from './$types';
@@ -10,13 +12,12 @@
   <title>Manage Courses</title>
   <meta
     name="description"
-    content="Course management page for CDM Nexus Administrators."
+    content="Course Management page for CDM Nexus Administrators."
   />
 </svelte:head>
 
 <MainWrapper>
-  <div class="flex grow flex-col rounded-md border-gray-200 p-2 xl:border-1">
-    <h1>Courses</h1>
-  </div>
+  <Header />
+  <Body></Body>
 </MainWrapper>
 <SidePanel></SidePanel>
