@@ -1,12 +1,13 @@
-import { fail, redirect } from '@sveltejs/kit';
+import { error, fail, redirect } from '@sveltejs/kit';
 import type { Actions, PageServerLoad } from './$types';
 import { invalidateSession } from '$lib/server/auth/session';
 import { deleteSessionTokenCookie } from '$lib/server/auth/session';
 
 export const load: PageServerLoad = async (event) => {
   if (!event.locals.user) {
-    return redirect(302, '/admin/login');
+    throw error(500, 'Something went wrong.');
   }
+
   return { user: event.locals.user };
 };
 
