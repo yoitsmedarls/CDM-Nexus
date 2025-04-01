@@ -14,8 +14,6 @@
   charts.push({ id: 'pie-chart', text: 'Pie Chart' });
   charts.push({ id: 'bar-chart', text: 'Bar Chart' });
 
-  let title = $derived('Welcome, ' + data.user.username + '!');
-  let subtitle = $derived(data.user.cdmEmail);
   let infoBoxes = $derived([
     {
       id: 'no-of-courses',
@@ -50,7 +48,10 @@
 </svelte:head>
 
 <MainWrapper>
-  <Header {title} {subtitle} />
+  <Header
+    title={'Welcome, ' + data.user.username + '!'}
+    subtitle={data.user.cdmEmail}
+  />
   <Body>
     <section
       class="grid min-h-fit grid-cols-2 gap-2 border-b-1 border-gray-100 p-2 pb-4 lg:grid-cols-4"
