@@ -6,7 +6,6 @@
 
   let topic = $state(data.queriedTopic);
   let lectureMaterial = $state(data.queriedLectureMaterial);
-  let quiz = $state(data.queriedQuiz);
   let quizQuestions = $state(data.queriedQuizQuestions);
 
   let addLectureMaterialPanelVisible = $state(false);
@@ -399,7 +398,7 @@
     {#if quizQuestions}
       <div class="flex flex-col">
         <ol class="flex list-inside list-decimal flex-col gap-2">
-          {#each quizQuestions as question}
+          {#each quizQuestions as question (question.id)}
             <div class="flex flex-col gap-2 rounded-sm bg-gray-50 p-2">
               <li class="font-nunito font-medium">{question.content}</li>
               <ul class="pl-4">
