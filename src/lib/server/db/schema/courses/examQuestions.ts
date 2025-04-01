@@ -1,14 +1,14 @@
 import { pgTable, text, varchar, uuid, check } from 'drizzle-orm/pg-core';
 import { relations, sql } from 'drizzle-orm';
-import { quiz } from './quiz';
+import { exams } from './exams';
 
-export const quizQuestion = pgTable(
-  'quiz_question',
+export const examQuestions = pgTable(
+  'exam_questions',
   {
     id: uuid('id').primaryKey().notNull().defaultRandom(),
-    quizId: uuid('quiz_id')
+    examId: uuid('exam_id')
       .notNull()
-      .references(() => quiz.id, {
+      .references(() => exams.id, {
         onDelete: 'cascade',
       }),
     content: text('content').notNull(),
@@ -25,12 +25,12 @@ export const quizQuestion = pgTable(
   ]
 );
 
-export type SelectQuizQuestion = typeof quizQuestion.$inferSelect;
-export type InsertQuizQuestion = typeof quizQuestion.$inferInsert;
+export type SelectExamQuestion = typeof examQuestions.$inferSelect;
+export type InsertExamQuestion = typeof examQuestions.$inferInsert;
 
-export const quizQuestionRelations = relations(quizQuestion, ({ one }) => ({
-  quiz: one(quiz, {
-    fields: [quizQuestion.quizId],
-    references: [quiz.id],
+export const examQuestionsRelations = relations(examQuestions, ({ one }) => ({
+  exam: one(exams, {
+    fields: [examQuestions.examId],
+    references: [exams.id],
   }),
 }));

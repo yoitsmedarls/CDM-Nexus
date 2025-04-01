@@ -9,11 +9,11 @@ import {
 } from 'drizzle-orm/pg-core';
 import { relations, sql } from 'drizzle-orm';
 import { stateEnum } from './stateEnum';
-import { lesson } from './lesson';
-import { exam } from './exam';
+import { lessons } from './lessons';
+import { exams } from './exams';
 
-export const course = pgTable(
-  'course',
+export const courses = pgTable(
+  'courses',
   {
     id: varchar('id', { length: 8 }).primaryKey().notNull(),
     title: varchar('title', { length: 255 }).notNull(),
@@ -41,10 +41,10 @@ export const course = pgTable(
   ]
 );
 
-export type SelectCourse = typeof course.$inferSelect;
-export type InsertCourse = typeof course.$inferInsert;
+export type SelectCourse = typeof courses.$inferSelect;
+export type InsertCourse = typeof courses.$inferInsert;
 
-export const courseRelations = relations(course, ({ many }) => ({
-  lessons: many(lesson),
-  exams: many(exam),
+export const coursesRelations = relations(courses, ({ many }) => ({
+  lessons: many(lessons),
+  exams: many(exams),
 }));

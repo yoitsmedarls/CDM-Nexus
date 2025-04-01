@@ -9,20 +9,19 @@ import {
   uuid,
 } from 'drizzle-orm/pg-core';
 import { relations, sql } from 'drizzle-orm';
-import { termEnum } from './termEnum';
-import { course } from './course';
-import { topic } from './topic';
+import { lessons } from './lessons';
+import { lectureMaterials } from './lectureMaterials';
+import { quizzes } from './quizzes';
 
-export const lesson = pgTable(
-  'lesson',
+export const topics = pgTable(
+  'topics',
   {
     id: uuid('id').unique().notNull().defaultRandom(),
-    courseId: varchar('course_id')
+    lessonId: uuid('lesson_id')
       .notNull()
-      .references(() => course.id, { onDelete: 'cascade' }),
+      .references(() => lessons.id, { onDelete: 'cascade' }),
     title: varchar('title', { length: 255 }).notNull(),
     description: text('description').notNull(),
-    term: termEnum('term').notNull(),
     slug: text('slug').notNull(),
     published: boolean('published').notNull().default(false),
     dateCreated: timestamp('date_created', {
@@ -39,20 +38,21 @@ export const lesson = pgTable(
   },
   (table) => [
     primaryKey({
-      name: 'lesson_pk',
-      columns: [table.courseId, table.title],
+      name: 'topics_pk',
+      columns: [table.lessonId, table.title],
     }),
     check('check_slug_format', sql`${table.slug} ~ '^([a-z0-9-]+)$'`),
   ]
 );
 
-export type SelectLesson = typeof lesson.$inferSelect;
-export type InsertLesson = typeof lesson.$inferInsert;
+export type SelectTopic = typeof topics.$inferSelect;
+export type InsertTopic = typeof topics.$inferInsert;
 
-export const lessonRelations = relations(lesson, ({ one, many }) => ({
-  course: one(course, {
-    fields: [lesson.courseId],
-    references: [course.id],
+export const topicsRelations = relations(topics, ({ one, many }) => ({
+  lectureMaterials: many(lectureMaterials),
+  quizzes: many(quizzes),
+  lesson: one(lessons, {
+    fields: [topics.lessonId],
+    references: [lessons.id],
   }),
-  topics: many(topic),
 }));

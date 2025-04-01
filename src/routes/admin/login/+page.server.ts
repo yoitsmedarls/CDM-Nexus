@@ -8,7 +8,7 @@ import {
   setSessionTokenCookie,
 } from '$lib/server/auth';
 import { db } from '$lib/server/db';
-import { user } from '$lib/server/db/schema';
+import { users } from '$lib/server/db/schema';
 import type { Actions, PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async (event) => {
@@ -38,8 +38,8 @@ export const actions: Actions = {
 
     const results = await db
       .select()
-      .from(user)
-      .where(eq(user.username, username));
+      .from(users)
+      .where(eq(users.username, username));
 
     const existingUser = results.at(0);
     if (!existingUser) {
@@ -73,7 +73,9 @@ export const actions: Actions = {
     if (!validatePassword(password)) {
       return fail(400, { message: 'Invalid password' });
     }
-    if (await db.query.user.findFirst({ where: eq(user.username, username) })) {
+    if (
+      await db.query.user.findFirst({ where: eq(users.username, username) })
+    ) {
       return fail(400, { message: 'Username already taken' });
     }
 
@@ -87,7 +89,7 @@ export const actions: Actions = {
     });
 
     try {
-      await db.insert(user).values({ id: userId, username, passwordHash });
+      await db.insert(users).values({ id: userId, username, passwordHash });
 
       const sessionToken = generateSessionToken();
       const session = await createSession(sessionToken, userId);
