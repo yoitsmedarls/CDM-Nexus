@@ -1,7 +1,6 @@
 import { eq } from 'drizzle-orm';
 import { db } from '../db';
 import { users, type SelectUser } from '../db/schema';
-import { decryptToString, encryptString } from './encryption';
 import { hashPassword } from './password';
 import { generateRandomRecoveryCode } from './utils';
 
@@ -54,8 +53,6 @@ export async function createUser(
 ): Promise<SelectUser> {
   const passwordHash: string = await hashPassword(password);
   const recoveryCode: string = generateRandomRecoveryCode();
-  const encryptedRecoveryCode: Uint8Array<ArrayBufferLike> =
-    encryptString(recoveryCode);
 
   const [user]: SelectUser[] = await db
     .insert(users)
@@ -65,7 +62,7 @@ export async function createUser(
       cdmEmail,
       username,
       passwordHash,
-      recoveryCode: encryptedRecoveryCode,
+      recoveryCode,
     })
     .returning();
 
@@ -151,7 +148,7 @@ export async function getUserPasswordHash(userId: string): Promise<string> {
 }
 
 export async function getUserRecoveryCode(userId: string): Promise<string> {
-  const [user]: { recoveryCode: Uint8Array<ArrayBufferLike> }[] = await db
+  const [user]: { recoveryCode: string }[] = await db
     .select({ recoveryCode: users.recoveryCode })
     .from(users)
     .where(eq(users.id, userId));
@@ -160,17 +157,13 @@ export async function getUserRecoveryCode(userId: string): Promise<string> {
     throw new Error('User not found');
   }
 
-  return decryptToString(user.recoveryCode);
+  return user.recoveryCode;
 }
 
 export async function resetUserRecoveryCode(userId: string): Promise<string> {
   const recoveryCode = generateRandomRecoveryCode();
-  const encryptedRecoveryCode = encryptString(recoveryCode);
 
-  await db
-    .update(users)
-    .set({ recoveryCode: encryptedRecoveryCode })
-    .where(eq(users.id, userId));
+  await db.update(users).set({ recoveryCode }).where(eq(users.id, userId));
 
   return recoveryCode;
 }
