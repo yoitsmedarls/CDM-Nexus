@@ -9,5 +9,5 @@ const client = postgres(env.DATABASE_URL);
 export const db = drizzle(client, {
   schema: schema,
   casing: 'snake_case',
-  logger: true,
+  // logger: true,
 });
