@@ -3,7 +3,8 @@ import {
   encodeBase32LowerCaseNoPadding,
   encodeBase32UpperCaseNoPadding,
 } from '@oslojs/encoding';
-import type { RequestEvent } from '@sveltejs/kit';
+import { type RequestEvent } from '@sveltejs/kit';
+import type { SelectUser } from '../db/schema';
 
 export const DAY_IN_MS = 1000 * 60 * 60 * 24;
 
@@ -39,8 +40,19 @@ export function generateRandomRecoveryCode(): string {
   return recoveryCode;
 }
 
-export function handleLoginRedirect(event: RequestEvent) {
+export function loginRedirect(event: RequestEvent): string {
   const redirectTo = event.url.pathname.slice(1) + event.url.search;
 
   return `/login?redirectTo=${redirectTo}`;
+}
+
+export function roleBasedRedirect(role: SelectUser['role']): string {
+  if (role === 'admin') {
+    return '/admin/dashboard';
+  }
+  if (role === 'tutor') {
+    return '/tutor/home';
+  }
+
+  return '/home';
 }
