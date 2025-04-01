@@ -1,7 +1,6 @@
 <script lang="ts">
   import { enhance } from '$app/forms';
-  import { fade } from 'svelte/transition';
-  import type { PageData, PageProps } from './$types';
+  import type { PageProps } from './$types';
 
   let { form, data }: PageProps = $props();
 
@@ -148,11 +147,11 @@
           Midterms
         </h3>
         <ul class="flex flex-col justify-start gap-2">
-          {#each data.queriedLessons as lesson}
+          {#each data.queriedLessons as lesson (lesson.id)}
             {#if lesson.term === 'midterm'}
               <li>
                 <a
-                  class="font-nunito hover:text-cdm-blue-900 active:text-cdm-blue-950 inline-block w-full rounded-sm border-1 border-gray-100 p-2 text-sm transition-all duration-100 hover:bg-gray-50 active:bg-gray-100 sm:text-base lg:text-lg"
+                  class="font-nunito hover:text-cdm-blue-900 active:text-cdm-blue-950 inline-block w-full rounded-sm border-1 border-gray-200 p-2 text-sm transition-all duration-100 hover:bg-gray-50 active:bg-gray-100 sm:text-base lg:text-lg"
                   href={`/admin/courses/${data.queriedCourse.slug}/${lesson.slug}`}
                 >
                   {lesson.title}
@@ -171,11 +170,11 @@
           Finals
         </h3>
         <ul class="flex flex-col justify-start gap-2">
-          {#each data.queriedLessons as lesson}
+          {#each data.queriedLessons as lesson (lesson.id)}
             {#if lesson.term === 'finals'}
               <li>
                 <a
-                  class="font-nunito hover:text-cdm-blue-900 active:text-cdm-blue-950 inline-block w-full rounded-sm border-1 border-gray-100 p-2 text-sm transition-all duration-100 hover:bg-gray-50 active:bg-gray-100 sm:text-base lg:text-lg"
+                  class="font-nunito hover:text-cdm-blue-900 active:text-cdm-blue-950 inline-block w-full rounded-sm border-1 border-gray-200 p-2 text-sm transition-all duration-100 hover:bg-gray-50 active:bg-gray-100 sm:text-base lg:text-lg"
                   href={`/admin/courses/${data.queriedCourse.slug}/${lesson.slug}`}
                 >
                   {lesson.title}

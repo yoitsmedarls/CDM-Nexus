@@ -12,8 +12,8 @@
 
 <MainWrapper>
   <Header
-    title={'CDM Nexus Courses'}
-    subtitle={'Add, modify, or delete existing courses.'}
+    title="CDM Nexus Courses"
+    subtitle="Add, modify, or delete existing courses."
   />
   <Body>
     {@render children()}
