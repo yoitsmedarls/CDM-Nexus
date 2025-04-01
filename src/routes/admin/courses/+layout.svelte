@@ -12,7 +12,7 @@
 
 <MainWrapper>
   <Header
-    title="CDM Nexus Courses"
+    title="Course Management"
     subtitle="Add, modify, or delete existing courses."
   />
   <Body>
