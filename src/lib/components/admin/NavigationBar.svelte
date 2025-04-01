@@ -14,18 +14,18 @@
 </script>
 
 <header
-  class="xl:bg-cdm-blue-950 sticky top-0 flex w-full overflow-clip border-white bg-white px-4 transition-all duration-200 xl:bottom-0 xl:left-0 xl:max-h-svh xl:max-w-fit xl:min-w-fit xl:rounded-[0.875rem] xl:border-8 xl:py-4"
+  class="sticky top-0 flex w-full overflow-auto border-white bg-white transition-all duration-200 max-xl:px-4 xl:bottom-0 xl:left-0 xl:h-svh xl:max-h-[88rem] xl:min-h-fit xl:max-w-fit xl:min-w-fit xl:border-8"
 >
   <div
-    class="flex min-h-20 w-full flex-row items-center transition-all duration-200 max-xl:justify-between lg:min-h-24 xl:flex-col xl:gap-4"
+    class="flex min-h-20 w-full flex-row items-center border-gray-200 transition-all duration-200 max-xl:justify-between lg:min-h-24 xl:flex-col xl:gap-4 xl:rounded-md xl:border-1 xl:p-4"
   >
     <a href="dashboard">
       <h1
-        class="font-poppins 2xs:text-[1.375rem] w-fit text-xl font-semibold text-gray-800 transition-all duration-100 sm:text-2xl lg:text-3xl xl:py-4 xl:pr-8 xl:pl-2 xl:text-white"
+        class="font-poppins 2xs:text-[1.375rem] xl:text-cdm-blue-950 w-fit text-xl font-semibold text-gray-800 transition-all duration-100 sm:text-2xl lg:text-3xl xl:py-4 xl:pr-12 xl:pl-2"
       >
         {viewportWidth < 1280 ? 'Dashboard' : 'CDM Nexus'}
       </h1>
-      <hr class="hidden text-white xl:block" />
+      <hr class="hidden text-gray-600 xl:block" />
     </a>
     {#if viewportWidth < 768}
       <button
@@ -49,7 +49,7 @@
           {#each navigationOptions as option (option.slug)}
             <a
               href={option.slug}
-              class="font-poppins active:text-cdm-blue-950 max-xl:hover:text-cdm-blue-900 xl:hover:text-cdm-blue-950 rounded-md p-2 text-sm font-semibold text-gray-800 transition-all duration-100 lg:text-base xl:block xl:w-full xl:text-gray-50 xl:hover:bg-white xl:active:bg-gray-100"
+              class="font-poppins active:text-cdm-blue-950 max-xl:hover:text-cdm-blue-900 xl:hover:text-cdm-blue-950 xl:active:bg-cdm-blue-100 xl:hover:bg-cdm-blue-50 rounded-md p-2 text-sm font-semibold text-gray-800 transition-all duration-100 lg:text-base xl:block xl:w-full xl:text-gray-800"
             >
               {option.text}
             </a>
