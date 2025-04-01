@@ -6,10 +6,10 @@ export const load = (async (event) => {
   if (
     event.locals.session === null ||
     event.locals.user === null ||
-    event.locals.user.role !== 'admin'
+    event.locals.user.role !== 'tutor'
   ) {
     return redirect(302, handleLoginRedirect(event));
   }
 
-  return redirect(303, '/admin/dashboard');
+  return redirect(303, '/tutor/create');
 }) satisfies PageServerLoad;
