@@ -2,6 +2,7 @@
 @plugin "@tailwindcss/typography";
 @plugin "@tailwindcss/forms";
 
+/* Initial styles for the major containers */
 html {
   min-height: 100%;
   scroll-behavior: smooth;
@@ -13,13 +14,13 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 .body-wrapper {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
 }
 
+/* Customized Tailwind theme */
 @theme {
   --*: initial;
 
@@ -238,4 +239,18 @@ body {
 
   /* Aspect ratio for videos */
   --aspect-video: 16 / 9;
+}
+
+/* Custom classes for various applications */
+@layer components {
+  /* Reusable dotted background from the landing page */
+  .bg-dotted {
+    background-image: radial-gradient(
+      circle at center,
+      #06266560,
+      transparent 3%
+    );
+    background-size: 4em 4em;
+    background-position: center top;
+  }
 }
