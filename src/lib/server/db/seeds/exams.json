@@ -1,0 +1,66 @@
+[
+  {
+    "id": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca",
+    "courseId": "MATH2033",
+    "term": "midterm",
+    "title": "MATH2033 Midterm Exam",
+    "description": "This exam covers topics on system of linear equations, algebraic expressions, applications of linear equations, sets and set operations, rational, radical, and absolute-valued expressions, and equations in one variable.",
+    "length": 40
+  },
+  {
+    "id": "3da47693-b217-40e4-8dbb-cb7334b327e9",
+    "courseId": "MATH2033",
+    "term": "finals",
+    "title": "MATH2033 Finals Exam",
+    "description": "This exam covers topics on determinants, matrices, combinatorial mathematics, inequalities, complex numbers, sequences and series, partial fraction decomposition, ratio, proportion, and variation, and plane analytic geometry.",
+    "length": 40
+  },
+  {
+    "id": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569",
+    "courseId": "MATH2044",
+    "term": "midterm",
+    "title": "MATH2044 Midterm Exam",
+    "description": "This exam covers topics on trigonometric functions, inverse trigonometric functions, applications of trigonometry, analytic trigonometry and spherical trigonometry.",
+    "length": 40
+  },
+  {
+    "id": "fd693634-481f-44bd-9258-6cefddefe7ef",
+    "courseId": "MATH2044",
+    "term": "finals",
+    "title": "MATH2044 Finals Exam",
+    "description": "This exam covers topics on sphere, plane figures, solids for which volume = base area * height, the line, solids for which volume = 1/3 (base area * height), polar coordinates, applications of definite integrals, plane analytic geometry and conic sections.",
+    "length": 40
+  },
+  {
+    "id": "26296eae-23af-4327-84e3-1cf4e04c25f1",
+    "courseId": "MATH2074",
+    "term": "midterm",
+    "title": "MATH2074 Midterm Exam",
+    "description": "This exam covers topics on differentiability and continuity, the derivative, implicit differentiation, limit of a function, L'Hospital's Rule, derivative of algebraic and transcendental functions, trigonometric functions, applications of trigonometry, logarithmic differentiation, functions, continuity of a function, the differential, analytic trigonometry, spherical trigonometry, equations in one variable, four primary rules of differentiation and definite integrals.",
+    "length": 40
+  },
+  {
+    "id": "d2a44800-c7bb-4457-828e-e8df1985ec52",
+    "courseId": "MATH2074",
+    "term": "finals",
+    "title": "MATH2074 Finals Exam",
+    "description": "This exam covers topics on infinite series, convergence tests, improper integrals, applications of the derivative, integration formulas, sequences and series, applications of definite integrals, integration techniques, and other applications of integrals.",
+    "length": 40
+  },
+  {
+    "id": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3",
+    "courseId": "MATH2094",
+    "term": "midterm",
+    "title": "MATH2094 Midterm Exam",
+    "description": "This exam covers topics on partial differentiation and higher-order partial derivatives, applications of definite integrals, limit of functions of several variables, surfaces, definite integrals, functions of several variables, and gradient and directional derivatives.",
+    "length": 40
+  },
+  {
+    "id": "6620ad56-1cca-4de4-9c29-4f9e92679d73",
+    "courseId": "MATH2094",
+    "term": "finals",
+    "title": "MATH2094 Finals Exam",
+    "description": "This exam covers topics on infinite series, convergence tests, radius and interval of convergence, power series, volume under a surface, multiple integrals, and series and sequences and the test for divergence.",
+    "length": 40
+  }
+]
