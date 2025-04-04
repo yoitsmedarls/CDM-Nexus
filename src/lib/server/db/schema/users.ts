@@ -25,7 +25,7 @@ export const users = pgTable(
     ),
     check(
       'check_cdm_email_format',
-      sql`${table.cdmEmail} ~ '^[A-za-z0-9.]+(@cdm.edu.ph)$'`
+      sql`${table.cdmEmail} ~ '^[A-Za-z0-9.]+(@cdm.edu.ph)$'`
     ),
   ]
 );
