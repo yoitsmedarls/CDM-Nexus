@@ -9,7 +9,7 @@
 
 <svelte:window bind:innerWidth={vw} />
 
-<Wrapper limitmaxheight heightsvh>
+<Wrapper limitmaxheight setheightscreen>
   <Header />
   <div
     class="xs:px-2 flex grow flex-col justify-start pb-4 transition-all duration-200"

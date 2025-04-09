@@ -4,22 +4,28 @@
   let {
     id = '',
     limitmaxheight = false,
-    heightsvh = false,
+    setheightscreen = false,
     children,
   }: {
     id?: string;
     limitmaxheight?: boolean;
-    heightsvh?: boolean;
-    children: Snippet;
+    setheightscreen?: boolean;
+    children?: Snippet;
   } = $props();
 </script>
 
 <section
   {id}
-  class={['flex min-h-fit flex-col px-4', { limitmaxheight }, { heightsvh }]}
+  class={[
+    'flex min-h-fit flex-col px-4',
+    { limitmaxheight },
+    { setheightscreen },
+  ]}
 >
   <div class={['mx-auto flex w-full max-w-[88rem] grow flex-col']}>
-    {@render children()}
+    {#if children}
+      {@render children()}
+    {/if}
   </div>
 </section>
 
@@ -27,7 +33,7 @@
   .limitmaxheight {
     max-height: 88rem;
   }
-  .heightsvh {
+  .setheightscreen {
     height: 100svh;
   }
 </style>
