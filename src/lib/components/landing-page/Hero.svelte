@@ -70,6 +70,7 @@
 </Wrapper>
 
 <style>
+  /* TODO: Use proper pictures specified by CDM Nexus. */
   .left-image {
     background-image: url(https://picsum.photos/seed/c/1440/?blur=8);
   }

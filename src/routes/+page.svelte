@@ -1,5 +1,7 @@
 <script>
   import Hero from '$lib/components/landing-page/Hero.svelte';
+
+  // TODO: Implement the components below:
   // import Courses from '$lib/components/landing-page/Courses.svelte';
   // import About from '$lib/components/landing-page/About.svelte';
   // import Tutors from '$lib/components/landing-page/Tutors.svelte';

@@ -40,6 +40,7 @@
       </h1>
     </a>
     {#if viewportWidth < mediumBreakpoint}
+      <!-- TODO: Implement the functionality of this hamburger menu -->
       <button
         in:fade={{ duration: inDuration }}
         class="grid place-items-center rounded-sm select-none hover:bg-gray-50 active:bg-gray-100"

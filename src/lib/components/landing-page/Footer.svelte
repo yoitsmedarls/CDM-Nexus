@@ -64,6 +64,7 @@
       <p
         class="2xs:text-xs font-nunito px-4 text-right text-[0.625rem] text-gray-500 transition-all duration-100 sm:text-[0.875rem] lg:text-base"
       >
+        <!-- TODO: Add automatically updating year -->
         &copy; CDM Nexus. All rights reserved.
       </p>
     </div>
