@@ -16,19 +16,20 @@
     },
   ]);
 
-  let vw: number = $state(0);
   let inDuration: number = $state(200);
+  let mediumBreakpoint: number = $state(768);
+  let viewportWidth: number = $state(0);
 </script>
 
-<svelte:window bind:innerWidth={vw} />
+<svelte:window bind:innerWidth={viewportWidth} />
 
 <header class="relative z-20 flex min-h-fit w-full flex-col">
   <div
     class="xs:px-2 flex min-h-20 w-full flex-row items-center justify-between transition-all duration-200 lg:min-h-24"
   >
-    <a href="/" class="focus-visible:outline-0">
+    <a href="/" class="focus-visible:outline-0" tabindex="-1">
       <h1
-        class="font-poppins 2xs:text-[1.375rem] w-fit text-xl font-semibold text-gray-800 transition-all duration-100 sm:text-2xl lg:text-3xl"
+        class="font-poppins 2xs:text-[1.375rem] w-fit pl-1 text-xl font-semibold text-gray-800 transition-all duration-100 sm:text-2xl lg:text-3xl"
       >
         <span
           class="bg-linear-100 from-blue-900/100 from-20% via-yellow-500/80 via-55% to-red-600/100 to-90% bg-clip-text font-extrabold text-[#00000010]"
@@ -38,10 +39,10 @@
         Nexus
       </h1>
     </a>
-    {#if vw < 768}
+    {#if viewportWidth < mediumBreakpoint}
       <button
         in:fade={{ duration: inDuration }}
-        class="grid place-items-center"
+        class="grid place-items-center rounded-sm select-none hover:bg-gray-50 active:bg-gray-100"
       >
         <span class="material-symbols-rounded">
           <span
@@ -83,13 +84,3 @@
     {/if}
   </div>
 </header>
-
-<style>
-  .material-symbols-rounded {
-    font-variation-settings:
-      'FILL' 0,
-      'wght' 400,
-      'GRAD' 0,
-      'opsz' 24;
-  }
-</style>
