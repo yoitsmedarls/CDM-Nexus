@@ -38,15 +38,15 @@ const protectedRoutesHandler: Handle = async ({ event, resolve }) => {
   const protectedRoutes = [
     {
       role: 'admin',
-      route: '/admin',
+      url: '/admin',
     },
     {
       role: 'tutor',
-      route: '/tutor',
+      url: '/tutor',
     },
     {
       role: 'student',
-      route: '/student',
+      url: '/student',
     },
   ];
   const authRoutes = ['/login', '/signup'];
@@ -55,7 +55,7 @@ const protectedRoutesHandler: Handle = async ({ event, resolve }) => {
   const session = event.locals.session;
 
   const isProtectedRoute = protectedRoutes.some((route) =>
-    currentPath.startsWith(route.route)
+    currentPath.startsWith(route.url)
   );
   const isAuthRoute = authRoutes.some((route) => currentPath.startsWith(route));
 
@@ -70,7 +70,7 @@ const protectedRoutesHandler: Handle = async ({ event, resolve }) => {
     }
 
     const matchedRoute = protectedRoutes.find((route) =>
-      currentPath.startsWith(route.route)
+      currentPath.startsWith(route.url)
     );
 
     if (matchedRoute && user.role !== matchedRoute.role) {
