@@ -4,6 +4,6 @@
 
 <style>
   .bg-image {
-    background-image: url(https://picsum.photos/seed/cdm/1920/1080/?blur=4);
+    background-image: url(https://picsum.photos/seed/cdm/1920/1080?blur=4);
   }
 </style>
