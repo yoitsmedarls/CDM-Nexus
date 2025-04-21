@@ -72,12 +72,12 @@
 <style>
   /* TODO: Use proper pictures specified by CDM Nexus. */
   .left-image {
-    background-image: url(https://picsum.photos/seed/c/1440/?blur=8);
+    background-image: url(https://picsum.photos/seed/c/1440?blur=8);
   }
   .main-image {
-    background-image: url(https://picsum.photos/seed/d/1440/);
+    background-image: url(https://picsum.photos/seed/d/1440);
   }
   .right-image {
-    background-image: url(https://picsum.photos/seed/m/1440/?blur=8);
+    background-image: url(https://picsum.photos/seed/m/1440?blur=8);
   }
 </style>
