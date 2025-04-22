@@ -81,9 +81,7 @@ const authorizationHandler: Handle = async ({ event, resolve }) => {
     if (!event.locals.user || !event.locals.session) {
       // No valid user or session, redirecting the user to login/signup.
       console.log(
-        `Authorization Handler: User tried to access
-        ${event.url.pathname}
-        without an account.`
+        `Authorization Handler: User tried to access ${event.url.pathname} without an account.`
       );
       throw redirect(302, loginRedirect(event));
     }

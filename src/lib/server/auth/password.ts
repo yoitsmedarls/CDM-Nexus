@@ -1,8 +1,11 @@
 import { hash, verify } from '@node-rs/argon2';
 import { sha1 } from '@oslojs/crypto/sha1';
 import { encodeHexLowerCase } from '@oslojs/encoding';
+import type { SelectUser } from '../db/schema';
 
-export async function hashPassword(password: string): Promise<string> {
+export async function hashPassword(
+  password: string
+): Promise<SelectUser['passwordHash']> {
   return await hash(password, {
     memoryCost: 19456,
     timeCost: 2,
