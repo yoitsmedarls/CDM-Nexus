@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { PageProps } from './$types';
+  import { page } from '$app/state';
   import AuthLayout from '$lib/components/auth/AuthLayout.svelte';
   import Form from '$lib/components/auth/Form.svelte';
   import FormInput from '$lib/components/auth/FormInput.svelte';
@@ -7,13 +8,13 @@
 
   let processing = $state(false);
 
-  let { form, data }: PageProps = $props();
+  let { form }: PageProps = $props();
 </script>
 
 <AuthLayout>
   <Form
     title="Log in"
-    redirectTo={data.redirectTo}
+    redirectTo={page.url.search}
     message={form?.message}
     authSwitcher="/signup"
     authSwitcherText="Don't have an account?"
