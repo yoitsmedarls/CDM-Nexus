@@ -9,7 +9,7 @@
 
 <svelte:window bind:innerWidth={vw} />
 
-<Wrapper limitmaxheight setheightscreen>
+<Wrapper maxheight={88} maxwidth={88} hscreen id="hero-section">
   <Header />
   <div
     class="xs:px-2 flex grow flex-col justify-start pb-4 transition-all duration-200"
