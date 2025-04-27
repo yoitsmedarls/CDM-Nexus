@@ -1,8 +1,8 @@
 <script lang="ts">
-  import { navigating } from '$app/state';
-  import LoadingScreen from '$lib/components/global/LoadingScreen.svelte';
   import '../app.css';
   import type { Snippet } from 'svelte';
+  import { navigating } from '$app/state';
+  import LoadingScreen from '$lib/components/global/LoadingScreen.svelte';
 
   let { children }: { children: Snippet } = $props();
 </script>
