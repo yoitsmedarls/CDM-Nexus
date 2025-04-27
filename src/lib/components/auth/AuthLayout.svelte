@@ -16,14 +16,14 @@
 >
   <Backdrop />
   <Header />
-  <div
-    class="mx-auto flex w-full max-w-2xl grow flex-col justify-between bg-white px-4 max-md:gap-8 md:absolute md:z-20 md:rounded-xl md:pt-12 md:pb-4 md:drop-shadow-2xl"
-  >
-    <div class="flex grow flex-col justify-center pb-4">
-      {#if children}
+  {#if children}
+    <div
+      class="mx-auto flex w-full max-w-2xl grow flex-col justify-between bg-white px-4 max-md:gap-8 md:absolute md:z-20 md:rounded-xl md:pt-12 md:pb-4 md:drop-shadow-2xl"
+    >
+      <div class="flex grow flex-col justify-center pb-4">
         {@render children()}
-      {/if}
+      </div>
     </div>
-  </div>
+  {/if}
   <Footer />
 </div>
