@@ -139,36 +139,54 @@ body {
   --container-7xl: 80rem;
 
   /* Default Font Sizes */
-  --text-3xs: 0.5rem;
-  --text-2xs: 0.625rem;
-  --text-xs: 0.75rem;
-  --text-sm: 0.875rem;
+  --text-5xs: 0.493rem;
+  --text-4xs: 0.555rem;
+  --text-3xs: 0.624rem;
+  --text-2xs: 0.702rem;
+  --text-xs: 0.79rem;
+  --text-sm: 0.889rem;
   --text-base: 1rem;
   --text-lg: 1.125rem;
-  --text-xl: 1.25rem;
-  --text-2xl: 1.5rem;
-  --text-3xl: 1.875rem;
-  --text-4xl: 2.25rem;
-  --text-5xl: 3rem;
-  --text-6xl: 3.75rem;
-  --text-7xl: 4.5rem;
-  --text-8xl: 6rem;
-  --text-9xl: 8rem;
+  --text-xl: 1.266rem;
+  --text-2xl: 1.424rem;
+  --text-3xl: 1.602rem;
+  --text-4xl: 1.802rem;
+  --text-5xl: 2.027rem;
+  --text-6xl: 2.281rem;
+  --text-7xl: 2.566rem;
+  --text-8xl: 2.887rem;
+  --text-9xl: 3.247rem;
+  --text-10xl: 3.653rem;
+  --text-11xl: 4.11rem;
+  --text-12xl: 4.624rem;
+  --text-13xl: 5.202rem;
+  --text-14xl: 5.852rem;
+  --text-15xl: 6.584rem;
 
-  /* Line Heights for Default Font Sizes */
-  --text-xs--line-height: calc(1 / 0.75);
-  --text-sm--line-height: calc(1.25 / 0.875);
-  --text-base--line-height: calc(1.5 / 1);
-  --text-lg--line-height: calc(1.75 / 1.125);
-  --text-xl--line-height: calc(1.75 / 1.25);
-  --text-2xl--line-height: calc(2 / 1.5);
-  --text-3xl--line-height: calc(2.25 / 1.875);
-  --text-4xl--line-height: calc(2.5 / 2.25);
-  --text-5xl--line-height: 1;
-  --text-6xl--line-height: 1;
-  --text-7xl--line-height: 1;
-  --text-8xl--line-height: 1;
-  --text-9xl--line-height: 1;
+  /* Line Heights for the font sizes */
+  --text-5xs--line-height: 1.68;
+  --text-4xs--line-height: 1.65;
+  --text-3xs--line-height: 1.62;
+  --text-2xs--line-height: 1.59;
+  --text-xs--line-height: 1.56;
+  --text-sm--line-height: 1.53;
+  --text-base--line-height: 1.5;
+  --text-lg--line-height: 1.473;
+  --text-xl--line-height: 1.446;
+  --text-2xl--line-height: 1.419;
+  --text-3xl--line-height: 1.392;
+  --text-4xl--line-height: 1.365;
+  --text-5xl--line-height: 1.338;
+  --text-6xl--line-height: 1.311;
+  --text-7xl--line-height: 1.284;
+  --text-8xl--line-height: 1.257;
+  --text-9xl--line-height: 1.23;
+  --text-10xl--line-height: 1.203;
+  --text-11xl--line-height: 1.176;
+  --text-12xl--line-height: 1.149;
+  --text-13xl--line-height: 1.122;
+  --text-14xl--line-height: 1.095;
+  --text-15xl--line-height: 1.068;
 
   /* Default Font Weights */
   --font-weight-thin: 100;
