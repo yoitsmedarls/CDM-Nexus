@@ -1,16 +1,15 @@
 <script lang="ts">
-  import { navigating } from '$app/state';
-  import LoadingScreen from '$lib/components/global/LoadingScreen.svelte';
-  import { blur } from 'svelte/transition';
   import '../app.css';
+
   import type { Snippet } from 'svelte';
-  import { cubicInOut } from 'svelte/easing';
+
+  import { navigating } from '$app/state';
 
   let { children }: { children: Snippet } = $props();
 </script>
 
 {#await navigating.complete}
-  <LoadingScreen />
+  <h1>Loading</h1>
 {/await}
 
 {@render children()}
