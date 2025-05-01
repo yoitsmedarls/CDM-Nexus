@@ -76,13 +76,26 @@
     // Rest props
     ...others
   }: Button | Anchor = $props();
+
+  console.log({
+    variant,
+    href,
+    usegoto,
+    type,
+    disabled,
+    loading,
+    icon,
+    additionalStyles,
+    children,
+    others,
+  });
 </script>
 
 <svelte:element
   this={usegoto ? 'button' : href ? 'a' : 'button'}
   type={href && !usegoto ? undefined : type}
   href={href && !usegoto && !disabled ? href : undefined}
-  disabled={href && !usegoto && !loading ? undefined : disabled}
+  disabled={(disabled || loading) && !(href && usegoto) ? true : undefined}
   role={href && !usegoto ? 'link' : undefined}
   onclick={usegoto
     ? () => {
@@ -100,6 +113,7 @@
     'py-2',
     'px-3',
     'min-h-fit',
+    'min-w-fit',
     'font-poppins',
     'font-medium',
     'text-center',
@@ -111,6 +125,11 @@
     'hover:cursor-pointer',
     'disabled:cursor-not-allowed',
     'disabled:opacity-50',
+
+    // Limit the width if the button is icon only
+    icon && !children ? 'max-w-fit' : '',
+
+    variant !== 'underline' ? 'drop-shadow-xs' : '',
 
     // Specific styles for certain button types
     ['primary', 'destructive'].includes(variant)
@@ -143,7 +162,7 @@
     variant === 'secondary' ? 'not-disabled:hover:bg-gray-200' : '',
     ['outline'].includes(variant) ? 'not-disabled:hover:border-gray-200' : '',
     variant === 'destructive' ? 'not-disabled:hover:bg-red-700' : '',
-    variant === 'ghost' ? 'not-disabled:hover:bg-gray-100' : '',
+    variant === 'ghost' ? 'not-disabled:hover:bg-white' : '',
     variant === 'underline'
       ? 'not-disabled:hover:text-blue-900 not-disabled:hover:*:last:underline'
       : '',
@@ -158,7 +177,7 @@
         ]
       : '',
     variant === 'destructive' ? 'not-disabled:active:bg-red-800' : '',
-    variant === 'ghost' ? 'not-disabled:active:bg-gray-200' : '',
+    variant === 'ghost' ? 'not-disabled:active:bg-gray-100' : '',
     variant === 'underline' ? 'not-disabled:active:text-blue-950' : '',
 
     // Underline specific style
@@ -170,7 +189,9 @@
   {...others}
 >
   {#if icon || loading}
-    <Icon icon={loading ? 'progress_activity' : icon} />
+    <span class="inline-flex grow flex-row items-center justify-center">
+      <Icon icon={loading ? 'progress_activity' : icon} />
+    </span>
   {/if}
   {#if children}
     <span class="flex w-full grow flex-col justify-center">
