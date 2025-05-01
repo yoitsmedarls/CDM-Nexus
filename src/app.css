@@ -41,6 +41,7 @@ body {
   --color-blue-800: oklch(0.46 0.235 263.17);
   --color-blue-900: oklch(0.37 0.1654 261.49);
   --color-blue-950: oklch(0.29 0.1185 262.24);
+  --color-blue-max: oklch(0.25 0.0807 262.24);
 
   /* CDM Yellow: Default is 500 */
   --color-yellow-50: oklch(0.99 0.03 104.9);
