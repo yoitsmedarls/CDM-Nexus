@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Button from '$lib/components/global/Button.svelte';
+  // import Button from '$lib/components/global/Button.svelte';
 </script>
 
 <svelte:head>
@@ -15,7 +15,7 @@
 </svelte:head>
 
 <main class="bg-dotted flex grow flex-col justify-between">
-  <div id="buttons" class="flex grow flex-col gap-4 p-8">
+  <!-- <div id="buttons" class="flex grow flex-col gap-4 p-8">
     <Button href="#home">Home</Button>
     <Button popovertarget="test" variant="primary">Hello, world!</Button>
     <Button variant="secondary">Hello, world!</Button>
@@ -39,5 +39,5 @@
       variant="destructive"
       class="bg-orange-700">homez</Button
     >
-  </div>
+  </div> -->
 </main>

@@ -76,19 +76,6 @@
     // Rest props
     ...others
   }: Button | Anchor = $props();
-
-  console.log({
-    variant,
-    href,
-    usegoto,
-    type,
-    disabled,
-    loading,
-    icon,
-    additionalStyles,
-    children,
-    others,
-  });
 </script>
 
 <svelte:element
