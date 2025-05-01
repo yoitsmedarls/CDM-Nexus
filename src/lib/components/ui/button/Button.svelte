@@ -7,7 +7,7 @@
 
   import { goto } from '$app/navigation';
 
-  import Icon from '$lib/components/ui/Icon.svelte';
+  import Icon from '$lib/components/ui/icon/Icon.svelte';
 
   // Since the component can either be an anchor or button tag,
   // Two similar interfaces are created. Not that elegant but whatever.
