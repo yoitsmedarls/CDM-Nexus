@@ -20,6 +20,11 @@
   } = $props();
 </script>
 
+<!--
+ Since we have to destructure the `value` to make it `$bindable`, we need to use `as any` here to avoid
+ type errors from the discriminated union of `"single" | "multiple"`.
+ (an unfortunate consequence of having to destructure bindable values)
+  -->
 <Accordion.Root
   class="w-full rounded-md p-2"
   bind:value
