@@ -1,0 +1,62 @@
+<script lang="ts">
+  import { Accordion, type WithoutChildrenOrChild } from 'bits-ui';
+  import CaretDown from 'phosphor-svelte/lib/CaretDown';
+  import { slide } from 'svelte/transition';
+
+  type Item = {
+    value?: string;
+    title: string;
+    content: string;
+    disabled?: boolean;
+  };
+
+  let {
+    items,
+    value = $bindable(),
+    ref = $bindable(null),
+    ...restProps
+  }: WithoutChildrenOrChild<Accordion.RootProps> & {
+    items: Item[];
+  } = $props();
+</script>
+
+<!--
+ Since we have to destructure the `value` to make it `$bindable`, we need to use `as any` here to avoid
+ type errors from the discriminated union of `"single" | "multiple"`.
+ (an unfortunate consequence of having to destructure bindable values)
+  -->
+<Accordion.Root
+  class="w-full rounded-md p-2"
+  bind:value
+  bind:ref
+  {...restProps as any}
+>
+  {#each items as item, i (item.title + i)}
+    <Accordion.Item class="group border-b border-gray-200 px-2">
+      <Accordion.Header>
+        <Accordion.Trigger
+          class="font-poppins flex w-full grow cursor-pointer items-center justify-between py-3 text-left text-base font-medium text-gray-800 transition-all duration-100 hover:underline hover:underline-offset-4 active:text-blue-900 active:underline active:underline-offset-4 [&[data-state=open]>span>svg]:rotate-180"
+        >
+          {item.title}
+          <span
+            class="inline-flex size-8 items-center justify-center rounded-md bg-transparent transition-all hover:bg-gray-200"
+          >
+            <CaretDown class="size-5 transition-all duration-200" />
+          </span>
+        </Accordion.Trigger>
+      </Accordion.Header>
+      <Accordion.Content
+        forceMount={true}
+        class="font-nunito overflow-hidden text-sm"
+      >
+        {#snippet child({ props, open })}
+          {#if open}
+            <div {...props} transition:slide={{ duration: 250 }} class="pb-6">
+              {item.content}
+            </div>
+          {/if}
+        {/snippet}
+      </Accordion.Content>
+    </Accordion.Item>
+  {/each}
+</Accordion.Root>
