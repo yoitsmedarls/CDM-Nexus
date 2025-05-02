@@ -44,7 +44,7 @@
 </script>
 
 <AlertDialog.Root bind:open {...restProps}>
-  <AlertDialog.Trigger class={mainButtonStyles}>
+  <AlertDialog.Trigger class={[mainButtonStyles, 'drop-shadow-xs']}>
     {buttonText}
   </AlertDialog.Trigger>
   <AlertDialog.Portal>

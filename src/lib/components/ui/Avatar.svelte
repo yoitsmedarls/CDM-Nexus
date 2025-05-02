@@ -21,7 +21,7 @@
 <Avatar.Root
   {...restProps}
   bind:ref
-  class="size-12 rounded-full border-2 bg-gray-100 text-[17px] font-medium text-gray-800 uppercase data-[status=error]:border-red-900/50 data-[status=loaded]:border-blue-900/50 data-[status=loading]:border-transparent"
+  class="size-12 rounded-full border-2 bg-gray-100 text-[17px] font-medium text-gray-800 uppercase data-[status=error]:border-transparent data-[status=loaded]:border-blue-900/50 data-[status=loading]:border-transparent"
 >
   <div
     class="flex h-full w-full items-center justify-center overflow-hidden rounded-full border-2 border-transparent"
