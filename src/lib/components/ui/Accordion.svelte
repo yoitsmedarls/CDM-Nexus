@@ -35,7 +35,7 @@
     <Accordion.Item class="group border-b border-gray-200">
       <Accordion.Header>
         <Accordion.Trigger
-          class="font-poppins flex w-full grow cursor-pointer items-center justify-between rounded-xs px-2 py-3 text-left text-base font-medium text-gray-800 transition-all duration-100 hover:underline hover:underline-offset-4 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-500/50 active:text-blue-900 active:underline active:underline-offset-4 [&[data-state=open]]:text-blue-900 [&[data-state=open]>span>svg]:rotate-180"
+          class="font-poppins flex w-full grow cursor-pointer items-center justify-between rounded-xs px-2 py-3 text-left text-base font-medium text-gray-800 transition-all duration-100 hover:underline hover:underline-offset-4 focus-visible:underline focus-visible:outline-0 active:text-blue-900 active:underline active:underline-offset-4 [&[data-state=open]]:text-blue-900 [&[data-state=open]>span>svg]:rotate-180"
         >
           {item.title}
           <span
