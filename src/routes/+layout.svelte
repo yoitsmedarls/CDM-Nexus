@@ -9,8 +9,10 @@
 </script>
 
 <svelte:window
-  bind:innerWidth={App.viewportWidth}
-  bind:innerHeight={App.viewportHeight}
+  bind:innerWidth={App.viewport.width}
+  bind:innerHeight={App.viewport.height}
+  bind:scrollX={App.scroll.x}
+  bind:scrollY={App.scroll.y}
 />
 
 {#await navigating.complete}

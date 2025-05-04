@@ -8,7 +8,7 @@
     duration: 100,
     easing: cubicInOut,
   }}
-  class="fixed inset-0 z-50 bg-white/75"
+  class="fixed inset-0 z-1000 bg-white/75"
 >
   <div class="flex h-full w-full flex-col justify-center">
     <p class="font-poppins text-center text-2xl font-semibold text-blue-950">

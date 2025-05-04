@@ -22,7 +22,7 @@
 </script>
 
 <main
-  class="mx-auto flex w-full grow flex-col justify-start gap-4 max-md:max-w-lg max-md:gap-8 max-md:pt-4 md:px-4"
+  class="mx-auto flex w-full grow flex-col justify-start gap-4 transition-all duration-100 max-md:max-w-lg max-md:gap-8 max-md:pt-4 md:px-4"
 >
   <h1 class="font-poppins text-xl font-semibold text-gray-800 md:text-2xl">
     {title}

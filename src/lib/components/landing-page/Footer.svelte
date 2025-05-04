@@ -35,19 +35,19 @@
       {#each footerSection as section, index (section.heading)}
         <div
           class={[
-            'xs:px-2 flex grow flex-col justify-start gap-2 pb-8  transition-all duration-200',
+            'xs:px-2 flex grow flex-col justify-start gap-2 pb-8  transition-all duration-100',
             index == 0 ? 'md:col-span-2' : '',
           ]}
         >
           <h6
-            class="font-poppins 2xs:text-lg text-center text-base font-semibold text-gray-700 transition-all duration-100 sm:text-xl md:text-left lg:text-[1.375rem]"
+            class="font-poppins text-center text-base font-semibold text-gray-700 transition-all duration-100 md:text-left md:text-lg"
           >
             {section.heading}
           </h6>
           <ul class="flex flex-col">
             {#each section.options as option (option.name)}
               <li
-                class="font-nunito 2xs:text-[0.875rem] flex justify-center text-xs font-semibold text-gray-600 transition-all duration-100 hover:text-blue-900 active:text-blue-950 sm:text-base md:justify-start lg:text-lg"
+                class="font-nunito flex justify-center text-sm font-semibold text-gray-600 transition-all duration-100 hover:text-blue-900 active:text-blue-950 md:justify-start md:text-base"
               >
                 <a
                   href={option.slug}
@@ -60,12 +60,12 @@
         </div>
       {/each}
     </div>
-    <div class="xs:px-2 pt-12 transition-all duration-200">
+    <div class="xs:px-2 pt-12 transition-all duration-100">
       <p
         class="2xs:text-xs font-nunito px-4 text-right text-[0.625rem] text-gray-500 transition-all duration-100 sm:text-[0.875rem] lg:text-base"
       >
         <!-- TODO: Add automatically updating year -->
-        &copy; CDM Nexus. All rights reserved.
+        &copy; {new Date().getFullYear()} CDM Nexus. All rights reserved.
       </p>
     </div>
   </div>
