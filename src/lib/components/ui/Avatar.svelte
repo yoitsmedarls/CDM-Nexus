@@ -6,18 +6,17 @@
     alt,
     fallback,
     ref = $bindable(null),
-    imageRef = $bindable(null),
     fallbackRef = $bindable(null),
     ...restProps
   }: WithoutChildrenOrChild<Avatar.RootProps> & {
     src: string;
     alt: string;
     fallback: string;
-    imageRef?: HTMLImageElement | null;
     fallbackRef?: HTMLElement | null;
   } = $props();
 </script>
 
+<!-- TODO: Fix the mysterious actions error -->
 <Avatar.Root
   {...restProps}
   bind:ref
@@ -26,7 +25,7 @@
   <div
     class="flex h-full w-full items-center justify-center overflow-hidden rounded-full border-2 border-transparent"
   >
-    <Avatar.Image {src} {alt} bind:ref={imageRef} />
+    <Avatar.Image {src} {alt} />
     <Avatar.Fallback
       class="font-poppins text-center font-medium"
       bind:ref={fallbackRef}
