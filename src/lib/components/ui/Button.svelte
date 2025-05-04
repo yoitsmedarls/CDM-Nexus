@@ -33,8 +33,6 @@
     'flex-row',
     'justify-start',
     'gap-3',
-    'py-2',
-    'px-3',
     'min-h-fit',
     'min-w-fit',
     'font-poppins',
@@ -50,7 +48,9 @@
     'disabled:opacity-50',
 
     // Limit the width if the button is icon only
-    (icon || loading) && !children ? 'max-h-fit max-w-fit' : '',
+    (icon || loading) && !children
+      ? ['max-h-fit', 'max-w-fit', 'p-2']
+      : ['py-2', 'px-3'],
 
     variant !== 'underline' ? 'drop-shadow-xs' : '',
 
