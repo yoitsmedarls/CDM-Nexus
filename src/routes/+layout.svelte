@@ -1,14 +1,27 @@
 <script lang="ts">
-  import type { Snippet } from 'svelte';
-
   import '../app.css';
-  import { navigating } from '$app/state';
 
-  let { children }: { children: Snippet } = $props();
+  import type { Snippet } from 'svelte';
+  import { navigating } from '$app/state';
+  import { App } from '$lib/components/global/App.svelte';
+  import LoadingOverlay from '$lib/components/routes/LoadingOverlay.svelte';
+
+  let {
+    children,
+  }: {
+    children: Snippet;
+  } = $props();
 </script>
 
+<svelte:window
+  bind:innerWidth={App.viewport.width}
+  bind:innerHeight={App.viewport.height}
+  bind:scrollX={App.scroll.x}
+  bind:scrollY={App.scroll.y}
+/>
+
 {#await navigating.complete}
-  <h1>Loading...</h1>
+  <LoadingOverlay duration={100} />
 {/await}
 
 {@render children()}
