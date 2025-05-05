@@ -46,7 +46,7 @@ export const actions: Actions = {
     // Checks with the database if the user with the provided username exists.
     const existingUser = await getUserByUsername(username);
 
-    // If value is falsey, user does not exist.
+    // If value is falsy, user does not exist.
     if (!existingUser) {
       return fail(400, {
         message: 'No user found with the provided username.',
