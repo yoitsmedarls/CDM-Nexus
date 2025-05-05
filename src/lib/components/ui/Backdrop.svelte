@@ -19,6 +19,6 @@
     easing: cubicInOut,
   }}
   style={`background-image: url('${src}');`}
-  class="fixed flex h-full w-full grow flex-col bg-cover bg-scroll bg-center bg-no-repeat brightness-50 transition-all duration-100"
+  class="fixed flex h-full w-full grow flex-col bg-black/50 bg-cover bg-scroll bg-center bg-no-repeat brightness-50 transition-all duration-100"
   {...restProps}
 ></div>
