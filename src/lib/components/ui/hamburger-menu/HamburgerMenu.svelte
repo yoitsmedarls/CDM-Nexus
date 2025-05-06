@@ -12,8 +12,8 @@
   type Props = Dialog.RootProps & {
     title: string;
     description: string;
-    triggerDuration?: number;
-    menuDuration?: number;
+    triggerDuration: number;
+    menuDuration: number;
     options: {
       text: string;
       slug: string;

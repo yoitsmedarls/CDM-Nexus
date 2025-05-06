@@ -3,11 +3,11 @@
   import X from 'phosphor-svelte/lib/X';
 
   let {
-    title = 'Menu',
-    description = 'Select an option',
+    title,
+    description,
   }: {
-    title?: string | undefined;
-    description?: string | undefined;
+    title: string;
+    description: string;
   } = $props();
 </script>
 

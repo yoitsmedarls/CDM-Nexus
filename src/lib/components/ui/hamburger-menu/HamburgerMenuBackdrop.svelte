@@ -4,9 +4,9 @@
   import { fade } from 'svelte/transition';
 
   let {
-    duration = 100,
+    duration,
   }: {
-    duration?: number;
+    duration: number;
   } = $props();
 </script>
 
