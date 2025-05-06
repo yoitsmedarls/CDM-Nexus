@@ -96,7 +96,7 @@
           variant="primary"
           type="submit"
           disabled={processing}
-          class="text-sm md:text-base"
+          class={{ span: 'text-sm md:text-base' }}
         >
           Sign Up
         </Button>
@@ -114,7 +114,7 @@
       <Button
         variant="underline"
         href={`/login${page.url.searchParams.get('redirectTo') ? '?' + page.url.searchParams.get('redirectTo') : ''}`}
-        class="text-right text-xs font-normal md:text-sm"
+        class={{ span: 'text-right text-xs font-normal md:text-sm' }}
       >
         Have an account?
       </Button>
