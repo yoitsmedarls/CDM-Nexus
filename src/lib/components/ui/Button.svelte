@@ -1,15 +1,19 @@
 <script lang="ts">
   import { Button, type WithoutChildrenOrChild } from 'bits-ui';
   import type { Snippet } from 'svelte';
+  import type { ClassValue } from 'svelte/elements';
 
   let {
-    class: additionalStyles = '',
+    class: additionalStyles,
     variant = 'outline',
     children,
     icon,
     ...restProps
   }: WithoutChildrenOrChild<Button.RootProps> & {
-    class?: string | undefined;
+    class?: {
+      button?: ClassValue | undefined;
+      span?: ClassValue | undefined;
+    };
     variant?:
       | 'primary'
       | 'secondary'
@@ -105,6 +109,9 @@
 
     // Underline specific style
     variant === 'underline' ? 'underline-offset-3' : '',
+
+    // Additional styles
+    additionalStyles?.button,
   ]}
   {...restProps}
 >
@@ -115,7 +122,10 @@
   {/if}
   {#if children}
     <span
-      class={['flex w-full grow flex-col justify-center', additionalStyles]}
+      class={[
+        'flex w-full grow flex-col justify-center',
+        additionalStyles?.span,
+      ]}
     >
       {@render children()}
     </span>
