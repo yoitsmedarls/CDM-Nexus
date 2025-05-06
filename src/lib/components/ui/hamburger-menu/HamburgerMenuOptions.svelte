@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { goto } from '$app/navigation';
   import { Dialog, Separator } from 'bits-ui';
 
   let {
