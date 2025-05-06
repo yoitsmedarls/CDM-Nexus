@@ -46,7 +46,7 @@
 
     // Limit the width if the button is icon only
     icon && !children
-      ? ['max-h-fit', 'max-w-fit', 'p-2']
+      ? ['max-h-fit', 'max-w-fit', 'p-1']
       : variant !== 'underline'
         ? ['py-2', 'px-3', 'whitespace-nowrap']
         : '',
