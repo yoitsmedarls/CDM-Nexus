@@ -1,10 +1,15 @@
 <script lang="ts">
+  import type { ClassValue } from 'svelte/elements';
+
   let {
-    cdmProps,
-    nexusProps,
+    class: additionalStyles,
   }: {
-    cdmProps?: string | undefined;
-    nexusProps?: string | undefined;
+    class?:
+      | {
+          cdm?: ClassValue | undefined;
+          nexus?: ClassValue | undefined;
+        }
+      | undefined;
   } = $props();
 </script>
 
@@ -15,13 +20,13 @@
   <h1
     class={[
       'font-poppins w-fit font-semibold text-gray-800 transition-all duration-100',
-      nexusProps,
+      additionalStyles?.nexus,
     ]}
   >
     <span
       class={[
         'bg-linear-100 from-blue-900/100 from-20% via-yellow-500/80 via-55% to-red-600/100 to-90% bg-clip-text font-extrabold text-[#00000010]',
-        cdmProps,
+        additionalStyles?.cdm,
       ]}
     >
       CDM

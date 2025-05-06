@@ -3,13 +3,13 @@
   import type { Snippet } from 'svelte';
 
   let {
-    additionalStyles = '',
+    class: additionalStyles = '',
     variant = 'outline',
     children,
     icon,
     ...restProps
   }: WithoutChildrenOrChild<Button.RootProps> & {
-    additionalStyles?: string | undefined;
+    class?: string | undefined;
     variant?:
       | 'primary'
       | 'secondary'
@@ -24,7 +24,6 @@
 </script>
 
 <Button.Root
-  {...restProps}
   class={[
     // Base styles
     'inline-flex',
@@ -107,6 +106,7 @@
     // Underline specific style
     variant === 'underline' ? 'underline-offset-3' : '',
   ]}
+  {...restProps}
 >
   {#if icon}
     <span class="inline-flex grow flex-row items-center justify-center">

@@ -35,8 +35,11 @@
   {/if}
   <AuthHeader>
     <Logo
-      cdmProps="md:font-bold md:text-white"
-      nexusProps="text-center text-base md:text-lg md:font-bold md:text-white md:opacity-35"
+      class={{
+        cdm: 'md:font-bold md:text-white',
+        nexus:
+          'text-center text-base md:text-lg md:font-bold md:text-white md:opacity-35',
+      }}
     />
   </AuthHeader>
   <AuthWindow title="Log in">
@@ -75,7 +78,7 @@
           variant="primary"
           type="submit"
           disabled={processing}
-          additionalStyles="text-sm md:text-base"
+          class="text-sm md:text-base"
         >
           Log in
         </Button>
@@ -93,7 +96,7 @@
       <Button
         variant="underline"
         href={`/signup${page.url.searchParams.get('redirectTo') ? '?' + page.url.searchParams.get('redirectTo') : ''}`}
-        additionalStyles="text-right text-xs font-normal md:text-sm"
+        class="text-right text-xs font-normal md:text-sm"
       >
         Don't have an account?
       </Button>
@@ -101,7 +104,7 @@
   </AuthWindow>
   <AuthFooter>
     <Copyright
-      additionalStyles="text-3xs md:text-2xs text-center md:text-white md:opacity-30"
+      class="text-3xs md:text-2xs text-center md:text-white md:opacity-30"
     />
   </AuthFooter>
 </div>

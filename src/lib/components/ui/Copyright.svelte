@@ -3,10 +3,10 @@
   import type { SvelteHTMLElements } from 'svelte/elements';
 
   let {
-    additionalStyles,
+    class: additionalStyles,
     ...restProps
   }: {
-    additionalStyles?: string | undefined;
+    class?: string | undefined;
   } & SvelteHTMLElements['p'] = $props();
 </script>
 
