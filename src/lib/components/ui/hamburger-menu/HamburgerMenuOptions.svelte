@@ -12,7 +12,7 @@
   } = $props();
 </script>
 
-<div class="flex h-full grow flex-col overflow-y-auto px-2 py-2 pb-4">
+<div class="flex h-full grow flex-col overflow-y-auto px-2 py-2">
   {#each options as option, i (option.slug)}
     <Dialog.Close>
       <a

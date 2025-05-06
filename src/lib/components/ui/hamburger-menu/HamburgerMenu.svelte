@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Dialog, Separator, type WithoutChildrenOrChild } from 'bits-ui';
+  import { Dialog, type WithoutChild } from 'bits-ui';
 
   import { fly } from 'svelte/transition';
   import { cubicInOut } from 'svelte/easing';
@@ -18,7 +18,7 @@
       text: string;
       slug: string;
     }[];
-    contentProps?: WithoutChildrenOrChild<Dialog.ContentProps>;
+    contentProps?: WithoutChild<Dialog.ContentProps>;
   };
 
   let {
@@ -29,6 +29,7 @@
     menuDuration = 100,
     options,
     contentProps,
+    children,
     ...restProps
   }: Props = $props();
 </script>
@@ -38,7 +39,7 @@
   <Dialog.Portal>
     <HamburgerMenuBackdrop duration={menuDuration} />
     <Dialog.Content
-      class="fixed bottom-0 left-[50%] z-60 flex h-auto max-h-3/4 min-h-1/2 w-[calc(100%-1rem)] max-w-lg translate-x-[-50%] flex-col justify-start rounded-t-lg bg-white outline-hidden drop-shadow-md"
+      class="fixed bottom-0 left-[50%] z-60 flex h-auto max-h-3/4 min-h-1/2 w-[calc(100%-1rem)] max-w-lg translate-x-[-50%] flex-col justify-between rounded-t-lg bg-white outline-hidden drop-shadow-md"
       forceMount
       {...contentProps}
     >
@@ -54,6 +55,7 @@
           >
             <HamburgerMenuHeader {title} {description} />
             <HamburgerMenuOptions {options} />
+            {@render children?.()}
           </div>
         {/if}
       {/snippet}
