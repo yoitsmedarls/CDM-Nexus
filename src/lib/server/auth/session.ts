@@ -82,6 +82,7 @@ export function setSessionTokenCookie(
   expiresAt: Date
 ): void {
   event.cookies.set(sessionCookieName, token, {
+    secure: false,
     httpOnly: true,
     sameSite: 'lax',
     expires: expiresAt,
@@ -91,6 +92,7 @@ export function setSessionTokenCookie(
 
 export function deleteSessionTokenCookie(event: RequestEvent): void {
   event.cookies.delete(sessionCookieName, {
+    secure: false,
     httpOnly: true,
     sameSite: 'lax',
     path: '/',
