@@ -10,7 +10,7 @@
   } = $props();
 </script>
 
-<Dialog.Overlay class="fixed inset-0 z-50 bg-black/50" forceMount>
+<Dialog.Overlay class="fixed inset-0 z-90 bg-black/50" forceMount>
   {#snippet child({ props, open })}
     {#if open}
       <div
