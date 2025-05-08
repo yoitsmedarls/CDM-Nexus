@@ -15,7 +15,7 @@
 
 <a
   href="/"
-  class="transition-transform duration-100 focus-visible:scale-[1.02] focus-visible:outline-0 focus-visible:drop-shadow-xs"
+  class="whitespace-nowrap transition-transform duration-100 focus-visible:scale-[1.02] focus-visible:outline-0 focus-visible:drop-shadow-xs"
 >
   <h1
     class={[
