@@ -1,6 +1,9 @@
 <script lang="ts">
   import { NavigationMenu } from 'bits-ui';
+
   import type { Snippet } from 'svelte';
+  import { cubicInOut } from 'svelte/easing';
+  import { fade } from 'svelte/transition';
 
   let {
     menuDuration = 100,
@@ -11,12 +14,19 @@
   } = $props();
 </script>
 
-<NavigationMenu.Root
-  class="flex h-fit w-full grow flex-row justify-end align-middle"
+<div
+  in:fade={{
+    duration: menuDuration,
+    easing: cubicInOut,
+  }}
 >
-  <NavigationMenu.List
-    class="flex h-full list-none flex-row items-center justify-center gap-2 px-2"
+  <NavigationMenu.Root
+    class="flex h-fit w-full grow flex-row justify-end align-middle"
   >
-    {@render children()}
-  </NavigationMenu.List>
-</NavigationMenu.Root>
+    <NavigationMenu.List
+      class="flex h-full list-none flex-row items-center justify-center gap-2 px-2"
+    >
+      {@render children()}
+    </NavigationMenu.List>
+  </NavigationMenu.Root>
+</div>
