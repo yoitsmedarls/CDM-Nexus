@@ -24,7 +24,7 @@
   <p
     class="font-poppins flex items-center justify-center gap-4 text-center text-2xl font-semibold text-blue-900"
   >
-    <CircleNotch class="size-8 animate-spin" />
+    <CircleNotch class="size-8 animate-spin" weight="bold" />
     <span> Loading... </span>
   </p>
 </div>
