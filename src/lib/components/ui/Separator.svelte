@@ -11,7 +11,7 @@
   class={[
     restProps.orientation === 'horizontal'
       ? 'my-1 h-px w-full'
-      : 'mx-1 h-full w-px',
+      : 'mx-2 h-full w-px',
     additionalStyles,
   ]}
   {...restProps}
