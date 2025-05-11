@@ -50,7 +50,10 @@
 <main class="bg-dotted flex grow flex-col justify-between">
   <LandingSection
     id="hero-section"
-    class="max-h-[88rem] min-h-svh max-w-[88rem]"
+    class={{
+      section: 'h-svh max-h-[64rem]',
+      div: 'max-w-[88rem]',
+    }}
   >
     <LandingHeader>
       <Logo class={{ nexus: 'pl-1 text-lg md:pl-2 md:text-xl' }} />
