@@ -13,6 +13,14 @@
   import NavigationMenuItem from '$lib/components/ui/navigation-menu/NavigationMenuItem.svelte';
   import Separator from '$lib/components/ui/Separator.svelte';
   import Avatar from '$lib/components/ui/Avatar.svelte';
+  import HeroBackdrop from '$lib/components/routes/landing/hero/HeroBackdrop.svelte';
+  import Hero from '$lib/components/routes/landing/hero/Hero.svelte';
+  import HeroText from '$lib/components/routes/landing/hero/HeroText.svelte';
+  import ScrollToTop from '$lib/components/ui/ScrollToTop.svelte';
+  import HeroImageLeft from '$lib/components/routes/landing/hero/HeroImageLeft.svelte';
+  import HeroImageMain from '$lib/components/routes/landing/hero/HeroImageMain.svelte';
+  import HeroImageRight from '$lib/components/routes/landing/hero/HeroImageRight.svelte';
+  import HeroActionButton from '$lib/components/routes/landing/hero/HeroActionButton.svelte';
 
   let options: {
     text: string;
@@ -135,6 +143,46 @@
         </NavigationMenu>
       {/if}
     </LandingHeader>
+    <Hero>
+      <HeroBackdrop>
+        {#if App.viewport.width > App.breakpoints.xs}
+          <HeroImageLeft
+            src="https://picsum.photos/seed/c/1440?blur=8"
+            duration={500}
+          />
+          <HeroImageMain
+            src="https://picsum.photos/seed/d/1440"
+            duration={500}
+          />
+          <HeroImageRight
+            src="https://picsum.photos/seed/m/1440?blur=8"
+            duration={500}
+          />
+        {:else}
+          <HeroImageMain
+            src="https://picsum.photos/seed/d/1440"
+            duration={500}
+          />
+        {/if}
+      </HeroBackdrop>
+      <HeroText>
+        {#snippet mainText()}
+          <span class="bg-white whitespace-break-spaces text-gray-800">
+            Mathematics, <br />Made Easy.&nbsp;
+          </span>
+        {/snippet}
+        {#snippet subText()}
+          <span class="bg-white whitespace-break-spaces text-gray-800">
+            Learn The Essentials <br />From
+            <strong class="text-blue-950">Students</strong>
+            Like You!&nbsp;
+          </span>
+        {/snippet}
+        {#snippet actionButton()}
+          <HeroActionButton href="/home">Start Now</HeroActionButton>
+        {/snippet}
+      </HeroText>
+    </Hero>
   </LandingSection>
 </main>
 
