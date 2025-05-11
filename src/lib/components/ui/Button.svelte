@@ -44,6 +44,7 @@
     'overflow-clip',
     'transition-colors',
     'duration-100',
+    'select-none',
     'hover:cursor-pointer',
     'disabled:cursor-not-allowed',
     'disabled:opacity-50',

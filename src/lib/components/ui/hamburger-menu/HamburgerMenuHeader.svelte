@@ -15,7 +15,9 @@
   class="flex w-full flex-col justify-start border-b-1 border-gray-100 px-2 pt-4 pb-1"
 >
   <div class="flex w-full flex-row items-center justify-between align-middle">
-    <Dialog.Title class="font-poppins pl-1 text-xl font-medium text-gray-800">
+    <Dialog.Title
+      class="font-poppins pl-1 text-xl font-medium text-gray-800 select-none"
+    >
       {title}
     </Dialog.Title>
     <Dialog.Close
@@ -25,7 +27,9 @@
     </Dialog.Close>
   </div>
   <div class="flex w-full flex-row items-center justify-start align-middle">
-    <Dialog.Description class="font-nunito text-2xs pl-1 text-gray-800/50">
+    <Dialog.Description
+      class="font-nunito text-2xs pl-1 text-gray-800/50 select-none"
+    >
       {description}
     </Dialog.Description>
   </div>
