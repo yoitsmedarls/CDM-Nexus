@@ -42,7 +42,7 @@
       }}
     />
   </AuthHeader>
-  <AuthWindow title="Log in">
+  <AuthWindow title="Log in" duration={200}>
     <form
       class="flex flex-col gap-2"
       method="post"

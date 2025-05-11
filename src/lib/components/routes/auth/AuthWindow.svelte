@@ -1,18 +1,22 @@
 <script lang="ts">
   import type { Snippet } from 'svelte';
   import type { SvelteHTMLElements } from 'svelte/elements';
+  import { fade } from 'svelte/transition';
 
   let {
     title,
+    duration = 100,
     children,
     ...restProps
   }: {
     title: string;
+    duration?: number;
     children: Snippet;
   } & SvelteHTMLElements['main'] = $props();
 </script>
 
 <main
+  in:fade={{ duration: duration }}
   class="mx-auto flex w-full max-w-2xl grow flex-col justify-start gap-4 bg-transparent px-4 pt-8 pb-6 transition-all duration-100 max-md:max-w-lg md:absolute md:z-20 md:rounded-xl md:bg-white md:px-6 md:pt-10 md:drop-shadow-2xl"
   {...restProps}
 >
