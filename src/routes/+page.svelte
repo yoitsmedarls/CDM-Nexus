@@ -55,8 +55,12 @@
       div: 'max-w-[88rem]',
     }}
   >
-    <LandingHeader>
-      <Logo class={{ nexus: 'pl-1 text-lg md:pl-2 md:text-xl' }} />
+    <LandingHeader
+      duration={100}
+      scrollValue={App.scroll.y}
+      scrollTrigger={250}
+    >
+      <Logo class={{ nexus: 'pl-1 text-lg md:pl-2 md:text-2xl' }} />
       {#if App.viewport.width < App.breakpoints.md}
         <HamburgerMenu
           title="Menu"
@@ -133,3 +137,7 @@
     </LandingHeader>
   </LandingSection>
 </main>
+
+{#if App.scroll.y > App.viewport.height}
+  <ScrollToTop duration={100} onclick={() => (App.scroll.y = 0)} />
+{/if}
