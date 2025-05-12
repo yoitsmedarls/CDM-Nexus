@@ -90,7 +90,7 @@
                 variant="primary"
                 href={data.user.role === 'student'
                   ? '/profile'
-                  : `/${data.user.role}`}
+                  : `/${data.user.role}/dashboard`}
                 class={{ button: 'w-full', span: 'text-sm' }}
               >
                 Go to account
@@ -124,7 +124,12 @@
             decorative
           />
           {#if data.user}
-            <Avatar user={data.user} />
+            <Avatar
+              href={data.user.role === 'student'
+                ? '/profile'
+                : `/${data.user.role}/dashboard`}
+              userRole={data.user.role}
+            />
           {:else}
             <NavigationMenuItem
               option={{
