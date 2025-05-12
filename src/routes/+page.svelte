@@ -66,7 +66,7 @@
     <LandingHeader
       duration={100}
       scrollValue={App.scroll.y}
-      scrollTrigger={250}
+      scrollTrigger={100}
     >
       <Logo class={{ nexus: 'pl-1 text-lg md:pl-2 md:text-2xl' }} />
       {#if App.viewport.width < App.breakpoints.md}
@@ -191,6 +191,6 @@
   </LandingSection>
 </main>
 
-{#if App.scroll.y > App.viewport.height}
+{#if App.scroll.y > App.viewport.height / 2}
   <ScrollToTop duration={100} onclick={() => (App.scroll.y = 0)} />
 {/if}
