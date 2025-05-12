@@ -64,7 +64,7 @@
     }}
   >
     <LandingHeader
-      duration={100}
+      duration={200}
       scrollValue={App.scroll.y}
       scrollTrigger={100}
     >
