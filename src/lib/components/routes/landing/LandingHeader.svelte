@@ -31,7 +31,6 @@
     </div>
   </div>
 {/if}
-
 <div
   class="flex h-14 w-full flex-row items-center justify-between gap-2 bg-transparent px-3 transition-all duration-100 md:h-16"
   {...restProps}
