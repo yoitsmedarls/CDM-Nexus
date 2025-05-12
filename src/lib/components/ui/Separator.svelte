@@ -9,6 +9,7 @@
 
 <Separator.Root
   class={[
+    'block shrink-0',
     restProps.orientation === 'horizontal'
       ? 'my-1 h-px w-full'
       : 'mx-2 h-full w-px',
