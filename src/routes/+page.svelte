@@ -150,7 +150,12 @@
     </LandingHeader>
     <Hero>
       <HeroBackdrop>
-        {#if App.viewport.width > App.breakpoints.xs}
+        {#if App.viewport.width < App.breakpoints.xs}
+          <HeroImageMain
+            src="https://picsum.photos/seed/d/1440"
+            duration={500}
+          />
+        {:else}
           <HeroImageLeft
             src="https://picsum.photos/seed/c/1440?blur=8"
             duration={500}
@@ -161,11 +166,6 @@
           />
           <HeroImageRight
             src="https://picsum.photos/seed/m/1440?blur=8"
-            duration={500}
-          />
-        {:else}
-          <HeroImageMain
-            src="https://picsum.photos/seed/d/1440"
             duration={500}
           />
         {/if}
