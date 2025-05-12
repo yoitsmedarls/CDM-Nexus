@@ -115,7 +115,7 @@
         </HamburgerMenu>
       {:else}
         <NavigationMenu menuDuration={200}>
-          {#each options as option}
+          {#each options as option (option.slug)}
             <NavigationMenuItem {option} />
           {/each}
           <Separator
