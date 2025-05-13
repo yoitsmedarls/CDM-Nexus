@@ -20,7 +20,7 @@
 
 {#if scrollValue > scrollTrigger}
   <div
-    transition:fade={{ duration: duration }}
+    transition:fade={{ delay: duration, duration: duration }}
     class="fixed top-0 right-0 left-0 z-50 flex h-14 w-full flex-row justify-center bg-white drop-shadow-sm transition-all duration-100 md:h-16"
   >
     <div
