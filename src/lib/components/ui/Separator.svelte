@@ -11,8 +11,8 @@
   class={[
     'block shrink-0',
     restProps.orientation === 'horizontal'
-      ? 'my-1 h-px w-full'
-      : 'mx-2 h-full w-px',
+      ? 'my-1 h-px max-h-px min-h-px w-full max-w-full min-w-full'
+      : 'mx-2 h-full max-h-full min-h-full w-px max-w-px min-w-px',
     additionalStyles,
   ]}
   {...restProps}
