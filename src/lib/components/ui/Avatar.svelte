@@ -14,7 +14,7 @@
 
 <a
   class={[
-    'avatar mx-2 flex size-9 items-center justify-center overflow-hidden rounded-full text-center align-middle outline-2 outline-offset-2 transition-all duration-100 hover:cursor-pointer active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50',
+    'avatar mx-2 flex max-h-9 min-h-9 max-w-9 min-w-9 shrink-0 items-center justify-center overflow-hidden rounded-full text-center align-middle outline-2 outline-offset-2 transition-all duration-100 hover:cursor-pointer active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50',
     userRole === 'admin'
       ? 'bg-yellow-500/10 text-yellow-900 outline-yellow-500/50 hover:outline-yellow-500 active:bg-yellow-600 active:text-white active:outline-yellow-600'
       : '',
