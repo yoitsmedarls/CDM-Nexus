@@ -127,7 +127,7 @@
             <Avatar
               href={data.user.role === 'student'
                 ? '/profile'
-                : `/${data.user.role}/dashboard`}
+                : `/${data.user.role}/account`}
               userRole={data.user.role}
             />
           {:else}
@@ -188,6 +188,24 @@
         {/snippet}
       </HeroText>
     </Hero>
+  </LandingSection>
+  <LandingSection
+    id="test-section1"
+    class={{
+      section: 'h-svh max-h-[64rem]',
+      div: 'max-w-[88rem]',
+    }}
+  >
+    <h1>Test</h1>
+  </LandingSection>
+  <LandingSection
+    id="test-section2"
+    class={{
+      section: 'h-svh max-h-[64rem]',
+      div: 'max-w-[88rem]',
+    }}
+  >
+    <h1>Test</h1>
   </LandingSection>
 </main>
 
