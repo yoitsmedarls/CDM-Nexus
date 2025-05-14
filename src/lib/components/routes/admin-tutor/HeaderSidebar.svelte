@@ -50,7 +50,7 @@
     class="sticky top-0 bottom-0 left-0 flex h-svh w-max flex-col p-2"
   >
     <div
-      class="flex grow flex-col justify-between gap-4 rounded-md border border-gray-200 bg-white px-3 pt-6 pb-4 drop-shadow-xs transition-all duration-100"
+      class="flex grow flex-col justify-between gap-4 overflow-y-auto rounded-md border border-gray-200 bg-white px-3 pt-6 pb-4 drop-shadow-xs transition-all duration-100"
     >
       {@render children()}
     </div>
