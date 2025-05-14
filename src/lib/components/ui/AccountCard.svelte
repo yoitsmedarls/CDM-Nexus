@@ -1,10 +1,11 @@
 <script lang="ts">
-  import type { Snippet } from 'svelte';
   import type { HTMLButtonAttributes } from 'svelte/elements';
+  import type { SelectUser } from '$lib/server/db/schema';
+
+  import { goto } from '$app/navigation';
+
   import Separator from '$lib/components/ui/Separator.svelte';
   import Avatar from '$lib/components/ui/Avatar.svelte';
-  import type { SelectUser } from '$lib/server/db/schema';
-  import { goto } from '$app/navigation';
 
   let {
     user,
@@ -23,13 +24,13 @@
   onclick={() => {
     goto(`/${user.role}/account`);
   }}
-  class="flex flex-row overflow-clip rounded-md border border-gray-200 bg-white px-1.5 py-1 outline-2 outline-offset-2 outline-transparent drop-shadow-xs transition-all duration-100 hover:drop-shadow-sm focus-visible:outline-gray-800/25 active:scale-[0.99] active:border-gray-300 active:bg-gray-50 active:drop-shadow-xs"
+  class="flex flex-row overflow-clip rounded-md border border-gray-100 bg-white px-1.5 py-1 outline-2 outline-offset-2 outline-transparent drop-shadow-xs transition-all duration-100 hover:drop-shadow-sm focus-visible:outline-gray-800/25 active:scale-[0.99] active:border-gray-200 active:bg-gray-50 active:drop-shadow-xs"
   {...restProps}
 >
   <div
     class="flex size-14 shrink-0 flex-col items-center justify-center align-middle"
   >
-    <Avatar aria-disabled userRole={user.role} />
+    <Avatar userRole={user.role} />
   </div>
   <Separator
     class="scale-y-75 bg-yellow-950/25"
