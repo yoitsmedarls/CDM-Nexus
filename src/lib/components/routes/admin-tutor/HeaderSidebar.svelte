@@ -37,6 +37,7 @@
     </div>
   {/if}
   <div
+    in:fade={{ duration: duration }}
     class="flex h-14 w-full flex-row items-center justify-between gap-2 bg-transparent px-3 transition-all duration-100 md:h-16"
     {...restProps}
   >
@@ -46,7 +47,7 @@
   </div>
 {:else}
   <div
-    transition:fade={{ duration: duration }}
+    in:fade={{ duration: duration }}
     class="sticky top-0 bottom-0 left-0 flex h-svh w-max flex-col p-2"
   >
     <div
