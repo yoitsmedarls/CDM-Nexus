@@ -15,8 +15,6 @@
   import NavigationMenuDropdown from '$lib/components/ui/navigation-menu/NavigationMenuDropdown.svelte';
   import ScrollToTop from '$lib/components/ui/ScrollToTop.svelte';
   import SidebarOption from '$lib/components/ui/sidebar/SidebarOption.svelte';
-  import Avatar from '$lib/components/ui/Avatar.svelte';
-  import { goto } from '$app/navigation';
 
   let options: {
     text: string;
