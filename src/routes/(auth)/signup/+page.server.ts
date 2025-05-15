@@ -1,17 +1,18 @@
 import type { Actions } from './$types';
 import { fail, redirect } from '@sveltejs/kit';
-
 import {
+  createSession,
   createUser,
+  generateSessionToken,
+  generateUserId,
   getUserByCdmEmail,
   getUserByUsername,
+  setSessionTokenCookie,
   verifyCDMEmailInput,
   verifyFullNameInput,
+  verifyPasswordStrength,
   verifyUsernameInput,
-} from '$lib/server/auth/user';
-import { verifyPasswordStrength } from '$lib/server/auth/password';
-import { generateSessionToken, generateUserId } from '$lib/server/auth/utils';
-import { createSession, setSessionTokenCookie } from '$lib/server/auth/session';
+} from '$lib/server/auth';
 
 export const actions: Actions = {
   default: async (event) => {
