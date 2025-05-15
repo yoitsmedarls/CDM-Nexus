@@ -47,12 +47,6 @@ export async function createUser(
   return user;
 }
 
-export async function deleteUser(
-  username: SelectUser['username']
-): Promise<void> {
-  await db.delete(users).where(eq(users.username, username));
-}
-
 export async function getUserByUsername(
   username: SelectUser['username']
 ): Promise<Omit<SelectUser, 'recoveryCode'> | false> {
@@ -75,17 +69,6 @@ export async function getUserByUsername(
 
   return user;
 }
-
-export async function updateUserUsername(
-  oldUsername: SelectUser['username'],
-  newUsername: SelectUser['username']
-): Promise<void> {
-  await db
-    .update(users)
-    .set({ username: newUsername })
-    .where(eq(users.username, oldUsername));
-}
-
 export async function getUserByCdmEmail(
   cdmEmail: SelectUser['cdmEmail']
 ): Promise<Omit<SelectUser, 'recoveryCode'> | false> {
@@ -107,6 +90,74 @@ export async function getUserByCdmEmail(
   }
 
   return user;
+}
+export async function getUsersByRole(
+  role: SelectUser['role']
+): Promise<Omit<SelectUser, 'recoveryCode'>[] | false> {
+  const filteredUsers: Omit<SelectUser, 'recoveryCode'>[] = await db
+    .select({
+      id: users.id,
+      username: users.username,
+      fullName: users.fullName,
+      cdmEmail: users.cdmEmail,
+      role: users.role,
+      passwordHash: users.passwordHash,
+      dateJoined: users.dateJoined,
+    })
+    .from(users)
+    .where(eq(users.role, role));
+
+  if (!filteredUsers) {
+    return false;
+  }
+
+  return filteredUsers;
+}
+export async function getUserPasswordHash(
+  username: SelectUser['username']
+): Promise<SelectUser['passwordHash'] | false> {
+  const [user]: {
+    passwordHash: SelectUser['passwordHash'];
+  }[] = await db
+    .select({
+      passwordHash: users.passwordHash,
+    })
+    .from(users)
+    .where(eq(users.username, username));
+
+  if (!user) {
+    return false;
+  }
+
+  return user.passwordHash;
+}
+export async function getUserRecoveryCode(
+  username: SelectUser['username']
+): Promise<SelectUser['recoveryCode'] | false> {
+  const [user]: {
+    recoveryCode: SelectUser['recoveryCode'];
+  }[] = await db
+    .select({
+      recoveryCode: users.recoveryCode,
+    })
+    .from(users)
+    .where(eq(users.username, username));
+
+  if (!user) {
+    return false;
+  }
+
+  return user.recoveryCode;
+}
+
+export async function updateUserUsername(
+  oldUsername: SelectUser['username'],
+  newUsername: SelectUser['username']
+): Promise<void> {
+  await db
+    .update(users)
+    .set({ username: newUsername })
+    .where(eq(users.username, oldUsername));
 }
 
 export async function updateUserFullName(
@@ -142,44 +193,6 @@ export async function updateUserPassword(
     .where(eq(users.username, username));
 }
 
-export async function getUserPasswordHash(
-  username: SelectUser['username']
-): Promise<SelectUser['passwordHash'] | false> {
-  const [user]: {
-    passwordHash: SelectUser['passwordHash'];
-  }[] = await db
-    .select({
-      passwordHash: users.passwordHash,
-    })
-    .from(users)
-    .where(eq(users.username, username));
-
-  if (!user) {
-    return false;
-  }
-
-  return user.passwordHash;
-}
-
-export async function getUserRecoveryCode(
-  username: SelectUser['username']
-): Promise<SelectUser['recoveryCode'] | false> {
-  const [user]: {
-    recoveryCode: SelectUser['recoveryCode'];
-  }[] = await db
-    .select({
-      recoveryCode: users.recoveryCode,
-    })
-    .from(users)
-    .where(eq(users.username, username));
-
-  if (!user) {
-    return false;
-  }
-
-  return user.recoveryCode;
-}
-
 export async function resetUserRecoveryCode(
   username: SelectUser['username']
 ): Promise<SelectUser['recoveryCode']> {
@@ -191,4 +204,10 @@ export async function resetUserRecoveryCode(
     .where(eq(users.username, username));
 
   return recoveryCode;
+}
+
+export async function deleteUser(
+  username: SelectUser['username']
+): Promise<void> {
+  await db.delete(users).where(eq(users.username, username));
 }
