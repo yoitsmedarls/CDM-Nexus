@@ -1,13 +1,13 @@
 import { encodeHexLowerCase } from '@oslojs/encoding';
 import { sha256 } from '@oslojs/crypto/sha2';
-import { db } from '../db';
-import { DAY_IN_MS, generateRandomOTP } from './utils';
+import { db } from '$lib/server/db';
+import { DAY_IN_MS, generateRandomOTP } from '$lib/server/auth/utils';
 import {
   passwordResetSessions,
   users,
   type SelectPasswordResetSession,
   type SelectUser,
-} from '../db/schema';
+} from '$lib/server/db/schema';
 import { eq } from 'drizzle-orm';
 import type { RequestEvent } from '@sveltejs/kit';
 

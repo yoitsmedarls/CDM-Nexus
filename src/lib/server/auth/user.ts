@@ -1,8 +1,8 @@
 import { eq } from 'drizzle-orm';
-import { db } from '../db';
-import { users, type SelectUser } from '../db/schema';
-import { hashPassword } from './password';
-import { generateRandomRecoveryCode } from './utils';
+import { db } from '$lib/server/db';
+import { users, type SelectUser } from '$lib/server/db/schema';
+import { hashPassword } from '$lib/server/auth/password';
+import { generateRandomRecoveryCode } from '$lib/server/auth/utils';
 
 export function verifyFullNameInput(fullName: SelectUser['fullName']): boolean {
   return (

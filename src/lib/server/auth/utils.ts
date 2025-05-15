@@ -4,7 +4,7 @@ import {
   encodeBase32UpperCaseNoPadding,
 } from '@oslojs/encoding';
 import { type RequestEvent } from '@sveltejs/kit';
-import type { SelectUser } from '../db/schema';
+import type { SelectUser } from '$lib/server/db/schema';
 
 export const DAY_IN_MS = 1000 * 60 * 60 * 24;
 
