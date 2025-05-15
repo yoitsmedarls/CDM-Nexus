@@ -1,12 +1,13 @@
-import {
-  deleteSessionTokenCookie,
-  sessionCookieName,
-  setSessionTokenCookie,
-  validateSessionToken,
-} from '$lib/server/auth/session';
-import { loginRedirect, roleBasedRedirect } from '$lib/server/auth/utils';
 import { redirect, type Handle } from '@sveltejs/kit';
 import { sequence } from '@sveltejs/kit/hooks';
+import {
+  sessionCookieName,
+  validateSessionToken,
+  setSessionTokenCookie,
+  deleteSessionTokenCookie,
+  loginRedirect,
+  roleBasedRedirect,
+} from '$lib/server/auth';
 
 // Readonly variables for protected and auth routes.
 const protectedRoutes: ReadonlyArray<{
