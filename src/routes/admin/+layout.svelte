@@ -160,7 +160,7 @@
       </div>
     {/if}
   </HeaderSidebar>
-  <div class="flex grow flex-col p-2">
+  <div class="flex grow flex-col overflow-y-auto py-2 pr-2 pl-1">
     {@render children()}
   </div>
 </div>
