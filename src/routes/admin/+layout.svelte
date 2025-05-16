@@ -49,7 +49,7 @@
   let { data, children }: LayoutProps = $props();
 </script>
 
-<div class="flex grow flex-col xl:flex-row">
+<div class="flex grow flex-col xl:flex-row xl:bg-gray-50">
   <HeaderSidebar
     duration={200}
     scrollValue={App.scroll.y}
@@ -160,7 +160,7 @@
       </div>
     {/if}
   </HeaderSidebar>
-  <div class="flex grow flex-col overflow-y-auto py-2 pr-2 pl-1">
+  <div class="flex grow flex-col xl:py-2 xl:pr-2 xl:pl-1">
     {@render children()}
   </div>
 </div>
