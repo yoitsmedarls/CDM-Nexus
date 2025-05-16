@@ -93,7 +93,7 @@ export async function getUserByCdmEmail(
 }
 export async function getUsersByRole(
   role: SelectUser['role']
-): Promise<Omit<SelectUser, 'recoveryCode'>[] | false> {
+): Promise<Omit<SelectUser, 'recoveryCode'>[]> {
   const filteredUsers: Omit<SelectUser, 'recoveryCode'>[] = await db
     .select({
       id: users.id,
@@ -107,12 +107,9 @@ export async function getUsersByRole(
     .from(users)
     .where(eq(users.role, role));
 
-  if (!filteredUsers) {
-    return false;
-  }
-
   return filteredUsers;
 }
+
 export async function getUserPasswordHash(
   username: SelectUser['username']
 ): Promise<SelectUser['passwordHash'] | false> {
