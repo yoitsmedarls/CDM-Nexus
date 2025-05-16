@@ -38,7 +38,7 @@
   {/if}
   <div
     in:fade={{ duration: duration }}
-    class="flex h-14 w-full flex-row items-center justify-between gap-2 bg-transparent px-3 transition-all duration-100 md:h-16"
+    class="relative z-50 flex h-14 w-full flex-row items-center justify-between gap-2 bg-white px-3 transition-all duration-100 md:h-16"
     {...restProps}
   >
     {#if scrollValue <= scrollTrigger}
@@ -48,7 +48,7 @@
 {:else}
   <div
     in:fade={{ duration: duration }}
-    class="sticky top-0 bottom-0 left-0 flex h-svh w-max flex-col py-2 pr-1 pl-2"
+    class="sticky top-0 bottom-0 left-0 z-50 flex h-svh w-max flex-col py-2 pr-1 pl-2"
   >
     <div
       class="flex grow flex-col justify-between gap-4 overflow-y-auto rounded-md border border-gray-200 bg-white px-3 pt-6 pb-4 drop-shadow-xs transition-all duration-100"
