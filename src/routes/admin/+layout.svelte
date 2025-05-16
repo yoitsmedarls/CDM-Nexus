@@ -22,27 +22,27 @@
   }[] = $state([
     {
       text: 'Courses',
-      slug: '/admin/manage/courses',
+      slug: '/admin/courses',
     },
     {
       text: 'Formula Cards',
-      slug: '/admin/manage/formula-cards',
+      slug: '/admin/formula-cards',
     },
     {
       text: 'Exams',
-      slug: '/admin/manage/exams',
+      slug: '/admin/exams',
     },
     {
       text: 'Students',
-      slug: '/admin/manage/students',
+      slug: '/admin/students',
     },
     {
       text: 'Tutors',
-      slug: '/admin/manage/tutors',
+      slug: '/admin/tutors',
     },
     {
       text: 'Schedules',
-      slug: '/admin/manage/schedules',
+      slug: '/admin/schedules',
     },
   ]);
 
