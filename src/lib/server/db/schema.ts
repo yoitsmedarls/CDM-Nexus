@@ -15,3 +15,8 @@ export * from './schema/userRoleEnum';
 export * from './schema/users';
 export * from './schema/sessions';
 export * from './schema/passwordResetSessions';
+
+// Exports for scheduling-related tables
+export * from './schema/availabilityEnum';
+export * from './schema/schedules';
+export * from './schema/timeslots';
