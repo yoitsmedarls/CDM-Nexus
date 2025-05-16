@@ -48,6 +48,11 @@
   ]);
 </script>
 
+<svelte:head>
+  <title>Dashboard</title>
+  <meta name="description" content="Dashboard for CDM Nexus Administrators." />
+</svelte:head>
+
 <Wrapper>
   <MainPanel
     heading={`Welcome, ${data.user?.username}!`}
