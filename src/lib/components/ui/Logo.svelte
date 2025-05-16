@@ -1,8 +1,9 @@
 <script lang="ts">
-  import type { ClassValue } from 'svelte/elements';
+  import type { ClassValue, HTMLAnchorAttributes } from 'svelte/elements';
 
   let {
     class: additionalStyles,
+    ...restProps
   }: {
     class?:
       | {
@@ -10,12 +11,12 @@
           nexus?: ClassValue | undefined;
         }
       | undefined;
-  } = $props();
+  } & HTMLAnchorAttributes = $props();
 </script>
 
 <a
-  href="/"
   class="whitespace-nowrap transition-transform duration-100 select-none focus-visible:scale-[1.02] focus-visible:outline-0 focus-visible:drop-shadow-xs"
+  {...restProps}
 >
   <h1
     class={[

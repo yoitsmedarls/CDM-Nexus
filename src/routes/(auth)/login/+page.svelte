@@ -35,6 +35,7 @@
   {/if}
   <AuthHeader>
     <Logo
+      href="/"
       class={{
         cdm: 'md:font-bold md:text-white',
         nexus:

@@ -68,7 +68,7 @@
       scrollValue={App.scroll.y}
       scrollTrigger={100}
     >
-      <Logo class={{ nexus: 'pl-1 text-lg md:pl-2 md:text-2xl' }} />
+      <Logo href="/" class={{ nexus: 'pl-1 text-lg md:pl-2 md:text-2xl' }} />
       {#if App.viewport.width < App.breakpoints.md}
         <HamburgerMenu
           title="Menu"
