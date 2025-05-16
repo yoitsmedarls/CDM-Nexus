@@ -148,13 +148,15 @@
                 </a>
               </div>
             </div>
-            <Button
-              variant="destructive"
-              type="submit"
-              class={{ button: 'w-full', span: 'text-sm' }}
-            >
-              Log out
-            </Button>
+            <form method="post" action="/admin?/logout">
+              <Button
+                variant="destructive"
+                type="submit"
+                class={{ button: 'w-full', span: 'text-sm' }}
+              >
+                Log out
+              </Button>
+            </form>
           {/if}
         </div>
       </div>
