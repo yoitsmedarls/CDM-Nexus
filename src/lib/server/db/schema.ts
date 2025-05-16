@@ -18,5 +18,7 @@ export * from './schema/passwordResetSessions';
 
 // Exports for scheduling-related tables
 export * from './schema/availabilityEnum';
+export * from './schema/eventCategoryEnum';
 export * from './schema/schedules';
 export * from './schema/timeslots';
+export * from './schema/events';
