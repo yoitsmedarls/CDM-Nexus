@@ -53,7 +53,7 @@
     icon && !children
       ? ['max-h-fit', 'max-w-fit', 'p-1']
       : variant !== 'underline'
-        ? ['py-2', 'px-3', 'whitespace-nowrap']
+        ? ['py-2', 'px-3']
         : '',
 
     variant !== 'underline' ? 'drop-shadow-xs' : '',
