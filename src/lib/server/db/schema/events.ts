@@ -8,3 +8,6 @@ export const events = pgTable('events', {
   timestamp: timestamp('timestamp', { withTimezone: true }).notNull(),
   category: eventCategoryEnum('category').notNull().default('default'),
 });
+
+export type SelectEvent = typeof events.$inferSelect;
+export type InsertEvent = typeof events.$inferInsert;
