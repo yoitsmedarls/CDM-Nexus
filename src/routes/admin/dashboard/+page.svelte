@@ -74,7 +74,7 @@
         <Button
           variant="underline"
           class={{
-            button: 'w-full pb-3 text-left text-lg font-semibold md:text-xl',
+            button: 'pb-3 text-left text-lg font-semibold md:text-xl',
           }}
           href="/admin/courses"
         >
