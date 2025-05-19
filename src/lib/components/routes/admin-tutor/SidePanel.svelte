@@ -41,7 +41,7 @@
     </header>
     <Separator orientation="horizontal" decorative />
     <div
-      class="flex grow flex-col items-center gap-2 overflow-clip rounded-md p-2"
+      class="flex grow flex-col items-center gap-2 overflow-y-auto rounded-md p-2"
     >
       {@render children()}
     </div>
