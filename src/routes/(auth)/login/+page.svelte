@@ -43,7 +43,11 @@
       }}
     />
   </AuthHeader>
-  <AuthWindow title="Log in" duration={200}>
+  <AuthWindow
+    title="Log in"
+    duration={200}
+    searchParams={page.url.searchParams}
+  >
     <form
       class="flex flex-col gap-2"
       method="post"
