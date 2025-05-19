@@ -19,7 +19,7 @@
 
 <main
   in:fade={{ duration: duration }}
-  class="mx-auto flex w-full max-w-lg grow flex-col justify-start gap-4 bg-transparent px-4 pt-8 pb-6 transition-all duration-100 md:absolute md:z-20 md:max-w-xl md:rounded-xl md:bg-white md:px-6 md:pt-10 md:drop-shadow-2xl"
+  class="mx-auto flex w-full max-w-lg grow flex-col justify-start gap-4 bg-transparent px-4 pt-8 pb-6 transition-all duration-100 md:absolute md:z-20 md:max-w-xl md:rounded-xl md:bg-white md:px-6 md:pt-12 md:drop-shadow-2xl"
   {...restProps}
 >
   <h1
