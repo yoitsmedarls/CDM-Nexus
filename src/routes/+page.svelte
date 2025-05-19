@@ -201,8 +201,8 @@
         {
           heading: 'CDM Nexus',
           options: [
-            { name: 'Request a tutor', slug: '' },
-            { name: 'Become a tutor', slug: '' },
+            { name: 'Request a tutor', slug: '/request' },
+            { name: 'Become a tutor', slug: '/apply' },
             { name: 'Browse courses', slug: '/courses' },
           ],
         },
@@ -214,6 +214,7 @@
           ],
         },
         {
+          // TODO: Add slugs
           heading: 'Connect',
           options: [
             { name: 'Facebook', slug: '' },
