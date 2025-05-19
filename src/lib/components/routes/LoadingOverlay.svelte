@@ -18,7 +18,7 @@
     duration: duration,
     easing: cubicInOut,
   }}
-  class="fixed inset-0 z-1000 flex h-full w-full flex-col justify-center bg-white/90"
+  class="fixed inset-0 z-1000 flex h-full w-full flex-col justify-center bg-white/90 select-none"
   {...restProps}
 >
   <p
