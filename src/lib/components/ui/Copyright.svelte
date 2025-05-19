@@ -11,7 +11,7 @@
 
 <p
   class={[
-    'font-nunito text-gray-800/50 transition-all duration-100',
+    'font-nunito text-gray-800/50 transition-all duration-100 select-none',
     additionalStyles,
   ]}
   {...restProps}
