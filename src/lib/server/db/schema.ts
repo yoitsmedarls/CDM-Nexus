@@ -16,6 +16,10 @@ export * from './schema/users';
 export * from './schema/sessions';
 export * from './schema/passwordResetSessions';
 
+// Exports for tutoring-related tables
+export * from './schema/applicationStatusEnum';
+export * from './schema/applications';
+
 // Exports for scheduling-related tables
 export * from './schema/availabilityEnum';
 export * from './schema/eventCategoryEnum';
