@@ -21,6 +21,7 @@
   import HeroImageMain from '$lib/components/routes/landing/hero/HeroImageMain.svelte';
   import HeroImageRight from '$lib/components/routes/landing/hero/HeroImageRight.svelte';
   import HeroActionButton from '$lib/components/routes/landing/hero/HeroActionButton.svelte';
+  import Footer from '$lib/components/routes/landing/footer/Footer.svelte';
 
   let options: {
     text: string;
@@ -184,28 +185,43 @@
           </span>
         {/snippet}
         {#snippet actionButton()}
-          <HeroActionButton href="/home">Start Now</HeroActionButton>
+          <HeroActionButton href="/request">Start Now</HeroActionButton>
         {/snippet}
       </HeroText>
     </Hero>
   </LandingSection>
   <LandingSection
-    id="test-section1"
+    id="footer-section"
     class={{
-      section: 'h-svh max-h-[64rem]',
       div: 'max-w-[88rem]',
     }}
   >
-    <h1>Test</h1>
-  </LandingSection>
-  <LandingSection
-    id="test-section2"
-    class={{
-      section: 'h-svh max-h-[64rem]',
-      div: 'max-w-[88rem]',
-    }}
-  >
-    <h1>Test</h1>
+    <Footer
+      optgroups={[
+        {
+          heading: 'CDM Nexus',
+          options: [
+            { name: 'Request a tutor', slug: '' },
+            { name: 'Become a tutor', slug: '' },
+            { name: 'Browse courses', slug: '/courses' },
+          ],
+        },
+        {
+          heading: 'Resources',
+          options: [
+            { name: 'Formula Cards', slug: 'formulas' },
+            { name: 'Mock Exams', slug: 'exams' },
+          ],
+        },
+        {
+          heading: 'Connect',
+          options: [
+            { name: 'Facebook', slug: '' },
+            { name: 'Email', slug: '' },
+          ],
+        },
+      ]}
+    />
   </LandingSection>
 </main>
 
