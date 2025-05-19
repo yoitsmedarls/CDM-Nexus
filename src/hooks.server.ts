@@ -26,6 +26,10 @@ const protectedRoutes: ReadonlyArray<{
     role: 'student',
     url: '/student',
   },
+  {
+    role: 'student',
+    url: '/apply',
+  },
 ];
 const authRoutes: ReadonlyArray<string> = ['/login', '/signup'];
 
