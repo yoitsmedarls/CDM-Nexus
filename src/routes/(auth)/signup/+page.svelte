@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { ActionData } from './$types';
+  import type { PageProps } from './$types';
 
   import { enhance } from '$app/forms';
   import { page } from '$app/state';
@@ -14,7 +14,7 @@
   import Input from '$lib/components/ui/Input.svelte';
   import Logo from '$lib/components/ui/Logo.svelte';
 
-  let { form }: { form: ActionData } = $props();
+  let { form }: PageProps = $props();
 
   let processing = $state(false);
 </script>
@@ -43,7 +43,11 @@
       }}
     />
   </AuthHeader>
-  <AuthWindow title="Sign up" duration={200}>
+  <AuthWindow
+    title="Sign up"
+    duration={200}
+    searchParams={page.url.searchParams}
+  >
     <form
       class="flex flex-col gap-2"
       method="post"
@@ -114,7 +118,7 @@
       </p>
       <Button
         variant="underline"
-        href={`/login${page.url.searchParams.get('redirectTo') ? '?' + page.url.searchParams.get('redirectTo') : ''}`}
+        href={`/login${page.url.searchParams.get('redirectTo') ? '?redirectTo=' + page.url.searchParams.get('redirectTo') : ''}`}
         class={{ span: 'text-right text-xs font-normal md:text-sm' }}
       >
         Have an account?
