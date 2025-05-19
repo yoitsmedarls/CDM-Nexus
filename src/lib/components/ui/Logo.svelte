@@ -1,8 +1,9 @@
 <script lang="ts">
-  import type { ClassValue, HTMLAnchorAttributes } from 'svelte/elements';
+  import type { ClassValue, SvelteHTMLElements } from 'svelte/elements';
 
   let {
     class: additionalStyles,
+    href,
     ...restProps
   }: {
     class?:
@@ -11,10 +12,13 @@
           nexus?: ClassValue | undefined;
         }
       | undefined;
-  } & HTMLAnchorAttributes = $props();
+    href?: string | undefined;
+  } & (SvelteHTMLElements['a'] | SvelteHTMLElements['span']) = $props();
 </script>
 
-<a
+<svelte:element
+  this={href ? 'a' : 'span'}
+  {href}
   class="whitespace-nowrap transition-transform duration-100 select-none focus-visible:scale-[1.02] focus-visible:outline-0 focus-visible:drop-shadow-xs"
   {...restProps}
 >
@@ -34,4 +38,4 @@
     </span>
     Nexus
   </h1>
-</a>
+</svelte:element>
