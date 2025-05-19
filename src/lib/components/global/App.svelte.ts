@@ -10,6 +10,7 @@ export const App = $state({
     y: 0,
   },
   breakpoints: {
+    min: 20 * rem,
     '2xs': 24 * rem,
     xs: 32 * rem,
     sm: 40 * rem,
