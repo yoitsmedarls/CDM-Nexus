@@ -1,9 +1,10 @@
 <script lang="ts">
   import '../app.css';
 
+  import type { LayoutProps } from './$types';
+
   import { App } from '$lib/components/global/App.svelte';
 
-  import type { Snippet } from 'svelte';
   import { navigating } from '$app/state';
   import { fade } from 'svelte/transition';
   import { cubicInOut } from 'svelte/easing';
@@ -11,11 +12,7 @@
   import LoadingOverlay from '$lib/components/routes/LoadingOverlay.svelte';
   import ViewportWarning from '$lib/components/routes/ViewportWarning.svelte';
 
-  let {
-    children,
-  }: {
-    children: Snippet;
-  } = $props();
+  let { children }: LayoutProps = $props();
 </script>
 
 <!-- Window bindings for our global app state object -->
