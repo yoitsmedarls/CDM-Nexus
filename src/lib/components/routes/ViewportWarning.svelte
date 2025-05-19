@@ -19,7 +19,7 @@
     duration: duration,
     easing: cubicInOut,
   }}
-  class="fixed inset-0 z-1000 flex h-full w-full flex-col justify-between bg-white/90 px-4 py-8 select-none"
+  class="fixed inset-0 z-1000 flex h-full w-full flex-col justify-between bg-white/90 px-4 pt-6 pb-4 select-none"
   {...restProps}
 >
   <p class="flex items-center justify-center gap-4 text-center">
