@@ -12,8 +12,8 @@ export const applications = pgTable(
       .unique()
       .notNull()
       .references(() => users.id, { onDelete: 'cascade' }),
-    currentRole: userRoleEnum('role').notNull(),
-    desiredRole: userRoleEnum('role').notNull(),
+    currentRole: userRoleEnum('current_role').notNull(),
+    desiredRole: userRoleEnum('desired_role').notNull(),
     message: text('message').notNull(),
     status: applicationStatusEnum('status').default('pending').notNull(),
     createdAt: timestamp('created_at', {
