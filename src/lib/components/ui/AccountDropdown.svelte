@@ -37,7 +37,7 @@
 <DropdownMenu.Root bind:open {...restProps}>
   <DropdownMenu.Trigger
     class={[
-      'avatar mr-1 ml-2 flex max-h-9 min-h-9 max-w-9 min-w-9 shrink-0 items-center justify-center overflow-hidden rounded-full text-center align-middle outline-2 outline-offset-2 transition-all duration-100 hover:cursor-pointer active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50',
+      'mr-1 ml-2 flex max-h-9 min-h-9 max-w-9 min-w-9 shrink-0 items-center justify-center overflow-hidden rounded-full text-center align-middle outline-2 outline-offset-2 transition-all duration-100 hover:cursor-pointer active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50',
       user.role === 'admin'
         ? 'bg-yellow-500/10 text-yellow-900 outline-yellow-500/50 hover:outline-yellow-500 focus-visible:outline-yellow-600 active:bg-yellow-600 active:text-white active:outline-yellow-600 data-[state=open]:bg-yellow-600 data-[state=open]:text-white data-[state=open]:outline-yellow-600'
         : '',
@@ -55,7 +55,7 @@
     <DropdownMenu.Content
       forceMount
       side="bottom"
-      class="mt-4 mr-4 rounded-md border-gray-200 bg-white p-2 drop-shadow-md focus-visible:outline-none"
+      class="mt-4 mr-2 rounded-md border-gray-200 bg-white p-2 drop-shadow-xl focus-visible:outline-none"
       {...contentProps}
     >
       {#snippet child({ wrapperProps, props, open })}
@@ -77,6 +77,11 @@
                 </Button>
               </form>
             </div>
+            <DropdownMenu.Arrow
+              class="mt-4.5 text-white"
+              width={10}
+              height={10}
+            />
           </div>
         {/if}
       {/snippet}
