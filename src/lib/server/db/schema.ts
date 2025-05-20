@@ -1,3 +1,6 @@
+// Export for the website features toggle
+export * from './schema/features';
+
 // Exports for courses-related tables
 export * from './schema/stateEnum';
 export * from './schema/termEnum';
