@@ -101,7 +101,7 @@
           variant="primary"
           type="submit"
           disabled={processing}
-          class={{ span: 'text-sm md:text-base' }}
+          class={{ span: 'text-sm' }}
         >
           Sign Up
         </Button>
@@ -110,7 +110,7 @@
     <div class="flex flex-row justify-between gap-2">
       <p
         class={[
-          'font-poppins text-xs transition-all duration-100 md:text-sm',
+          'font-poppins text-xs transition-all duration-100',
           processing ? 'animate-pulse text-blue-900' : 'text-red-600',
         ]}
       >
@@ -119,7 +119,7 @@
       <Button
         variant="underline"
         href={`/login${page.url.searchParams.get('redirectTo') ? '?redirectTo=' + page.url.searchParams.get('redirectTo') : ''}`}
-        class={{ span: 'text-right text-xs font-normal md:text-sm' }}
+        class={{ span: 'text-right text-xs font-normal' }}
       >
         Have an account?
       </Button>
