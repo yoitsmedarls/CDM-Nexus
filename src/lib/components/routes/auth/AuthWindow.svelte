@@ -23,7 +23,7 @@
   {...restProps}
 >
   <h1
-    class="font-poppins text-xl font-semibold whitespace-nowrap text-gray-800 md:text-2xl"
+    class="font-poppins text-xl font-medium whitespace-nowrap text-gray-800 md:text-2xl"
   >
     {title}
     {#if searchParams.get('redirectTo')}
