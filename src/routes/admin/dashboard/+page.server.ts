@@ -1,6 +1,6 @@
 import type { PageServerLoad } from './$types';
-import { getAllCourses } from '$lib/server/api';
-import { getUsersByRole } from '$lib/server/auth';
+import { getAllCourses } from '$lib/server/api/courses';
+import { getUsersByRole } from '$lib/server/api/auth';
 
 export const load: PageServerLoad = async () => {
   return {

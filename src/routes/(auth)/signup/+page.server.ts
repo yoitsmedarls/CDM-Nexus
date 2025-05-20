@@ -12,7 +12,7 @@ import {
   verifyFullNameInput,
   verifyPasswordStrength,
   verifyUsernameInput,
-} from '$lib/server/auth';
+} from '$lib/server/api/auth';
 
 export const actions: Actions = {
   default: async (event) => {

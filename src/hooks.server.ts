@@ -7,7 +7,7 @@ import {
   deleteSessionTokenCookie,
   loginRedirect,
   roleBasedRedirect,
-} from '$lib/server/auth';
+} from '$lib/server/api/auth';
 
 // Readonly variables for protected and auth routes.
 const protectedRoutes: ReadonlyArray<{

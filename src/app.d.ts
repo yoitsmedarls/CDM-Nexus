@@ -1,4 +1,4 @@
-import type { SessionValidationResult } from '$lib/server/auth';
+import type { SessionValidationResult } from '$lib/server/api/auth';
 
 declare global {
   namespace App {
