@@ -1,10 +1,12 @@
 <script lang="ts">
+  // Type imports
   import type { PageProps } from './$types';
 
+  // Global app state object
   import { App } from '$lib/components/global/App.svelte';
 
-  import LandingHeader from '$lib/components/routes/landing/LandingHeader.svelte';
-  import LandingSection from '$lib/components/routes/landing/LandingSection.svelte';
+  // CDM Nexus UI components
+  import Avatar from '$lib/components/ui/Avatar.svelte';
   import Button from '$lib/components/ui/Button.svelte';
   import HamburgerMenu from '$lib/components/ui/hamburger-menu/HamburgerMenu.svelte';
   import HamburgerMenuOption from '$lib/components/ui/hamburger-menu/HamburgerMenuOption.svelte';
@@ -12,17 +14,21 @@
   import NavigationMenu from '$lib/components/ui/navigation-menu/NavigationMenu.svelte';
   import NavigationMenuItem from '$lib/components/ui/navigation-menu/NavigationMenuItem.svelte';
   import Separator from '$lib/components/ui/Separator.svelte';
-  import Avatar from '$lib/components/ui/Avatar.svelte';
-  import HeroBackdrop from '$lib/components/routes/landing/hero/HeroBackdrop.svelte';
-  import Hero from '$lib/components/routes/landing/hero/Hero.svelte';
-  import HeroText from '$lib/components/routes/landing/hero/HeroText.svelte';
   import ScrollToTop from '$lib/components/ui/ScrollToTop.svelte';
+
+  // Route-specific components
+  import Footer from '$lib/components/routes/landing/footer/Footer.svelte';
+  import Hero from '$lib/components/routes/landing/hero/Hero.svelte';
+  import HeroActionButton from '$lib/components/routes/landing/hero/HeroActionButton.svelte';
+  import HeroBackdrop from '$lib/components/routes/landing/hero/HeroBackdrop.svelte';
   import HeroImageLeft from '$lib/components/routes/landing/hero/HeroImageLeft.svelte';
   import HeroImageMain from '$lib/components/routes/landing/hero/HeroImageMain.svelte';
   import HeroImageRight from '$lib/components/routes/landing/hero/HeroImageRight.svelte';
-  import HeroActionButton from '$lib/components/routes/landing/hero/HeroActionButton.svelte';
-  import Footer from '$lib/components/routes/landing/footer/Footer.svelte';
+  import HeroText from '$lib/components/routes/landing/hero/HeroText.svelte';
+  import LandingHeader from '$lib/components/routes/landing/LandingHeader.svelte';
+  import LandingSection from '$lib/components/routes/landing/LandingSection.svelte';
 
+  // Options for both the navigation and hamburger menu
   let options: {
     text: string;
     slug: string;
@@ -41,9 +47,11 @@
     },
   ]);
 
+  // Page props
   let { data }: PageProps = $props();
 </script>
 
+<!-- Page title, description, and keywords -->
 <svelte:head>
   <title>CDM Nexus</title>
   <meta
@@ -57,6 +65,7 @@
 </svelte:head>
 
 <main class="bg-dotted flex grow flex-col justify-between">
+  <!-- Each section in this landing page must be contained inside these LandingSection components for consistent styling. -->
   <LandingSection
     id="hero-section"
     class={{
@@ -64,6 +73,7 @@
       div: 'max-w-[88rem]',
     }}
   >
+    <!-- A flexible header that is initially "mounted" on the landing section, but detaches and becomes a sticky header when scrolling down the page -->
     <LandingHeader
       duration={200}
       scrollValue={App.scroll.y}
@@ -71,6 +81,7 @@
     >
       <Logo href="/" class={{ nexus: 'pl-1 text-lg md:pl-2 md:text-2xl' }} />
       {#if App.viewport.width < App.breakpoints.md}
+        <!-- On mobile devices, a hamburger menu is shown instead of a navigation menu. -->
         <HamburgerMenu
           title="Menu"
           description="Jump to a section."
@@ -86,6 +97,7 @@
             {/each}
           </div>
           <div class="flex w-full flex-row justify-between gap-2 p-4">
+            <!-- Shows a button to go to their account profile if user is logged in. Otherwise, show login/signup buttons. -->
             {#if data.user}
               <Button
                 variant="primary"
@@ -115,6 +127,7 @@
           </div>
         </HamburgerMenu>
       {:else}
+        <!-- On desktop devices, a navigation menu is shown instead of a hamburger menu. -->
         <NavigationMenu menuDuration={200}>
           {#each options as option (option.slug)}
             <NavigationMenuItem {option} />
@@ -124,6 +137,7 @@
             orientation="vertical"
             decorative
           />
+          <!-- Similar to the hamburger menu, show an Avatar button to go to their account profile if the user is logged in. Otherwise, show login/signup buttons. -->
           {#if data.user}
             <Avatar
               href={data.user.role === 'student'
@@ -149,8 +163,11 @@
         </NavigationMenu>
       {/if}
     </LandingHeader>
+    <!-- The hero section takes up the available viewport height (minus the height of the landing header). -->
     <Hero>
+      <!-- Backdrop contains three images, with the left and right images being blurred and elongated. -->
       <HeroBackdrop>
+        <!-- Only show the main image on mobile devices. Show all images on wider devices. -->
         {#if App.viewport.width < App.breakpoints.xs}
           <HeroImageMain
             src="https://picsum.photos/seed/d/1440"
@@ -171,6 +188,7 @@
           />
         {/if}
       </HeroBackdrop>
+      <!-- Hero text that sits on top of the backdrop -->
       <HeroText>
         {#snippet mainText()}
           <span class="bg-white whitespace-break-spaces text-gray-800">
@@ -185,17 +203,21 @@
           </span>
         {/snippet}
         {#snippet actionButton()}
+          <!-- Currently, the action button leads the students to the tutor request page, where they can request for an in-person tutoring session from the CDM Nexus Tutors. On future versions of the app, the button should redirect to the courses page. -->
           <HeroActionButton href="/request">Start Now</HeroActionButton>
         {/snippet}
       </HeroText>
     </Hero>
   </LandingSection>
+  <!-- More landing sections should be added, highlighting the web app's functionality. -->
+  <!-- Last section should be the footer, containing various links to various pages on the web app. -->
   <LandingSection
     id="footer-section"
     class={{
       div: 'max-w-[88rem]',
     }}
   >
+    <!-- Current optgroups are limited to what the web app currently supports. In future versions, there should be links to CDM Nexus courses, formula cards, and mock exams, pages to request for or become a tutor, and more. -->
     <Footer
       optgroups={[
         {
@@ -207,14 +229,7 @@
           ],
         },
         {
-          heading: 'Resources',
-          options: [
-            { name: 'Formula Cards', slug: 'formulas' },
-            { name: 'Mock Exams', slug: 'exams' },
-          ],
-        },
-        {
-          // TODO: Add slugs
+          // TODO: Add links to CDM Nexus Facebook page and email.
           heading: 'Connect',
           options: [
             { name: 'Facebook', slug: '' },
@@ -226,6 +241,7 @@
   </LandingSection>
 </main>
 
+<!-- Shows a scroll to top button when scrolling down the page -->
 {#if App.scroll.y > App.viewport.height / 2}
   <ScrollToTop duration={100} onclick={() => (App.scroll.y = 0)} />
 {/if}
