@@ -17,19 +17,19 @@
       id: 'no-of-courses',
       info: data.courses.length.toString(),
       label: data.courses.length > 1 ? 'Courses' : 'Course',
-      description: 'Published or Unpublished',
+      description: 'Published/Unpublished',
     },
     {
       id: 'no-of-tutors',
       info: data.tutors.length.toString(),
       label: data.tutors.length > 1 ? 'Tutors' : 'Tutor',
-      description: 'Active or Inactive',
+      description: 'Approved & Active',
     },
     {
       id: 'no-of-students',
       info: data.students.length.toString(),
       label: data.students.length > 1 ? 'Students' : 'Student',
-      description: 'With An Account',
+      description: 'With an Account',
     },
     {
       id: 'no-of-site-visits',
