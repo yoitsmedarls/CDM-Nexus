@@ -1,13 +1,13 @@
 <script lang="ts">
   import type { Snippet } from 'svelte';
-  import type { SvelteHTMLElements } from 'svelte/elements';
+  import type { HTMLInputAttributes } from 'svelte/elements';
 
   let {
     children,
     ...restProps
   }: {
     children: Snippet;
-  } & SvelteHTMLElements['input'] = $props();
+  } & HTMLInputAttributes = $props();
 </script>
 
 <label class="block w-full min-w-fit">
