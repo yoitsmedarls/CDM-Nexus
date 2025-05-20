@@ -8,10 +8,8 @@
 
   let {
     duration = 100,
-    viewportWidth,
     children,
   }: {
-    viewportWidth: number;
     duration: number;
     children: Snippet;
   } = $props();
