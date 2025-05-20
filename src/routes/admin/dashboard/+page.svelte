@@ -56,7 +56,7 @@
     subheading={`${data.user?.cdmEmail}!`}
     src="https://picsum.photos/seed/cdm/1440/200/?blur=10"
   >
-    <section class="grid min-h-fit grid-cols-2 gap-2 pb-4 lg:grid-cols-4">
+    <section class="grid min-h-fit grid-cols-2 gap-2 pb-4 md:grid-cols-4">
       {#each infoBoxes as box (box.id)}
         <InfoBox
           info={box.info}
