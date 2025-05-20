@@ -24,7 +24,7 @@
   onclick={() => {
     goto(`/${user.role}/account`);
   }}
-  class="flex flex-row overflow-clip rounded-md border border-gray-100 bg-white px-1.5 py-1 outline-2 outline-offset-2 outline-transparent drop-shadow-xs transition-all duration-100 hover:drop-shadow-sm focus-visible:outline-gray-800/25 active:scale-[0.99] active:border-gray-200 active:bg-gray-50 active:drop-shadow-xs"
+  class="flex flex-row gap-1 overflow-clip rounded-md border border-gray-100 bg-white px-1.5 py-1 outline-2 outline-offset-2 outline-transparent drop-shadow-xs transition-all duration-100 hover:drop-shadow-sm focus-visible:outline-gray-800/25 active:scale-[0.99] active:border-gray-200 active:bg-gray-50 active:drop-shadow-xs"
   {...restProps}
 >
   <div
