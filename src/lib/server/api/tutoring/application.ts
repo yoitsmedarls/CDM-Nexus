@@ -4,7 +4,7 @@ import {
   type InsertApplication,
   type SelectApplication,
 } from '$lib/server/db/schema/applications';
-import { DAY_IN_MS } from '$lib/server/auth/utils';
+import { DAY_IN_MS } from '$lib/server/api/auth/utils';
 import { eq, or } from 'drizzle-orm';
 
 export function verifyMessageInput(

@@ -1,7 +1,7 @@
 import { encodeHexLowerCase } from '@oslojs/encoding';
 import { sha256 } from '@oslojs/crypto/sha2';
 import { db } from '$lib/server/db';
-import { DAY_IN_MS, generateRandomOTP } from '$lib/server/auth/utils';
+import { DAY_IN_MS, generateRandomOTP } from '$lib/server/api/auth/utils';
 import {
   passwordResetSessions,
   users,

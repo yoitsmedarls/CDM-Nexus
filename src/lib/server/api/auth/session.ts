@@ -7,7 +7,7 @@ import {
   type SelectUser,
 } from '$lib/server/db/schema';
 import { sha256 } from '@oslojs/crypto/sha2';
-import { DAY_IN_MS } from '$lib/server/auth/utils';
+import { DAY_IN_MS } from '$lib/server/api/auth/utils';
 import { eq } from 'drizzle-orm';
 import type { RequestEvent } from '@sveltejs/kit';
 
