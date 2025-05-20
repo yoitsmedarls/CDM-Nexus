@@ -20,7 +20,7 @@
   <div class="flex flex-col py-8">
     <Separator orientation="horizontal" decorative />
   </div>
-  <div class="grid grow grid-cols-2 px-4 sm:grid-cols-3 md:grid-cols-4">
+  <div class="grid grow grid-cols-2 px-4 md:grid-cols-3">
     {#each optgroups as optgroup, index (optgroup.heading)}
       <div
         class={[
