@@ -7,6 +7,16 @@ import {
 import { DAY_IN_MS } from '$lib/server/auth/utils';
 import { eq, or } from 'drizzle-orm';
 
+export function verifyMessageInput(
+  message: InsertApplication['message']
+): boolean {
+  return (
+    message.length >= 50 &&
+    message.length <= 1000 &&
+    /^[\w\d\s.,!?;:"'()-]{100,5000}$/.test(message)
+  );
+}
+
 export async function createApplication(
   userId: InsertApplication['userId'],
   message: InsertApplication['message'],
