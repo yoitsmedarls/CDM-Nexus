@@ -132,7 +132,7 @@
               >
                 <div class="flex flex-row items-center justify-between gap-4">
                   <div
-                    class="avatar mr-1 ml-2 flex max-h-9 min-h-9 max-w-9 min-w-9 shrink-0 items-center justify-center overflow-hidden rounded-full bg-red-900/10 text-center align-middle text-red-950 outline-2 outline-offset-2 outline-red-900/50 transition-all duration-100 hover:cursor-pointer active:scale-[0.98]"
+                    class="mr-1 ml-2 flex max-h-9 min-h-9 max-w-9 min-w-9 shrink-0 items-center justify-center overflow-hidden rounded-full bg-red-900/10 text-center align-middle text-red-950 outline-2 outline-offset-2 outline-red-900/50 transition-all duration-100 hover:cursor-pointer active:scale-[0.98]"
                   >
                     <User class="size-7" weight="regular" />
                   </div>
