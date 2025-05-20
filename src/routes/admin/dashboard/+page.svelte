@@ -1,15 +1,12 @@
 <script lang="ts">
   import type { PageProps } from './$types';
 
-  import { App } from '$lib/components/global/App.svelte';
-
   import Wrapper from '$lib/components/routes/admin-tutor/Wrapper.svelte';
   import MainPanel from '$lib/components/routes/admin-tutor/MainPanel.svelte';
   import SidePanel from '$lib/components/routes/admin-tutor/SidePanel.svelte';
   import Calendar from '$lib/components/ui/Calendar.svelte';
   import InfoBox from '$lib/components/ui/InfoBox.svelte';
   import Separator from '$lib/components/ui/Separator.svelte';
-  import Avatar from '$lib/components/ui/Avatar.svelte';
   import Button from '$lib/components/ui/Button.svelte';
   import User from 'phosphor-svelte/lib/User';
 
@@ -82,7 +79,7 @@
         </Button>
         <div class="flex flex-col gap-1">
           {#if data.courses.length >= 1}
-            {#each data.courses as course}
+            {#each data.courses as course (course.id)}
               <Button
                 href={`/admin/courses/${course.slug}`}
                 class={{
@@ -126,7 +123,7 @@
         </Button>
         <div class="flex flex-col gap-1">
           {#if data.tutors.length >= 1}
-            {#each data.tutors as tutor}
+            {#each data.tutors as tutor (tutor.id)}
               <Button
                 href={`/admin/tutors/${tutor.username}`}
                 class={{
@@ -171,7 +168,7 @@
       </div>
     </section>
   </MainPanel>
-  <SidePanel viewportWidth={App.viewport.width} duration={200}>
+  <SidePanel duration={200}>
     <Calendar />
   </SidePanel>
 </Wrapper>
