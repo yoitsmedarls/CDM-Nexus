@@ -11,7 +11,7 @@
 </script>
 
 <div
-  class="flex grow flex-col justify-start px-4 pb-4 transition-all duration-200 md:px-6"
+  class="flex min-h-[25rem] grow flex-col justify-start px-4 pb-4 transition-all duration-200 md:px-6"
   {...restProps}
 >
   {@render children()}
