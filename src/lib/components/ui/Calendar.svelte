@@ -38,7 +38,7 @@
 </script>
 
 <Calendar.Root
-  class="max-h-fit w-full overflow-auto rounded-md border border-gray-200 bg-white p-2 pt-3"
+  class="h-max w-full min-w-max overflow-hidden rounded-md border border-gray-200 bg-white p-2 pt-3"
   weekdayFormat="short"
   fixedWeeks={true}
   type="single"

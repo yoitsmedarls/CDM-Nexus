@@ -25,14 +25,6 @@
       slug: '/admin/courses',
     },
     {
-      text: 'Formula Cards',
-      slug: '/admin/formula-cards',
-    },
-    {
-      text: 'Exams',
-      slug: '/admin/exams',
-    },
-    {
       text: 'Students',
       slug: '/admin/students',
     },
@@ -165,7 +157,7 @@
       </div>
     {/if}
   </HeaderSidebar>
-  <div class="flex grow flex-col xl:py-2 xl:pr-2 xl:pl-1">
+  <div class="flex grow flex-col overflow-x-clip xl:py-2 xl:pr-2 xl:pl-1">
     {@render children()}
   </div>
 </div>

@@ -15,7 +15,7 @@
 </script>
 
 <main
-  class="flex h-max min-h-full grow flex-col overflow-hidden border-gray-200 bg-white xl:rounded-md xl:border xl:drop-shadow-xs"
+  class="flex h-max min-h-full shrink grow flex-col overflow-hidden border-gray-200 bg-white xl:rounded-md xl:border xl:drop-shadow-xs"
 >
   <header
     style={src ? `background-image: url(${src})` : ''}

@@ -24,7 +24,7 @@
   ></div>
   <aside
     transition:fly={{ duration: duration, easing: cubicInOut, x: 100 }}
-    class="2xs:min-w-[16rem] 2xs:max-w-xs max-2xs:left-2 2xs:w-full fixed top-16 right-0 bottom-2 z-20 flex h-[calc(100svh-4.5rem)] flex-col rounded-l-md border-gray-200 bg-white max-xl:drop-shadow-xl md:top-18 md:h-[calc(100svh-5rem)] xl:sticky xl:top-2 xl:right-2 xl:h-[calc(100svh-1rem)] xl:rounded-md xl:border xl:drop-shadow-xs"
+    class="2xs:min-w-[16rem] 2xs:max-w-xs max-2xs:left-2 2xs:w-full fixed top-16 right-0 bottom-2 z-20 flex h-[calc(100svh-4.5rem)] shrink-0 flex-col overflow-y-auto rounded-l-md border-gray-200 bg-white max-xl:drop-shadow-xl md:top-18 md:h-[calc(100svh-5rem)] xl:sticky xl:top-2 xl:left-0 xl:h-[calc(100svh-1rem)] xl:rounded-md xl:border xl:drop-shadow-xs"
   >
     <header class="flex flex-row items-center justify-between p-2 pt-3">
       <h2 class="font-poppins pl-1 text-lg font-medium text-gray-800">
@@ -39,7 +39,7 @@
     </header>
     <Separator orientation="horizontal" decorative />
     <div
-      class="flex grow flex-col items-center gap-2 overflow-y-auto rounded-md p-2"
+      class="flex min-h-max grow flex-col items-center gap-2 overflow-y-auto rounded-md p-2"
     >
       {@render children()}
     </div>

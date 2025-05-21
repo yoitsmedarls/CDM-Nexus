@@ -17,7 +17,7 @@
       id: 'no-of-courses',
       info: data.courses.length.toString(),
       label: data.courses.length > 1 ? 'Courses' : 'Course',
-      description: 'Published/Unpublished',
+      description: 'Published or Unpublished',
     },
     {
       id: 'no-of-tutors',
