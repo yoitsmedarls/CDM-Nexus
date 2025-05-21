@@ -42,7 +42,7 @@
     "prettier": "^3.5.3",
     "prettier-plugin-svelte": "^3.4.0",
     "prettier-plugin-tailwindcss": "^0.6.11",
-    "svelte": "^5.31.1",
+    "svelte": "^5.32.1",
     "svelte-check": "^4.2.1",
     "tailwindcss": "^4.1.7",
     "tsx": "^4.19.4",
@@ -61,6 +61,6 @@
     "dotenv": "^16.5.0",
     "drizzle-orm": "^0.43.1",
     "pg": "^8.16.0",
-    "postgres": "^3.4.5"
+    "postgres": "^3.4.6"
   }
 }
