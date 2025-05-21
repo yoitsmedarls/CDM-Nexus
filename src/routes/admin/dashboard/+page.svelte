@@ -40,7 +40,7 @@
         data.courses.reduce((total, course) => total + course.visits, 0) > 1
           ? 'Site Visits'
           : 'Site Visit',
-      description: 'Across All Courses',
+      description: 'Across All Features',
     },
   ]);
 </script>
@@ -67,103 +67,124 @@
     </section>
     <Separator orientation="horizontal" decorative />
     <section class="grid grid-cols-1 gap-2 pt-2 md:grid-cols-2">
-      <div class="rounded-md border border-gray-100 bg-gray-50 px-3 py-4">
-        <Button
-          variant="underline"
-          class={{
-            button: 'pb-3 text-left text-lg font-semibold md:text-xl',
-          }}
-          href="/admin/courses"
-        >
-          All Courses
-        </Button>
-        <div class="flex flex-col gap-1">
-          {#if data.courses.length >= 1}
-            {#each data.courses as course (course.id)}
-              <Button
-                href={`/admin/courses/${course.slug}`}
-                class={{
-                  button: 'text-left',
-                }}
-              >
-                <p
-                  class="font-poppins text-xs leading-tight font-medium opacity-60"
+      <div
+        class="flex flex-col justify-start gap-3 rounded-md border border-gray-100 bg-gray-50 px-3 py-4"
+      >
+        <div class="flex flex-row justify-start">
+          <Button
+            variant="underline"
+            class={{
+              button: 'text-left text-lg font-semibold md:text-xl',
+            }}
+            href="/admin/courses"
+          >
+            Courses
+          </Button>
+        </div>
+        <div class="flex grow flex-col justify-between gap-4">
+          <div class="flex grow flex-col gap-1">
+            {#if data.courses.length >= 1}
+              {#each data.courses as course (course.id)}
+                <Button
+                  href={`/admin/courses/${course.slug}`}
+                  class={{
+                    button: 'text-left',
+                  }}
                 >
-                  {course.id}
-                </p>
-                <h3 class="font-poppins leading-snug font-semibold">
-                  {course.title}
-                </h3>
-                <p
-                  class="font-nunito text-xs leading-tight font-normal opacity-90"
-                >
-                  Modified: {course.dateModified.toLocaleDateString(
-                    navigator.language,
-                    { dateStyle: 'medium' }
-                  )}
-                </p>
-              </Button>
-            {/each}
-          {:else}
-            <p class="font-poppins px-2 py-1 text-base font-normal">
-              No courses yet...
-            </p>
-          {/if}
+                  <p
+                    class="font-poppins text-xs leading-tight font-medium opacity-60"
+                  >
+                    {course.id}
+                  </p>
+                  <h3 class="font-poppins leading-snug font-semibold">
+                    {course.title}
+                  </h3>
+                  <p
+                    class="font-nunito text-xs leading-tight font-normal opacity-90"
+                  >
+                    Modified: {course.dateModified.toLocaleDateString(
+                      navigator.language,
+                      { dateStyle: 'medium' }
+                    )}
+                  </p>
+                </Button>
+              {/each}
+            {:else}
+              <p class="font-poppins px-2 py-1 text-base font-normal">
+                No courses yet...
+              </p>
+            {/if}
+          </div>
         </div>
       </div>
-      <div class="rounded-md border border-gray-100 bg-gray-50 px-3 py-4">
-        <Button
-          variant="underline"
-          href="/admin/tutors"
-          class={{
-            button: 'pb-3 text-left text-lg font-semibold md:text-xl',
-          }}
-        >
-          All Tutors
-        </Button>
-        <div class="flex flex-col gap-1">
-          {#if data.tutors.length >= 1}
-            {#each data.tutors as tutor (tutor.id)}
-              <Button
-                href={`/admin/tutors/${tutor.username}`}
-                class={{
-                  button: 'text-left',
-                }}
+      <div
+        class="flex flex-col justify-start gap-3 rounded-md border border-gray-100 bg-gray-50 px-3 py-4"
+      >
+        <div class="flex flex-row justify-start">
+          <Button
+            variant="underline"
+            href="/admin/tutors"
+            class={{
+              button: 'text-left text-lg font-semibold md:text-xl',
+            }}
+          >
+            Tutors
+          </Button>
+        </div>
+        <div class="flex grow flex-col justify-between gap-4">
+          <div class="flex grow flex-col gap-1">
+            {#if data.tutors.length >= 1}
+              {#each data.tutors as tutor (tutor.id)}
+                <Button
+                  href={`/admin/tutors/${tutor.username}`}
+                  class={{
+                    button: 'text-left',
+                  }}
+                >
+                  <div class="flex flex-row items-center justify-between gap-4">
+                    <div
+                      class="mr-1 ml-2 flex max-h-9 min-h-9 max-w-9 min-w-9 shrink-0 items-center justify-center overflow-hidden rounded-full bg-red-900/10 text-center align-middle text-red-950 outline-2 outline-offset-2 outline-red-900/50 transition-all duration-100 hover:cursor-pointer active:scale-[0.98]"
+                    >
+                      <User class="size-7" weight="regular" />
+                    </div>
+                    <div class="flex grow flex-col">
+                      <p
+                        class="font-poppins text-xs leading-tight font-medium opacity-60"
+                      >
+                        {tutor.username}
+                      </p>
+                      <h3 class="font-poppins leading-snug font-semibold">
+                        {tutor.fullName}
+                      </h3>
+                      <p
+                        class="font-nunito text-xs leading-tight font-normal opacity-90"
+                      >
+                        Joined: {tutor.dateJoined.toLocaleDateString(
+                          navigator.language,
+                          { dateStyle: 'medium' }
+                        )}
+                      </p>
+                    </div>
+                  </div>
+                </Button>
+              {/each}
+            {:else}
+              <p
+                class="font-poppins inline-flex flex-col justify-center rounded-md border border-gray-100 bg-white p-2 text-balance text-gray-800"
               >
-                <div class="flex flex-row items-center justify-between gap-4">
-                  <div
-                    class="mr-1 ml-2 flex max-h-9 min-h-9 max-w-9 min-w-9 shrink-0 items-center justify-center overflow-hidden rounded-full bg-red-900/10 text-center align-middle text-red-950 outline-2 outline-offset-2 outline-red-900/50 transition-all duration-100 hover:cursor-pointer active:scale-[0.98]"
-                  >
-                    <User class="size-7" weight="regular" />
-                  </div>
-                  <div class="flex grow flex-col">
-                    <p
-                      class="font-poppins text-xs leading-tight font-medium opacity-60"
-                    >
-                      {tutor.username}
-                    </p>
-                    <h3 class="font-poppins leading-snug font-semibold">
-                      {tutor.fullName}
-                    </h3>
-                    <p
-                      class="font-nunito text-xs leading-tight font-normal opacity-90"
-                    >
-                      Joined: {tutor.dateJoined.toLocaleDateString(
-                        navigator.language,
-                        { dateStyle: 'medium' }
-                      )}
-                    </p>
-                  </div>
-                </div>
-              </Button>
-            {/each}
-          {:else}
-            <p
-              class="font-poppins inline-flex flex-col justify-center rounded-md border border-gray-100 bg-white p-2 text-balance text-gray-800"
+                No tutors yet...
+              </p>
+            {/if}
+          </div>
+          <div class="flex flex-row justify-end px-2">
+            <Button
+              variant="underline"
+              href="/admin/tutor/applications"
+              class={{ span: 'text-sm font-normal' }}
             >
-              No tutors yet...
-            </p>
-          {/if}
+              View applications
+            </Button>
+          </div>
         </div>
       </div>
     </section>
