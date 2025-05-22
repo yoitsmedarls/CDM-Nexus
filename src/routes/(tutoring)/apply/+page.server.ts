@@ -1,13 +1,16 @@
 import { fail, redirect, type Actions } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
-import type { SelectUser } from '$lib/server/db/schema';
+
 import {
+  deleteSessionTokenCookie,
+  invalidateSession,
+} from '$lib/server/api/auth';
+import {
+  createApplication,
   getApplicationByUserId,
   verifyMessageInput,
-} from '$lib/server/api/tutoring/application';
-import { createApplication } from '$lib/server/api/tutoring/application';
-import { invalidateSession } from '$lib/server/api/auth';
-import { deleteSessionTokenCookie } from '$lib/server/api/auth';
+} from '$lib/server/api/tutoring';
+import type { SelectUser } from '$lib/server/db/schema';
 
 export const load: PageServerLoad = async ({ locals }) => {
   // Checks if the user visiting the page has already submitted an application before. If yes, then redirect them to the updates page regarding their application.

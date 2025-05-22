@@ -1,6 +1,7 @@
-import { getApplicationById } from '$lib/server/api/tutoring/application';
 import { error } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
+
+import { getApplicationById } from '$lib/server/api/tutoring';
 
 export const load: PageServerLoad = async ({ params }) => {
   if (

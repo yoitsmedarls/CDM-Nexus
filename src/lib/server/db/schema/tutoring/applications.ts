@@ -1,7 +1,6 @@
-import { check, pgTable, text, timestamp, uuid } from 'drizzle-orm/pg-core';
-import { users } from '../auth/users';
-import { userRoleEnum } from '../auth/userRoleEnum';
 import { sql } from 'drizzle-orm';
+import { check, pgTable, text, timestamp, uuid } from 'drizzle-orm/pg-core';
+import { userRoleEnum, users } from '../auth';
 import { applicationStatusEnum } from './applicationStatusEnum';
 
 export const applications = pgTable(

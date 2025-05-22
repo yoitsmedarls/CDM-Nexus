@@ -1,8 +1,5 @@
-// Enums
 export * from './statusEnum';
 export * from './termEnum';
-
-// Tables
 export * from './courses';
 export * from './lessons';
 export * from './topics';
