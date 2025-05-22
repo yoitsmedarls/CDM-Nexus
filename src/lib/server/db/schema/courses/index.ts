@@ -1,5 +1,5 @@
 // Enums
-export * from './stateEnum';
+export * from './statusEnum';
 export * from './termEnum';
 
 // Tables
