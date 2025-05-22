@@ -8,7 +8,7 @@ import {
   boolean,
   integer,
 } from 'drizzle-orm/pg-core';
-import { stateEnum } from './stateEnum';
+import { statusEnum } from './statusEnum';
 
 export const courses = pgTable(
   'courses',
@@ -22,9 +22,13 @@ export const courses = pgTable(
       length: 255,
     }).notNull(),
     description: text('description').notNull(),
-    slug: text('slug').unique().notNull(),
+    slug: varchar('slug', {
+      length: 8,
+    })
+      .unique()
+      .notNull(),
     published: boolean('published').notNull().default(false),
-    state: stateEnum('status').notNull().default('ongoing'),
+    status: statusEnum('status').notNull().default('ongoing'),
     visits: integer('visits').notNull().default(0),
     dateCreated: timestamp('date_created', {
       withTimezone: true,
