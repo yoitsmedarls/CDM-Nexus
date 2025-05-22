@@ -46,7 +46,7 @@
 </script>
 
 <svelte:head>
-  <title>Dashboard</title>
+  <title>Dashboard | CDM Nexus Admins</title>
   <meta name="description" content="Dashboard for CDM Nexus Administrators." />
 </svelte:head>
 
