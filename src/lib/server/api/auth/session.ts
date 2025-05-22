@@ -1,4 +1,9 @@
+import { sha256 } from '@oslojs/crypto/sha2';
 import { encodeHexLowerCase } from '@oslojs/encoding';
+import type { RequestEvent } from '@sveltejs/kit';
+import { eq } from 'drizzle-orm';
+
+import { DAY_IN_MS } from '$lib/server/api/auth';
 import { db } from '$lib/server/db';
 import {
   sessions,
@@ -6,10 +11,6 @@ import {
   type SelectSession,
   type SelectUser,
 } from '$lib/server/db/schema';
-import { sha256 } from '@oslojs/crypto/sha2';
-import { DAY_IN_MS } from '$lib/server/api/auth/utils';
-import { eq } from 'drizzle-orm';
-import type { RequestEvent } from '@sveltejs/kit';
 
 export const sessionCookieName = 'session';
 

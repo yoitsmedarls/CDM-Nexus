@@ -1,11 +1,12 @@
 import { db } from '$lib/server/db';
+import { eq, or } from 'drizzle-orm';
+
+import { DAY_IN_MS } from '$lib/server/api/auth';
 import {
   applications,
   type InsertApplication,
   type SelectApplication,
-} from '$lib/server/db/schema/applications';
-import { DAY_IN_MS } from '$lib/server/api/auth/utils';
-import { eq, or } from 'drizzle-orm';
+} from '$lib/server/db/schema';
 
 export function verifyMessageInput(
   message: InsertApplication['message']

@@ -1,4 +1,5 @@
 import { eq } from 'drizzle-orm';
+
 import { db } from '$lib/server/db';
 import {
   quizzes,

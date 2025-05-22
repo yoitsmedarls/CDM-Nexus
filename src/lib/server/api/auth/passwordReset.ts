@@ -1,15 +1,16 @@
-import { encodeHexLowerCase } from '@oslojs/encoding';
 import { sha256 } from '@oslojs/crypto/sha2';
+import { encodeHexLowerCase } from '@oslojs/encoding';
+import type { RequestEvent } from '@sveltejs/kit';
+import { eq } from 'drizzle-orm';
+
+import { DAY_IN_MS, generateRandomOTP } from '$lib/server/api/auth';
 import { db } from '$lib/server/db';
-import { DAY_IN_MS, generateRandomOTP } from '$lib/server/api/auth/utils';
 import {
   passwordResetSessions,
   users,
   type SelectPasswordResetSession,
   type SelectUser,
 } from '$lib/server/db/schema';
-import { eq } from 'drizzle-orm';
-import type { RequestEvent } from '@sveltejs/kit';
 
 export const passwordResetSessionCookieName = 'password_reset_session';
 
