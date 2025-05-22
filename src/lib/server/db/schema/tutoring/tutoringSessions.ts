@@ -5,7 +5,6 @@ import { tutoringSessionStatusEnum } from './tutoringSessionStatusEnum';
 export const tutoringSessions = pgTable('tutoring_sessions', {
   id: uuid('id').primaryKey().notNull().defaultRandom(),
   tutorId: text('tutor_id')
-    .unique()
     .notNull()
     .references(() => users.id, {
       onDelete: 'cascade',

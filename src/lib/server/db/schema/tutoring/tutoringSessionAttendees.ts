@@ -6,12 +6,17 @@ import {
   uuid,
 } from 'drizzle-orm/pg-core';
 import { users } from '../auth';
+import { tutoringSessions } from './tutoringSessions';
 
 export const tutoringSessionAttendees = pgTable(
   'tutoring_session_attendees',
   {
     id: uuid('id').defaultRandom(),
-    tutoringSessionId: uuid('tutoring_session_id').notNull(),
+    tutoringSessionId: uuid('tutoring_session_id')
+      .notNull()
+      .references(() => tutoringSessions.id, {
+        onDelete: 'cascade',
+      }),
     studentId: text('student_id')
       .unique()
       .notNull()

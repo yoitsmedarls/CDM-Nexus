@@ -13,7 +13,6 @@ export const tutorAvailability = pgTable(
   {
     id: uuid('id').defaultRandom().notNull(),
     tutorId: text('tutor_id')
-      .unique()
       .notNull()
       .references(() => users.id, {
         onDelete: 'cascade',
