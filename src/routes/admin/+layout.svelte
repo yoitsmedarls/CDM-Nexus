@@ -55,7 +55,7 @@
   >
     <Logo
       href="/admin/dashboard"
-      class={{ nexus: 'pl-1 text-lg md:pl-2 md:text-2xl xl:text-3xl' }}
+      class={{ nexus: 'pl-1 text-lg md:pl-2 md:text-2xl xl:pr-12 xl:text-3xl' }}
     />
     {#if App.viewport.width < App.breakpoints.md}
       <HamburgerMenu
