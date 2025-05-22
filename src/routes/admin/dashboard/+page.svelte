@@ -67,7 +67,7 @@
       {/each}
     </section>
     <Separator orientation="horizontal" decorative />
-    <section class="grid grid-cols-1 gap-2 pt-2 md:grid-cols-2">
+    <section class="grid grid-cols-1 gap-2 pt-4 md:grid-cols-2">
       <div
         class="flex flex-col justify-start gap-3 rounded-md border border-gray-100 bg-gray-50 px-3 py-4"
       >
