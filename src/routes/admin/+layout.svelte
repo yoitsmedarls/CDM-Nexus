@@ -36,6 +36,10 @@
       text: 'Schedules',
       slug: '/admin/schedules',
     },
+    {
+      text: 'Settings',
+      slug: '/admin/settings',
+    },
   ]);
 
   let { data, children }: LayoutProps = $props();
