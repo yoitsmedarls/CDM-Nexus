@@ -1,144 +1,278 @@
-# CDM Nexus Web App
+# CDM Nexus Web Application
 
-An online web application that features a learning platform where students can access math-focused lecture materials, worked examples, and short quizzes, on-demand.
+## Project Description
 
-The web app also includes the option for students to apply for a face-to-face tutoring session with the CDM Nexus tutors (depending on the availability of the program).
+CDM Nexus is an initiative by Colegio de Muntinlupa dedicated to providing academic support, primarily through tutoring services, for students who find mathematics challenging. This web application serves as a centralized platform for CDM Nexus, facilitating:
 
-## Prerequisites
+* **Online Courses**: Access to structured math courses, including lessons, topics, lecture materials, quizzes, and exams.
+* **In-Person Tutor Scheduling**: A system for students to schedule sessions with available tutors.
+* **Tutor Application System**: A process for individuals to apply to become tutors.
 
-- Download and install [Visual Studio Code](https://code.visualstudio.com/download).
+The application aims to enhance the learning experience and provide robust support for both students and tutors within the Colegio de Muntinlupa community.
 
-- Download and install [Powershell 7](https://github.com/PowerShell/PowerShell/releases/download/v7.5.0/PowerShell-7.5.0-win-x64.msi).
+## Tech Stack
 
-  - On Windows Terminal, set as 'Powershell 7' as Default Profile
+This project is built from scratch using the following modern web technologies:
 
-- Download and install Windows Subsystem for Linux by running the following command:
+* **Backend Framework**: [Node.js](https://nodejs.org/)
+* **Frontend Framework**: [Svelte 5](https://svelte.dev/) with [SvelteKit 2](https://kit.svelte.dev/)
+* **Styling**: [Tailwind CSS v4](https://tailwindcss.com/) (as indicated by `@tailwindcss/vite` and `tailwindcss` version 4 in `package-lock.json`)
+* **ORM**: [Drizzle ORM](https://orm.drizzle.team/) (configured in `drizzle.config.ts`)
+* **Database**: [PostgreSQL](https://www.postgresql.org/) (referenced in `docker-compose.yml` and `drizzle.config.ts`)
+* **Authentication**: Custom-built using secure practices like password hashing with Argon2 and session management (see `src/lib/server/api/auth/`).
+* **Development & Build Tools**: [Vite](https://vitejs.dev/), [TypeScript](https://www.typescriptlang.org/), [ESLint](https://eslint.org/), [Prettier](https://prettier.io/)
+* **Testing**: [Playwright](https://playwright.dev/) for End-to-End testing (see `e2e/demo.test.ts`) and [Vitest](https://vitest.dev/) for unit testing (inferred from `vite.config.ts` and `package-lock.json`).
 
-  ```powershell
-  wsl --install -d Ubuntu
-  ```
+## Project Structure
 
-  - Check if it was installed properly by running:
+The project follows a standard SvelteKit application structure:
 
-  ```powershell
-  wsl --status
-  ```
+``` bash
+./
+├── .github/                  # GitHub specific workflows (e.g., Dependabot)
+├── e2e/                      # End-to-End tests (e.g., Playwright demo test)
+├── src/
+│   ├── app.css               # Global CSS styles
+│   ├── app.d.ts              # Global TypeScript declarations
+│   ├── app.html              # Main HTML template
+│   ├── hooks.server.ts       # SvelteKit server hooks
+│   ├── lib/
+│   │   ├── components/       # Reusable Svelte components
+│   │   │   ├── global/       # Globally used components (e.g., App.svelte.ts)
+│   │   │   ├── routes/       # Components specific to certain routes/pages
+│   │   │   └── ui/           # General UI components (buttons, inputs, etc.)
+│   │   └── server/           # Server-side logic
+│   │       ├── api/          # Backend API implementations
+│   │       │   ├── auth/     # Authentication related APIs (password, session, user management)
+│   │       │   ├── courses/  # Courses CRUD and related functionalities)
+│   │       │   └── tutoring/ # Tutoring scheduling and application APIs)
+│   │       └── db/           # Database related logic
+│   │           ├── schema/   # Drizzle ORM schema definitions for all tables (auth, courses, tutoring)
+│   │           ├── seeds/    # Database seeding scripts and data (e.g., courses.json, exams.json)
+│   │           └── index.ts  # Main database client export
+│   └── routes/                 # SvelteKit routes defining pages and endpoints
+│       ├── (auth)/             # Authentication routes (login, signup)
+│       ├── (tutoring)/         # Tutoring related routes (apply, request)
+│       ├── admin/              # Admin panel routes
+│       └── ...                 # Other application routes
+├── static/                   # Static assets (e.g., favicon.png)
+├── .gitignore                # Specifies intentionally untracked files that Git should ignore
+├── .npmrc                    # NPM configuration file (e.g., engine-strict)
+├── .prettierignore           # Files to be ignored by Prettier
+├── .prettierrc               # Prettier configuration file
+├── docker-compose.yml        # Docker Compose configuration for local development (PostgreSQL service)
+├── drizzle.config.ts         # Drizzle ORM configuration
+├── eslint.config.js          # ESLint configuration
+├── netlify.toml              # Netlify deployment configuration
+├── package-lock.json         # Records exact versions of dependencies
+├── package.json              # Project metadata and dependencies
+├── playwright.config.ts      # Playwright E2E testing configuration
+├── svelte.config.js          # SvelteKit configuration (adapters, preprocessors, etc.)
+├── tsconfig.json             # TypeScript compiler options
+└── vite.config.ts            # Vite build tool configuration
+```
 
-- Open Visual Studio Code and install the [WSL Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) by Microsoft.
+## Key Features
 
-## Setup in Linux Environment
+* **User Authentication & Authorization**:
+  * Secure sign-up and login functionality.
+  * Password hashing using Argon2.
+  * Session management with HTTP-only cookies.
+  * Password strength checking and Pwned Passwords API integration for enhanced security.
+  * Password reset functionality via OTP sent to CDM email.
+  * Role-based access control (Student, Tutor, Admin) defined in `userRoleEnum.ts`.
 
-- Routine command every time you open your Linux environment:
+* **Course Management (Admin)**:
+  * CRUD operations for courses, lessons, topics, and lecture materials.
+  * Management of quizzes and exam questions associated with courses.
+  * Ability to publish/unpublish courses and their components.
 
-  ```bash
-  sudo apt -y update && sudo apt -y upgrade && sudo apt -y autoremove
-  ```
+* **Online Learning Platform (Student/Tutor)**:
+  * Browse available courses.
+  * View course structure: lessons, topics, and lecture materials (including YouTube videos).
+  * Take quizzes and exams.
 
-- Check if git is installed by running
+* **Tutoring Services**:
+  * **Tutor Application**: Students can apply to become tutors; admins can review and manage these applications.
+  * **Tutor Scheduling**: (Details to be expanded based on implementation)
+    * Tutors can set their availability.
+    * Students can request tutoring sessions.
+    * Admins can oversee schedules and events.
+  * Relevant schema includes `applications`, `events`, `schedules`, and `timeslots`.
 
-  ```bash
-  git --version
-  ```
+* **Admin Dashboard**:
+  * Overview of platform statistics (e.g., number of users, courses, tutors).
+  * Management panels for users, courses, and tutoring applications.
 
-  - If it doesn't display a version number, install git by running:
+## Database
+
+* **Type**: PostgreSQL
+* **ORM**: Drizzle ORM
+* **Schema**:
+
+  Defined in `src/lib/server/db/schema/` directory, organized by feature (auth, courses, tutoring). This includes enums for roles, statuses, etc.
+* **Migrations**:
+
+  Managed by Drizzle Kit (commands typically run via npm scripts).
+
+* **Seeding**:
+
+  Initial data for courses, questions, etc., is provided in `src/lib/server/db/seeds/data/` and loaded via scripts in `src/lib/server/db/seeds/index.ts`.
+
+## Authentication
+
+Authentication is handled server-side with robust security measures:
+
+* User registration and login using CDM-specific email addresses (`@cdm.edu.ph`).
+* Passwords are hashed using **Argon2** via `@node-rs/argon2`.
+* Session tokens are generated (`generateSessionToken` in `src/lib/server/api/auth/utils.ts`) and stored as HTTP-only cookies (`sessionCookieName` in `src/lib/server/api/auth/session.ts`). Session validation and refresh logic is present.
+* Password reset uses a token-based system with OTPs sent to the user's email (`passwordResetSessionCookieName` and related functions in `src/lib/server/api/auth/passwordReset.ts`).
+* User roles (`admin`, `tutor`, `student`) are defined and used for authorization.
+* Auth-related API logic is located in `src/lib/server/api/auth/`.
+
+## API Endpoints
+
+The backend API is organized by resource and functionality:
+
+* `/api/auth/*`: Handles user registration, login, logout, password reset, and session management. (Code in `src/lib/server/api/auth/`)
+* `/api/courses/*`: Manages CRUD operations for courses, lessons, topics, lecture materials, quizzes, and exams. (Code in `src/lib/server/api/courses/`)
+* `/api/tutoring/*`: Handles tutor applications, event management, and scheduling. (Code in `src/lib/server/api/tutoring/`)
+
+Specific endpoint definitions are co-located with their respective SvelteKit routes in the `src/routes/` directory, typically in `+page.server.ts` or `+server.ts` files.
+
+## Getting Started
+
+### Prerequisites
+
+* [Node.js](https://nodejs.org/) (Check `.nvmrc` or `package.json` engines for specific version, though not explicitly found in snippets, `engine-strict=true` in `.npmrc` suggests version specificity is important).
+* A Node.js package manager: npm, pnpm, or yarn.
+* [PostgreSQL](https://www.postgresql.org/) server.
+* [Docker](https://www.docker.com/) (Optional, for running PostgreSQL via `docker-compose.yml`).
+
+### Environment Variables
+
+Create a `.env` file in the root of the project. You can use `.env.example` as a template if one exists (not explicitly found in snippets, but common practice).
+The `docker-compose.yml` and `drizzle.config.ts` refer to the following variables:
+
+* `DATABASE_URL`: The connection string for your PostgreSQL database.
+  * Example: `postgresql://<DB_USER>:<DB_PASSWORD>@<DB_HOST>:<DB_PORT>/<DB_NAME>`
+* `DB_USER`: PostgreSQL username.
+* `DB_PASSWORD`: PostgreSQL password.
+* `DB_NAME`: PostgreSQL database name.
+* `DB_PORT`: Port for the PostgreSQL service (e.g., `5432`).
+
+Other environment variables might be required by the application (e.g., for email services, API keys). Consult the code or other developers for a complete list.
+
+### Installation
+
+1. Clone the repository:
 
     ```bash
-    sudo apt install git
+    git clone <repository-url>
+    cd cdm-nexus # or your project's root directory
     ```
 
-- Install the GitHub CLI by running:
-
-  ```bash
-  sudo apt install gh
-  ```
-
-  - Check if it was installed properly by running:
+2. Install dependencies (using npm as an example, based on `package-lock.json`):
 
     ```bash
-    gh --version
+    npm install
     ```
 
-- Install Node.JS by running the following commands:
+### Database Setup
 
-  ```bash
-  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
-  nvm install 23
-  ```
+1. **Start PostgreSQL Server**:
+    * If using Docker:
 
-  - Check their versions by running the following:
+        ```bash
+        docker-compose up -d
+        ```
+
+    * Otherwise, ensure your local or remote PostgreSQL server is running and accessible.
+
+2. **Run Database Migrations**:
+    Drizzle ORM is used for schema management. Migrations apply schema changes to the database.
+    (Assuming a script in `package.json` like `npm run db:migrate` or similar, which would typically execute `drizzle-kit migrate`)
 
     ```bash
-    node -v # Should print "v23.7.0".
-    nvm current # Should print "v23.7.0".
-    npm -v # Should print "10.9.2".
+    # Example command, actual script might differ:
+    npm run migrate # or npx drizzle-kit migrate
     ```
 
-- Create a directory for your projects.
+    Check `package.json` for the exact Drizzle migration command. The `drizzle-kit` dependency is present.
+
+3. **Seed the Database** (Optional, but recommended for development):
+    The project includes seeding scripts to populate the database with initial data (courses, users, etc.).
+    (Assuming a script in `package.json` like `npm run db:seed`)
+
+    ```bash
+    # Example command, actual script might differ:
+    npm run seed
+    ```
+
+    The seed data is located in `src/lib/server/db/seeds/data/` and logic in `src/lib/server/db/seeds/index.ts`.
+
+### Running the Development Server
+
+```bash
+npm run dev
+```
+
+This will start the Vite development server, typically accessible at <http://localhost:5173> (or another port if specified).
+
+### Running Tests
+
+* **End-to-End Tests (Playwright):**
+
+  (Assuming a script like test:e2e in package.json)
 
   ```bash
-  mkdir folder-name
+  npm run test:e2e # or npx playwright test
   ```
 
-- Move into the directory you created.
+  Configuration is in playwright.config.ts. Demo test in e2e/demo.test.ts.
 
-  ```bash
-  cd folder-name
+* **Unit/Integration Tests (Vitest):**
+
+  (Assuming a script like test:unit or test in package.json)
+
+  ``` bash
+  npm run test # or npm run test:unit
   ```
 
-- Clone this repository by running:
+  Vitest is listed as a dev dependency.
 
-  ```bash
-  gh repo clone yoitsmedarls/CDM-Nexus
-  ```
+## Deployment
 
-- Run the command below. You should see a folder named 'CDM-Nexus' in the current directory.
+The project is configured for deployment on Netlify, as indicated by the netlify.toml file and the @sveltejs/adapter-netlify dependency.
 
-  ```bash
-  ls
-  ```
+The typical build command (as specified in netlify.toml) is:
 
-- Open the folder in Visual Studio Code by running:
+``` bash
+npm run build
+```
 
-  ```bash
-  code CDM-Nexus/
-  ```
+Netlify will use the build directory as the publish directory.
 
-- A Visual Studio Code window should pop up. Now, install the necessary dependencies by running:
+## Linting and Formatting
 
-  ```bash
-  npm install
-  ```
+This project uses ESLint for linting and Prettier for code formatting to maintain code quality and consistency.
 
-- The website project should now be locally accessible. Try running the following command and open the localhost URL in a browser.
+* **ESLint:** Configuration is in eslint.config.js. It uses plugins for TypeScript and Svelte.
+* **Prettier:** Configuration is in .prettierrc and .prettierignore. It's set up to work with Svelte and Tailwind CSS.
 
-  ```bash
-  npm run dev
-  ```
+To lint and format your code (assuming scripts in package.json):
 
-## Recommended Visual Studio Code Extensions
+``` bash
+# Example commands
+npm run lint
+npm run format
+```
 
-Install the following extensions to improve functionality of Visual Studio Code for this specific project.
+## Contributing
 
-- [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
-- [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
-- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
-- [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
-- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-- [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
-- [HTML End Tag Labels](https://marketplace.visualstudio.com/items?itemName=anteprimorac.html-end-tag-labels)
-- [JavaScript Booster](https://marketplace.visualstudio.com/items?itemName=sburg.vscode-javascript-booster)
-- [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server)
-- [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
-- [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
-- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-- [Quokka.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)
-- [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
-- [Svelte for VS Code](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode)
-- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+As this project is being developed collaboratively, please adhere to the established coding standards and practices.
 
-## Developers
-
-- Don Diego, Michaella C. ([@linktogithub](https://www.github.com/linktogithub))
-- Laydia, John Emmanuel A. ([@linktogithub](https://www.github.com/linktogithub))
-- Minlay, Louise Antoinette V. ([@linktogithub](https://www.github.com/linktogithub))
-- Ugaban, John Daryl J. ([@yoitsmedarls](https://www.github.com/yoitsmedarls))
+* Follow the project's ESLint and Prettier configurations.
+* Write clear and concise commit messages.
+* Ensure any new features or bug fixes are accompanied by relevant tests.
+* Discuss significant changes or new features with the team before implementation.
