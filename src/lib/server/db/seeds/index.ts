@@ -1,6 +1,7 @@
 import { db } from '$lib/server/db';
 
 import {
+  features,
   courses,
   lessons,
   topics,
@@ -9,6 +10,7 @@ import {
   quizQuestions,
   exams,
   examQuestions,
+  users,
   type InsertCourse,
   type InsertLesson,
   type InsertTopic,
@@ -17,8 +19,11 @@ import {
   type InsertQuizQuestion,
   type InsertExam,
   type InsertExamQuestion,
+  type InsertUser,
+  type InsertFeature,
 } from '$lib/server/db/schema';
 
+import featuresData from './data/features.json';
 import coursesData from './data/courses.json';
 import lessonsData from './data/lessons.json';
 import topicsData from './data/topics.json';
@@ -27,9 +32,13 @@ import quizzesData from './data/quizzes.json';
 import quizQuestionsData from './data/quizQuestions.json';
 import examsData from './data/exams.json';
 import examQuestionsData from './data/examQuestions.json';
+import usersData from './data/users.json';
 
 async function seedDatabase(): Promise<void> {
   console.log('Inserting data...');
+
+  console.log('Initializing web app features...');
+  await db.insert(features).values(featuresData as InsertFeature[]);
 
   console.log('Inserting courses...');
   await db.insert(courses).values(coursesData as InsertCourse[]);
@@ -60,6 +69,9 @@ async function seedDatabase(): Promise<void> {
   await db
     .insert(examQuestions)
     .values(examQuestionsData as InsertExamQuestion[]);
+
+  console.log('Inserting users...');
+  await db.insert(users).values(usersData as unknown as InsertUser[]);
 
   return;
 }
