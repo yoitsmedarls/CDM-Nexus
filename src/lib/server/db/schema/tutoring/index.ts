@@ -1,2 +1,2 @@
-export * from './applicationStatusEnum';
-export * from './applications';
+export * from './tutoringApplicationStatusEnum';
+export * from './tutoringApplications';

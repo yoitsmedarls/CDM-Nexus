@@ -1,10 +1,10 @@
 import { sql } from 'drizzle-orm';
 import { check, pgTable, text, timestamp, uuid } from 'drizzle-orm/pg-core';
 import { userRoleEnum, users } from '../auth';
-import { applicationStatusEnum } from './applicationStatusEnum';
+import { tutoringApplicationStatusEnum } from './tutoringApplicationStatusEnum';
 
-export const applications = pgTable(
-  'applications',
+export const tutoringApplications = pgTable(
+  'tutoring_applications',
   {
     id: uuid('id').primaryKey().notNull().defaultRandom(),
     userId: text('user_id')
@@ -16,7 +16,9 @@ export const applications = pgTable(
     currentRole: userRoleEnum('current_role').notNull(),
     desiredRole: userRoleEnum('desired_role').notNull(),
     message: text('message').notNull(),
-    status: applicationStatusEnum('status').default('pending').notNull(),
+    status: tutoringApplicationStatusEnum('status')
+      .default('pending')
+      .notNull(),
     createdAt: timestamp('created_at', {
       withTimezone: true,
     })
@@ -34,5 +36,7 @@ export const applications = pgTable(
   ]
 );
 
-export type SelectApplication = typeof applications.$inferSelect;
-export type InsertApplication = typeof applications.$inferInsert;
+export type SelectTutoringApplication =
+  typeof tutoringApplications.$inferSelect;
+export type InsertTutoringApplication =
+  typeof tutoringApplications.$inferInsert;
