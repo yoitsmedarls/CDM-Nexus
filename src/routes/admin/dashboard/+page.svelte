@@ -31,6 +31,7 @@
       label: data.students.length > 1 ? 'Students' : 'Student',
       description: 'With an Account',
     },
+    // TODO: Change site visits to number of tutoring sessions
     {
       id: 'no-of-site-visits',
       info: data.courses
