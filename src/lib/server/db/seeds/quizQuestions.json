@@ -6,7 +6,7 @@
     "optionB": "Using parentheses ( )",
     "optionC": "Using curly braces { }",
     "optionD": "Using double vertical bars || ||",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "bbfb8ea4-4c34-4c58-835b-3616c92aaed0",
@@ -15,7 +15,7 @@
     "optionB": "Rational function",
     "optionC": "Quadratic function",
     "optionD": "Polynomial function",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "c97b1fd2-0dcb-48e8-882d-146e86342422",
@@ -24,7 +24,7 @@
     "optionB": "x",
     "optionC": "both x and y",
     "optionD": "neither x nor y",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "08920a5b-d519-4e6a-b76a-bce306f25a6d",
@@ -33,7 +33,7 @@
     "optionB": "only curves",
     "optionC": "all paths approaching (a, b)",
     "optionD": "only paths parallel to the axes",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "5702e9d7-001d-43b2-9533-fa44b8e19053",
@@ -42,7 +42,7 @@
     "optionB": "double integrals",
     "optionC": "triple integrals",
     "optionD": "line integrals",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "a8ba6617-30da-4e04-a697-ab61c90c194d",
@@ -51,7 +51,7 @@
     "optionB": "the maximum rate of change",
     "optionC": "zero rate of change",
     "optionD": "constant rate of change",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "3c929d9f-316b-4f09-b3c7-5f43eaa2a4b3",
@@ -60,7 +60,7 @@
     "optionB": "continuous at that point",
     "optionC": "undefined at that point",
     "optionD": "oscillating at that point",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "1b3bcb04-f685-404c-89a5-8b2b3a292ac7",
@@ -69,7 +69,7 @@
     "optionB": "the same number of rows",
     "optionC": "the same number of columns",
     "optionD": "the same dimensions",
-    "correctAnswer": "D"
+    "answer": "D"
   },
   {
     "quizId": "4fa1ff5b-1aa9-436e-bc19-01b4c25f89f7",
@@ -78,7 +78,7 @@
     "optionB": "negative",
     "optionC": "positive and decreasing",
     "optionD": "any real numbers",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "9df04227-1557-420c-baeb-278cd1454eb0",
@@ -87,7 +87,7 @@
     "optionB": "Chain Rule",
     "optionC": "Quotient Rule",
     "optionD": "Power Rule",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "3b6707fb-5168-42e1-a92f-905ae33e572e",
@@ -96,7 +96,7 @@
     "optionB": "simplify the integral into a standard form",
     "optionC": "eliminate the integration constant",
     "optionD": "change the limits of integration",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "e85f1f66-e887-4101-aadd-a749ab3997b9",
@@ -105,7 +105,7 @@
     "optionB": "1/3 times the area of the base times the height",
     "optionC": "2/3 times the area of the base times the height",
     "optionD": "the perimeter of the base times the height",
-    "correctAnswer": "A"
+    "answer": "A"
   },
   {
     "quizId": "d419fdc6-6772-4e05-b6a3-744747620fea",
@@ -114,7 +114,7 @@
     "optionB": "find a common denominator for all fractions",
     "optionC": "factor the numerator only",
     "optionD": "factor the denominator only",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "26917429-ffca-4ff5-af6f-0e9d587e5ee0",
@@ -123,7 +123,7 @@
     "optionB": "acute triangles only",
     "optionC": "obtuse triangles only",
     "optionD": "all triangles",
-    "correctAnswer": "D"
+    "answer": "D"
   },
   {
     "quizId": "9f6e2ee1-61ca-4efb-a890-9bdc8c0846f4",
@@ -132,7 +132,7 @@
     "optionB": "imaginary parts only",
     "optionC": "real and imaginary parts separately",
     "optionD": "magnitudes and arguments",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "ca2c07ed-1842-488d-9ef6-1b06f69d227b",
@@ -141,7 +141,7 @@
     "optionB": "distances and angles",
     "optionC": "volumes only",
     "optionD": "rates of change",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "30820882-929c-449e-9300-e70d978e3e34",
@@ -150,7 +150,7 @@
     "optionB": "f double prime of x",
     "optionC": "f inverse of x",
     "optionD": "f of x to the power of prime",
-    "correctAnswer": "A"
+    "answer": "A"
   },
   {
     "quizId": "2c7c908c-a4e7-4e8b-802c-a83c942a853d",
@@ -159,7 +159,7 @@
     "optionB": "perpendicular",
     "optionC": "skew",
     "optionD": "coincident",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "88602b63-8cc8-46ff-9889-fc665e2fe105",
@@ -168,7 +168,7 @@
     "optionB": "three dimensions",
     "optionC": "four or more dimensions",
     "optionD": "cannot be visualized",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "71492fd1-3467-48f3-b790-904a202a43ad",
@@ -177,7 +177,7 @@
     "optionB": "Double-Angle Formula",
     "optionC": "Half-Angle Formula",
     "optionD": "Sum and Difference Formula",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "ff365314-4d30-4b3a-8892-3c02353ea45d",
@@ -186,7 +186,7 @@
     "optionB": "constants",
     "optionC": "numbers",
     "optionD": "other variables",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "2687cbb4-0a1e-45ea-84df-cb402404b8fa",
@@ -195,7 +195,7 @@
     "optionB": "distance from zero",
     "optionC": "reciprocal",
     "optionD": "square root",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "0494bcd5-7543-441e-ae91-1a1704803ab5",
@@ -204,7 +204,7 @@
     "optionB": "y-intercept",
     "optionC": "intersection point",
     "optionD": "area under the line",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "df753f02-0e0d-4391-b684-b1a978cb4549",
@@ -213,7 +213,7 @@
     "optionB": "functions are implicitly defined",
     "optionC": "functions are linear",
     "optionD": "functions are polynomial",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "20987361-b212-43b5-a442-167e1948a370",
@@ -222,7 +222,7 @@
     "optionB": "rates of change in multiple directions",
     "optionC": "total derivatives",
     "optionD": "integrals",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "b4636251-5b97-4990-a3a7-3db7a4c2a51e",
@@ -231,7 +231,7 @@
     "optionB": "f(c) is undefined",
     "optionC": "The limit as x approaches c equals f(c)",
     "optionD": "f(c) equals zero",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "29feb639-94d7-42ca-bc3e-811097700ee9",
@@ -240,7 +240,7 @@
     "optionB": "volume of a solid",
     "optionC": "balance point of a region or solid",
     "optionD": "surface area of a solid",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "cb022fe3-f64d-4d6d-b3ef-bfd94d9b4cc0",
@@ -249,7 +249,7 @@
     "optionB": "non-uniform cross-sections",
     "optionC": "circular cross-sections perpendicular to an axis",
     "optionD": "square cross-sections",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "4199c598-c8bb-40f6-b750-5d1075abafda",
@@ -258,7 +258,7 @@
     "optionB": "sphere",
     "optionC": "cone",
     "optionD": "cylinder",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "799eea53-53ad-45a2-a1f7-6abb1fc4f402",
@@ -267,7 +267,7 @@
     "optionB": "complex solutions",
     "optionC": "negative solutions",
     "optionD": "fractional solutions",
-    "correctAnswer": "A"
+    "answer": "A"
   },
   {
     "quizId": "a526f50f-ec6e-4a08-8ff7-086e4316a234",
@@ -276,7 +276,7 @@
     "optionB": "Ax + By = C",
     "optionC": "y - y1 = m(x - x1)",
     "optionD": "x/a + y/b = 1",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "66182cc1-4cbb-4ed6-9633-293837f536af",
@@ -285,7 +285,7 @@
     "optionB": "(-π/2, π/2)",
     "optionC": "[−π/2, π/2]",
     "optionD": "(0, π)",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "a1ba9517-c53f-4c4c-b39e-c07ff1e00e8f",
@@ -294,7 +294,7 @@
     "optionB": "cylindrical symmetry",
     "optionC": "spherical symmetry",
     "optionD": "rotational symmetry around the origin",
-    "correctAnswer": "D"
+    "answer": "D"
   },
   {
     "quizId": "d3728dee-8801-4296-849e-756e3e155ae6",
@@ -303,7 +303,7 @@
     "optionB": "one variable, holding others constant",
     "optionC": "time",
     "optionD": "the gradient vector",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "b7af3845-d363-458d-b270-938c8a4f0478",
@@ -312,7 +312,7 @@
     "optionB": "(1/3) * Base Area * Height",
     "optionC": "(2/3) * Base Area * Height",
     "optionD": "π * r^2 * Height",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "4f6ad3d2-8b04-4f19-bbe8-807c20e45942",
@@ -321,7 +321,7 @@
     "optionB": "cos(x)",
     "optionC": "tan(x)",
     "optionD": "sec^2(x)",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "0942bb3e-f302-48a5-b053-567090fa72cb",
@@ -330,7 +330,7 @@
     "optionB": "inflection points",
     "optionC": "local extrema",
     "optionD": "absolute extrema",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "1b8e78d4-fe45-4947-809a-8332c2a18d29",
@@ -339,7 +339,7 @@
     "optionB": "x-intercepts and vertical asymptotes",
     "optionC": "horizontal asymptotes",
     "optionD": "oblique asymptotes",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "31ac5807-54fb-4fdd-b68d-957b76bd420a",
@@ -348,7 +348,7 @@
     "optionB": "infinite number of terms for the partial sum",
     "optionC": "constant partial sum",
     "optionD": "zero partial sum",
-    "correctAnswer": "A"
+    "answer": "A"
   },
   {
     "quizId": "b5c3277a-d1fc-474c-aa9a-7d7b942ecb28",
@@ -357,7 +357,7 @@
     "optionB": "sum of the numbers in a sequence",
     "optionC": "ratio of consecutive numbers in a sequence",
     "optionD": "difference between consecutive numbers in a sequence",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "47e5137a-1660-4937-b88c-abc90c012b9f",
@@ -366,7 +366,7 @@
     "optionB": "a p-series",
     "optionC": "another series with known convergence",
     "optionD": "an alternating series",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "abc34d60-8f5c-48fb-941b-91425eeb627d",
@@ -375,7 +375,7 @@
     "optionB": "quadric surfaces",
     "optionC": "polygons",
     "optionD": "curves in a plane",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "15d29c82-be1b-44b7-b71b-3b3bd31a6b89",
@@ -384,7 +384,7 @@
     "optionB": "simplifying integrals only",
     "optionC": "approximating functions and performing calculus operations",
     "optionD": "solving algebraic equations",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "0cc1525b-1b58-4d00-aa46-18cafe33b115",
@@ -393,7 +393,7 @@
     "optionB": "partial derivative",
     "optionC": "gradient vector",
     "optionD": "second derivative",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "8cea4fca-29cc-4bd8-b021-c1f584c5e282",
@@ -402,7 +402,7 @@
     "optionB": "straight line segments",
     "optionC": "circles",
     "optionD": "ellipses",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "60ebc6fa-e265-4514-a301-b2621ba3a957",
@@ -411,7 +411,7 @@
     "optionB": "indeterminate forms",
     "optionC": "polynomial functions",
     "optionD": "continuous functions",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "4129b0aa-8cc4-4d16-b69e-f0e945c144b8",
@@ -420,7 +420,7 @@
     "optionB": "navigation and astronomy",
     "optionC": "calculus",
     "optionD": "linear algebra",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "aea85c9b-ebcf-4486-9e36-1e4fc169c158",
@@ -429,7 +429,7 @@
     "optionB": "more than one independent variable",
     "optionC": "no independent variables",
     "optionD": "only dependent variables",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "de33e03d-74ab-4eac-b802-51e955b519c2",
@@ -438,7 +438,7 @@
     "optionB": "calculus techniques",
     "optionC": "graphing calculators only",
     "optionD": "numerical approximations",
-    "correctAnswer": "A"
+    "answer": "A"
   },
   {
     "quizId": "9222feb3-182f-4763-9949-6e886fdc4158",
@@ -447,7 +447,7 @@
     "optionB": "fractions",
     "optionC": "imaginary unit 'i'",
     "optionD": "irrational numbers",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "4f1f74f0-7159-4927-97fb-30e0eef2e26d",
@@ -456,7 +456,7 @@
     "optionB": "rational functions",
     "optionC": "radicals of quadratic expressions",
     "optionD": "exponential functions",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "083f02a5-82b1-41f7-ab37-b882367bb871",
@@ -465,7 +465,7 @@
     "optionB": "increases proportionally",
     "optionC": "remains constant",
     "optionD": "increases exponentially",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "29f3ab88-ee2d-4b2f-b4c3-62a0615fb911",
@@ -474,7 +474,7 @@
     "optionB": "approximating functions and solving differential equations",
     "optionC": "finding areas of polygons",
     "optionD": "calculating volumes of solids with uniform cross-section",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "38ab75a3-fc21-4c70-a5e3-da84bc1339fc",
@@ -483,7 +483,7 @@
     "optionB": "rate of change",
     "optionC": "integral",
     "optionD": "limit",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "5e7a32e6-f4ad-4f58-b21d-bd0c16d2e18a",
@@ -492,7 +492,7 @@
     "optionB": "sin^2(x) + cos^2(x) = 1",
     "optionC": "tan^2(x) + cot^2(x) = 1",
     "optionD": "sec^2(x) - csc^2(x) = 1",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "8da5e0ce-ec05-406c-86d2-865cd2f3c18f",
@@ -501,7 +501,7 @@
     "optionB": "evaluating definite integrals",
     "optionC": "finding indefinite integrals",
     "optionD": "solving differential equations",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "047363dd-e38e-4c92-bf02-808d00152dff",
@@ -510,7 +510,7 @@
     "optionB": "∂f/∂x and ∂f/∂y",
     "optionC": "d^2f/dx^2 and d^2f/dy^2",
     "optionD": "∫f(x,y)dx and ∫f(x,y)dy",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "de59f574-a98e-4907-a27c-fbc2d9597c1f",
@@ -519,7 +519,7 @@
     "optionB": "x-intercept",
     "optionC": "steepness or inclination",
     "optionD": "area under the line",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "5195e304-1751-4969-894c-b337c6032e2f",
@@ -528,7 +528,7 @@
     "optionB": "powers",
     "optionC": "alternating signs",
     "optionD": "logarithms",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "3c9160ae-e4ed-4c73-acba-c302f013f808",
@@ -537,7 +537,7 @@
     "optionB": "continuous at that point",
     "optionC": "discontinuous at that point",
     "optionD": "undefined at that point",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "ea7eb490-c7c6-4e33-97b2-3c30858ecc28",
@@ -546,7 +546,7 @@
     "optionB": "a product of factors",
     "optionC": "a quotient of terms",
     "optionD": "a difference of terms",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "75026a77-fcbd-4d8a-a6c2-bf307cb44755",
@@ -555,7 +555,7 @@
     "optionB": "ln|x| + C",
     "optionC": "e^x + C",
     "optionD": "x + C",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "f67cbf89-ef0a-4d2b-9474-cf50e1c76a97",
@@ -564,7 +564,7 @@
     "optionB": "sharp corners or cusps",
     "optionC": "smooth curves",
     "optionD": "horizontal tangents",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "23db8086-c35e-4e72-8363-663a019f8c83",
@@ -573,7 +573,7 @@
     "optionB": "specific number",
     "optionC": "infinity",
     "optionD": "negative infinity",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "a346c71d-1722-4da3-ac83-d1c597957bd7",
@@ -582,7 +582,7 @@
     "optionB": "exactly one output",
     "optionC": "no output",
     "optionD": "at least one output",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "fa62163e-d25d-4f94-a258-974aa1c08eb6",
@@ -591,7 +591,7 @@
     "optionB": "the interval for which the series converges",
     "optionC": "the rate of convergence",
     "optionD": "the center of the series",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "686c4aba-2c5e-4e97-9fb8-0afcda5b0ead",
@@ -600,7 +600,7 @@
     "optionB": "negative",
     "optionC": "zero or undefined",
     "optionD": "equal to 1",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "6329267d-dda3-4a11-91ae-119de160be78",
@@ -609,7 +609,7 @@
     "optionB": "simple power functions",
     "optionC": "functions with variable exponents or complex products/quotients",
     "optionD": "linear functions",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "a1ab4e6c-9ec6-46de-bc2b-e6ad8622d2cb",
@@ -618,7 +618,7 @@
     "optionB": "solving systems of linear equations",
     "optionC": "graphing parabolas",
     "optionD": "finding derivatives",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "723868d7-468e-4506-828d-8fb442484ce7",
@@ -627,7 +627,7 @@
     "optionB": "at least one maximum and one minimum value",
     "optionC": "infinitely many maximum and minimum values",
     "optionD": "only a maximum value",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "01b73b04-1d40-429f-8bd8-319e9871fe69",
@@ -636,7 +636,7 @@
     "optionB": "tangent line",
     "optionC": "normal line",
     "optionD": "curve itself",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "b25eedfc-cf63-4439-81a9-831528da5de2",
@@ -645,7 +645,7 @@
     "optionB": "differentiating multiple times with respect to one or more variables",
     "optionC": "integrating partially",
     "optionD": "finding total derivatives",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "58dd8d27-6ef4-47ab-a152-fae9997d0209",
@@ -654,7 +654,7 @@
     "optionB": "problems with cylindrical or spherical symmetry",
     "optionC": "linear equations",
     "optionD": "two-dimensional graphs",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "773b6626-803a-414d-a4dd-3f9ec73b3e6f",
@@ -663,7 +663,7 @@
     "optionB": "(1/3)πr^2h",
     "optionC": "(4/3)πr^3",
     "optionD": "4πr^2",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "8b71eef9-549e-4762-ae4c-dfc0684d9cb8",
@@ -672,7 +672,7 @@
     "optionB": "a vector",
     "optionC": "a constant",
     "optionD": "the identity matrix",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "f1d33777-7b16-40cd-a18f-0be4f54ebab2",
@@ -681,7 +681,7 @@
     "optionB": "equal to 1",
     "optionC": "less than 1",
     "optionD": "greater than or equal to 1",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "358ab2e1-c6ba-4ebc-a91c-727ea00975c6",
@@ -690,7 +690,7 @@
     "optionB": "complex systems",
     "optionC": "linear relationships between variables",
     "optionD": "exponential growth",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "ec8c2ff1-38af-42f5-a4f6-1f58e9869776",
@@ -699,7 +699,7 @@
     "optionB": "second derivative",
     "optionC": "third derivative",
     "optionD": "function itself",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "7ef9425d-55e3-40f8-aad9-7eead0b084dc",
@@ -708,7 +708,7 @@
     "optionB": "approximating functions and calculating sums",
     "optionC": "finding areas of polygons",
     "optionD": "calculating volumes of simple solids",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "0288fce9-7b6e-4805-a9ee-218e8941ef3e",
@@ -717,7 +717,7 @@
     "optionB": "x",
     "optionC": "both x and y",
     "optionD": "neither x nor y",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "e5efa82a-d8ab-4591-8ba6-7d407ac7b464",
@@ -726,7 +726,7 @@
     "optionB": "x",
     "optionC": "t",
     "optionD": "y",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "051cbe02-2fb3-4921-81d8-e0a0fe31cf15",
@@ -735,7 +735,7 @@
     "optionB": "interval of convergence",
     "optionC": "domain of the function",
     "optionD": "range of the function",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "19ea4c6f-a6e2-440f-81f8-dd3023913a88",
@@ -744,7 +744,7 @@
     "optionB": "polar form",
     "optionC": "exponential form",
     "optionD": "vector form",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "21bb4318-89c6-43ad-9412-0f01940bd7f5",
@@ -753,7 +753,7 @@
     "optionB": "rational functions",
     "optionC": "trigonometric functions",
     "optionD": "exponential functions",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "3712a153-3905-43e3-9597-3454fda8a401",
@@ -762,7 +762,7 @@
     "optionB": "smaller and smaller only",
     "optionC": "closer and closer to a specific value",
     "optionD": "closer and closer to infinity",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "0e345fe0-4c79-488a-b2d6-c030e705c63b",
@@ -771,7 +771,7 @@
     "optionB": "evaluate limits algebraically",
     "optionC": "graph limits",
     "optionD": "estimate limits numerically",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "077f4e5d-902b-4ee4-8447-243e0d4646e3",
@@ -780,7 +780,7 @@
     "optionB": "surfaces",
     "optionC": "regions in a plane",
     "optionD": "volumes",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "ede8f7a0-0253-402d-a630-87700be7fa4e",
@@ -789,7 +789,7 @@
     "optionB": "power over time",
     "optionC": "velocity over time",
     "optionD": "acceleration over distance",
-    "correctAnswer": "A"
+    "answer": "A"
   },
   {
     "quizId": "ceadd85b-5d9e-49c6-b745-2d8a1afc8a01",
@@ -798,7 +798,7 @@
     "optionB": "columns in the second matrix",
     "optionC": "rows in the second matrix",
     "optionD": "elements in the second matrix",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "ef7b44ed-17a7-4005-894c-92b782a93df0",
@@ -807,7 +807,7 @@
     "optionB": "non-rectangular regions",
     "optionC": "polar regions only",
     "optionD": "spherical regions only",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "7b3e3b09-92cf-44a3-a5ad-e1ffb494a03d",
@@ -816,7 +816,7 @@
     "optionB": "quadratic equations in two variables",
     "optionC": "cubic equations",
     "optionD": "exponential equations",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "455ca88e-2ecb-41b3-bfb5-daa4604c0635",
@@ -825,7 +825,7 @@
     "optionB": "difference of the functions",
     "optionC": "product of the functions",
     "optionD": "quotient of the functions",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "3b965927-e9cc-497b-91cb-43f7cac3d059",
@@ -834,7 +834,7 @@
     "optionB": "integrals",
     "optionC": "geometric properties",
     "optionD": "limits",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "7309fb9a-c6fa-4e1e-ab9f-3d1e8b7cdf62",
@@ -843,7 +843,7 @@
     "optionB": "conic sections",
     "optionC": "polyhedra",
     "optionD": "cylindrical surfaces",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "633932db-1651-4d15-81a1-55e22a918f90",
@@ -852,7 +852,7 @@
     "optionB": "combinatorics and probability",
     "optionC": "linear algebra",
     "optionD": "differential equations",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "c7721629-6e42-420f-b0ac-a2c84dbdda0b",
@@ -861,7 +861,7 @@
     "optionB": "definite integrals",
     "optionC": "partial derivatives",
     "optionD": "multiple integrals",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "8072e032-d9d2-40e7-b82a-3d04b340f3ef",
@@ -870,7 +870,7 @@
     "optionB": "cylindrical coordinates",
     "optionC": "Cartesian coordinates",
     "optionD": "parametric coordinates",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "f962733f-5cab-485c-9ca1-5f3445ddedb8",
@@ -879,7 +879,7 @@
     "optionB": "Quotient Rule",
     "optionC": "Product Rule for differentiation",
     "optionD": "Power Rule",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "2e31a7dd-ae50-4b3b-bbf7-46ffa93c64a7",
@@ -888,7 +888,7 @@
     "optionB": "partial fraction decomposition",
     "optionC": "trigonometric substitution",
     "optionD": "integration by parts",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "a364b38a-fa7d-4089-b53e-1f378f7642f3",
@@ -897,7 +897,7 @@
     "optionB": "approximate changes in a function",
     "optionC": "find derivatives exactly",
     "optionD": "find integrals exactly",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "df3f6b0f-536c-4370-a3ad-6dff48661eda",
@@ -906,7 +906,7 @@
     "optionB": "divergent series",
     "optionC": "geometric series",
     "optionD": "telescoping series",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "a179ddae-d9fc-432c-a238-3c5f52ca8068",
@@ -915,7 +915,7 @@
     "optionB": "sums of infinitely many terms",
     "optionC": "products of infinitely many terms",
     "optionD": "differences of infinitely many terms",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "be45f1b2-498c-469e-9599-78cdd5ac83bc",
@@ -924,7 +924,7 @@
     "optionB": "vector perpendicular to both original vectors",
     "optionC": "vector in the same plane as the original vectors",
     "optionD": "zero vector",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "9d27d125-098f-406f-b25c-3400b19a1288",
@@ -933,7 +933,7 @@
     "optionB": "continuous functions may have sharp corners or vertical tangents",
     "optionC": "differentiable functions are never continuous",
     "optionD": "continuity is a stronger condition than differentiability",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "082c1cb8-9b6c-4825-ab5a-8b23574b4f65",
@@ -942,7 +942,7 @@
     "optionB": "diverges",
     "optionC": "converges conditionally",
     "optionD": "converges absolutely",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "620097eb-0bbe-4570-ba5c-2c80a6209a96",
@@ -951,7 +951,7 @@
     "optionB": "smoothness of functions and absence of breaks",
     "optionC": "areas under curves",
     "optionD": "volumes of solids",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "4abdb03b-53bf-426c-89a7-6904da9d8355",
@@ -960,7 +960,7 @@
     "optionB": "Chain Rule",
     "optionC": "Power Rule",
     "optionD": "Quotient Rule",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "9d772f70-1141-43f0-9d99-b66b2d415603",
@@ -969,7 +969,7 @@
     "optionB": "basic trigonometric functions",
     "optionC": "complex functions involving products, quotients, and compositions",
     "optionD": "linear functions",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "100ee757-bb27-4459-9a34-082f13c627e8",
@@ -978,7 +978,7 @@
     "optionB": "πr^2h",
     "optionC": "4πr^2",
     "optionD": "2πrh",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "136bcd9c-c9de-40f8-a5ad-b4682c5f09bf",
@@ -987,7 +987,7 @@
     "optionB": "finding intervals where functions satisfy certain conditions",
     "optionC": "finding derivatives",
     "optionD": "calculating definite integrals",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "ad60ee63-6682-45d8-999f-7d8837a03498",
@@ -996,7 +996,7 @@
     "optionB": "the y-axis only",
     "optionC": "an axis parallel to the x or y-axis",
     "optionD": "any arbitrary axis",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "778af725-cd65-4c6b-b601-92b3a3c7d4aa",
@@ -1005,7 +1005,7 @@
     "optionB": "evaluating definite integrals and relating differentiation and integration",
     "optionC": "solving differential equations only",
     "optionD": "finding limits only",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "f77ffc19-49c9-4bf4-b48b-037b7d041d6e",
@@ -1014,7 +1014,7 @@
     "optionB": "either the left or the right side",
     "optionC": "infinity",
     "optionD": "zero",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "459703b7-7efc-4922-a917-410cedcd953c",
@@ -1023,7 +1023,7 @@
     "optionB": "[−π/2, π/2]",
     "optionC": "[0, π]",
     "optionD": "(0, π)",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "a3a34fce-8ee3-4a1f-82f9-198fc5eaee94",
@@ -1032,7 +1032,7 @@
     "optionB": "multivariable calculus",
     "optionC": "linear algebra",
     "optionD": "differential equations",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "46190baf-a6c3-4b68-8c7c-fbeebd0d954c",
@@ -1041,7 +1041,7 @@
     "optionB": "areas and volumes in higher dimensions",
     "optionC": "slopes of tangent lines",
     "optionD": "rates of change",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "e980c1db-1163-40df-bf9f-36f3a4523981",
@@ -1050,7 +1050,7 @@
     "optionB": "parametric form only",
     "optionC": "slope-intercept, point-slope, and standard form",
     "optionD": "spherical form only",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "d3fc7198-7101-42fb-81de-86bda7f847c2",
@@ -1059,7 +1059,7 @@
     "optionB": "linear functions",
     "optionC": "complex functions with products, quotients, and powers",
     "optionD": "simple trigonometric functions",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "a23b1a97-a933-40ef-be32-30689f24dd6e",
@@ -1068,7 +1068,7 @@
     "optionB": "rationalizing denominators",
     "optionC": "logarithms",
     "optionD": "trigonometric functions",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "dde0899e-1c3b-4950-878e-8d096ad1f08c",
@@ -1077,7 +1077,7 @@
     "optionB": "along all paths approaching the point",
     "optionC": "only along straight lines",
     "optionD": "only along curves",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "af55d383-c134-4690-9ff7-9672d82930af",
@@ -1086,7 +1086,7 @@
     "optionB": "solving problems involving relationships between quantities",
     "optionC": "linear algebra only",
     "optionD": "differential equations only",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "42c305e7-1945-4372-a75e-8e5521e0598f",
@@ -1095,7 +1095,7 @@
     "optionB": "simple polynomial functions",
     "optionC": "trigonometric functions",
     "optionD": "exponential functions",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "ba187fc3-064a-4022-8db5-ca77101a18c9",
@@ -1104,7 +1104,7 @@
     "optionB": "only linearity",
     "optionC": "only additivity",
     "optionD": "neither linearity nor additivity",
-    "correctAnswer": "A"
+    "answer": "A"
   },
   {
     "quizId": "58790929-62b9-45ee-bfaf-685f08ecaa64",
@@ -1113,7 +1113,7 @@
     "optionB": "modeling real-world problems with one unknown",
     "optionC": "graphing lines in a plane",
     "optionD": "finding derivatives",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "515c16c8-f8c7-4cba-ae2c-ac41767f6e4f",
@@ -1122,7 +1122,7 @@
     "optionB": "diverges",
     "optionC": "may converge or diverge",
     "optionD": "converges conditionally",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "be69adc0-aa43-4675-9330-fbd6e9dd2fe0",
@@ -1131,7 +1131,7 @@
     "optionB": "areas and perimeters of 2D shapes",
     "optionC": "surface areas of solids",
     "optionD": "rates of change",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "5a7e37ba-a9e0-41a3-8119-a9967b730e27",
@@ -1140,7 +1140,7 @@
     "optionB": "two or more variables",
     "optionC": "linear functions",
     "optionD": "polynomial functions",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "50d70e7d-4e57-4de8-a4d2-ef1a0e263a1f",
@@ -1149,7 +1149,7 @@
     "optionB": "select items without regard to order",
     "optionC": "permute items",
     "optionD": "factor items",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "2ea17518-aff6-4587-bfa6-839a14ab8083",
@@ -1158,7 +1158,7 @@
     "optionB": "chain rule only",
     "optionC": "specific rules for exponential and logarithmic functions",
     "optionD": "quotient rule only",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "595f512a-83f3-411e-a6b7-b3b09d23258e",
@@ -1167,7 +1167,7 @@
     "optionB": "vector",
     "optionC": "scalar",
     "optionD": "set",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "e5d324b9-cbd0-49f0-93c8-ee5e64e834c3",
@@ -1176,7 +1176,7 @@
     "optionB": "the integral of a function",
     "optionC": "the change in a function value",
     "optionD": "the limit of a function",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "40046990-0c76-4f23-954f-5b47d8f5bad9",
@@ -1185,7 +1185,7 @@
     "optionB": "three-dimensional solids",
     "optionC": "conic sections",
     "optionD": "curves in space",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "86a98f4f-5016-49b9-8091-860c534d0bab",
@@ -1194,7 +1194,7 @@
     "optionB": "infinite series",
     "optionC": "power series",
     "optionD": "Fourier series",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "063bfee6-ed9e-471e-86d9-4261df14b341",
@@ -1203,7 +1203,7 @@
     "optionB": "both sides of the equation",
     "optionC": "the independent variable",
     "optionD": "the dependent variable",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "ba92b463-aec5-47d2-9468-ed682bc3eaca",
@@ -1212,7 +1212,7 @@
     "optionB": "differentiation of simple sums",
     "optionC": "differentiation of complex products, quotients, and powers",
     "optionD": "differentiation of linear functions",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "5af55102-64ef-4a3d-aecc-eb24d1af304a",
@@ -1221,7 +1221,7 @@
     "optionB": "direction only",
     "optionC": "components and operations",
     "optionD": "position only",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "8f56be3c-0ae2-4a45-9834-13e3a9aae8cd",
@@ -1230,7 +1230,7 @@
     "optionB": "a difference of functions",
     "optionC": "a product of functions",
     "optionD": "a quotient of functions",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "3deb2c4d-aa7f-4779-93ce-285ff52367f0",
@@ -1239,7 +1239,7 @@
     "optionB": "spherical triangles",
     "optionC": "right triangles only",
     "optionD": "acute triangles only",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "264b44d9-3e64-492e-a8d7-5e3ee2da9b08",
@@ -1248,7 +1248,7 @@
     "optionB": "roots or solutions",
     "optionC": "y-intercept",
     "optionD": "vertex",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "cb429de4-6f4b-48a4-8ff9-a99a164fa4c9",
@@ -1257,7 +1257,7 @@
     "optionB": "(1/2) * base * height",
     "optionC": "(1/2) * ab * sin(C)",
     "optionD": "√(s(s-a)(s-b)(s-c))",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "200e084d-8726-4adc-8969-97571093e585",
@@ -1266,7 +1266,7 @@
     "optionB": "only removable discontinuities",
     "optionC": "only jump discontinuities",
     "optionD": "only infinite discontinuities",
-    "correctAnswer": "A"
+    "answer": "A"
   },
   {
     "quizId": "3994fcc7-0d2d-4fae-a1a1-84bc5be4c689",
@@ -1275,7 +1275,7 @@
     "optionB": "continuous probability distributions",
     "optionC": "conditional probability",
     "optionD": "Bayes' theorem",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "b5603dcc-4c8e-46d1-8d7f-f22166d947a6",
@@ -1284,7 +1284,7 @@
     "optionB": "logic, computer science, and data analysis",
     "optionC": "linear algebra",
     "optionD": "differential equations",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "25e1de2d-1b51-4927-b13f-231bbccfd34a",
@@ -1293,7 +1293,7 @@
     "optionB": "relationships between sets",
     "optionC": "integrals",
     "optionD": "limits",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "7171c96c-ca7c-42aa-9a9b-18b0cf8d2bcc",
@@ -1302,7 +1302,7 @@
     "optionB": "f'(c) for some c in (a, b)",
     "optionC": "(1/(b-a)) ∫[a,b] f(x) dx",
     "optionD": "∫[a,b] f(x) dx",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "f496bdae-cd4d-4657-be4f-7d5df5982107",
@@ -1311,7 +1311,7 @@
     "optionB": "imaginary number line",
     "optionC": "complex plane (Argand plane)",
     "optionD": "polar coordinate system",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "320363c6-297c-41f5-a112-10cae367baa4",
@@ -1320,7 +1320,7 @@
     "optionB": "exponential decay",
     "optionC": "periodic phenomena",
     "optionD": "polynomial behavior",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "0d88c6f1-a55b-4cd3-bf22-26c078ab22cb",
@@ -1329,7 +1329,7 @@
     "optionB": "relative errors",
     "optionC": "absolute errors",
     "optionD": "percentage errors",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "cb430843-de8f-46ee-8a98-1e640995cf2d",
@@ -1338,7 +1338,7 @@
     "optionB": "slope of f",
     "optionC": "concavity of f",
     "optionD": "integral of f",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "2c56b6c3-e367-4ec8-ad6c-163037146b0d",
@@ -1347,7 +1347,7 @@
     "optionB": "integral calculus",
     "optionC": "sequences and series",
     "optionD": "linear algebra",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "89deb8f4-6f62-4775-a2a3-881ff5926cd2",
@@ -1356,7 +1356,7 @@
     "optionB": "converges",
     "optionC": "oscillates",
     "optionD": "is undefined",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "df7dc8ae-134d-4fa2-a959-35dffc157459",
@@ -1365,7 +1365,7 @@
     "optionB": "indeterminate of the form 0/0",
     "optionC": "infinite",
     "optionD": "zero",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "932cbbe2-4fec-4dd6-9022-ada65ccbd648",
@@ -1374,7 +1374,7 @@
     "optionB": "plane geometry",
     "optionC": "spherical geometry",
     "optionD": "analytic geometry",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "989293ed-070c-48d7-af26-422299ce4aa3",
@@ -1383,7 +1383,7 @@
     "optionB": "polar coordinates",
     "optionC": "parametric equations",
     "optionD": "vector equations",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "881b56ad-11a3-435e-9a70-6ce6b879dd23",
@@ -1392,7 +1392,7 @@
     "optionB": "indeterminate of the form ∞/∞",
     "optionC": "zero",
     "optionD": "finite",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "0336ceb0-c4c4-4a54-9004-6d9d6c3316a2",
@@ -1401,7 +1401,7 @@
     "optionB": "supply, demand, cost, and revenue relationships",
     "optionC": "exponential growth in economics",
     "optionD": "complex financial derivatives",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "53c095e9-9c16-4219-a69c-397e8f3be3bb",
@@ -1410,7 +1410,7 @@
     "optionB": "point where a region or solid would balance",
     "optionC": "volume of a region",
     "optionD": "surface area of a region",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "459a6fb8-1df0-4f05-867c-1714480d4ff2",
@@ -1419,7 +1419,7 @@
     "optionB": "no solution or infinitely many solutions, respectively",
     "optionC": "only integer solutions",
     "optionD": "only fractional solutions",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "9c17a10a-30d4-422f-ada6-6d5e758c10ee",
@@ -1428,7 +1428,7 @@
     "optionB": "substituting variables",
     "optionC": "adding or subtracting equations to eliminate variables",
     "optionD": "using matrices",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "67fa713c-62e4-4c9e-b05c-72784334cfbb",
@@ -1437,7 +1437,7 @@
     "optionB": "indeterminate form",
     "optionC": "polynomial form",
     "optionD": "trigonometric form",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "b636da75-b945-4377-9614-200bff9cbbcf",
@@ -1446,7 +1446,7 @@
     "optionB": "functions of two variables",
     "optionC": "functions of three variables",
     "optionD": "vector fields",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "cd131d1b-5dbd-47ae-9d57-f4cd5f154165",
@@ -1455,7 +1455,7 @@
     "optionB": "irreducible quadratic factors",
     "optionC": "repeated linear factors",
     "optionD": "constant factors",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "fa27f645-d6a6-41cb-be2d-fe4a6d774d93",
@@ -1464,7 +1464,7 @@
     "optionB": "defining continuity and derivatives",
     "optionC": "calculating volumes",
     "optionD": "solving algebraic equations",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "2f5c9574-4ad8-4642-ab3a-e87d98e5380f",
@@ -1473,7 +1473,7 @@
     "optionB": "basic geometric dimensions",
     "optionC": "differentiation",
     "optionD": "limits",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "7c55d29a-e42b-4578-b783-3380ddd92f39",
@@ -1482,7 +1482,7 @@
     "optionB": "only algebra",
     "optionC": "only geometry",
     "optionD": "only trigonometry",
-    "correctAnswer": "A"
+    "answer": "A"
   },
   {
     "quizId": "0e2538e4-a13a-4d8e-a7f7-87a3ccd8f75c",
@@ -1491,7 +1491,7 @@
     "optionB": "decreases proportionally",
     "optionC": "remains constant",
     "optionD": "increases exponentially",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "22993384-2063-4cd5-886d-60313c01597b",
@@ -1500,7 +1500,7 @@
     "optionB": "electrical engineering and quantum mechanics",
     "optionC": "only financial modeling",
     "optionD": "only statistics",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "d3d96844-a32c-4483-b80c-1b19fd30f504",
@@ -1509,7 +1509,7 @@
     "optionB": "variables from the denominator",
     "optionC": "fractions by multiplying by the least common denominator",
     "optionD": "constants from the equation",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "e9949e0c-be9d-4096-ae9a-232d1e23b682",
@@ -1518,7 +1518,7 @@
     "optionB": "calculating probabilities and analyzing long-term behavior",
     "optionC": "solving algebraic equations",
     "optionD": "finding derivatives",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "a73744e2-0dc1-49dd-bf54-ada6a94ce8c8",
@@ -1527,7 +1527,7 @@
     "optionB": "integral calculus only",
     "optionC": "calculus and analysis",
     "optionD": "linear algebra",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "53d12fef-b3f0-4ecb-8bcb-39e37e5f194f",
@@ -1536,7 +1536,7 @@
     "optionB": "maximum or minimum values",
     "optionC": "rates of change",
     "optionD": "areas under curves",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "b15c4ffd-d430-4b5f-9afc-3a93d611e867",
@@ -1545,7 +1545,7 @@
     "optionB": "common ratio",
     "optionC": "sum of terms",
     "optionD": "number of terms",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "9dddcf9e-d27c-4bd4-b7ff-2e0f547a9fd8",
@@ -1554,7 +1554,7 @@
     "optionB": "y",
     "optionC": "θ (theta)",
     "optionD": "r",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "00ab7116-52f3-4769-8169-3b489ea97102",
@@ -1563,7 +1563,7 @@
     "optionB": "Taylor or Maclaurin series expansion",
     "optionC": "Geometric series expansion",
     "optionD": "Harmonic series expansion",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "3e982e21-e732-4655-92c9-07ef018ac106",
@@ -1572,7 +1572,7 @@
     "optionB": "approximating changes and errors",
     "optionC": "finding integrals",
     "optionD": "finding limits",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "d0ad50f2-f9b2-4d5e-90b8-c851d87149f1",
@@ -1581,7 +1581,7 @@
     "optionB": "quadric surfaces",
     "optionC": "polygons",
     "optionD": "curves in a plane",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "3e9a59f2-e239-4db0-9e92-42d351920e8d",
@@ -1590,7 +1590,7 @@
     "optionB": "analyzing geometric shapes in a coordinate plane",
     "optionC": "spherical geometry problems",
     "optionD": "calculus problems",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "42b30b21-4e69-4a82-b208-29b3ff9b3b20",
@@ -1599,7 +1599,7 @@
     "optionB": "parametric equations in terms of two parameters",
     "optionC": "polar equations",
     "optionD": "spherical equations",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "a7e12d7c-2735-438a-b96a-383c90e16544",
@@ -1608,7 +1608,7 @@
     "optionB": "algebra and various mathematical models",
     "optionC": "geometry only",
     "optionD": "trigonometry only",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "b9d30cb6-2d95-41d3-b656-a6cdb8a4b2a2",
@@ -1617,7 +1617,7 @@
     "optionB": "solving multi-variable problems in science and engineering",
     "optionC": "graphing parabolas",
     "optionD": "finding derivatives",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "e2e1d285-9d7f-4f30-9863-30838d0c6c84",
@@ -1626,7 +1626,7 @@
     "optionB": "work, volume, and center of mass",
     "optionC": "limits",
     "optionD": "partial derivatives",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "66e22e92-6648-48a8-8519-bd2cc15df09d",
@@ -1635,7 +1635,7 @@
     "optionB": "end behavior of functions",
     "optionC": "derivatives at a point",
     "optionD": "integrals over finite intervals",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "0d64a9b1-98a2-4b4b-8116-e45d6cf44b63",
@@ -1644,7 +1644,7 @@
     "optionB": "efficiently solving various types of integrals",
     "optionC": "only simple integrals",
     "optionD": "only definite integrals",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "43587878-b6ed-499f-b309-03e587d334e5",
@@ -1653,7 +1653,7 @@
     "optionB": "cone",
     "optionC": "sphere",
     "optionD": "pyramid",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "5bae19d2-e74d-4c01-9350-d3d07c6e51d5",
@@ -1662,7 +1662,7 @@
     "optionB": "a definite interval",
     "optionC": "the entire real line",
     "optionD": "a complex plane",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "d30fe5bb-ee02-46e1-8d81-6f25b74be565",
@@ -1671,7 +1671,7 @@
     "optionB": "every point in the interval",
     "optionC": "only interior points of the interval",
     "optionD": "at least one point in the interval",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "8a15407a-a65d-4992-8a2c-bbf50240ba0f",
@@ -1680,7 +1680,7 @@
     "optionB": "fields requiring multivariable analysis like physics and economics",
     "optionC": "only linear algebra",
     "optionD": "only differential equations",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "5b5d0591-0dcc-4877-b3ff-629664602e02",
@@ -1689,7 +1689,7 @@
     "optionB": "linear factors raised to powers",
     "optionC": "irreducible quadratic factors",
     "optionD": "constant factors",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "a521cbcf-1d7a-45c7-9053-746062582232",
@@ -1698,7 +1698,7 @@
     "optionB": "rational or radical values",
     "optionC": "complex values",
     "optionD": "undefined values",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "f99df0ea-f4c3-4131-9260-d05afb308cd5",
@@ -1707,7 +1707,7 @@
     "optionB": "only multiplication and division",
     "optionC": "addition, subtraction, multiplication, and division",
     "optionD": "only simplification",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "ddb06bc2-7d23-4e2d-be86-6da98324e045",
@@ -1716,7 +1716,7 @@
     "optionB": "one function inside another",
     "optionC": "the sum of two functions",
     "optionD": "the product of two functions",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "c7d54405-fbcc-478f-8dc7-878800b3be59",
@@ -1725,7 +1725,7 @@
     "optionB": "coordinate geometry",
     "optionC": "trigonometry",
     "optionD": "linear algebra",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "4e835535-fe1f-49dc-8817-c3f21bbe5c80",
@@ -1734,7 +1734,7 @@
     "optionB": "optics, astronomy, and engineering",
     "optionC": "only algebra",
     "optionD": "only trigonometry",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "bec11ce0-2c19-4a6b-950d-3dbec4e74186",
@@ -1743,7 +1743,7 @@
     "optionB": "force, velocity, and geometric representations",
     "optionC": "only linear equations",
     "optionD": "only calculus",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "eccf2dbb-595c-4786-a75b-e52417e89e71",
@@ -1752,7 +1752,7 @@
     "optionB": "summing volumes of thin slices",
     "optionC": "using cylindrical shells",
     "optionD": "using spherical coordinates",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "8ec40a65-ab91-4d06-b6c3-7824fa351603",
@@ -1761,7 +1761,7 @@
     "optionB": "f(y)",
     "optionC": "f(x, y) = 1",
     "optionD": "f'(x, y)",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "8913f969-17d5-4239-ac95-c7780e5527aa",
@@ -1770,7 +1770,7 @@
     "optionB": "radius and height only",
     "optionC": "slant height only",
     "optionD": "perimeter of base and height",
-    "correctAnswer": "A"
+    "answer": "A"
   },
   {
     "quizId": "1f3be314-d48d-443f-a5c7-75f1fb10ef93",
@@ -1779,7 +1779,7 @@
     "optionB": "the variable x",
     "optionC": "the coefficients of the series",
     "optionD": "the radius of convergence",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "31e12432-05f4-476a-8a36-c9d05032b8ea",
@@ -1788,7 +1788,7 @@
     "optionB": "approximating functions and solving differential equations",
     "optionC": "finding areas of polygons",
     "optionD": "calculating volumes of simple solids",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "dd607294-bffc-45ac-8ea4-bd2f6822c733",
@@ -1797,7 +1797,7 @@
     "optionB": "a p-series",
     "optionC": "another series with known convergence behavior",
     "optionD": "an alternating series",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "ce0b276c-5d54-4af2-a91a-7133a55e01f8",
@@ -1806,7 +1806,7 @@
     "optionB": "mixed partial derivatives are equal",
     "optionC": "partial derivatives are continuous",
     "optionD": "mixed partial derivatives are discontinuous",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "e3902dcd-144e-4292-ac34-116b34241115",
@@ -1815,7 +1815,7 @@
     "optionB": "volume and surface area in 3D space",
     "optionC": "perimeter in plane geometry",
     "optionD": "surface area in 2D space",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "cf17fe23-9ecb-4564-a0bf-beb1a0513473",
@@ -1824,7 +1824,7 @@
     "optionB": "has vertical asymptotes within the interval of integration",
     "optionC": "is not continuous",
     "optionD": "is always zero",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "b26344e3-b67d-4285-850e-530113919ef5",
@@ -1833,7 +1833,7 @@
     "optionB": "rational functions",
     "optionC": "trigonometric functions",
     "optionD": "exponential functions",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "bfe17163-f3d0-4dec-96cf-4569897db934",
@@ -1842,7 +1842,7 @@
     "optionB": "products of functions",
     "optionC": "composite functions",
     "optionD": "quotients of functions",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "6d07e271-119d-4f25-a78f-e96ea8bd0c86",
@@ -1851,7 +1851,7 @@
     "optionB": "SOH CAH TOA and Pythagorean theorem",
     "optionC": "Law of Sines only",
     "optionD": "Law of Cosines only",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "685994fe-4844-41a6-ab94-aefc6d8d67e0",
@@ -1860,7 +1860,7 @@
     "optionB": "polar coordinates",
     "optionC": "spherical coordinates",
     "optionD": "cylindrical coordinates",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "08e02a86-d277-46a6-99c6-f865d11d83a3",
@@ -1869,7 +1869,7 @@
     "optionB": "second and higher derivatives of implicitly defined functions",
     "optionC": "partial derivatives",
     "optionD": "total derivatives",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "ea70c58a-d0c7-4675-b551-bae0f4a54e00",
@@ -1878,7 +1878,7 @@
     "optionB": "definite integrals",
     "optionC": "partial derivatives",
     "optionD": "multiple integrals",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "dedbfa16-1c74-49ac-bc10-9416cd8366d8",
@@ -1887,7 +1887,7 @@
     "optionB": "sine, cosine, and tangent",
     "optionC": "exponential functions",
     "optionD": "logarithmic functions",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "38a97985-fe12-46e8-8a2b-6e39e768ec8a",
@@ -1896,7 +1896,7 @@
     "optionB": "local maxima and minima",
     "optionC": "inflection points",
     "optionD": "absolute extrema",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "b7803946-2c8f-429c-b8af-1b0d36f8d7bd",
@@ -1905,7 +1905,7 @@
     "optionB": "eliminating variables by substitution",
     "optionC": "adding or subtracting equations",
     "optionD": "using matrices",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "f2d97092-62ef-40d7-aa1a-f19f096e00d8",
@@ -1914,7 +1914,7 @@
     "optionB": "finding angles in right triangles and integrals",
     "optionC": "graphing parabolas",
     "optionD": "finding derivatives",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "43cf9018-9f90-4b4c-be63-8b0feceed946",
@@ -1923,7 +1923,7 @@
     "optionB": "describing lines and planes",
     "optionC": "calculating volumes of spheres",
     "optionD": "finding derivatives",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "74e09477-3a94-4ac2-8d7f-d54b97c68b6d",
@@ -1932,7 +1932,7 @@
     "optionB": "translating real-world scenarios into linear equations",
     "optionC": "graphing conic sections",
     "optionD": "using trigonometric identities",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "195ab83b-0075-478c-b6ac-2a830545cd9e",
@@ -1941,7 +1941,7 @@
     "optionB": "chain rule only",
     "optionC": "specific formulas derived using implicit differentiation",
     "optionD": "quotient rule only",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "8ed5cae9-3589-4cb8-8197-60c9962af608",
@@ -1950,7 +1950,7 @@
     "optionB": "distinct linear factors",
     "optionC": "repeated linear factors",
     "optionD": "constant factors",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "e5cf0d1a-b88e-4db3-93eb-f369841d3a43",
@@ -1959,7 +1959,7 @@
     "optionB": "circular symmetry",
     "optionC": "linear boundaries",
     "optionD": "polynomial boundaries",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "09fc4ad1-6223-4545-bc81-1d7d643dceb9",
@@ -1968,7 +1968,7 @@
     "optionB": "opposite angles",
     "optionC": "included angles",
     "optionD": "exterior angles",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "67f16d7b-879a-4b22-a91a-b692ebdf9efa",
@@ -1977,7 +1977,7 @@
     "optionB": "a difference of functions",
     "optionC": "a product of functions",
     "optionD": "a quotient of functions",
-    "correctAnswer": "D"
+    "answer": "D"
   },
   {
     "quizId": "ed4a03b0-1339-4bd2-94bd-dad63cd47602",
@@ -1986,7 +1986,7 @@
     "optionB": "n*x^(n-1)",
     "optionC": "x^(n-1)",
     "optionD": "x^n",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "c4e6724f-2b0b-4769-855d-b9f2648fc9fd",
@@ -1995,7 +1995,7 @@
     "optionB": "bases and lateral faces",
     "optionC": "lateral faces only",
     "optionD": "cross-sections",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "f7f98ee1-6ab1-4226-aabd-5452178d491f",
@@ -2004,7 +2004,7 @@
     "optionB": "surfaces in 3D space",
     "optionC": "curves in a plane",
     "optionD": "vectors in 2D space",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "d6f629f7-9b00-45d3-99d6-c62f8ce629e1",
@@ -2013,7 +2013,7 @@
     "optionB": "tangent lines and rates of change from first principles",
     "optionC": "areas under curves",
     "optionD": "volumes of solids",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "b9057a01-1c2e-4104-a1ba-45c1cc1974d4",
@@ -2022,7 +2022,7 @@
     "optionB": "lim (h→0) [f(x+h) - f(x)] / h",
     "optionC": "f(b) - f(a)",
     "optionD": "∇f",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "addb11a9-6609-493f-a092-fde84d3ecbab",
@@ -2031,7 +2031,7 @@
     "optionB": "intervals extending to infinity",
     "optionC": "closed intervals",
     "optionD": "bounded intervals",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "8d2ede93-6341-46c9-91af-c4e6219889fc",
@@ -2040,7 +2040,7 @@
     "optionB": "powers and factorials",
     "optionC": "logarithms",
     "optionD": "trigonometric functions",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "e5903118-95a7-4a7e-b48a-d2de77dc867c",
@@ -2049,7 +2049,7 @@
     "optionB": "Ax + By = C",
     "optionC": "y - y1 = m(x - x1)",
     "optionD": "x/a + y/b = 1",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "ca53a4c7-a080-450f-b4aa-4e7d20c265c9",
@@ -2058,7 +2058,7 @@
     "optionB": "solving problems involving scaling and comparison",
     "optionC": "linear algebra",
     "optionD": "differential equations",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "f56bf9c1-4b02-4a50-aef2-54f7414bf8e4",
@@ -2067,7 +2067,7 @@
     "optionB": "calculus and mathematical analysis",
     "optionC": "geometry",
     "optionD": "trigonometry",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "9d32dcb1-f26b-4ec1-9056-3edaf8843d3e",
@@ -2076,7 +2076,7 @@
     "optionB": "algebra and pre-calculus",
     "optionC": "geometry",
     "optionD": "trigonometry",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "95ad618c-97cb-43f8-bab3-9b748614238d",
@@ -2085,7 +2085,7 @@
     "optionB": "limits and series",
     "optionC": "integrals",
     "optionD": "partial derivatives",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "9bf65bf3-e938-4c9b-a791-e2a19ef4bb10",
@@ -2094,7 +2094,7 @@
     "optionB": "summing areas of rectangles under a curve",
     "optionC": "finding derivatives",
     "optionD": "evaluating limits",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "241db200-70a0-407c-89d8-633e88984690",
@@ -2103,7 +2103,7 @@
     "optionB": "spherical trigonometry",
     "optionC": "analytic geometry",
     "optionD": "calculus",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "b68f00fc-0ec4-4e44-8baa-9b3c7aa7db22",
@@ -2112,7 +2112,7 @@
     "optionB": "single angles",
     "optionC": "half angles",
     "optionD": "quadruple angles",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "2b17757f-69a6-486a-baba-b80852a90ecd",
@@ -2121,7 +2121,7 @@
     "optionB": "plane geometry",
     "optionC": "spherical geometry",
     "optionD": "analytic geometry",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "b8f1c13a-e36d-4149-a927-6cb786e712e3",
@@ -2130,7 +2130,7 @@
     "optionB": "order matters",
     "optionC": "replacement is allowed",
     "optionD": "sampling is with or without replacement",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "750437a8-be44-43aa-85e6-84941b32fcc1",
@@ -2139,7 +2139,7 @@
     "optionB": "two or more inequalities simultaneously",
     "optionC": "no inequalities",
     "optionD": "infinitely many inequalities",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "b3543255-4449-4d01-98a0-64ea1ca0a0a6",
@@ -2148,7 +2148,7 @@
     "optionB": "Product Rule",
     "optionC": "L'Hospital's Rule",
     "optionD": "Chain Rule",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "d70eab7d-1306-4d92-b5e9-9bd4cd38aa05",
@@ -2157,7 +2157,7 @@
     "optionB": "areas and volumes",
     "optionC": "limits",
     "optionD": "partial derivatives",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "7076318d-6c75-4143-9959-d3d2ad82ba34",
@@ -2166,7 +2166,7 @@
     "optionB": "combine and compare sets",
     "optionC": "integrate sets",
     "optionD": "find limits of sets",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "40ab60a0-c9d3-4bc7-b998-592a114b9e1b",
@@ -2175,7 +2175,7 @@
     "optionB": "differentiation and integration",
     "optionC": "integrals and series",
     "optionD": "limits and continuity",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "f176ef9b-34b1-4cf6-8d14-565d91c16593",
@@ -2184,7 +2184,7 @@
     "optionB": "the x-axis or y-axis",
     "optionC": "an axis parallel to the x or y-axis",
     "optionD": "only the origin",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "a6e8bf6d-68f4-4605-a94b-13ea0c25db20",
@@ -2193,7 +2193,7 @@
     "optionB": "depth and density of fluid",
     "optionC": "surface area of fluid",
     "optionD": "velocity of fluid",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "443bd451-e4a6-4b5e-b696-bd7ed2503081",
@@ -2202,7 +2202,7 @@
     "optionB": "rational functions",
     "optionC": "trigonometric functions",
     "optionD": "exponential functions",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "1009e896-38ce-4708-8ea9-6a251c0e8e99",
@@ -2211,7 +2211,7 @@
     "optionB": "infinite limits or discontinuous integrands",
     "optionC": "only continuous integrands",
     "optionD": "only polynomial integrands",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "18ac2bda-7dc8-48d7-b23a-16fe3d51402c",
@@ -2220,7 +2220,7 @@
     "optionB": "set theory and logic",
     "optionC": "linear algebra",
     "optionD": "differential equations",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "b3b75810-2016-45da-816c-0f69a5add2a2",
@@ -2229,7 +2229,7 @@
     "optionB": "volumes, surface areas, and modeling spherical objects",
     "optionC": "linear equations only",
     "optionD": "calculus only",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "5c035d73-37b9-4081-9fd7-0d4ba89cd26b",
@@ -2238,7 +2238,7 @@
     "optionB": "common difference",
     "optionC": "product of terms",
     "optionD": "ratio of terms",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "aec9c59b-4cf6-44ab-9799-5fc0d85b9522",
@@ -2247,7 +2247,7 @@
     "optionB": "restricted domains and ranges",
     "optionC": "symmetry about the origin",
     "optionD": "asymptotic behavior",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "0f4bef25-87d7-43e7-a613-5dbc6e403c06",
@@ -2256,7 +2256,7 @@
     "optionB": "probability, statistics, and computer science",
     "optionC": "geometry only",
     "optionD": "trigonometry only",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "0d4cb953-6186-4136-b258-527b8759f891",
@@ -2265,7 +2265,7 @@
     "optionB": "definite integrals",
     "optionC": "limits",
     "optionD": "partial derivatives",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "083a5793-c5b8-48b5-b5e4-ec0804524158",
@@ -2274,7 +2274,7 @@
     "optionB": "non-negative integer exponents",
     "optionC": "negative exponents",
     "optionD": "fractional exponents",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "9d92172d-ddf7-45df-9930-a217d782faa4",
@@ -2283,7 +2283,7 @@
     "optionB": "only direction",
     "optionC": "three-dimensional space with components and operations",
     "optionD": "complex numbers",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "d1fce3f3-a815-44b8-b336-77c78a1c2233",
@@ -2292,7 +2292,7 @@
     "optionB": "volumes in 3D space",
     "optionC": "lengths of curves",
     "optionD": "surface areas",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "f7aaeb8f-2c43-4243-9cb2-0e2e2b445ebd",
@@ -2301,7 +2301,7 @@
     "optionB": "representing functions as infinite sums",
     "optionC": "geometric shapes",
     "optionD": "trigonometric identities",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "d8be223d-58f1-4c30-aab2-d01fb34557e1",
@@ -2310,7 +2310,7 @@
     "optionB": "simplifying integrals of rational functions",
     "optionC": "finding derivatives of rational functions",
     "optionD": "solving algebraic equations",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "30ab5e05-b3b7-4d32-9d79-7430812aeb40",
@@ -2319,7 +2319,7 @@
     "optionB": "y = e^x",
     "optionC": "y = u(x)^v(x)",
     "optionD": "y = sin(x)",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "a778647c-3806-483d-a7ca-674afb92625d",
@@ -2328,7 +2328,7 @@
     "optionB": "periodic",
     "optionC": "exponential",
     "optionD": "parabolic",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "a1b8cdf7-34d2-4925-b00c-2815ec16a454",
@@ -2337,7 +2337,7 @@
     "optionB": "only y-direction",
     "optionC": "any direction",
     "optionD": "only z-direction",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "7e2bf6c6-1ead-4d4d-a1e6-81160ff86dc0",
@@ -2346,7 +2346,7 @@
     "optionB": "linear algebra, solving systems of equations and finding inverses",
     "optionC": "calculus",
     "optionD": "geometry",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "2cc7ab13-3ef3-4174-9ab7-8e11a68fe72e",
@@ -2355,7 +2355,7 @@
     "optionB": "double or triple integrals",
     "optionC": "line integrals",
     "optionD": "surface integrals",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "5e4a9ab7-f0de-4d11-b575-fd92d8bc9ddc",
@@ -2364,7 +2364,7 @@
     "optionB": "continuity and partial derivatives for multivariable functions",
     "optionC": "integrals of single variable functions",
     "optionD": "areas in plane geometry",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "fbfcf1f1-a8e7-4379-b78c-a264bcf097c0",
@@ -2373,7 +2373,7 @@
     "optionB": "polyhedra and cylindrical solids, respectively",
     "optionC": "spherical solids",
     "optionD": "plane figures",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "fc153e67-4bc4-45de-acbf-8617b22920b0",
@@ -2382,7 +2382,7 @@
     "optionB": "integrals of force over distance",
     "optionC": "derivatives of force",
     "optionD": "limits of force",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "3d5ff799-9d1e-4ff6-9129-b98c5e0ef983",
@@ -2391,7 +2391,7 @@
     "optionB": "a range of values that satisfy the inequality",
     "optionC": "no solution",
     "optionD": "complex solutions",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "15662da7-eda6-4cec-aef4-fb058efde357",
@@ -2400,7 +2400,7 @@
     "optionB": "describing shapes and boundaries of 3D objects",
     "optionC": "linear equations only",
     "optionD": "calculus problems in 2D",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "facc7efe-7fa8-4bb3-a11c-c5ea70f7ee86",
@@ -2409,7 +2409,7 @@
     "optionB": "never intersect or intersect at a right angle",
     "optionC": "always coincide",
     "optionD": "are skew to each other",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "e27e5917-1ba5-4607-a506-04ef7426304f",
@@ -2418,7 +2418,7 @@
     "optionB": "y - y1 = m(x - x1)",
     "optionC": "y = mx + b",
     "optionD": "x/a + y/b = 1",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "7c9dc1d5-3fa8-4216-8a80-e41b1d53379d",
@@ -2427,7 +2427,7 @@
     "optionB": "arrange items in a specific order",
     "optionC": "combine items",
     "optionD": "factor items",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "2da0f7ef-d1bb-4c41-9bbc-634a39078d8d",
@@ -2436,7 +2436,7 @@
     "optionB": "two or more variables in specific ways",
     "optionC": "no other variables",
     "optionD": "itself",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "27d62799-f183-4b83-916e-ec4617edcfc1",
@@ -2445,7 +2445,7 @@
     "optionB": "sphere",
     "optionC": "cone",
     "optionD": "cylinder",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "a94b3a04-000a-435c-bc9a-1624152367ed",
@@ -2454,7 +2454,7 @@
     "optionB": "satisfy trigonometric relationships",
     "optionC": "satisfy linear equations",
     "optionD": "satisfy polynomial equations",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "3ff29d07-fd77-4494-be48-32c5c0c7c279",
@@ -2463,7 +2463,7 @@
     "optionB": "positive or negative",
     "optionC": "always positive",
     "optionD": "always negative",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "d16c4573-8c10-4edd-a52a-9e08bf9fc630",
@@ -2472,7 +2472,7 @@
     "optionB": "prisms and cylinders",
     "optionC": "spheres",
     "optionD": "hemispheres",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "ecf385b2-816c-402c-a94d-02044a5b2858",
@@ -2481,7 +2481,7 @@
     "optionB": "the endpoints of the interval",
     "optionC": "any point within the interval",
     "optionD": "points outside the interval",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "43ad2743-c43e-4cf5-8a33-4e509c890ff1",
@@ -2490,7 +2490,7 @@
     "optionB": "combining like terms and applying algebraic rules",
     "optionC": "graphing techniques",
     "optionD": "solving equations",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "0cc904d3-02d6-46b1-b006-bf75b84248b5",
@@ -2499,7 +2499,7 @@
     "optionB": "mathematical modeling and problem-solving",
     "optionC": "calculus applications",
     "optionD": "geometric proofs",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "1e730309-9802-4581-9b78-08666b0331e5",
@@ -2508,7 +2508,7 @@
     "optionB": "finding areas of circles",
     "optionC": "solving systems of linear equations and finding matrix inverses",
     "optionD": "finding derivatives",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "9785fc2b-ab62-48ec-9c8f-4ed09a4d2aec",
@@ -2517,7 +2517,7 @@
     "optionB": "various convergence tests",
     "optionC": "integrals",
     "optionD": "limits of functions",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "e0744712-7075-488a-a1b1-9bf63128b61e",
@@ -2526,7 +2526,7 @@
     "optionB": "basic properties and equations of circles and parabolas",
     "optionC": "3D conic sections",
     "optionD": "spherical sections",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "005f71cb-c45b-4756-948d-85fca4c19e3f",
@@ -2535,7 +2535,7 @@
     "optionB": "the direction of steepest ascent and rate of change",
     "optionC": "the concavity of a function",
     "optionD": "the limits of a function",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "ad4453e3-206a-4c4b-ac4e-295f9b46d79f",
@@ -2544,7 +2544,7 @@
     "optionB": "circular base and a vertex",
     "optionC": "rectangular base and rectangular faces",
     "optionD": "spherical base",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "3eb84e8b-233e-4acc-86d6-e09ad7cfa489",
@@ -2553,7 +2553,7 @@
     "optionB": "(-π/2, π/2)",
     "optionC": "[−π/2, π/2]",
     "optionD": "(0, π)",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "e6feb303-1e44-4fd9-8566-41302cd12651",
@@ -2562,7 +2562,7 @@
     "optionB": "problems with circular symmetry",
     "optionC": "linear equations",
     "optionD": "polynomial equations",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "e7042594-fc0d-4205-9c4f-46cb726cb850",
@@ -2571,7 +2571,7 @@
     "optionB": "substitution and elimination",
     "optionC": "quadratic formula",
     "optionD": "trigonometric identities",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "2957babc-1d99-48e1-bd90-5b1f74f86c19",
@@ -2580,7 +2580,7 @@
     "optionB": "how functions behave and change shape",
     "optionC": "integrals",
     "optionD": "limits",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "8e189a64-4533-43bc-8500-de8cc1a293b9",
@@ -2589,7 +2589,7 @@
     "optionB": "has an infinite value or is undefined",
     "optionC": "is always zero",
     "optionD": "is always one",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "2dcd3d06-0fd9-47dd-89a5-5e973f91370c",
@@ -2598,7 +2598,7 @@
     "optionB": "functions where trigonometric terms are implicitly defined",
     "optionC": "exponential functions",
     "optionD": "logarithmic functions",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "e2642060-868e-4076-846a-deb120b4b003",
@@ -2607,7 +2607,7 @@
     "optionB": "scalar",
     "optionC": "matrix",
     "optionD": "set",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "6a6d6275-cc42-4915-be27-def8235f7b6b",
@@ -2616,7 +2616,7 @@
     "optionB": "square matrices",
     "optionC": "rectangular matrices",
     "optionD": "diagonal matrices",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "8f1b21d3-c1d6-47af-869a-aa9f775ea5f4",
@@ -2625,7 +2625,7 @@
     "optionB": "integrals",
     "optionC": "the original function",
     "optionD": "limits",
-    "correctAnswer": "C"
+    "answer": "C"
   },
   {
     "quizId": "01b836a4-e493-47a3-ad9e-d4d7590e0421",
@@ -2634,7 +2634,7 @@
     "optionB": "interval of convergence",
     "optionC": "range",
     "optionD": "radius of convergence",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "b0df5b6b-1d10-4da4-adde-283472cdf5e7",
@@ -2643,7 +2643,7 @@
     "optionB": "changing variables",
     "optionC": "using partial fractions",
     "optionD": "using trigonometric identities",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "0a0647f2-5c4f-4061-b3ee-3af64daea405",
@@ -2652,7 +2652,7 @@
     "optionB": "makes the equation true",
     "optionC": "makes the equation undefined",
     "optionD": "makes the equation zero",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "f487487f-0e9d-47bd-ae0a-e8a718503829",
@@ -2661,7 +2661,7 @@
     "optionB": "cofactor expansion or similar methods",
     "optionC": "only row operations",
     "optionD": "only column operations",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "78a337d8-4d09-4b8a-812f-b19a7f39eff9",
@@ -2670,7 +2670,7 @@
     "optionB": "representing functions, approximating values, and solving problems in physics and engineering",
     "optionC": "only solving algebraic equations",
     "optionD": "only graphing functions",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "213851bb-039b-4663-a02c-493b396ab870",
@@ -2679,7 +2679,7 @@
     "optionB": "geometry and trigonometry",
     "optionC": "calculus",
     "optionD": "differential equations",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "3f48ace6-003f-4ac8-bfb2-a9b53a7e5c01",
@@ -2688,7 +2688,7 @@
     "optionB": "composite functions of several variables",
     "optionC": "simple polynomial functions",
     "optionD": "basic trigonometric functions",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "256cbcc2-d106-483e-b776-5e644126f161",
@@ -2697,7 +2697,7 @@
     "optionB": "arc functions",
     "optionC": "exponential functions",
     "optionD": "logarithmic functions",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "7bf692f3-8efa-4f04-ba89-6a93ebb73fe0",
@@ -2706,7 +2706,7 @@
     "optionB": "find elements not in a set or in one set but not another",
     "optionC": "multiply and divide sets",
     "optionD": "find limits of sets",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "3bcda292-6686-47b0-b581-eba9142d4ee4",
@@ -2715,7 +2715,7 @@
     "optionB": "physics and engineering, particularly fluid mechanics",
     "optionC": "linear algebra",
     "optionD": "calculus of single variable functions",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "a9616efb-6011-4f7c-b55b-dcb306629c55",
@@ -2724,7 +2724,7 @@
     "optionB": "pyramids and cones",
     "optionC": "spheres and hemispheres",
     "optionD": "rectangular solids",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "ad009764-0d76-4a08-a94a-2e6b8ec3e48a",
@@ -2733,7 +2733,7 @@
     "optionB": "approximations of changes in function values",
     "optionC": "instantaneous rates of change",
     "optionD": "average rates of change",
-    "correctAnswer": "B"
+    "answer": "B"
   },
   {
     "quizId": "fc76ff01-3082-441c-aceb-cae639de2f3c",
@@ -2742,6 +2742,6 @@
     "optionB": "regions of integration in the xy-plane and integrands",
     "optionC": "limits for single integrals",
     "optionD": "limits for triple integrals",
-    "correctAnswer": "B"
+    "answer": "B"
   }
 ]

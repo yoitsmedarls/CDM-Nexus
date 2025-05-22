@@ -5,7 +5,7 @@
     "optionB": "∑(n^2)",
     "optionC": "∑(2^n)",
     "optionD": "∑(1/2^n)",
-    "correctAnswer": "D",
+    "answer": "D",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -14,7 +14,7 @@
     "optionB": "r ≥ 1",
     "optionC": "r < 1",
     "optionD": "r ≤ 1",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -23,7 +23,7 @@
     "optionB": "Divergent",
     "optionC": "Conditionally Convergent",
     "optionD": "Absolutely Convergent",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -32,7 +32,7 @@
     "optionB": "Terms cancel out to simplify the partial sum",
     "optionC": "Terms alternate in sign",
     "optionD": "Terms are always positive",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -41,7 +41,7 @@
     "optionB": "∑(1/n^2)",
     "optionC": "∑(1/(n(n+1)))",
     "optionD": "∑(n/(n+1))",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -50,7 +50,7 @@
     "optionB": "Decreasing and negative",
     "optionC": "Continuous, positive, and decreasing",
     "optionD": "Continuous, negative, and increasing",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -59,7 +59,7 @@
     "optionB": "∑a_n converges",
     "optionC": "∑a_n is conditionally convergent",
     "optionD": "No conclusion about ∑a_n",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -68,7 +68,7 @@
     "optionB": "The ratio of terms approaches a finite positive number",
     "optionC": "Terms are alternating in sign",
     "optionD": "Terms are factorials",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -77,7 +77,7 @@
     "optionB": "Converges absolutely",
     "optionC": "Converges conditionally",
     "optionD": "Test is inconclusive",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -86,7 +86,7 @@
     "optionB": "Rational functions",
     "optionC": "nth powers",
     "optionD": "Alternating signs",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -95,7 +95,7 @@
     "optionB": "Comparison Test",
     "optionC": "Ratio Test and Root Test",
     "optionD": "Limit Comparison Test",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -104,7 +104,7 @@
     "optionB": "Decreasing and negative",
     "optionC": "Decreasing and approaching zero",
     "optionD": "Increasing and approaching infinity",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -113,7 +113,7 @@
     "optionB": "Divergence",
     "optionC": "Convergence",
     "optionD": "Oscillation",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -122,7 +122,7 @@
     "optionB": "Its absolute value diverges",
     "optionC": "Terms are always positive",
     "optionD": "Terms are always negative",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -131,7 +131,7 @@
     "optionB": "p < 1",
     "optionC": "p > 1",
     "optionD": "p ≥ 1",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -140,7 +140,7 @@
     "optionB": "The interval for which the series converges",
     "optionC": "The rate of convergence",
     "optionD": "Whether the series is geometric",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -149,7 +149,7 @@
     "optionB": "Comparison Test",
     "optionC": "Ratio Test or Root Test",
     "optionD": "Alternating Series Test",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -158,7 +158,7 @@
     "optionB": "The endpoints of the interval",
     "optionC": "The midpoint of the interval",
     "optionD": "All real numbers",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -167,7 +167,7 @@
     "optionB": "1",
     "optionC": "∞",
     "optionD": "-1",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -176,7 +176,7 @@
     "optionB": "1",
     "optionC": "∞",
     "optionD": "c",
-    "correctAnswer": "A",
+    "answer": "A",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -185,7 +185,7 @@
     "optionB": "∑(c_n * x^n)",
     "optionC": "∑(c^n * x_n)",
     "optionD": "∑(x^n / c_n)",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -194,7 +194,7 @@
     "optionB": "Everywhere",
     "optionC": "Only at the center of convergence",
     "optionD": "Nowhere",
-    "correctAnswer": "A",
+    "answer": "A",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -203,7 +203,7 @@
     "optionB": "∑(x^n / n)",
     "optionC": "∑(x^n / n!)",
     "optionD": "∑(n! * x^n)",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -212,7 +212,7 @@
     "optionB": "Evaluating derivatives and integrals",
     "optionC": "Solving linear equations",
     "optionD": "Graphing functions",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -221,7 +221,7 @@
     "optionB": "x = -1",
     "optionC": "x = 0",
     "optionD": "x = ∞",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -230,7 +230,7 @@
     "optionB": "Double integral ∬_R f(x, y) dA",
     "optionC": "Triple integral ∭_R f(x, y) dV",
     "optionD": "Line integral ∫_C f(x, y) ds",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -239,7 +239,7 @@
     "optionB": "Double integrals",
     "optionC": "Triple integrals",
     "optionD": "Line integrals",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -248,7 +248,7 @@
     "optionB": "Only the region of integration R",
     "optionC": "Both the function f(x,y) and the region of integration R",
     "optionD": "Neither the function nor the region",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -257,7 +257,7 @@
     "optionB": "dy",
     "optionC": "dx dy or dy dx",
     "optionD": "dr dθ",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -266,7 +266,7 @@
     "optionB": "A sum of single integrals",
     "optionC": "An iterated integral",
     "optionD": "Not possible to evaluate",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -275,7 +275,7 @@
     "optionB": "Volume under a surface",
     "optionC": "Length of a curve",
     "optionD": "Slope of a tangent line",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -284,7 +284,7 @@
     "optionB": "Volume",
     "optionC": "Surface area",
     "optionD": "Length",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -293,7 +293,7 @@
     "optionB": "r dr dθ dz",
     "optionC": "ρ^2 sin(φ) dρ dφ dθ",
     "optionD": "ρ^2 dρ dφ dθ",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -302,7 +302,7 @@
     "optionB": "r dr dθ dz",
     "optionC": "ρ^2 sin(φ) dρ dφ dθ",
     "optionD": "ρ^2 dρ dφ dθ",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -311,7 +311,7 @@
     "optionB": "Only polar coordinates",
     "optionC": "Iterated integrals in appropriate coordinates",
     "optionD": "Direct integration in any coordinate system",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -320,7 +320,7 @@
     "optionB": "An ordered list of numbers",
     "optionC": "Always convergent",
     "optionD": "Always divergent",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -329,7 +329,7 @@
     "optionB": "A sum of terms of a sequence",
     "optionC": "Always convergent",
     "optionD": "Always divergent",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -338,7 +338,7 @@
     "optionB": "Diverges",
     "optionC": "Converges conditionally",
     "optionD": "Test is inconclusive",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -347,7 +347,7 @@
     "optionB": "Conclusive for divergence",
     "optionC": "Inconclusive",
     "optionD": "Always indicates oscillation",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -356,7 +356,7 @@
     "optionB": "Divergence of a series",
     "optionC": "Absolute convergence",
     "optionD": "Conditional convergence",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "6620ad56-1cca-4de4-9c29-4f9e92679d73"
   },
   {
@@ -365,7 +365,7 @@
     "optionB": "2y",
     "optionC": "3x^2 + 2y",
     "optionD": "x^3",
-    "correctAnswer": "A",
+    "answer": "A",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -374,7 +374,7 @@
     "optionB": "x cos(xy)",
     "optionC": "y cos(xy)",
     "optionD": "sin(x)",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -383,7 +383,7 @@
     "optionB": "f_yy",
     "optionC": "f_xy",
     "optionD": "f_yx",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -392,7 +392,7 @@
     "optionB": "f_xy < f_yx",
     "optionC": "f_xy = f_yx",
     "optionD": "f_xy = -f_yx",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -401,7 +401,7 @@
     "optionB": "2xe^(x^2+y)",
     "optionC": "e^(x^2+y)",
     "optionD": "2y e^(x^2+y)",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -410,7 +410,7 @@
     "optionB": "The area under the curve y=f(x) from a to b",
     "optionC": "The slope of the curve y=f(x)",
     "optionD": "The volume of a solid",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -419,7 +419,7 @@
     "optionB": "Limits",
     "optionC": "Areas and volumes",
     "optionD": "Partial derivatives",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -428,7 +428,7 @@
     "optionB": "∫[a, b] (f(x) - g(x)) dx",
     "optionC": "∫[a, b] |f(x) - g(x)| dx",
     "optionD": "∫[a, b] (f(x) * g(x)) dx",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -437,7 +437,7 @@
     "optionB": "∫π[f(x)]^2 dx",
     "optionC": "∫2πx[f(x)] dx",
     "optionD": "∫[f(x)]^2 dx",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -446,7 +446,7 @@
     "optionB": "∫[a, b] F(x) dx",
     "optionC": "F'(x)",
     "optionD": "F''(x)",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -455,7 +455,7 @@
     "optionB": "Exist along all paths and be the same",
     "optionC": "Be zero",
     "optionD": "Be infinity",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -464,7 +464,7 @@
     "optionB": "Evaluate the function at (a, b)",
     "optionC": "Find two paths along which the limits are different",
     "optionD": "Use L'Hopital's Rule",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -473,7 +473,7 @@
     "optionB": "1",
     "optionC": "∞",
     "optionD": "Does not exist",
-    "correctAnswer": "A",
+    "answer": "A",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -482,7 +482,7 @@
     "optionB": "Function to be differentiable",
     "optionC": "Function to be integrable",
     "optionD": "Function to be linear",
-    "correctAnswer": "A",
+    "answer": "A",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -491,7 +491,7 @@
     "optionB": "lim (x,y)→(a,b) f(x, y) = f(a, b)",
     "optionC": "f(a, b) is undefined",
     "optionD": "The limit does not exist",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -500,7 +500,7 @@
     "optionB": "Hyperboloid",
     "optionC": "Paraboloid",
     "optionD": "Torus",
-    "correctAnswer": "D",
+    "answer": "D",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -509,7 +509,7 @@
     "optionB": "Cone",
     "optionC": "Sphere",
     "optionD": "Plane",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -518,7 +518,7 @@
     "optionB": "(r, θ, z)",
     "optionC": "(ρ, θ, φ)",
     "optionD": "(u, v, w)",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -527,7 +527,7 @@
     "optionB": "(r, θ, z)",
     "optionC": "(ρ, θ, φ)",
     "optionD": "(u, v, w)",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -536,7 +536,7 @@
     "optionB": "r and θ",
     "optionC": "Two parameters, u and v",
     "optionD": "ρ and φ",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -545,7 +545,7 @@
     "optionB": "Number",
     "optionC": "Set of functions",
     "optionD": "Variable",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -554,7 +554,7 @@
     "optionB": "Integration and limits",
     "optionC": "Differentiation and integration",
     "optionD": "Limits and continuity",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -563,7 +563,7 @@
     "optionB": "F(a) - F(b)",
     "optionC": "F(b) - F(a)",
     "optionD": "f(b) - f(a)",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -572,7 +572,7 @@
     "optionB": "Additivity over intervals",
     "optionC": "Both Linearity and Additivity over intervals",
     "optionD": "None of the above",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -581,7 +581,7 @@
     "optionB": "Total area",
     "optionC": "Volume",
     "optionD": "Slope",
-    "correctAnswer": "A",
+    "answer": "A",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -590,7 +590,7 @@
     "optionB": "Several variables to one variable",
     "optionC": "One variable to several variables",
     "optionD": "Several variables to several variables",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -599,7 +599,7 @@
     "optionB": "The set of input values",
     "optionC": "Always real numbers",
     "optionD": "Always positive numbers",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -608,7 +608,7 @@
     "optionB": "y is constant",
     "optionC": "f(x, y) is constant",
     "optionD": "z is constant",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -617,7 +617,7 @@
     "optionB": "Parabolas",
     "optionC": "Circles",
     "optionD": "Hyperbolas",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -626,7 +626,7 @@
     "optionB": "3D graphs and contour plots",
     "optionC": "Line graphs",
     "optionD": "Bar charts",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -635,7 +635,7 @@
     "optionB": "Vector",
     "optionC": "Point",
     "optionD": "Curve",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -644,7 +644,7 @@
     "optionB": "No change",
     "optionC": "Steepest increase",
     "optionD": "Level curves",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -653,7 +653,7 @@
     "optionB": "Unit vector u",
     "optionC": "Level curve",
     "optionD": "x-axis",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -662,7 +662,7 @@
     "optionB": "Zero vector",
     "optionC": "Gradient vector",
     "optionD": "Perpendicular vector",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -671,7 +671,7 @@
     "optionB": "(∂f/∂y, ∂f/∂x)",
     "optionC": "(∂f/∂x, ∂f/∂y)",
     "optionD": "∂^2f/∂x^2 + ∂^2f/∂y^2",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -680,7 +680,7 @@
     "optionB": "Continuity",
     "optionC": "Discontinuity at some points",
     "optionD": "Undefined function",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -689,7 +689,7 @@
     "optionB": "Differentiable",
     "optionC": "Integrable",
     "optionD": "Limited",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -698,7 +698,7 @@
     "optionB": "Slope of the tangent line",
     "optionC": "Area under the curve",
     "optionD": "Limit of the function",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -707,7 +707,7 @@
     "optionB": "A product",
     "optionC": "A limit of a difference quotient",
     "optionD": "A definite integral",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -716,7 +716,7 @@
     "optionB": "Product rule",
     "optionC": "Chain rule",
     "optionD": "All of the above",
-    "correctAnswer": "D",
+    "answer": "D",
     "examId": "cc1e023c-7e56-40b6-8c7f-60fbd80e49d3"
   },
   {
@@ -725,7 +725,7 @@
     "optionB": "ac - bd",
     "optionC": "ad - bc",
     "optionD": "ab - cd",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -734,7 +734,7 @@
     "optionB": "Row Reduction",
     "optionC": "Column Expansion",
     "optionD": "Matrix Inversion",
-    "correctAnswer": "D",
+    "answer": "D",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -743,7 +743,7 @@
     "optionB": "Non-invertible",
     "optionC": "Orthogonal",
     "optionD": "Symmetric",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -752,7 +752,7 @@
     "optionB": "Associative",
     "optionC": "Both Commutative and Associative",
     "optionD": "Neither Commutative nor Associative",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -761,7 +761,7 @@
     "optionB": "1",
     "optionC": "-1",
     "optionD": "2",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -770,7 +770,7 @@
     "optionB": "Counting problems",
     "optionC": "Graphing functions",
     "optionD": "Calculating derivatives",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -779,7 +779,7 @@
     "optionB": "Order",
     "optionC": "Set",
     "optionD": "Combination",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -788,7 +788,7 @@
     "optionB": "Does not matter",
     "optionC": "Is partially relevant",
     "optionD": "Is always reversed",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -797,7 +797,7 @@
     "optionB": "P(n, r)",
     "optionC": "n!",
     "optionD": "r!",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -806,7 +806,7 @@
     "optionB": "<",
     "optionC": "≥",
     "optionD": "≤",
-    "correctAnswer": "D",
+    "answer": "D",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -815,7 +815,7 @@
     "optionB": "A point",
     "optionC": "An interval",
     "optionD": "A curve",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -824,7 +824,7 @@
     "optionB": "Setting the quadratic expression to zero",
     "optionC": "Taking the derivative",
     "optionD": "Graphing the inequality",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -833,7 +833,7 @@
     "optionB": "Fractions with variables",
     "optionC": "Square roots",
     "optionD": "Absolute values",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -842,7 +842,7 @@
     "optionB": "-1",
     "optionC": "√-1",
     "optionD": "0",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -851,7 +851,7 @@
     "optionB": "a + bx",
     "optionC": "a + bi",
     "optionD": "ax + by",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -860,7 +860,7 @@
     "optionB": "Real part",
     "optionC": "Modulus",
     "optionD": "Argument",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -869,7 +869,7 @@
     "optionB": "Complex numbers",
     "optionC": "Matrices",
     "optionD": "Vectors",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -878,7 +878,7 @@
     "optionB": "An ordered list of numbers",
     "optionC": "Always convergent",
     "optionD": "Always divergent",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -887,7 +887,7 @@
     "optionB": "Difference",
     "optionC": "Product",
     "optionD": "Sum",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -896,7 +896,7 @@
     "optionB": "Equal to 1",
     "optionC": "Less than 1",
     "optionD": "Greater than or equal to 1",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -905,7 +905,7 @@
     "optionB": "Rational expressions",
     "optionC": "Radical expressions",
     "optionD": "Absolute value expressions",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -914,7 +914,7 @@
     "optionB": "Denominator",
     "optionC": "Quotient",
     "optionD": "Remainder",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -923,7 +923,7 @@
     "optionB": "A/(x-a)",
     "optionC": "Ax + B",
     "optionD": "A",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -932,7 +932,7 @@
     "optionB": "Volumes",
     "optionC": "Quantities",
     "optionD": "Shapes",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -941,7 +941,7 @@
     "optionB": "Increases",
     "optionC": "Remains constant",
     "optionD": "Becomes zero",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -950,7 +950,7 @@
     "optionB": "Increases",
     "optionC": "Remains constant",
     "optionD": "Becomes squared",
-    "correctAnswer": "A",
+    "answer": "A",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -959,7 +959,7 @@
     "optionB": "Algebra and geometry",
     "optionC": "Geometry and calculus",
     "optionD": "Trigonometry and calculus",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -968,7 +968,7 @@
     "optionB": "Pythagorean theorem",
     "optionC": "Midpoint formula",
     "optionD": "Intercept form",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -977,7 +977,7 @@
     "optionB": "y - y1 = m(x - x1)",
     "optionC": "y = mx + b",
     "optionD": "x/a + y/b = 1",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -986,7 +986,7 @@
     "optionB": "x-intercept",
     "optionC": "Slope",
     "optionD": "Equation",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -995,7 +995,7 @@
     "optionB": "Reciprocal",
     "optionC": "Negative reciprocals",
     "optionD": "Opposite",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -1004,7 +1004,7 @@
     "optionB": "(x-h)^2 + (y-k)^2 = r^2",
     "optionC": "Ax + By = C",
     "optionD": "x^2/a^2 + y^2/b^2 = 1",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -1013,7 +1013,7 @@
     "optionB": "Diameter",
     "optionC": "Center",
     "optionD": "Circumference",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -1022,7 +1022,7 @@
     "optionB": "r",
     "optionC": "2r",
     "optionD": "√r",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -1031,7 +1031,7 @@
     "optionB": "Finding eigenvalues",
     "optionC": "Solving systems of linear equations",
     "optionD": "Graphing polynomials",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -1040,7 +1040,7 @@
     "optionB": "Rectangular matrix",
     "optionC": "Circular matrix",
     "optionD": "Identity matrix",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -1049,7 +1049,7 @@
     "optionB": "ar^(n-1)",
     "optionC": "n/2 * (2a + (n-1)d)",
     "optionD": "a/(1-r)",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -1058,7 +1058,7 @@
     "optionB": "n/2 * (a + l)",
     "optionC": "a(r^n - 1) / (r - 1)",
     "optionD": "Infinity",
-    "correctAnswer": "A",
+    "answer": "A",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -1067,7 +1067,7 @@
     "optionB": "30",
     "optionC": "40",
     "optionD": "50",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -1076,7 +1076,7 @@
     "optionB": "6",
     "optionC": "8",
     "optionD": "10",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "3da47693-b217-40e4-8dbb-cb7334b327e9"
   },
   {
@@ -1085,7 +1085,7 @@
     "optionB": "Elimination",
     "optionC": "Graphing",
     "optionD": "Inverse Matrix",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1094,7 +1094,7 @@
     "optionB": "No solution",
     "optionC": "Infinitely many solutions",
     "optionD": "Two solutions",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1103,7 +1103,7 @@
     "optionB": "At least one solution",
     "optionC": "Infinitely many solutions",
     "optionD": "Only integer solutions",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1112,7 +1112,7 @@
     "optionB": "3",
     "optionC": "4",
     "optionD": "5",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1121,7 +1121,7 @@
     "optionB": "5x + 6",
     "optionC": "x + 2",
     "optionD": "5x + 2",
-    "correctAnswer": "A",
+    "answer": "A",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1130,7 +1130,7 @@
     "optionB": "y = 2x + 1",
     "optionC": "3x^2 - 2x + 5",
     "optionD": "Area = length * width",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1139,7 +1139,7 @@
     "optionB": "7a + 4b",
     "optionC": "3a + 2b",
     "optionD": "7a + 2b",
-    "correctAnswer": "A",
+    "answer": "A",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1148,7 +1148,7 @@
     "optionB": "x^2 - x - 6",
     "optionC": "x^2 + 5x - 6",
     "optionD": "x^2 - 5x - 6",
-    "correctAnswer": "A",
+    "answer": "A",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1157,7 +1157,7 @@
     "optionB": "Quadratic relationships",
     "optionC": "Direct proportional relationships",
     "optionD": "Inverse proportional relationships",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1166,7 +1166,7 @@
     "optionB": "$10",
     "optionC": "$12",
     "optionD": "$15",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1175,7 +1175,7 @@
     "optionB": "6 miles",
     "optionC": "7 miles",
     "optionD": "8 miles",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1184,7 +1184,7 @@
     "optionB": "Objects",
     "optionC": "Equations",
     "optionD": "Variables",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1193,7 +1193,7 @@
     "optionB": "Elements only in B",
     "optionC": "Elements in A or B or both",
     "optionD": "Elements in both A and B",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1202,7 +1202,7 @@
     "optionB": "Elements only in B",
     "optionC": "Elements in A or B or both",
     "optionD": "Elements in both A and B",
-    "correctAnswer": "D",
+    "answer": "D",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1211,7 +1211,7 @@
     "optionB": "{1, 2}",
     "optionC": "{4, 5}",
     "optionD": "{1, 2, 3, 4, 5}",
-    "correctAnswer": "D",
+    "answer": "D",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1220,7 +1220,7 @@
     "optionB": "{1, 2}",
     "optionC": "{4, 5}",
     "optionD": "{1, 2, 3, 4, 5}",
-    "correctAnswer": "A",
+    "answer": "A",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1229,7 +1229,7 @@
     "optionB": "N",
     "optionC": "Q",
     "optionD": "R",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1238,7 +1238,7 @@
     "optionB": "Polynomials",
     "optionC": "Radicals",
     "optionD": "Absolute values",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1247,7 +1247,7 @@
     "optionB": "x + 2",
     "optionC": "x^2 + 4",
     "optionD": "x",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1256,7 +1256,7 @@
     "optionB": "Common denominator",
     "optionC": "Simplified numerator",
     "optionD": "Simplified denominator",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1265,7 +1265,7 @@
     "optionB": "Square root or nth root",
     "optionC": "Variable in the denominator",
     "optionD": "Negative exponent",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1274,7 +1274,7 @@
     "optionB": "2√3",
     "optionC": "9√2",
     "optionD": "6",
-    "correctAnswer": "A",
+    "answer": "A",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1283,7 +1283,7 @@
     "optionB": "Denominator",
     "optionC": "Both numerator and denominator",
     "optionD": "Expression entirely",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1292,7 +1292,7 @@
     "optionB": "0",
     "optionC": "1",
     "optionD": "Infinity",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1301,7 +1301,7 @@
     "optionB": "x = -5",
     "optionC": "x = 5 or x = -5",
     "optionD": "No solution",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1310,7 +1310,7 @@
     "optionB": "x < -3",
     "optionC": "-3 < x < 3",
     "optionD": "x > 3 or x < -3",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1319,7 +1319,7 @@
     "optionB": "One variable",
     "optionC": "No variables",
     "optionD": "Multiple variables",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1328,7 +1328,7 @@
     "optionB": "x = 2",
     "optionC": "x = 3",
     "optionD": "x = 7",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1337,7 +1337,7 @@
     "optionB": "ax + b = 0",
     "optionC": "y = mx + b",
     "optionD": "x^2 + y^2 = r^2",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1346,7 +1346,7 @@
     "optionB": "Quadratic",
     "optionC": "Rational",
     "optionD": "Radical",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1355,7 +1355,7 @@
     "optionB": "Quadratic equations",
     "optionC": "Rational equations",
     "optionD": "Absolute value equations",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1364,7 +1364,7 @@
     "optionB": "(b ± √(b^2 - 4ac)) / 2a",
     "optionC": "(-b ± √(b^2 + 4ac)) / 2a",
     "optionD": "(b ± √(b^2 + 4ac)) / 2a",
-    "correctAnswer": "A",
+    "answer": "A",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1373,7 +1373,7 @@
     "optionB": "The y-intercept",
     "optionC": "The nature of the roots",
     "optionD": "The vertex of the parabola",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1382,7 +1382,7 @@
     "optionB": "One real root",
     "optionC": "No real roots (complex roots)",
     "optionD": "Infinite real roots",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1391,7 +1391,7 @@
     "optionB": "x = 7",
     "optionC": "x = 9",
     "optionD": "x = 11",
-    "correctAnswer": "D",
+    "answer": "D",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1400,7 +1400,7 @@
     "optionB": "Check for extraneous solutions",
     "optionC": "Always get real solutions",
     "optionD": "Divide both sides by the radical",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1409,7 +1409,7 @@
     "optionB": "x = -3",
     "optionC": "x = 4 or x = -3",
     "optionD": "No solution",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1418,7 +1418,7 @@
     "optionB": "Division Property of Equality",
     "optionC": "Addition Property of Equality",
     "optionD": "Substitution Property of Equality",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1427,7 +1427,7 @@
     "optionB": "Subtract 3",
     "optionC": "Add 7 to both sides",
     "optionD": "Subtract 8 from both sides",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1436,7 +1436,7 @@
     "optionB": "Subsets",
     "optionC": "Disjoint sets",
     "optionD": "Universal sets",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "0dd7e0d8-7a17-4cde-bb6e-0971df8d33ca"
   },
   {
@@ -1445,7 +1445,7 @@
     "optionB": "∑(n/2^n)",
     "optionC": "∑(x^n/n!)",
     "optionD": "∑(sin(n)/n^3)",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1454,7 +1454,7 @@
     "optionB": "r > 1",
     "optionC": "|r| < 1",
     "optionD": "|r| ≤ 1",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1463,7 +1463,7 @@
     "optionB": "Divergent",
     "optionC": "Absolutely Convergent",
     "optionD": "Conditionally Convergent",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1472,7 +1472,7 @@
     "optionB": "Comparison Test",
     "optionC": "Ratio Test",
     "optionD": "Alternating Series Test",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1481,7 +1481,7 @@
     "optionB": "Infinite limits of integration",
     "optionC": "Both discontinuous integrand and infinite limits",
     "optionD": "Finite limits of integration and continuous integrand",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1490,7 +1490,7 @@
     "optionB": "p < 1",
     "optionC": "p > 1",
     "optionD": "p ≥ 0",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1499,7 +1499,7 @@
     "optionB": "Volume of a solid",
     "optionC": "Rates of change and optimization",
     "optionD": "Arc length",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1508,7 +1508,7 @@
     "optionB": "1/x",
     "optionC": "-1/x^2",
     "optionD": "ln(x)",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1517,7 +1517,7 @@
     "optionB": "-cos(x) + C",
     "optionC": "sec^2(x) + C",
     "optionD": "tan(x) + C",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1526,7 +1526,7 @@
     "optionB": "-tan(x) + C",
     "optionC": "tan(x) + C",
     "optionD": "-cot(x) + C",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1535,7 +1535,7 @@
     "optionB": "Rational numbers",
     "optionC": "Natural numbers",
     "optionD": "Integers",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1544,7 +1544,7 @@
     "optionB": "Sequence",
     "optionC": "Derivative",
     "optionD": "Integral",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1553,7 +1553,7 @@
     "optionB": "n/2 * (a_1 + a_n)",
     "optionC": "a*r^(n-1)",
     "optionD": "a + (n-1)d",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1562,7 +1562,7 @@
     "optionB": "n/2 * (a_1 + a_n)",
     "optionC": "a*r^(n-1)",
     "optionD": "a + (n-1)d",
-    "correctAnswer": "A",
+    "answer": "A",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1571,7 +1571,7 @@
     "optionB": "Indefinite integrals",
     "optionC": "Areas and volumes",
     "optionD": "Limits",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1580,7 +1580,7 @@
     "optionB": "F(b) - F(a)",
     "optionC": "F'(b) - F'(a)",
     "optionD": "f'(b) - f'(a)",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1589,7 +1589,7 @@
     "optionB": "∫πy^2 dx",
     "optionC": "∫π[f(x)]^2 dx",
     "optionD": "∫2πx f(x) dx",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1598,7 +1598,7 @@
     "optionB": "Quotient Rule",
     "optionC": "Chain Rule",
     "optionD": "Power Rule",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1607,7 +1607,7 @@
     "optionB": "∫f(g(x))g'(x) dx",
     "optionC": "∫f(x)g(x) dx",
     "optionD": "∫[f(x)]^n f'(x) dx",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1616,7 +1616,7 @@
     "optionB": "Rational functions",
     "optionC": "√(a^2 - x^2), √(a^2 + x^2), √(x^2 - a^2)",
     "optionD": "Logarithmic functions",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1625,7 +1625,7 @@
     "optionB": "Quotients of polynomials",
     "optionC": "Composite functions",
     "optionD": "Trigonometric functions",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1634,7 +1634,7 @@
     "optionB": "Limits",
     "optionC": "Substitution",
     "optionD": "Derivatives",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1643,7 +1643,7 @@
     "optionB": "Indeterminate limits",
     "optionC": "Derivatives",
     "optionD": "Sums of series",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1652,7 +1652,7 @@
     "optionB": "sec^2(x)",
     "optionC": "-sec^2(x)",
     "optionD": "-csc^2(x)",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1661,7 +1661,7 @@
     "optionB": "sec^2(x)",
     "optionC": "-csc^2(x)",
     "optionD": "-sec^2(x)",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1670,7 +1670,7 @@
     "optionB": "cos(x)",
     "optionC": "e^x",
     "optionD": "x^2",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1679,7 +1679,7 @@
     "optionB": "ln|x| + C",
     "optionC": "e^x + C",
     "optionD": "-1/x^2 + C",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1688,7 +1688,7 @@
     "optionB": "Finding maximum and minimum values",
     "optionC": "Finding areas and volumes",
     "optionD": "Finding rates of change",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1697,7 +1697,7 @@
     "optionB": "F(b) - F(a)",
     "optionC": "(1/(b-a)) ∫[a, b] f(x) dx",
     "optionD": "∫[a, b] f(x) dx",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1706,7 +1706,7 @@
     "optionB": "∫[a, b] f(x) dx",
     "optionC": "∫[a, b] [f'(x)]^2 dx",
     "optionD": "∫[a, b] √[1 + f(x)] dx",
-    "correctAnswer": "A",
+    "answer": "A",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1715,7 +1715,7 @@
     "optionB": "∫2πy dx",
     "optionC": "∫2πy √(1 + (dy/dx)^2) dx",
     "optionD": "∫πy √(1 + (dy/dx)^2) dx",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1724,7 +1724,7 @@
     "optionB": "∫[a, b] F dx",
     "optionC": "F'(x)",
     "optionD": "F''(x)",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1733,7 +1733,7 @@
     "optionB": "f'(c) = 0",
     "optionC": "∫[a, b] f(x) dx = f(c)(b - a)",
     "optionD": "∫[a, b] f(x) dx = F(b) - F(a)",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1742,7 +1742,7 @@
     "optionB": "Integral Test",
     "optionC": "Alternating Series Test",
     "optionD": "Comparison Test",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1751,7 +1751,7 @@
     "optionB": "Conditional convergence",
     "optionC": "Convergence",
     "optionD": "Oscillation",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1760,7 +1760,7 @@
     "optionB": "Integral diverges",
     "optionC": "Absolute value diverges",
     "optionD": "Terms are positive",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1769,7 +1769,7 @@
     "optionB": "Diverges",
     "optionC": "Is inconclusive",
     "optionD": "Converges conditionally",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1778,7 +1778,7 @@
     "optionB": "p ≤ 1",
     "optionC": "p > 1",
     "optionD": "p ≥ 1",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1787,7 +1787,7 @@
     "optionB": "Comparison Test",
     "optionC": "Ratio or Root Test",
     "optionD": "Alternating Series Test",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1796,7 +1796,7 @@
     "optionB": "Only the endpoints",
     "optionC": "Every point",
     "optionD": "No points",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "d2a44800-c7bb-4457-828e-e8df1985ec52"
   },
   {
@@ -1805,7 +1805,7 @@
     "optionB": "Continuity",
     "optionC": "The existence of a limit but not continuity",
     "optionD": "The function is undefined at that point",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -1814,7 +1814,7 @@
     "optionB": "lim_(x→a) f(x) exists",
     "optionC": "lim_(x→a) f(x) = f(a)",
     "optionD": "All of the above",
-    "correctAnswer": "D",
+    "answer": "D",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -1823,7 +1823,7 @@
     "optionB": "lim_(h→0) [f(a+h) - f(a)]",
     "optionC": "lim_(h→0) [f(a+h) - f(a)] / h",
     "optionD": "[f(a+h) - f(a)] / h",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -1832,7 +1832,7 @@
     "optionB": "The slope of the tangent line to f(x)",
     "optionC": "The y-intercept of f(x)",
     "optionD": "The value of f(x) at a specific point",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -1841,7 +1841,7 @@
     "optionB": "The function is given in parametric form",
     "optionC": "y is not explicitly isolated in terms of x",
     "optionD": "Dealing with trigonometric functions",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -1850,7 +1850,7 @@
     "optionB": "x",
     "optionC": "Both x and y",
     "optionD": "Neither x nor y",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -1859,7 +1859,7 @@
     "optionB": "The behavior of f(x) near 'a'",
     "optionC": "The derivative of f(x) at 'a'",
     "optionD": "The integral of f(x) from a to ∞",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -1868,7 +1868,7 @@
     "optionB": "The limit from the right",
     "optionC": "Zero",
     "optionD": "Infinity",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -1877,7 +1877,7 @@
     "optionB": "Trigonometric functions",
     "optionC": "Indeterminate forms",
     "optionD": "Definite integrals",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -1886,7 +1886,7 @@
     "optionB": "1/0 and 0/1",
     "optionC": "1 + 1 and ∞ - ∞",
     "optionD": "0 * ∞ and 1^∞",
-    "correctAnswer": "A",
+    "answer": "A",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -1895,7 +1895,7 @@
     "optionB": "e^x, ln(x), log(x)",
     "optionC": "Polynomials, rational functions, radical functions",
     "optionD": "Inverse trigonometric functions",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -1904,7 +1904,7 @@
     "optionB": "1/x, (x+1)/(x-1), x^(3/2)",
     "optionC": "sin(x), e^x, ln(x)",
     "optionD": "ax + b",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -1913,7 +1913,7 @@
     "optionB": "n*x^(n-1)",
     "optionC": "x^(n-1)",
     "optionD": "x^n",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -1922,7 +1922,7 @@
     "optionB": "e^x",
     "optionC": "e^(x-1)",
     "optionD": "ln(x)",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -1931,7 +1931,7 @@
     "optionB": "cos(x)",
     "optionC": "tan(x)",
     "optionD": "-sin(x)",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -1940,7 +1940,7 @@
     "optionB": "-sin(x)",
     "optionC": "tan(x)",
     "optionD": "sec^2(x)",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -1949,7 +1949,7 @@
     "optionB": "Finding derivatives",
     "optionC": "Solving triangles and navigation",
     "optionD": "Calculating integrals",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -1958,7 +1958,7 @@
     "optionB": "Opposite/Hypotenuse",
     "optionC": "Adjacent/Opposite",
     "optionD": "Hypotenuse/Opposite",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -1967,7 +1967,7 @@
     "optionB": "Oblique triangles",
     "optionC": "Isosceles triangles only",
     "optionD": "Equilateral triangles only",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -1976,7 +1976,7 @@
     "optionB": "Law of Sines",
     "optionC": "Trigonometric Identities",
     "optionD": "Unit Circle",
-    "correctAnswer": "A",
+    "answer": "A",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -1985,7 +1985,7 @@
     "optionB": "Simple algebraic functions",
     "optionC": "Complex functions involving products, quotients, and powers",
     "optionD": "Linear functions",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -1994,7 +1994,7 @@
     "optionB": "Both sides of the equation",
     "optionC": "Only the left side",
     "optionD": "Only the right side",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -2003,7 +2003,7 @@
     "optionB": "Exactly one output",
     "optionC": "No output",
     "optionD": "At least one output",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -2012,7 +2012,7 @@
     "optionB": "Input values",
     "optionC": "All real numbers",
     "optionD": "Positive real numbers",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -2021,7 +2021,7 @@
     "optionB": "Output values",
     "optionC": "All real numbers",
     "optionD": "Positive real numbers",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -2030,7 +2030,7 @@
     "optionB": "Limit",
     "optionC": "Break or jump in the graph",
     "optionD": "Tangent line",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -2039,7 +2039,7 @@
     "optionB": "tan(x)",
     "optionC": "x^2 + 1",
     "optionD": "√(x-1)",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -2048,7 +2048,7 @@
     "optionB": "Δy",
     "optionC": "f'(x)",
     "optionD": "f''(x)",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -2057,7 +2057,7 @@
     "optionB": "Δx",
     "optionC": "dy/dx",
     "optionD": "∫y dx",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -2066,7 +2066,7 @@
     "optionB": "Trigonometric functions and identities",
     "optionC": "Spherical triangles",
     "optionD": "Calculus of trigonometric functions",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -2075,7 +2075,7 @@
     "optionB": "1",
     "optionC": "2",
     "optionD": "sin(2x)",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -2084,7 +2084,7 @@
     "optionB": "Sphere",
     "optionC": "Cone",
     "optionD": "Cylinder",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -2093,7 +2093,7 @@
     "optionB": "Degrees or radians",
     "optionC": "Area units",
     "optionD": "Volume units",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -2102,7 +2102,7 @@
     "optionB": "One variable",
     "optionC": "No variables",
     "optionD": "Multiple variables",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -2111,7 +2111,7 @@
     "optionB": "ax + b = 0",
     "optionC": "y = mx + c",
     "optionD": "x^2 + y^2 = r^2",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -2120,7 +2120,7 @@
     "optionB": "n*x^(n-1)",
     "optionC": "x^(n-1)",
     "optionD": "x^n",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -2129,7 +2129,7 @@
     "optionB": "u(x)v'(x) - u'(x)v(x)",
     "optionC": "u(x)v'(x) + u'(x)v(x)",
     "optionD": "[u(x)v'(x) + u'(x)v(x)] / [v(x)]^2",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -2138,7 +2138,7 @@
     "optionB": "[u(x)v'(x) - u'(x)v(x)] / [v(x)]^2",
     "optionC": "[u(x)v'(x) + u'(x)v(x)] / [v(x)]^2",
     "optionD": "[u'(x)v(x) - u(x)v'(x)] / [v(x)]^2",
-    "correctAnswer": "D",
+    "answer": "D",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -2147,7 +2147,7 @@
     "optionB": "f'(x)g'(x)",
     "optionC": "f'(g(x)) * g'(x)",
     "optionD": "g'(f(x)) * f'(x)",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -2156,7 +2156,7 @@
     "optionB": "Number",
     "optionC": "Set of functions",
     "optionD": "Derivative of f(x)",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "26296eae-23af-4327-84e3-1cf4e04c25f1"
   },
   {
@@ -2165,7 +2165,7 @@
     "optionB": "πr^2h",
     "optionC": "1/3πr^2h",
     "optionD": "4/3πr^3",
-    "correctAnswer": "D",
+    "answer": "D",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2174,7 +2174,7 @@
     "optionB": "b + h",
     "optionC": "1/2 bh",
     "optionD": "2bh",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2183,7 +2183,7 @@
     "optionB": "πr",
     "optionC": "πr^2",
     "optionD": "4πr^2",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2192,7 +2192,7 @@
     "optionB": "πr^2h",
     "optionC": "2πrh",
     "optionD": "2πr^2h",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2201,7 +2201,7 @@
     "optionB": "lwh",
     "optionC": "2(l + w + h)",
     "optionD": "4(l + w + h)",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2210,7 +2210,7 @@
     "optionB": "y - y1 = m(x - x1)",
     "optionC": "y = mx + b",
     "optionD": "x/a + y/b = 1",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2219,7 +2219,7 @@
     "optionB": "(y2 - y1) * (x2 - x1)",
     "optionC": "(y2 - y1) / (x2 - x1)",
     "optionD": "(x1 + x2) / (y1 + y2)",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2228,7 +2228,7 @@
     "optionB": "2πrh",
     "optionC": "1/3πr^2h",
     "optionD": "4/3πr^3",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2237,7 +2237,7 @@
     "optionB": "2Bh",
     "optionC": "1/3 Bh",
     "optionD": "3Bh",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2246,7 +2246,7 @@
     "optionB": "r cos(θ)",
     "optionC": "r",
     "optionD": "θ",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2255,7 +2255,7 @@
     "optionB": "r sin(θ)",
     "optionC": "r",
     "optionD": "θ",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2264,7 +2264,7 @@
     "optionB": "r = √(x + y)",
     "optionC": "r = √(x^2 + y^2)",
     "optionD": "r = x^2 + y^2",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2273,7 +2273,7 @@
     "optionB": "θ = arctan(x/y)",
     "optionC": "θ = arctan(y/x)",
     "optionD": "θ = x/y",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2282,7 +2282,7 @@
     "optionB": "Limits",
     "optionC": "Areas and Volumes",
     "optionD": "Slopes",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2291,7 +2291,7 @@
     "optionB": "F(b) - F(a)",
     "optionC": "∫[a, b] f(x) dx",
     "optionD": "f'(x)",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2300,7 +2300,7 @@
     "optionB": "√((x2 - x1) + (y2 - y1))",
     "optionC": "√((x2 - x1)^2 + (y2 - y1)^2)",
     "optionD": "(x2 - x1)^2 + (y2 - y1)^2",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2309,7 +2309,7 @@
     "optionB": "((x1 + y1)/2, (x2 + y2)/2)",
     "optionC": "((x1 + x2)/2, (y1 + y2)/2)",
     "optionD": "((x2 - y2)/2, (x1 - y1)/2)",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2318,7 +2318,7 @@
     "optionB": "Cylinder",
     "optionC": "Cone",
     "optionD": "Cube",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2327,7 +2327,7 @@
     "optionB": "Ellipse",
     "optionC": "Parabola",
     "optionD": "Cube",
-    "correctAnswer": "D",
+    "answer": "D",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2336,7 +2336,7 @@
     "optionB": "(x-h)^2 + (y-k)^2 = r^2",
     "optionC": "Ax + By = C",
     "optionD": "x^2/a^2 + y^2/b^2 = 1",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2345,7 +2345,7 @@
     "optionB": "y = ax^2 + bx + c",
     "optionC": "x^2/a^2 + y^2/b^2 = 1",
     "optionD": "y^2 = 4px",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2354,7 +2354,7 @@
     "optionB": "(x-h)^2 + (y-k)^2 = r^2",
     "optionC": "y = ax^2 + bx + c",
     "optionD": "x^2 = 4py",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2363,7 +2363,7 @@
     "optionB": "x^2/a^2 - y^2/b^2 = 1",
     "optionC": "y^2/b^2 - x^2/a^2 = 1",
     "optionD": "y = ax^2 + bx + c",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2372,7 +2372,7 @@
     "optionB": "e > 1",
     "optionC": "e = 0",
     "optionD": "0 < e < 1",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2381,7 +2381,7 @@
     "optionB": "e > 1",
     "optionC": "e = 0",
     "optionD": "0 < e < 1",
-    "correctAnswer": "D",
+    "answer": "D",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2390,7 +2390,7 @@
     "optionB": "0 < e < 1",
     "optionC": "e = 1",
     "optionD": "e > 1",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2399,7 +2399,7 @@
     "optionB": "0 < e < 1",
     "optionC": "e = 1",
     "optionD": "e > 1",
-    "correctAnswer": "D",
+    "answer": "D",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2408,7 +2408,7 @@
     "optionB": "4s^2",
     "optionC": "s^3",
     "optionD": "s^2",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2417,7 +2417,7 @@
     "optionB": "6s^2",
     "optionC": "4πr^2",
     "optionD": "πr^2",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2426,7 +2426,7 @@
     "optionB": "s^3",
     "optionC": "s^2",
     "optionD": "2s",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2435,7 +2435,7 @@
     "optionB": "4s",
     "optionC": "s^3",
     "optionD": "2s",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2444,7 +2444,7 @@
     "optionB": "l + w",
     "optionC": "lw",
     "optionD": "2lw",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2453,7 +2453,7 @@
     "optionB": "4πr^2",
     "optionC": "2πr",
     "optionD": "πr",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2462,7 +2462,7 @@
     "optionB": "25 cubic cm",
     "optionC": "100 cubic cm",
     "optionD": "30 cubic cm",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2471,7 +2471,7 @@
     "optionB": "100 cubic cm",
     "optionC": "90 cubic cm",
     "optionD": "150 cubic cm",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2480,7 +2480,7 @@
     "optionB": "Circle",
     "optionC": "Spiral",
     "optionD": "Parabola",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2489,7 +2489,7 @@
     "optionB": "Line",
     "optionC": "Spiral",
     "optionD": "Point",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2498,7 +2498,7 @@
     "optionB": "Circle",
     "optionC": "Parabola",
     "optionD": "Ellipse",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2507,7 +2507,7 @@
     "optionB": "Ellipse",
     "optionC": "Parabola",
     "optionD": "Hyperbola",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2516,7 +2516,7 @@
     "optionB": "Ellipse",
     "optionC": "Parabola",
     "optionD": "Hyperbola",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "fd693634-481f-44bd-9258-6cefddefe7ef"
   },
   {
@@ -2525,7 +2525,7 @@
     "optionB": "Opposite side to the hypotenuse",
     "optionC": "Adjacent side to the opposite side",
     "optionD": "Hypotenuse to the opposite side",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2534,7 +2534,7 @@
     "optionB": "Adjacent side to the hypotenuse",
     "optionC": "Opposite side to the adjacent side",
     "optionD": "Hypotenuse to the adjacent side",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2543,7 +2543,7 @@
     "optionB": "Adjacent side to the hypotenuse",
     "optionC": "Opposite side to the adjacent side",
     "optionD": "Adjacent side to the opposite side",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2552,7 +2552,7 @@
     "optionB": "sin θ",
     "optionC": "tan θ",
     "optionD": "sec θ",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2561,7 +2561,7 @@
     "optionB": "cos θ",
     "optionC": "tan θ",
     "optionD": "cot θ",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2570,7 +2570,7 @@
     "optionB": "cos θ",
     "optionC": "tan θ",
     "optionD": "sec θ",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2579,7 +2579,7 @@
     "optionB": "1",
     "optionC": "-1",
     "optionD": "Undefined",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2588,7 +2588,7 @@
     "optionB": "1",
     "optionC": "-1",
     "optionD": "Undefined",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2597,7 +2597,7 @@
     "optionB": "1",
     "optionC": "-1",
     "optionD": "Undefined",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2606,7 +2606,7 @@
     "optionB": "(0, ∞)",
     "optionC": "(-∞, ∞)",
     "optionD": "[0, 2π]",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2615,7 +2615,7 @@
     "optionB": "(0, ∞)",
     "optionC": "[-1, 1]",
     "optionD": "[0, 2π]",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2624,7 +2624,7 @@
     "optionB": "π",
     "optionC": "π/2",
     "optionD": "4π",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2633,7 +2633,7 @@
     "optionB": "tan⁻¹(x)",
     "optionC": "sin⁻¹(x) or arcsin(x)",
     "optionD": "sec⁻¹(x)",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2642,7 +2642,7 @@
     "optionB": "(-1, 1)",
     "optionC": "[-1, 1]",
     "optionD": "[0, π]",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2651,7 +2651,7 @@
     "optionB": "[-π/2, π/2]",
     "optionC": "(0, π)",
     "optionD": "(-π/2, π/2)",
-    "correctAnswer": "D",
+    "answer": "D",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2660,7 +2660,7 @@
     "optionB": "π/4",
     "optionC": "π/2",
     "optionD": "π",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2669,7 +2669,7 @@
     "optionB": "π/4",
     "optionC": "π/2",
     "optionD": "π",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2678,7 +2678,7 @@
     "optionB": "π/4",
     "optionC": "π/2",
     "optionD": "π",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2687,7 +2687,7 @@
     "optionB": "sin(A)/a = sin(B)/b = sin(C)/c",
     "optionC": "a = b cos(C) + c cos(B)",
     "optionD": "A + B + C = 180°",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2696,7 +2696,7 @@
     "optionB": "Sides and angles in any triangle",
     "optionC": "Area of triangles",
     "optionD": "Perimeter of triangles",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2705,7 +2705,7 @@
     "optionB": "A + B + C = 180°",
     "optionC": "a² = b² + c² - 2bc cos(A)",
     "optionD": "Area = 1/2 * base * height",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2714,7 +2714,7 @@
     "optionB": "Graphs and identities of trigonometric functions",
     "optionC": "Applications of trigonometry in navigation",
     "optionD": "Trigonometry in three dimensions",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2723,7 +2723,7 @@
     "optionB": "cos(x+y) = cos(x)cos(y) - sin(x)sin(y)",
     "optionC": "sin²(x) + cos²(x) = 1",
     "optionD": "tan(x) = sin(x)/cos(x)",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2732,7 +2732,7 @@
     "optionB": "cos²(x)",
     "optionC": "sec²(x)",
     "optionD": "csc²(x)",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2741,7 +2741,7 @@
     "optionB": "tan²(x)",
     "optionC": "sin²(x)",
     "optionD": "csc²(x)",
-    "correctAnswer": "D",
+    "answer": "D",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2750,7 +2750,7 @@
     "optionB": "Sphere",
     "optionC": "Cone",
     "optionD": "Cylinder",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2759,7 +2759,7 @@
     "optionB": "Great circles",
     "optionC": "Small circles",
     "optionD": "Ellipses",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2768,7 +2768,7 @@
     "optionB": "Degrees or radians",
     "optionC": "Area units",
     "optionD": "Volume units",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2777,7 +2777,7 @@
     "optionB": "Always equal to 180°",
     "optionC": "Always greater than 180°",
     "optionD": "Exactly 360°",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2786,7 +2786,7 @@
     "optionB": "tan(x)",
     "optionC": "cos(x)",
     "optionD": "csc(x)",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2795,7 +2795,7 @@
     "optionB": "sec(x)",
     "optionC": "sin(x)",
     "optionD": "cos²(x)",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2804,7 +2804,7 @@
     "optionB": "2cos²(x) - 1",
     "optionC": "2sin(x)cos(x)",
     "optionD": "1 - 2sin²(x)",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2813,7 +2813,7 @@
     "optionB": "2tan(x)/(1-tan²(x))",
     "optionC": "cos²(x) - sin²(x)",
     "optionD": "2sin²(x) - 1",
-    "correctAnswer": "C",
+    "answer": "C",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2822,7 +2822,7 @@
     "optionB": "√(1 - cos(x))/2",
     "optionC": "√(1 + sin(x))/2",
     "optionD": "√(1 - sin(x))/2",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2831,7 +2831,7 @@
     "optionB": "√(1 + cos(x))/2",
     "optionC": "√(1 - sin(x))/2",
     "optionD": "√(1 + sin(x))/2",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2840,7 +2840,7 @@
     "optionB": "2cos((x+y)/2)sin((x-y)/2)",
     "optionC": "2cos((x+y)/2)cos((x-y)/2)",
     "optionD": "-2sin((x+y)/2)sin((x-y)/2)",
-    "correctAnswer": "A",
+    "answer": "A",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2849,7 +2849,7 @@
     "optionB": "1/2[sin(x+y) - sin(x-y)]",
     "optionC": "1/2[cos(x+y) + cos(x-y)]",
     "optionD": "1/2[cos(x+y) - cos(x-y)]",
-    "correctAnswer": "A",
+    "answer": "A",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2858,7 +2858,7 @@
     "optionB": "x = π/6 + 2nπ or 5π/6 + 2nπ",
     "optionC": "x = π/3 + 2nπ",
     "optionD": "x = π/3 + nπ",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2867,7 +2867,7 @@
     "optionB": "x = π/2 + nπ",
     "optionC": "x = π/4 + nπ",
     "optionD": "x = 2nπ",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   },
   {
@@ -2876,7 +2876,7 @@
     "optionB": "x = π/4 + nπ",
     "optionC": "x = π/2 + nπ",
     "optionD": "x = π + nπ",
-    "correctAnswer": "B",
+    "answer": "B",
     "examId": "ad7a67d0-48b9-4ae9-bf9f-e855784aa569"
   }
 ]
