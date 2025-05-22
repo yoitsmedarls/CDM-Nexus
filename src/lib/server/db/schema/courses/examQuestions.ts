@@ -16,13 +16,11 @@ export const examQuestions = pgTable(
     optionB: text('option_b').notNull(),
     optionC: text('option_c').notNull(),
     optionD: text('option_d').notNull(),
-    correctAnswer: varchar('correct_answer', {
+    answer: varchar('answer', {
       length: 1,
     }).notNull(),
   },
-  (table) => [
-    check('check_correct_answer', sql`${table.correctAnswer} ~ '^[a-dA-D]$'`),
-  ]
+  (table) => [check('check_answer', sql`${table.answer} ~ '^[A-D]$'`)]
 );
 
 export type SelectExamQuestion = typeof examQuestions.$inferSelect;
