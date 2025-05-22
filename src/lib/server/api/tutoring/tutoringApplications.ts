@@ -49,38 +49,42 @@ export async function createApplication(
 export async function getAllApplications(): Promise<
   SelectTutoringApplication[]
 > {
-  return await db.select().from(tutoringApplications);
+  const applications = await db.select().from(tutoringApplications);
+
+  return applications;
 }
 
 export async function getApplicationsByStatus(
   status: SelectTutoringApplication['status']
 ): Promise<SelectTutoringApplication[]> {
-  return await db
+  const applications = await db
     .select()
     .from(tutoringApplications)
     .where(eq(tutoringApplications.status, status));
+
+  return applications;
 }
 
 export async function getApplicationById(
   id: SelectTutoringApplication['id']
 ): Promise<SelectTutoringApplication> {
-  return (
-    await db
-      .select()
-      .from(tutoringApplications)
-      .where(eq(tutoringApplications.id, id))
-  )[0];
+  const application = await db
+    .select()
+    .from(tutoringApplications)
+    .where(eq(tutoringApplications.id, id));
+
+  return application[0];
 }
 
 export async function getApplicationByUserId(
   userId: SelectTutoringApplication['userId']
 ): Promise<SelectTutoringApplication> {
-  return (
-    await db
-      .select()
-      .from(tutoringApplications)
-      .where(eq(tutoringApplications.userId, userId))
-  )[0];
+  const application = await db
+    .select()
+    .from(tutoringApplications)
+    .where(eq(tutoringApplications.userId, userId));
+
+  return application[0];
 }
 
 export async function updateApplication(
