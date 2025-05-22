@@ -6,9 +6,19 @@ export const users = pgTable(
   'users',
   {
     id: text('id').primaryKey().notNull(),
-    username: varchar('username', { length: 30 }).unique().notNull(),
-    fullName: varchar('full_name', { length: 255 }).notNull(),
-    cdmEmail: varchar('cdm_email', { length: 255 }).unique().notNull(),
+    username: varchar('username', {
+      length: 30,
+    })
+      .unique()
+      .notNull(),
+    fullName: varchar('full_name', {
+      length: 255,
+    }).notNull(),
+    cdmEmail: varchar('cdm_email', {
+      length: 255,
+    })
+      .unique()
+      .notNull(),
     role: userRoleEnum('role').notNull().default('student'),
     passwordHash: text('password_hash').notNull(),
     recoveryCode: text('recovery_code').notNull(),

@@ -1,3 +1,4 @@
+import { sql } from 'drizzle-orm';
 import {
   pgTable,
   text,
@@ -8,10 +9,8 @@ import {
   primaryKey,
   uuid,
 } from 'drizzle-orm/pg-core';
-import { relations, sql } from 'drizzle-orm';
 import { termEnum } from './termEnum';
 import { courses } from './courses';
-import { topics } from './topics';
 
 export const lessons = pgTable(
   'lessons',
@@ -19,8 +18,12 @@ export const lessons = pgTable(
     id: uuid('id').unique().notNull().defaultRandom(),
     courseId: varchar('course_id')
       .notNull()
-      .references(() => courses.id, { onDelete: 'cascade' }),
-    title: varchar('title', { length: 255 }).notNull(),
+      .references(() => courses.id, {
+        onDelete: 'cascade',
+      }),
+    title: varchar('title', {
+      length: 255,
+    }).notNull(),
     description: text('description').notNull(),
     term: termEnum('term').notNull(),
     slug: text('slug').notNull(),
@@ -48,11 +51,3 @@ export const lessons = pgTable(
 
 export type SelectLesson = typeof lessons.$inferSelect;
 export type InsertLesson = typeof lessons.$inferInsert;
-
-export const lessonsRelations = relations(lessons, ({ one, many }) => ({
-  course: one(courses, {
-    fields: [lessons.courseId],
-    references: [courses.id],
-  }),
-  topics: many(topics),
-}));

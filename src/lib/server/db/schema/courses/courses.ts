@@ -1,3 +1,4 @@
+import { sql } from 'drizzle-orm';
 import {
   pgTable,
   text,
@@ -7,16 +8,19 @@ import {
   boolean,
   integer,
 } from 'drizzle-orm/pg-core';
-import { relations, sql } from 'drizzle-orm';
 import { stateEnum } from './stateEnum';
-import { lessons } from './lessons';
-import { exams } from './exams';
 
 export const courses = pgTable(
   'courses',
   {
-    id: varchar('id', { length: 8 }).primaryKey().notNull(),
-    title: varchar('title', { length: 255 }).notNull(),
+    id: varchar('id', {
+      length: 8,
+    })
+      .primaryKey()
+      .notNull(),
+    title: varchar('title', {
+      length: 255,
+    }).notNull(),
     description: text('description').notNull(),
     slug: text('slug').unique().notNull(),
     published: boolean('published').notNull().default(false),
@@ -43,8 +47,3 @@ export const courses = pgTable(
 
 export type SelectCourse = typeof courses.$inferSelect;
 export type InsertCourse = typeof courses.$inferInsert;
-
-export const coursesRelations = relations(courses, ({ many }) => ({
-  lessons: many(lessons),
-  exams: many(exams),
-}));

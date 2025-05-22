@@ -1,3 +1,4 @@
+import { sql } from 'drizzle-orm';
 import {
   pgTable,
   text,
@@ -6,7 +7,6 @@ import {
   check,
   primaryKey,
 } from 'drizzle-orm/pg-core';
-import { relations, sql } from 'drizzle-orm';
 import { topics } from './topics';
 
 export const lectureMaterials = pgTable(
@@ -15,8 +15,12 @@ export const lectureMaterials = pgTable(
     id: uuid('id').unique().notNull().defaultRandom(),
     topicId: uuid('topic_id')
       .notNull()
-      .references(() => topics.id, { onDelete: 'cascade' }),
-    title: varchar('title', { length: 255 }).notNull(),
+      .references(() => topics.id, {
+        onDelete: 'cascade',
+      }),
+    title: varchar('title', {
+      length: 255,
+    }).notNull(),
     description: text('description').notNull(),
     ytVideoId: text('yt_video_id').notNull(),
   },
@@ -31,13 +35,3 @@ export const lectureMaterials = pgTable(
 
 export type SelectLectureMaterial = typeof lectureMaterials.$inferSelect;
 export type InsertLectureMaterial = typeof lectureMaterials.$inferInsert;
-
-export const lectureMaterialsRelations = relations(
-  lectureMaterials,
-  ({ one }) => ({
-    topic: one(topics, {
-      fields: [lectureMaterials.topicId],
-      references: [topics.id],
-    }),
-  })
-);

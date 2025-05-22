@@ -5,10 +5,16 @@ export const passwordResetSessions = pgTable('password_reset_sessions', {
   id: text('id').primaryKey().notNull(),
   userId: text('user_id')
     .notNull()
-    .references(() => users.id, { onDelete: 'cascade' }),
-  cdmEmail: varchar('cdm_email', { length: 255 }).notNull(),
+    .references(() => users.id, {
+      onDelete: 'cascade',
+    }),
+  cdmEmail: varchar('cdm_email', {
+    length: 255,
+  }).notNull(),
   otp: text('otp').notNull(),
-  expiresAt: timestamp('expires_at', { withTimezone: true }).notNull(),
+  expiresAt: timestamp('expires_at', {
+    withTimezone: true,
+  }).notNull(),
 });
 
 export type SelectPasswordResetSession =

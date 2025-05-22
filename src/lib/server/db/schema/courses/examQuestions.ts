@@ -1,5 +1,5 @@
+import { sql } from 'drizzle-orm';
 import { pgTable, text, varchar, uuid, check } from 'drizzle-orm/pg-core';
-import { relations, sql } from 'drizzle-orm';
 import { exams } from './exams';
 
 export const examQuestions = pgTable(
@@ -27,10 +27,3 @@ export const examQuestions = pgTable(
 
 export type SelectExamQuestion = typeof examQuestions.$inferSelect;
 export type InsertExamQuestion = typeof examQuestions.$inferInsert;
-
-export const examQuestionsRelations = relations(examQuestions, ({ one }) => ({
-  exam: one(exams, {
-    fields: [examQuestions.examId],
-    references: [exams.id],
-  }),
-}));

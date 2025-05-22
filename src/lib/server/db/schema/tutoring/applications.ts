@@ -1,6 +1,6 @@
 import { check, pgTable, text, timestamp, uuid } from 'drizzle-orm/pg-core';
-import { users } from './users';
-import { userRoleEnum } from './userRoleEnum';
+import { users } from '../auth/users';
+import { userRoleEnum } from '../auth/userRoleEnum';
 import { sql } from 'drizzle-orm';
 import { applicationStatusEnum } from './applicationStatusEnum';
 
@@ -11,7 +11,9 @@ export const applications = pgTable(
     userId: text('user_id')
       .unique()
       .notNull()
-      .references(() => users.id, { onDelete: 'cascade' }),
+      .references(() => users.id, {
+        onDelete: 'cascade',
+      }),
     currentRole: userRoleEnum('current_role').notNull(),
     desiredRole: userRoleEnum('desired_role').notNull(),
     message: text('message').notNull(),
@@ -21,7 +23,9 @@ export const applications = pgTable(
     })
       .defaultNow()
       .notNull(),
-    expiresAt: timestamp('expires_at', { withTimezone: true }).notNull(),
+    expiresAt: timestamp('expires_at', {
+      withTimezone: true,
+    }).notNull(),
   },
   (table) => [
     check(

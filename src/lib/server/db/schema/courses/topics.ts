@@ -1,3 +1,4 @@
+import { sql } from 'drizzle-orm';
 import {
   pgTable,
   text,
@@ -8,10 +9,7 @@ import {
   primaryKey,
   uuid,
 } from 'drizzle-orm/pg-core';
-import { relations, sql } from 'drizzle-orm';
 import { lessons } from './lessons';
-import { lectureMaterials } from './lectureMaterials';
-import { quizzes } from './quizzes';
 
 export const topics = pgTable(
   'topics',
@@ -19,8 +17,12 @@ export const topics = pgTable(
     id: uuid('id').unique().notNull().defaultRandom(),
     lessonId: uuid('lesson_id')
       .notNull()
-      .references(() => lessons.id, { onDelete: 'cascade' }),
-    title: varchar('title', { length: 255 }).notNull(),
+      .references(() => lessons.id, {
+        onDelete: 'cascade',
+      }),
+    title: varchar('title', {
+      length: 255,
+    }).notNull(),
     description: text('description').notNull(),
     slug: text('slug').notNull(),
     published: boolean('published').notNull().default(false),
@@ -47,12 +49,3 @@ export const topics = pgTable(
 
 export type SelectTopic = typeof topics.$inferSelect;
 export type InsertTopic = typeof topics.$inferInsert;
-
-export const topicsRelations = relations(topics, ({ one, many }) => ({
-  lectureMaterials: many(lectureMaterials),
-  quizzes: many(quizzes),
-  lesson: one(lessons, {
-    fields: [topics.lessonId],
-    references: [lessons.id],
-  }),
-}));

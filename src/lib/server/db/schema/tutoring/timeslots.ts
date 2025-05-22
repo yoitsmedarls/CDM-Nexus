@@ -6,8 +6,12 @@ export const timeslots = pgTable('timeslots', {
   id: uuid('id').unique().notNull().defaultRandom(),
   scheduleId: uuid('schedule_id')
     .notNull()
-    .references(() => schedules.id, { onDelete: 'cascade' }),
-  date: timestamp('date', { withTimezone: true }).notNull(),
+    .references(() => schedules.id, {
+      onDelete: 'cascade',
+    }),
+  date: timestamp('date', {
+    withTimezone: true,
+  }).notNull(),
   availability: availabilityEnum('availability').notNull().default('unset'),
 });
 
