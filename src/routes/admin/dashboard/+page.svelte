@@ -137,7 +137,6 @@
             {#if data.tutors.length >= 1}
               {#each data.tutors as tutor (tutor.id)}
                 <Button
-                  href={`/admin/tutors/${tutor.username}`}
                   class={{
                     button: 'text-left',
                   }}
@@ -180,7 +179,7 @@
           <div class="flex flex-row justify-end px-2">
             <Button
               variant="underline"
-              href="/admin/tutor/applications"
+              href="/admin/tutors"
               class={{ span: 'text-sm font-normal' }}
             >
               View applications

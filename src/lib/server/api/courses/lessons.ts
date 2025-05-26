@@ -21,8 +21,16 @@ export async function getLessonsByCourseId(
 
 export async function getLessonById(
   id: SelectLesson['id']
-): Promise<SelectLesson[]> {
-  return await db.select().from(lessons).where(eq(lessons.id, id));
+): Promise<SelectLesson> {
+  const lesson = await db.select().from(lessons).where(eq(lessons.id, id));
+  return lesson[0];
+}
+
+export async function getLessonBySlug(
+  slug: SelectLesson['slug']
+): Promise<SelectLesson> {
+  const lesson = await db.select().from(lessons).where(eq(lessons.slug, slug));
+  return lesson[0];
 }
 
 export async function updateLesson(

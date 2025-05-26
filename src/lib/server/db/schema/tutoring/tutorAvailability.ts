@@ -1,11 +1,4 @@
-import {
-  pgTable,
-  primaryKey,
-  smallint,
-  text,
-  timestamp,
-  uuid,
-} from 'drizzle-orm/pg-core';
+import { pgTable, primaryKey, smallint, text, uuid } from 'drizzle-orm/pg-core';
 import { users } from '../auth';
 
 export const tutorAvailability = pgTable(
@@ -17,13 +10,10 @@ export const tutorAvailability = pgTable(
       .references(() => users.id, {
         onDelete: 'cascade',
       }),
+    name: text('name').notNull(),
     dayOfWeek: smallint('day_of_week').notNull(),
-    startTime: timestamp('start_time', {
-      withTimezone: true,
-    }).notNull(),
-    endTime: timestamp('end_time', {
-      withTimezone: true,
-    }).notNull(),
+    startTime: text('start_time').notNull(),
+    endTime: text('end_time').notNull(),
   },
   (table) => [
     primaryKey({

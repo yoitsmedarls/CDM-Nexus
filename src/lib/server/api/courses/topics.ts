@@ -19,8 +19,16 @@ export async function getTopicsByLessonId(
 
 export async function getTopicById(
   id: SelectTopic['id']
-): Promise<SelectTopic[]> {
-  return await db.select().from(topics).where(eq(topics.id, id));
+): Promise<SelectTopic> {
+  const topic = await db.select().from(topics).where(eq(topics.id, id));
+  return topic[0];
+}
+
+export async function getTopicBySlug(
+  slug: SelectTopic['slug']
+): Promise<SelectTopic> {
+  const topic = await db.select().from(topics).where(eq(topics.slug, slug));
+  return topic[0];
 }
 
 export async function updateTopic(

@@ -19,8 +19,9 @@ export async function getAllCourses(): Promise<SelectCourse[]> {
 
 export async function getCourseById(
   id: SelectCourse['id']
-): Promise<SelectCourse[]> {
-  return await db.select().from(courses).where(eq(courses.id, id)).limit(1);
+): Promise<SelectCourse> {
+  const course = await db.select().from(courses).where(eq(courses.id, id));
+  return course[0];
 }
 
 export async function updateCourse(

@@ -13,6 +13,7 @@ export const tutoringApplications = pgTable(
       .references(() => users.id, {
         onDelete: 'cascade',
       }),
+    name: text('name').notNull(),
     currentRole: userRoleEnum('current_role').notNull(),
     desiredRole: userRoleEnum('desired_role').notNull(),
     message: text('message').notNull(),

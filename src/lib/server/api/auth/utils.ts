@@ -52,8 +52,8 @@ export function roleBasedRedirect(role: SelectUser['role']): string {
     return '/admin/dashboard';
   }
   if (role === 'tutor') {
-    return '/tutor/home';
+    return '/tutor/dashboard';
   }
 
-  return '/home';
+  return '/';
 }

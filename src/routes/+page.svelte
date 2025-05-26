@@ -99,10 +99,19 @@
           <div class="flex w-full flex-row justify-between gap-2 p-4">
             <!-- Shows a button to go to their account profile if user is logged in. Otherwise, show login/signup buttons. -->
             {#if data.user}
+              <form method="post" action="?/logout" class="w-full">
+                <Button
+                  type="submit"
+                  variant="destructive"
+                  class={{ button: 'w-full', span: 'text-sm' }}
+                >
+                  Log out
+                </Button>
+              </form>
               <Button
                 variant="primary"
                 href={data.user.role === 'student'
-                  ? '/profile'
+                  ? '/'
                   : `/${data.user.role}/dashboard`}
                 class={{ button: 'w-full', span: 'text-sm' }}
               >
@@ -139,9 +148,18 @@
           />
           <!-- Similar to the hamburger menu, show an Avatar button to go to their account profile if the user is logged in. Otherwise, show login/signup buttons. -->
           {#if data.user}
+            <form method="post" action="?/logout" class="w-full">
+              <Button
+                type="submit"
+                variant="ghost"
+                class={{ button: 'w-full' }}
+              >
+                Log out
+              </Button>
+            </form>
             <Avatar
               href={data.user.role === 'student'
-                ? '/profile'
+                ? '/'
                 : `/${data.user.role}/account`}
               userRole={data.user.role}
             />
@@ -170,20 +188,20 @@
         <!-- Only show the main image on mobile devices. Show all images on wider devices. -->
         {#if App.viewport.width < App.breakpoints.xs}
           <HeroImageMain
-            src="https://picsum.photos/seed/d/1440"
+            src="https://www.cdm.edu.ph/CDM-Website-and-CMS//images/building/cdm-front.jpg"
             duration={500}
           />
         {:else}
           <HeroImageLeft
-            src="https://picsum.photos/seed/c/1440?blur=8"
+            src="https://www.cdm.edu.ph/CDM-Website-and-CMS//images/design/full-nav-icon.png"
             duration={500}
           />
           <HeroImageMain
-            src="https://picsum.photos/seed/d/1440"
+            src="https://www.cdm.edu.ph/CDM-Website-and-CMS//images/building/cdm-front.jpg"
             duration={500}
           />
           <HeroImageRight
-            src="https://picsum.photos/seed/m/1440?blur=8"
+            src="https://www.cdm.edu.ph/CDM-Website-and-CMS//images/design/full-nav-icon.png"
             duration={500}
           />
         {/if}
@@ -204,7 +222,7 @@
         {/snippet}
         {#snippet actionButton()}
           <!-- Currently, the action button leads the students to the tutor request page, where they can request for an in-person tutoring session from the CDM Nexus Tutors. On future versions of the app, the button should redirect to the courses page. -->
-          <HeroActionButton href="/request">Start Now</HeroActionButton>
+          <HeroActionButton href="/apply">Start Now</HeroActionButton>
         {/snippet}
       </HeroText>
     </Hero>
@@ -223,9 +241,9 @@
         {
           heading: 'CDM Nexus',
           options: [
-            { name: 'Request a tutor', slug: '/request' },
             { name: 'Become a tutor', slug: '/apply' },
-            { name: 'Browse courses', slug: '/courses' },
+            { name: 'View available tutors', slug: '/request' },
+            // { name: 'Browse courses', slug: '/courses' },
           ],
         },
         {

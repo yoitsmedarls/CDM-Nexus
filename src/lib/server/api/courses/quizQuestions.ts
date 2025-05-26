@@ -25,8 +25,12 @@ export async function getQuizQuestionsByQuizId(
 
 export async function getQuizQuestionById(
   id: SelectQuizQuestion['id']
-): Promise<SelectQuizQuestion[]> {
-  return await db.select().from(quizQuestions).where(eq(quizQuestions.id, id));
+): Promise<SelectQuizQuestion> {
+  const quizQuestion = await db
+    .select()
+    .from(quizQuestions)
+    .where(eq(quizQuestions.id, id));
+  return quizQuestion[0];
 }
 
 export async function updateQuizQuestion(

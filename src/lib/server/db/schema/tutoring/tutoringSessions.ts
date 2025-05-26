@@ -9,6 +9,7 @@ export const tutoringSessions = pgTable('tutoring_sessions', {
     .references(() => users.id, {
       onDelete: 'cascade',
     }),
+  name: text('name').notNull(),
   status: tutoringSessionStatusEnum('status').default('upcoming').notNull(),
   capacity: integer('capacity').notNull().default(1),
   notes: text('notes'),

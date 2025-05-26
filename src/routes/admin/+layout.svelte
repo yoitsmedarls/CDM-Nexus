@@ -24,10 +24,10 @@
       text: 'Courses',
       slug: '/admin/courses',
     },
-    {
-      text: 'Students',
-      slug: '/admin/students',
-    },
+    // {
+    //   text: 'Students',
+    //   slug: '/admin/students',
+    // },
     {
       text: 'Tutors',
       slug: '/admin/tutors',

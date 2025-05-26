@@ -15,20 +15,22 @@ export async function createLectureMaterial(
 
 export async function getLectureMaterialsByTopicId(
   topicId: SelectLectureMaterial['topicId']
-): Promise<SelectLectureMaterial[]> {
-  return await db
+): Promise<SelectLectureMaterial> {
+  const lectureMaterial = await db
     .select()
     .from(lectureMaterials)
     .where(eq(lectureMaterials.topicId, topicId));
+  return lectureMaterial[0];
 }
 
 export async function getLectureMaterialById(
   id: SelectLectureMaterial['id']
-): Promise<SelectLectureMaterial[]> {
-  return await db
+): Promise<SelectLectureMaterial> {
+  const lectureMaterial = await db
     .select()
     .from(lectureMaterials)
     .where(eq(lectureMaterials.id, id));
+  return lectureMaterial[0];
 }
 
 export async function updateLectureMaterial(

@@ -20,6 +20,7 @@ export function verifyMessageInput(
 
 export async function createApplication(
   userId: InsertTutoringApplication['userId'],
+  name: InsertTutoringApplication['name'],
   message: InsertTutoringApplication['message'],
   currentRole: InsertTutoringApplication['currentRole'],
   desiredRole: InsertTutoringApplication['desiredRole']
@@ -32,6 +33,7 @@ export async function createApplication(
     .insert(tutoringApplications)
     .values({
       userId,
+      name,
       message,
       currentRole,
       desiredRole,

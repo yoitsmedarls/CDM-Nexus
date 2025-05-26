@@ -1,5 +1,47 @@
+import { createCourse, getAllCourses } from '$lib/server/api/courses';
+import { fail, redirect, type Actions } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async () => {
-  return {};
+  return {
+    courses: await getAllCourses(),
+  };
+};
+
+export const actions: Actions = {
+  addCourse: async (event) => {
+    const formData: FormData = await event.request.formData();
+    const id: string | undefined = formData.get('course-id')?.toString().trim();
+    const title: string | undefined = formData
+      .get('course-title')
+      ?.toString()
+      .trim();
+    const description: string | undefined = formData
+      .get('course-description')
+      ?.toString()
+      .trim();
+
+    if (!id || !title || !description) {
+      return fail(400, { message: 'Fill up all the fields.' });
+    }
+
+    const slug: string = id.toLowerCase().replaceAll(' ', '');
+
+    try {
+      createCourse({
+        id,
+        title,
+        description,
+        slug,
+      });
+    } catch (error) {
+      console.error(error);
+
+      return fail(500, {
+        message: 'Something went wrong. Please try again later.',
+      });
+    }
+
+    redirect(302, event.url.pathname + `/${slug}`);
+  },
 };

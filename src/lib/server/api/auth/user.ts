@@ -72,6 +72,28 @@ export async function getUserByUsername(
 
   return user;
 }
+export async function getUserById(
+  id: SelectUser['id']
+): Promise<Omit<SelectUser, 'recoveryCode'> | false> {
+  const [user]: Omit<SelectUser, 'recoveryCode'>[] = await db
+    .select({
+      id: users.id,
+      username: users.username,
+      fullName: users.fullName,
+      cdmEmail: users.cdmEmail,
+      role: users.role,
+      passwordHash: users.passwordHash,
+      dateJoined: users.dateJoined,
+    })
+    .from(users)
+    .where(eq(users.id, id));
+
+  if (!user) {
+    return false;
+  }
+
+  return user;
+}
 export async function getUserByCdmEmail(
   cdmEmail: SelectUser['cdmEmail']
 ): Promise<Omit<SelectUser, 'recoveryCode'> | false> {

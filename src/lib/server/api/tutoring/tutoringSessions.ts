@@ -9,6 +9,7 @@ import {
 
 export async function createTutoringSession(
   tutorId: InsertTutoringSession['tutorId'],
+  name: InsertTutoringSession['name'],
   startTime: InsertTutoringSession['startTime'],
   endTime: InsertTutoringSession['endTime']
 ): Promise<SelectTutoringSession> {
@@ -16,6 +17,7 @@ export async function createTutoringSession(
     .insert(tutoringSessions)
     .values({
       tutorId,
+      name,
       startTime,
       endTime,
     })

@@ -11,14 +11,19 @@ export async function createQuiz(data: InsertQuiz): Promise<SelectQuiz[]> {
   return await db.insert(quizzes).values(data).returning();
 }
 
-export async function getQuizzesByTopicId(
+export async function getQuizByTopicId(
   topicId: SelectQuiz['topicId']
-): Promise<SelectQuiz[]> {
-  return await db.select().from(quizzes).where(eq(quizzes.topicId, topicId));
+): Promise<SelectQuiz> {
+  const quiz = await db
+    .select()
+    .from(quizzes)
+    .where(eq(quizzes.topicId, topicId));
+  return quiz[0];
 }
 
-export async function getQuizById(id: SelectQuiz['id']): Promise<SelectQuiz[]> {
-  return await db.select().from(quizzes).where(eq(quizzes.id, id));
+export async function getQuizById(id: SelectQuiz['id']): Promise<SelectQuiz> {
+  const quiz = await db.select().from(quizzes).where(eq(quizzes.id, id));
+  return quiz[0];
 }
 
 export async function updateQuiz(

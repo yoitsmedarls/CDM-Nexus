@@ -11,8 +11,13 @@ import {
   verifyMessageInput,
 } from '$lib/server/api/tutoring';
 import type { SelectUser } from '$lib/server/db/schema';
+import { getFeatures } from '$lib/server/api/auth/features';
 
 export const load: PageServerLoad = async ({ locals }) => {
+  if ((await getFeatures()).tutorApplications === false) {
+    redirect(302, '/');
+  }
+
   // Checks if the user visiting the page has already submitted an application before. If yes, then redirect them to the updates page regarding their application.
   const userApplication = await getApplicationByUserId(
     locals.user ? locals.user.id : ''
@@ -66,12 +71,19 @@ export const actions: Actions = {
       });
     }
 
+    if (!event.locals.user) {
+      return fail(400, {
+        message: 'Something went wrong. Please try again later.',
+      });
+    }
+
     let createdApplication;
 
     // At this point, the tutor application can be created.
     try {
       createdApplication = await createApplication(
         userId,
+        event.locals.user.fullName,
         message,
         currentRole,
         desiredRole
