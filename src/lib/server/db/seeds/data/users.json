@@ -1,0 +1,29 @@
+[
+  {
+    "id": "7zvy6liqupzfp2c2njx5cyp7",
+    "username": "jminaudito",
+    "fullName": "Jose Marie Inaudito",
+    "cdmEmail": "jminaudito@cdm.edu.ph",
+    "passwordHash": "$argon2id$v=19$m=19456,t=2,p=1$4VplU7cPIgVKZybUbvnUgw$sbx/uX0u2CAe3UhXlJtmLI0rlo3YrOLEdWSzi88cu+4",
+    "recoveryCode": "AIBSER4CLAR6KYC6",
+    "role": "admin"
+  },
+  {
+    "id": "klzs7cdfijpodr5rmstnmp6s",
+    "username": "janijansjans18",
+    "fullName": "Janis Marian Odoño",
+    "cdmEmail": "odono.janismarian.18@cdm.edu.ph",
+    "passwordHash": "$argon2id$v=19$m=19456,t=2,p=1$wsZ7eRXO9Km8jclyL0qxHQ$A8Vx+5hYvyLH3Lrdg/xoBDvPVyKvfPy6tQSOus9AFYk",
+    "recoveryCode": "FEWZ77EMBVDIVICI",
+    "role": "tutor"
+  },
+  {
+    "id": "vvuzwikrghvfxlxtxyj5vkik",
+    "username": "yoitsmedarls",
+    "fullName": "John Daryl Ugaban",
+    "cdmEmail": "ugaban.johndaryl.j.380@cdm.edu.ph",
+    "passwordHash": "$argon2id$v=19$m=19456,t=2,p=1$Zt6aOJ+Cj7UoB1yHUDCpuQ$95HTWuVCBGKB7AIqpA/fySyIba7ZUGh1B3TjcsH+ARY",
+    "recoveryCode": "RB7A7AWRYGC5GXYG",
+    "role": "student"
+  }
+]

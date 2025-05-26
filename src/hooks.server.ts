@@ -1,12 +1,13 @@
-import {
-  deleteSessionTokenCookie,
-  sessionCookieName,
-  setSessionTokenCookie,
-  validateSessionToken,
-} from '$lib/server/auth/session';
-import { loginRedirect, roleBasedRedirect } from '$lib/server/auth/utils';
 import { redirect, type Handle } from '@sveltejs/kit';
 import { sequence } from '@sveltejs/kit/hooks';
+import {
+  sessionCookieName,
+  validateSessionToken,
+  setSessionTokenCookie,
+  deleteSessionTokenCookie,
+  loginRedirect,
+  roleBasedRedirect,
+} from '$lib/server/api/auth';
 
 // Readonly variables for protected and auth routes.
 const protectedRoutes: ReadonlyArray<{
@@ -24,6 +25,14 @@ const protectedRoutes: ReadonlyArray<{
   {
     role: 'student',
     url: '/student',
+  },
+  {
+    role: 'student',
+    url: '/apply',
+  },
+  {
+    role: 'student',
+    url: '/request',
   },
 ];
 const authRoutes: ReadonlyArray<string> = ['/login', '/signup'];
@@ -83,7 +92,7 @@ const authorizationHandler: Handle = async ({ event, resolve }) => {
       console.log(
         `Authorization Handler: User tried to access ${event.url.pathname} without an account.`
       );
-      throw redirect(302, loginRedirect(event));
+      redirect(302, loginRedirect(event));
     }
 
     // At this point, there is a user or session in locals.
@@ -94,7 +103,7 @@ const authorizationHandler: Handle = async ({ event, resolve }) => {
       console.log(
         `Authorization Handler: User with role '${event.locals.user.role}' tried to access ${event.url.pathname} (requires '${matchedProtectedRoute.role}').`
       );
-      throw redirect(302, roleBasedRedirect(event.locals.user.role));
+      redirect(302, roleBasedRedirect(event.locals.user.role));
     }
 
     // User is authenticated and has access to the page.
@@ -114,7 +123,7 @@ const authorizationHandler: Handle = async ({ event, resolve }) => {
         console.log(
           `Authorization Handler: Logged-in user tried to access ${event.url.pathname}. Redirecting.`
         );
-        throw redirect(302, roleBasedRedirect(event.locals.user.role));
+        redirect(302, roleBasedRedirect(event.locals.user.role));
       }
 
       // User is not logged in and is accessing and auth route.

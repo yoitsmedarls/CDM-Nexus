@@ -1,16 +1,18 @@
-import { fail, redirect } from '@sveltejs/kit';
 import type { Actions } from './$types';
+import { fail, redirect } from '@sveltejs/kit';
 import {
+  createSession,
   createUser,
+  generateSessionToken,
+  generateUserId,
   getUserByCdmEmail,
   getUserByUsername,
+  setSessionTokenCookie,
   verifyCDMEmailInput,
   verifyFullNameInput,
+  verifyPasswordStrength,
   verifyUsernameInput,
-} from '$lib/server/auth/user';
-import { verifyPasswordStrength } from '$lib/server/auth/password';
-import { generateSessionToken, generateUserId } from '$lib/server/auth/utils';
-import { createSession, setSessionTokenCookie } from '$lib/server/auth/session';
+} from '$lib/server/api/auth';
 
 export const actions: Actions = {
   default: async (event) => {
@@ -115,7 +117,7 @@ export const actions: Actions = {
       const redirectTo = event.url.searchParams.get('redirectTo');
 
       if (redirectTo) {
-        throw redirect(302, `/${redirectTo}`);
+        redirect(302, `/${redirectTo}`);
       }
     }
 

@@ -1,12 +1,14 @@
-import { fail, redirect } from '@sveltejs/kit';
 import type { Actions } from './$types';
-import { getUserByUsername, verifyUsernameInput } from '$lib/server/auth/user';
-import { generateSessionToken } from '$lib/server/auth/utils';
-import { createSession, setSessionTokenCookie } from '$lib/server/auth/session';
+import { fail, redirect } from '@sveltejs/kit';
 import {
+  createSession,
+  generateSessionToken,
+  getUserByUsername,
+  setSessionTokenCookie,
   verifyPasswordHash,
   verifyPasswordStrength,
-} from '$lib/server/auth/password';
+  verifyUsernameInput,
+} from '$lib/server/api/auth';
 
 export const actions: Actions = {
   default: async (event) => {
@@ -45,7 +47,7 @@ export const actions: Actions = {
     // Checks with the database if the user with the provided username exists.
     const existingUser = await getUserByUsername(username);
 
-    // If value is falsey, user does not exist.
+    // If value is falsy, user does not exist.
     if (!existingUser) {
       return fail(400, {
         message: 'No user found with the provided username.',
@@ -72,7 +74,7 @@ export const actions: Actions = {
       const redirectTo = event.url.searchParams.get('redirectTo');
 
       if (redirectTo) {
-        throw redirect(302, `/${redirectTo}`);
+        redirect(302, `/${redirectTo}`);
       }
     }
 
