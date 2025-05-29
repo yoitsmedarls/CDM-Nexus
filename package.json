@@ -57,7 +57,7 @@
     "@node-rs/argon2": "^2.0.2",
     "@oslojs/crypto": "^1.0.1",
     "@oslojs/encoding": "^1.1.0",
-    "@tailwindcss/vite": "^4.1.7",
+    "@tailwindcss/vite": "^4.1.8",
     "bits-ui": "^1.5.3",
     "chart.js": "^4.4.9",
     "dotenv": "^16.5.0",
